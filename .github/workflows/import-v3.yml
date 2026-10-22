@@ -6,10 +6,18 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: open-world-research
+  cancel-in-progress: false
 jobs:
   install:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 22
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Estrai e controlla i file
@@ -53,3 +61,28 @@ jobs:
             git commit -m "IMPORT: OPEN WORLD 3.0 + originale + Gemini agents"
             git push origin HEAD:main
           fi
+
+      - name: Primo aggiornamento OPEN WORLD 3.0
+        run: python scripts/refresh.py
+      - name: Prima analisi IA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+        run: python scripts/ai_daily.py --force
+      - name: Salva report e storici
+        run: |
+          git add -A -- site/data
+          if [ -d site/original/data ]; then git add -A -- site/original/data; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "AUTO: prima raccolta OPEN WORLD V3"
+            git push origin HEAD:main
+          fi
+      - name: Configura Pages
+        uses: actions/configure-pages@v5
+      - name: Prepara il sito
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Pubblica OPEN WORLD V3
+        id: deployment
+        uses: actions/deploy-pages@v4
