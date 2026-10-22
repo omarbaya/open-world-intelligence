@@ -92,8 +92,14 @@ def calendar_events(raw, now):
             'unit':a.get('unit'),'source':a.get('source_name') or 'Finance Calendar',
             'source_url':a.get('source_url') or a.get('url') or 'https://www.financecalendar.com',
             'attribution':'https://www.financecalendar.com'})
-    out.sort(key=lambda x:(x['date'],x['time_athens'] or '99:99',x['id']))
-    return out[:100]
+    # Keep decision/release events across the full 30-day horizon, rather than
+    # filling the dashboard entirely with the earliest low-impact rows.
+    high=[x for x in out if x.get('impact')=='high']
+    medium=[x for x in out if x.get('impact')=='medium']
+    low=[x for x in out if x.get('impact') not in ('high','medium')]
+    picked=(high+medium+low)[:100]
+    picked.sort(key=lambda x:(x['date'],x['time_athens'] or '99:99',x['id']))
+    return picked
 
 def parse_ecb_csv(content,now):
     reader=csv.DictReader(io.StringIO(content.decode('utf-8-sig',errors='replace')))
@@ -197,17 +203,18 @@ def parse_cot_zip(content,now):
     for row in reader:
         name=cot_column(row,'Market_and_Exchange_Names') or ''
         upper=name.upper().strip()
-        if 'GOLD' in upper and ('COMMODITY EXCHANGE' in upper or 'COMEX' in upper):code='GC'
-        elif 'EURO FX' in upper and 'CHICAGO' in upper:code='EUR'
-        elif ('E-MINI S&P 500' in upper or 'E-MINI S&P 500' in upper.replace('  ',' ')) and 'CHICAGO' in upper:code='ES'
+        contract=(cot_column(row,'CFTC Contract Market Code') or '').strip()
+        if contract=='088691' and 'GOLD' in upper:code='GC'
+        elif contract=='099741' and 'EURO FX' in upper:code='EUR'
+        elif contract=='13874A' and upper.startswith('E-MINI S&P 500 -'):code='ES'
         else:continue
-        date_text=cot_column(row,'Report_Date_as_MM_DD_YYYY') or ''
-        try:d=datetime.strptime(date_text.strip(),'%m/%d/%Y').date()
+        date_text=cot_column(row,'As of Date in Form YYYY-MM-DD') or ''
+        try:d=date.fromisoformat(date_text.strip())
         except ValueError:continue
         if d>now.astimezone(ATHENS).date():continue
         try:
-            buy=cot_numeric(cot_column(row,'NonComm_Positions_Long_All'))
-            sell=cot_numeric(cot_column(row,'NonComm_Positions_Short_All'))
+            buy=cot_numeric(cot_column(row,'Noncommercial Positions-Long (All)'))
+            sell=cot_numeric(cot_column(row,'Noncommercial Positions-Short (All)'))
         except (ValueError,TypeError):continue
         latest.setdefault(code,[]).append((d,buy-sell))
     output={}
@@ -295,7 +302,7 @@ def enrich(payload, cache=None, now=None, *, transport=http_bytes, environ=None)
     def url(base,params):return base+'?'+urlencode(params)
     today=now.astimezone(ATHENS).date()
     cal=run_cached('calendar',6,lambda:calendar_events(get_json(url(BASE_FC,{'from':today.isoformat(),'to':(today+timedelta(days=30)).isoformat(),'country':'US,EU,GB,JP,DE','limit':500,'tz':'Europe/Athens'}),key=env.get('FINANCECALENDAR_API_KEY'),transport=transport),now))
-    ecb=run_cached('ecb',6,lambda:parse_ecb_csv(transport(url(BASE_ECB,{'format':'csvdata','lastNObservations':3})),now))
+    ecb=run_cached('ecb',6,lambda:parse_ecb_csv(transport(url(BASE_ECB,{'format':'csvdata','lastNObservations':3}),timeout=26),now))
     ga=run_cached('gold_api',1,lambda:goldapi_quote(get_json(BASE_GOLD,transport=transport),now))
     xb=run_cached('xaus',1,lambda:xaus_quote(get_json(BASE_XAUS,transport=transport),now))
     # A monthly-free optional third quote, one call per day (<100/month).
