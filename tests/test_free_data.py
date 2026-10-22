@@ -49,11 +49,12 @@ class FreeDataTest(unittest.TestCase):
            {'source':'B','value':4101,'as_of':'2026-10-22T12:11:00Z'}]
         self.assertIsNone(compare_gold(q,T)['value'])
     def test_cot_legacy_zip_and_net(self):
-        rows=('Market_and_Exchange_Names,Report_Date_as_MM_DD_YYYY,NonComm_Positions_Long_All,NonComm_Positions_Short_All\n'
-          'GOLD - COMMODITY EXCHANGE INC.,10/13/2026,100,75\n'
-          'GOLD - COMMODITY EXCHANGE INC.,10/20/2026,110,70\n'
-          'EURO FX - CHICAGO MERCANTILE EXCHANGE,10/20/2026,60,90\n'
-          'E-MINI S&P 500 STOCK INDEX - CHICAGO MERCANTILE EXCHANGE,10/20/2026,70,65\n')
+        rows=('Market and Exchange Names,As of Date in Form YYYY-MM-DD,CFTC Contract Market Code,Noncommercial Positions-Long (All),Noncommercial Positions-Short (All)\n'
+          'GOLD - COMMODITY EXCHANGE INC.,2026-10-13,088691,100,75\n'
+          'GOLD - COMMODITY EXCHANGE INC.,2026-10-20,088691,110,70\n'
+          'EURO FX - CHICAGO MERCANTILE EXCHANGE,2026-10-20,099741,60,90\n'
+          'E-MINI S&P 500 - CHICAGO MERCANTILE EXCHANGE,2026-10-20,13874A,70,65\n'
+          'E-MINI S&P CONSUMER DISC INDEX - CHICAGO MERCANTILE EXCHANGE,2026-10-20,138747,999,1\n')
         buff=io.BytesIO()
         with zipfile.ZipFile(buff,'w') as z:z.writestr('cftc.txt',rows)
         data=parse_cot_zip(buff.getvalue(),T)
