@@ -1,20 +1,29 @@
-name: OPEN WORLD · aggiornamento gratuito
+name: OPEN WORLD 3.0 - News + Agent AI + Pages
 on:
   schedule:
     - cron: '17 * * * *'
     - cron: '50 5 * * *'
     - cron: '50 6 * * *'
   workflow_dispatch:
+    inputs:
+      generate_ai:
+        description: "Avvia subito l'analisi AI (quota Gemini gratuita)"
+        type: boolean
+        required: false
+        default: false
   push:
     branches: [main]
     paths:
       - '.github/workflows/refresh.yml'
-      - 'scripts/**'
       - 'core/**'
-      - 'site/*.html'
-      - 'site/*.css'
-      - 'site/*.js'
+      - 'scripts/**'
       - 'config/**'
+      - 'site/original/**'
+      - 'site/ai/**'
+      - 'site/index.html'
+      - 'site/styles.css'
+      - 'site/app.js'
+      - 'tests/**'
 permissions:
   contents: write
   pages: write
@@ -25,59 +34,48 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 18
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Usa sempre l'ultimo stato di main
+      - name: Parti dall'ultima versione di main
         run: |
           git fetch origin main
           git checkout -B main origin/main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Unittest (offline)
-        run: |
-          python -m unittest discover -s tests -v
-          node --check site/app.js
-      - name: Fonti, dashboard e brief
+      - name: Test automatici
+        run: python -m unittest discover -s tests -v
+      - name: Raccogli fonti e aggiorna dati
         run: python scripts/refresh.py
-      - name: Agenti AI · traduzione, analisi e memoria
+      - name: Agenti AI, traduzione, verifica e memoria
+        if: ${{ hashFiles('scripts/ai_daily.py') != '' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash-lite
-        run: |
-          python -m py_compile scripts/ai_pipeline.py
-          python scripts/ai_pipeline.py
-          python scripts/quality.py
-      - name: Salva i dati in repository
+          AI_FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_ai == true }}
+        run: python scripts/ai_daily.py
+      - name: Salva brief e dati sul repository
         run: |
           git config user.name "open-world-bot"
           git config user.email "open-world-bot@users.noreply.github.com"
-          git add site/data
+          git add -A -- site/data
+          if [ -d site/original/data ]; then git add -A -- site/original/data; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Auto: aggiornamento ${GITHUB_RUN_ID}"
+            git commit -m "AUTO: briefing e storico ${GITHUB_RUN_ID}"
             git push origin HEAD:main
           fi
-      - name: Configura GitHub Pages
-        id: pages
-        continue-on-error: true
+      - name: Configura Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Pages non autorizzato
-        if: steps.pages.outcome == 'failure'
-        run: echo '::warning::La raccolta news è riuscita, ma Pages deve essere attivato una volta da Settings > Pages > Source > GitHub Actions.'
-      - name: Prepara sito statico
-        if: steps.pages.outcome == 'success'
+      - name: Prepara sito web
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - name: Pubblica su GitHub Pages
-        if: steps.pages.outcome == 'success'
+      - name: Pubblica Pages
         id: deployment
         uses: actions/deploy-pages@v4
