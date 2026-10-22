@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'OPEN_WORLD_V3_DEPLOY.zip'
+      - 'OPEN_WORLD_V3_METHOD_KIT_20261022.zip'
   workflow_dispatch:
 permissions:
   contents: write
@@ -24,7 +25,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import pathlib,zipfile,shutil
-          archive=pathlib.Path('OPEN_WORLD_V3_DEPLOY.zip')
+          archive=pathlib.Path('OPEN_WORLD_V3_METHOD_KIT_20261022.zip')
           if not archive.is_file(): raise SystemExit('ZIP mancante nella radice del repository')
           root=pathlib.Path.cwd().resolve()
           count=0
@@ -36,7 +37,7 @@ jobs:
               rel=pathlib.PurePosixPath(*path.parts[1:])
               if not rel.parts or any(x in ('..','.','') for x in rel.parts): raise SystemExit('Percorso non valido')
               if rel.parts[:2]==('.github','workflows'): continue
-              if rel.parts[:2]==('site','data'): continue  # conserva dati e storico gia online
+              if rel.parts[:2]==('site','data') or rel.parts[:3]==('site','original','data'): continue  # conserva dati e storico gia online
               if rel.as_posix()=='state/forecast_events.jsonl' and (root/'state/forecast_events.jsonl').exists(): continue
               dest=(root / pathlib.Path(*rel.parts)).resolve()
               if not dest.is_relative_to(root): raise SystemExit('Percorso fuori repository')
@@ -50,6 +51,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Installa validatore JSON
+        run: python -m pip install -r requirements.txt
       - name: Test di accettazione
         run: python -m unittest discover -s tests -v
       - name: Pubblica sorgenti importate
