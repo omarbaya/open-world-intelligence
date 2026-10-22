@@ -5,32 +5,32 @@
   "agent_audit": [
     {
       "role": "geopolitica",
-      "status": "ok",
-      "items": 5
+      "status": "ok"
     },
     {
       "role": "macro",
-      "status": "ok",
-      "items": 4
+      "status": "ok"
     },
     {
       "role": "difesa",
-      "status": "ok",
-      "items": 0
-    },
-    {
-      "role": "verificatore",
-      "status": "ok",
-      "flags": 0
+      "status": "ok"
     },
     {
       "role": "capo_desk",
       "status": "ok"
     },
     {
+      "role": "verificatore",
+      "status": "ok"
+    },
+    {
       "role": "apprendimento",
+      "status": "ok"
+    },
+    {
+      "role": "revisore_finale",
       "status": "ok"
     }
   ],
-  "message": "Briefing IA eseguito e controllato."
+  "message": "Briefing IA con sette ruoli generato."
 }

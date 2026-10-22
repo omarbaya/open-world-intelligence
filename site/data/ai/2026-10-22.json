@@ -1,8 +1,8 @@
 {
-  "version": "3.0",
+  "version": "3.1-kit",
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T09:57:42.797842+00:00",
-  "provider": "Gemini API (free tier, quota non garantita)",
+  "generated_at": "2026-10-22T13:45:07.484444+03:00",
+  "provider": "Google Gemini API",
   "model": "gemini-3.5-flash-lite",
   "status": "ok",
   "research": {
@@ -10,120 +10,202 @@
       "items": [
         {
           "id": "75892ec407466804db",
-          "traduzione": "Attacchi russi colpiscono Kiev dopo l'incontro di Witkoff con Putin",
-          "fatto": "Secondo Al Jazeera, raid missilistici russi su Kiev hanno ucciso una persona e ferito 22 persone, avvenuti dopo che l'inviato speciale statunitense Steve Witkoff ha incontrato il presidente russo Vladimir Putin a San Pietroburgo per discutere di colloqui di pace [75892ec407466804db]. La Russia ha anche riportato il lancio di numerosi droni sul proprio territorio [75892ec407466804db].",
-          "perche_conta": "L'episodio evidenzia il persistere di una forte escalation militare in parallelo ai tentativi diplomatici statunitensi di avviare negoziati tra Russia e Ucraina [75892ec407466804db].",
-          "mercati": "Se la diplomazia dovesse fallire e l'intensificarsi dei raid colpire ulteriormente le infrastrutture critiche ucraine, allora potrebbero verificarsi pressioni sui mercati energetici europei e sui titoli della difesa.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
+          "traduzione": "Scambio di attacchi aerei tra Russia e Ucraina con 1 morto e 22 feriti a Kiev, dopo l'incontro tra l'inviato USA Witkoff e Putin a San Pietroburgo.",
+          "fatto": "Scambio di attacchi aerei tra Russia e Ucraina con 1 morto e 22 feriti a Kiev, dopo l'incontro tra l'inviato USA Witkoff e Putin a San Pietroburgo.",
+          "perche_conta": "L'intensificarsi dei raid aerei in parallelo ai contatti diplomatici segnala che la fase negoziale non ha ancora ridotto la pressione militare sul campo.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "75892ec407466804db",
+            "df2e03e4418e41cb8c"
+          ]
         },
         {
-          "id": "1b6c5103cabdaff4ab",
-          "traduzione": "L'accesso dell'Ucraina a Starlink è una decisione di Elon Musk, dice Rubio",
-          "fatto": "Secondo Al Jazeera, il segretario di Stato americano Marco Rubio ha dichiarato che le decisioni sull'accesso dell'Ucraina al sistema satellitare Starlink spettano a SpaceX e a Elon Musk e non alla Casa Bianca, smentendo parzialmente le ricostruzioni su un intervento diretto del governo USA per rallentare il servizio [1b6c5103cabdaff4ab].",
-          "perche_conta": "La notizia solleva interrogativi sul ruolo delle infrastrutture tecnologiche private nella gestione delle operazioni militari e delle comunicazioni strategiche sul campo in Ucraina [1b6c5103cabdaff4ab].",
-          "mercati": "Se le restrizioni sulle tecnologie di comunicazione satellitare per scopi di difesa dovessero persistere, allora potrebbero emergere maggiori rischi operativi per le forze ucraine e una maggiore attenzione regolatoria verso i colossi tecnologici privati.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
-        },
-        {
-          "id": "f8feeb7e4a9916c234",
-          "traduzione": "Un morto e otto feriti nell'attacco all'aeroporto King Fahd in Arabia Saudita",
-          "fatto": "Secondo Al Jazeera e BBC, un attacco contro l'aeroporto internazionale King Fahd a Dammam, in Arabia Saudita, ha causato la morte di due persone e il ferimento di altre otto [a06e75767baa8b8eb8, f8feeb7e4a9916c234]. Separatamente, il ministero dell'Energia saudita ha confermato l'intercettazione di un drone diretto verso un impianto petrolifero della Aramco nel giacimento di Shaybah [a06e75767baa8b8eb8, f8feeb7e4a9916c234].",
-          "perche_conta": "L'attacco segnala una significativa ripresa delle ostilità e dei raid rivendicati o attribuiti al movimento Houthi contro le infrastrutture energetiche e civili nel Golfo [a06e75767baa8b8eb8, f8feeb7e4a9916c234].",
-          "mercati": "Se gli attacchi alle infrastrutture petrolifere saudite dovessero ripetersi e causare interruzioni fisiche della produzione o della logistica grezza, allora si potrebbero verificare tensioni sui prezzi del petrolio Brent.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
-        },
-        {
-          "id": "f9ece080f1448ed63a",
-          "traduzione": "Notiziario mattutino: USA e Israele pianificano un possibile attacco post-elettorale all'Iran",
-          "fatto": "Secondo NPR, Stati Uniti e Israele starebbero pianificando un possibile attacco contro l'Iran da attuarsi dopo le elezioni di metà mandato [f9ece080f1448ed63a].",
-          "perche_conta": "L'indiscrezione evidenzia il rischio di un innalzamento delle tensioni geopolitiche in Medio Oriente con potenziali ricadute regionali su larga scala [f9ece080f1448ed63a].",
-          "mercati": "Se le tensioni militari tra Israele, Stati Uniti e Iran dovessero concretizzarsi in un conflitto aperto nella regione mediorientale, allora potrebbero aumentare i premi per il rischio geopolitico sui mercati energetici globali e sui beni rifugio.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
-        },
-        {
-          "id": "c1b2d88ea3ce25db7d",
-          "traduzione": "Alcuni diplomatici statunitensi invitati a lasciare l'Arabia Saudita a causa degli attacchi Houthi",
-          "fatto": "Secondo The Guardian, il Dipartimento di Stato americano ha ordinato ad alcuni diplomatici e alle famiglie dei dipendenti governativi di lasciare l'Arabia Saudita, in seguito a una serie di attacchi quasi quotidiani contro aeroporti e siti infrastrutturali nel regno [c1b2d88ea3ce25db7d].",
-          "perche_conta": "Il ritiro parziale del personale diplomatico indica una valutazione di sicurezza elevata da parte di Washington rispetto al deterioramento del quadro di stabilità nel Golfo [c1b2d88ea3ce25db7d].",
-          "mercati": "Se la situazione di sicurezza nel Golfo dovesse peggiorare ulteriormente spingendo altre nazioni ad evacuare il personale, allora si accentuerebbe la percezione di rischio geopolitico per gli investimenti esteri nell'area.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
+          "id": "a06e75767baa8b8eb8",
+          "traduzione": "Attacchi contro infrastrutture in Arabia Saudita, inclusi l'aeroporto di Dammam e un impianto petrolifero Shaybeh di Aramco, con due morti registrati.",
+          "fatto": "Attacchi contro infrastrutture in Arabia Saudita, inclusi l'aeroporto di Dammam e un impianto petrolifero Shaybeh di Aramco, con due morti registrati.",
+          "perche_conta": "Colpisce direttamente asset energetici strategici e scali aeroportuali nella regione del Golfo, innalzando il rischio geopolitico per le forniture petrolifere.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "a06e75767baa8b8eb8",
+            "f8feeb7e4a9916c234",
+            "c1b2d88ea3ce25db7d"
+          ]
         }
       ],
-      "quadro": "Il quadro geopolitico evidenzia tensioni multi-fronte: il conflitto russo-ucraino prosegue con scambi di raid missilistici e di droni nonostante i tentativi diplomatici statunitensi e le discussioni sulle infrastrutture tecnologiche critiche come Starlink [75892ec407466804db, 1b6c5103cabdaff4ab]. Nel contempo, in Medio Oriente si registrano una forte escalation degli attacchi Houthi contro le infrastrutture petrolifere e aeroportuali in Arabia Saudita — con conseguente ordine di evacuazione parziale per i diplomatici USA — e notizie di pianificazioni strategiche tra Stati Uniti e Israele nei confronti dell'Iran [a06e75767baa8b8eb8, f9ece080f1448ed63a, c1b2d88ea3ce25db7d]."
+      "quadro": ""
     },
     "macro": {
       "items": [
         {
           "id": "7897709cc50c2c9a9c",
-          "traduzione": "Gli Stati Uniti ordinano ad alcuni diplomatici di lasciare l'Arabia Saudita a causa dell'escalation degli attacchi Houthi.",
-          "fatto": "Il Dipartimento di Stato americano ha ordinato la partenza dei dipendenti non essenziali e delle loro famiglie dall'Arabia Saudita, in seguito a attacchi a un giacimento petrolifero e all'aeroporto di Dammam che hanno causato vittime.",
-          "perche_conta": "Le tensioni geopolitiche e gli attacchi alle infrastrutture energetiche in Medio Oriente aumentano i rischi sulle catene di fornitura dell'energia.",
-          "mercati": "Se i rischi sulle infrastrutture energetiche persistono, allora la volatilità sui mercati energetici potrebbe aumentare.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
+          "traduzione": "Il Dipartimento di Stato americano ha ordinato ad alcuni diplomatici e alle loro famiglie di lasciare l'Arabia Saudita a causa dell'escalation degli attacchi Houthi.",
+          "fatto": "Il Dipartimento di Stato americano ha ordinato ad alcuni diplomatici e alle loro famiglie di lasciare l'Arabia Saudita a causa dell'escalation degli attacchi Houthi.",
+          "perche_conta": "L'escalation degli attacchi alle infrastrutture energetiche in Arabia Saudita aumenta i rischi geopolitici sulla catena di approvvigionamento petrolifero globale.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "7897709cc50c2c9a9c"
+          ]
         },
         {
           "id": "b3a1a76ebf6a6d0619",
-          "traduzione": "I costi di prestito francesi superano quelli statunitensi nel mezzo della turbolenza di bilancio.",
-          "fatto": "I costi di prestito della Francia sono continuati a salire a causa delle preoccupazioni degli investitori sulla capacità del governo di approvare il bilancio federale dopo le proteste pubbliche.",
-          "perche_conta": "Il differenziale di rendimento tra i titoli di Stato francesi e tedeschi evidenzia la percezione del rischio sovrano nell'area euro.",
-          "mercati": "Se la tensione sul debito sovrano europeo persiste, allora la pressione sull'euro e sugli asset dell'area euro potrebbe riflettersi nelle valutazioni valutarie.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
-        },
-        {
-          "id": "337a0a4618972e9019",
-          "traduzione": "Una donna ha troppa paura di accendere il riscaldamento a causa del costo del petrolio.",
-          "fatto": "I costi del carburante per il riscaldamento sono aumentati significativamente dall'inizio del conflitto tra Stati Uniti/Israele e Iran, incidendo sui bilanci delle famiglie dipendenti dal petrolio.",
-          "perche_conta": "Il rincaro dei costi energetici per i consumatori riflette l'impatto dei rincari delle materie prime energetiche sull'economia reale.",
-          "mercati": "Se i prezzi elevati dell'energia riducono i consumi interni, allora le prospettive di crescita economica complessiva potrebbero risentirne.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
-        },
-        {
-          "id": "bf2285f10ef9047e93",
-          "traduzione": "Il fondo petrolifero da mille miliardi di sterline che il governo ritiene che la Gran Bretagna avrebbe potuto costruire.",
-          "fatto": "Il Tesoro britannico ha calcolato internamente che i ricavi storici del Mare del Nord avrebbero potuto generare un fondo sovrano significativo se investiti a lungo termine.",
-          "perche_conta": "Mostra le valutazioni a lungo termine del Tesoro britannico sulla gestione passata delle risorse energetiche in un contesto di debito nazionale elevato.",
-          "mercati": "Se la situazione fiscale del Regno Unito resta sotto pressione con un debito elevato, allora i mercati valutari e obbligazionari britannici potrebbero prezzare un premio di rischio maggiore.",
-          "certezza": "interpretazione IA su fonte attribuita; verifica indipendente NON garantita"
+          "traduzione": "I costi di indebitamento della Francia hanno continuato a salire a causa delle proteste pubbliche e delle difficoltà del governo nell'approvare il bilancio federale.",
+          "fatto": "I costi di indebitamento della Francia hanno continuato a salire a causa delle proteste pubbliche e delle difficoltà del governo nell'approvare il bilancio federale.",
+          "perche_conta": "L'aumento dello spread e dei rendimenti obbligazionari francesi riflette la perdita di fiducia degli investitori nella stabilità finanziaria del Paese.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "b3a1a76ebf6a6d0619"
+          ]
         }
       ],
-      "quadro": "Le fonti evidenziano tensioni geopolitiche e di sicurezza in Medio Oriente con impatti sulle infrastrutture energetiche e sugli ordini di evacuazione diplomatica statunitense (7897709cc50c2c9a9c). In Europa, le difficoltà politiche e di bilancio in Francia spingono al rialzo i costi di indebitamento sovrano (b3a1a76ebf6a6d0619, edb62bb4888df92a4b), mentre nel Regno Unito si dibatte sulla gestione dei proventi energetici storici a fronte di un debito nazionale in crescita (bf2285f10ef9047e93). Non si registrano dati specifici validati su EUR/USD, oro o S&P 500 oltre alle dinamiche generali di rischio sovrano ed energetico."
+      "quadro": ""
     },
     "difesa": {
       "items": [],
-      "quadro": "Nessuna novità documentata per i titoli e contratti difesa richiesti (DRS, DCO, NPK, IA, CW, MOG.A, KTOS) nel dossier fornito."
+      "quadro": "['Nessun contratto ufficiale rilevante pubblicato su defense.gov nel periodo di riferimento', 'Nessun documento SEC 8-K o comunicato ufficiale dei titoli monitorati presente nel dossier']"
     }
   },
   "verification": {
-    "segnalazioni": [],
-    "giudizio": "Analisi completata. Le dichiarazioni esaminate nel dossier risultano coerenti con le fonti citate e non presentano incongruenze rilevanti o affermazioni non supportate."
+    "errori": [],
+    "esito": "Nessun errore"
   },
   "brief": {
+    "brief_markdown": "# Briefing Desk OPEN WORLD - 22 Ottobre 2026\n\n## 1. In 60 secondi\n- Cosa: Intensificazione dei conflitti geopolitici (attacchi aerei Russia-Ucraina, raid Houthi in Arabia Saudita) e forte tensione sui mercati obbligazionari europei (Francia).\n- Perché: I raid aerei a Kiev e Mosca dimostrano che i contatti diplomatici USA-Russia non hanno fermato le ostilità [75892ec407466804db]. Gli attacchi agli asset energetici sauditi spingono il Dipartimento di Stato USA a ordinare il ritiro parziale dei diplomatici [a06e75767baa8b8eb8]. In Europa, i costi di indebitamento della Francia salgono per le difficoltà sul bilancio federale [b3a1a76ebf6a6d0619].\n- Condizione mercati: S&P 500 a 7757.17 punti (+0.5783% il 2026-10-21), VIX a 17.31 punti (-6.128% il 2026-10-20), EUR/USD a 1.1231 (+0.241% il 2026-10-16) [SP500, VIX, EURUSD]. Indicatori: Market stress a 35 (copertura 4/5), War escalation a 80 [indicatori_python].\n- Se S&P 500 mantiene i livelli recenti e la volatilità (VIX) scende sotto 17, allora la propensione al rischio azionario potrebbe persistere, nonostante le tensioni nel Golfo [SP500, VIX].\n- Se i rendimenti obbligazionari francesi continuano a salire per la crisi di bilancio, allora la pressione su EUR/USD potrebbe accentuarsi [b3a1a76ebf6a6d0619, EURUSD].\n\n## 2. Guerre e crisi\n- Fronte Russia-Ucraina (Tensione: 75, Tendenza: In aumento): Scambio di attacchi aerei massicci. Un morto e 22 feriti a Kiev, mentre Mosca segnala l'intercettazione di 163 droni sulla capitale [75892ec407466804db]. L'inviato USA Witkoff ha incontrato Putin a San Pietroburgo, ottenendo la liberazione del cittadino statunitense Stephen Hubbard, ma la pressione militare sul campo resta elevata [75892ec407466804db]. Scontro politico sulle comunicazioni Starlink e sul ruolo di Elon Musk [1b6c5103cabdaff4ab].\n- Fronte Yemen-Golfo-Saudi (Tensione: 80, Tendenza: In aumento): Attacchi missilistici e con droni contro l'aeroporto di Dammam e l'impianto petrolifero Shaybeh di Aramco (2 morti) [a06e75767baa8b8eb8]. Il Dipartimento di Stato USA ha ordinato l'evacuazione parziale del personale diplomatico dall'Arabia Saudita [7897709cc50c2c9a9c].\n\n## 3. Mercati\n- S&P 500 (SP500): 7757.17 punti, variazione +0.5783% (data 2026-10-21, fonte FRED) [SP500]. Causa: n.d.\n- VIX: 17.31 punti, variazione -6.128% (data 2026-10-20, fonte FRED) [VIX]. Causa: n.d.\n- EUR/USD: 1.1231, variazione +0.241% (data 2026-10-16, fonte FRED) [EURUSD]. Causa: n.d.\n- US 10Y: 5.12%, variazione -0.5825% (data 2026-10-20, fonte FRED) [US10Y]. Causa: n.d.\n- US 2Y: 4.79%, variazione +0.4193% (data 2026-10-20, fonte FRED) [US2Y]. Causa: n.d.\n- Brent: 115.22 USD/barile, variazione -3.0298% (data 2026-10-20, fonte FRED) [BRENT]. Causa: n.d.\n- WTI: 107.89 USD/barile, variazione -1.9271% (data 2026-10-20, fonte FRED) [WTI]. Causa: n.d.\n- Oro (GOLD), Dollar Index (DXY), Future ES, Future GC, Future 6E: Valori n.d. per assenza di fonti collegate nel dossier [mercati].\n\n## 4. Macro e banche centrali\n- Stati Uniti: Il Dipartimento di Stato ha ordinato il ritiro dei diplomatici non essenziali e delle famiglie dall'Arabia Saudita a causa dei rischi legati agli attacchi Houthi [7897709cc50c2c9a9c].\n- Francia: I costi di indebitamento continuano a salire e i rendimenti obbligazionari toccano i massimi da 24 anni a causa delle proteste e delle difficoltà del governo nell'approvare il bilancio federale [b3a1a76ebf6a6d0619, edb62bb4888df92a4b].\n\n## 5. Dalla geopolitica ai mercati\n- Mappa delle forze: L'escalation nel Golfo e in Ucraina spinge i rischi di fornitura energetica, ma i mercati azionari USA mostrano tenuta (S&P 500 a 7757.17) [75892ec407466804db, a06e75767baa8b8eb8, SP500].\n- Osservato e possibile: Se gli attacchi agli impianti petroliferi di Aramco dovessero persistere, allora si potrebbero registrare rialzi della volatilità energetica; se la crisi di bilancio francese si aggrava, allora la pressione sui titoli di Stato europei potrebbe riflettersi sull'area valutaria [a06e75767baa8b8eb8, b3a1a76ebf6a6d0619].\n\n## 6. Agenda oggi Atene e prossimi 30 giorni\n- Nessun evento di calendario macroeconomico ufficiale o scadenza istituzionale è riportato nel dossier per la finestra corrente [agenda].\n\n## 7. Difesa\n- Nessun contratto ufficiale pubblicato su defense.gov né comunicati SEC 8-K per i titoli monitorati (NPK, IA, DRS, DCO, CW, MOG.A, KTOS) nel periodo di riferimento [difesa].\n\n## 8. Scenari 7/30/90\n- Orizzonte 7 giorni: Base: persistenza della volatilità geopolitica senza impatti sistemici immediati sull'azionario USA. Favorevole: distensione nei canali diplomatici USA-Russia. Avverso: interruzione delle forniture energetiche nel Golfo per attacchi mirati [75892ec407466804db, a06e75767baa8b8eb8]. Invalidazione: accordo di cessate il fuoco verificato.\n- Orizzonte 30 giorni: Base: stabilizzazione dei rendimenti obbligazionari francesi e gestione della crisi Houthi. Favorevole: ripresa effettiva dei negoziati di pace [75892ec407466804db]. Avverso: contagio della crisi del debito europeo [b3a1a76ebf6a6d0619]. Invalidazione: default sovrano o escalation militare globale.\n- Orizzonte 90 giorni: Base: assestamento dei mercati sulle attuali valutazioni macro. Favorevole: risoluzione dei conflitti regionali. Avverso: shock energetico prolungato [BRENT, WTI]. Invalidazione: mutamento radicale dei quadri istituzionali.\n\n## 9. Verifica previsioni\n- Non sono presenti previsioni precedenti aperte da verificare nel registro del dossier.\n\n## 10. Valutazione finale\n- Il quadro evidenzia tensioni geopolitiche elevate (indice di war escalation a 80) contrapposte a un mercato azionario USA stabile (S&P 500 a 7757.17) e a tensioni fiscali europee circoscritte alla Francia [75892ec407466804db, a06e75767baa8b8eb8, SP500, b3a1a76ebf6a6d0619]. Si raccomanda prudenza e monitoraggio costante delle fonti primarie.\n\n### Revisione della settimana\n- Settimana caratterizzata da forti tensioni geopolitiche in Medio Oriente ed Europa orientale, accompagnate da turbolenze sul debito sovrano europeo [75892ec407466804db, a06e75767baa8b8eb8, b3a1a76ebf6a6d0619].\n\n### Lezione\n- Distinguere sempre tra notizie non verificate da fonti media (RSS) e dati macroeconomici ufficiali consolidati.\n\n### Parole del giorno\n- Spread: Differenziale di rendimento tra titoli di Stato di riferimento (es. Francia e Germania) [b3a1a76ebf6a6d0619].\n\n### Fonti\n- FRED (SP500, VIX, EURUSD, US10Y, US2Y, BRENT, WTI), Al Jazeera, BBC World, The Guardian, Politico Europe, France 24 [sources].",
     "sintesi_60s": [
-      "Raid missilistici russi su Kiev hanno ucciso una persona e ferito 22 persone dopo l'incontro tra Steve Witkoff e Vladimir Putin [75892ec407466804db].",
-      "Un attacco all'aeroporto King Fahd in Arabia Saudita ha causato due morti e otto feriti, insieme all'intercettazione di un drone vicino al giacimento Shaybah [a06e75767baa8b8eb8, f8feeb7e4a9916c234].",
-      "Il Dipartimento di Stato americano ha ordinato il ritiro parziale di diplomatici e familiari dall'Arabia Saudita per motivi di sicurezza [c1b2d88ea3ce25db7d].",
-      "I costi di prestito della Francia sono saliti a causa dei timori di bilancio legati alle proteste [b3a1a76ebf6a6d0619].",
-      "Il segretario di Stato USA Marco Rubio ha dichiarato che l'accesso dell'Ucraina a Starlink spetta a SpaceX e Elon Musk [1b6c5103cabdaff4ab]."
+      "Raid aerei a Kiev e Mosca: Scambio di attacchi aerei tra Russia e Ucraina con 1 morto e 22 feriti a Kiev, in parallelo ai contatti diplomatici dell'inviato USA Witkoff [75892ec407466804db].",
+      "Attacchi in Arabia Saudita e ritiro diplomatico: Attacchi contro l'aeroporto di Dammam e l'impianto Shaybeh di Aramco con 2 morti; il Dipartimento di Stato USA ordina l'evacuazione parziale [a06e75767baa8b8eb8, 7897709cc50c2c9a9c]."
     ],
-    "guerre_e_crisi": "Fatto pubblicato: Raid russi su Kiev hanno provocato 1 vittima e 22 feriti in parallelo ai contatti diplomatici USA-Russia [75892ec407466804db]; attacchi aerei e droni hanno colpito l'aeroporto King Fahd in Arabia Saudita e un impianto Aramco [a06e75767baa8b8eb8, f8feeb7e4a9916c234]. Lettura ipotetica: escalations prolungate nei teatri di conflitto potrebbero amplificare i rischi di sicurezza energetica e regionale [75892ec407466804db, a06e75767baa8b8eb8]. Possibile impatto condizionale: n.d.",
-    "mercati": "Fatto pubblicato: Il Brent scambia a 115.22 USD/barile (-3.03%) e il WTI a 107.89 USD/barile (-1.93%) [BRENT, WTI]; i rendimenti decennali francesi evidenziano tensioni di bilancio e spread [b3a1a76ebf6a6d0619]. Lettura ipotetica: la volatilità nei mercati energetici e obbligazionari riflette i premi di rischio geopolitico e di debito sovrano [f8feeb7e4a9916c234, b3a1a76ebf6a6d0619]. Possibile impatto condizionale: n.d.",
-    "macro_banche_centrali": "Fatto pubblicato: Il Tesoro britannico ha calcolato internamente i ricavi storici del Mare del Nord [bf2285f10ef9047e93]; i costi di prestito francesi aumentano per le difficoltà sul bilancio federale [b3a1a76ebf6a6d0619]. Lettura ipotetica: le pressioni fiscali e il costo dell'energia influenzano i bilanci reali e le valutazioni sul rischio sovrano [b3a1a76ebf6a6d0619, 337a0a4618972e9019]. Possibile impatto condizionale: n.d.",
-    "geopolitica_mercati": "Fatto pubblicato: Il Dipartimento di Stato USA ha ordinato ad alcuni diplomatici di lasciare l'Arabia Saudita a causa degli attacchi Houthi [c1b2d88ea3ce25db7d], e NPR riporta pianificazioni USA-Israele su un possibile attacco post-elettorale all'Iran [f9ece080f1448ed63a]. Lettura ipotetica: l'intensificarsi delle tensioni nel Golfo può accrescere il premio per il rischio geopolitico percepito dagli investitori [c1b2d88ea3ce25db7d, f9ece080f1448ed63a]. Possibile impatto condizionale: n.d.",
-    "agenda": "n.d. senza calendari ufficiali",
-    "difesa": "Fatto pubblicato: Nessuna novità documentata per i titoli e contratti difesa richiesti nel dossier fornito. Lettura ipotetica: n.d. Possibile impatto condizionale: n.d.",
-    "scenari_7_30_90": "Fatto pubblicato: Eventi attuali su attacchi energetici e tensioni in Medio Oriente e Ucraina [75892ec407466804db, a06e75767baa8b8eb8]. Scenario a 7 giorni (ipotetico): persistenza della volatilità energetica legata agli eventi in Arabia Saudita [a06e75767baa8b8eb8]. Scenario a 30 giorni (ipotetico): evoluzione dei negoziati e dei rischi di blocco infrastrutturale [75892ec407466804db]. Scenario a 90 giorni (ipotetico): impatti strutturali sui costi energetici e sulla stabilità del debito sovrano europeo [b3a1a76ebf6a6d0619].",
-    "previsioni": "Non creare previsioni numeriche senza criteri osservabili e orizzonte verificabile",
-    "valutazione_finale": "Il quadro informativo evidenzia un intreccio di tensioni geopolitiche multi-fronte (Ucraina e Medio Oriente) e criticità fiscali europee, con riscontri diretti sui mercati energetici e obbligazionari [75892ec407466804db, a06e75767baa8b8eb8, b3a1a76ebf6a6d0619].",
-    "lezione": "Analizzare separatamente i fatti pubblicati (notizie di cronaca e dati di mercato) dalle interpretazioni ipotetiche e dai potenziali impatti condizionali, evitando deduzioni speculative.",
-    "limiti": "Verifica indipendente delle notizie non garantita (interpretazione IA su fonti attribuite); dati di alcuni asset finanziari non disponibili nel dossier."
+    "guerre_e_crisi": "- Fronte Russia-Ucraina (Tensione: 75, Tendenza: In aumento): Scambio di attacchi aerei massicci. Un morto e 22 feriti a Kiev, mentre Mosca segnala l'intercettazione di 163 droni sulla capitale [75892ec407466804db]. L'inviato USA Witkoff ha incontrato Putin a San Pietroburgo, ottenendo la liberazione del cittadino statunitense Stephen Hubbard, ma la pressione militare sul campo resta elevata [75892ec407466804db]. Scontro politico sulle comunicazioni Starlink e sul ruolo di Elon Musk [1b6c5103cabdaff4ab].\n- Fronte Yemen-Golfo-Saudi (Tensione: 80, Tendenza: In aumento): Attacchi missilistici e con droni contro l'aeroporto di Dammam e l'impianto petrolifero Shaybeh di Aramco (2 morti) [a06e75767baa8b8eb8]. Il Dipartimento di Stato USA ha ordinato l'evacuazione parziale del personale diplomatico dall'Arabia Saudita [7897709cc50c2c9a9c].",
+    "mercati": "- S&P 500 (SP500): 7757.17 punti, variazione +0.5783% (data 2026-10-21, fonte FRED) [SP500]. Causa: n.d.\n- VIX: 17.31 punti, variazione -6.128% (data 2026-10-20, fonte FRED) [VIX]. Causa: n.d.\n- EUR/USD: 1.1231, variazione +0.241% (data 2026-10-16, fonte FRED) [EURUSD]. Causa: n.d.\n- US 10Y: 5.12%, variazione -0.5825% (data 2026-10-20, fonte FRED) [US10Y]. Causa: n.d.\n- US 2Y: 4.79%, variazione +0.4193% (data 2026-10-20, fonte FRED) [US2Y]. Causa: n.d.\n- Brent: 115.22 USD/barile, variazione -3.0298% (data 2026-10-20, fonte FRED) [BRENT]. Causa: n.d.\n- WTI: 107.89 USD/barile, variazione -1.9271% (data 2026-10-20, fonte FRED) [WTI]. Causa: n.d.\n- Oro (GOLD), Dollar Index (DXY), Future ES, Future GC, Future 6E: Valori n.d. per assenza di fonti collegate nel dossier [mercati].",
+    "macro_banche_centrali": "- Stati Uniti: Il Dipartimento di Stato ha ordinato il ritiro dei diplomatici non essenziali e delle famiglie dall'Arabia Saudita a causa dei rischi legati agli attacchi Houthi [7897709cc50c2c9a9c].\n- Francia: I costi di indebitamento continuano a salire e i rendimenti obbligazionari toccano i massimi da 24 anni a causa delle proteste e delle difficoltà del governo nell'approvare il bilancio federale [b3a1a76ebf6a6d0619, edb62bb4888df92a4b].",
+    "geopolitica_mercati": "- Mappa delle forze: L'escalation nel Golfo e in Ucraina spinge i rischi di fornitura energetica, ma i mercati azionari USA mostrano tenuta (S&P 500 a 7757.17) [75892ec407466804db, a06e75767baa8b8eb8, SP500].\n- Osservato e possibile: Se gli attacchi agli impianti petroliferi di Aramco dovessero persistere, allora si potrebbero registrare rialzi della volatilità energetica; se la crisi di bilancio francese si aggrava, allora la pressione sui titoli di Stato europei potrebbe riflettersi sull'area valutaria [a06e75767baa8b8eb8, b3a1a76ebf6a6d0619].",
+    "agenda": "- Nessun evento di calendario macroeconomico ufficiale o scadenza istituzionale è riportato nel dossier per la finestra corrente [agenda].",
+    "difesa": "- Nessun contratto ufficiale pubblicato su defense.gov né comunicati SEC 8-K per i titoli monitorati (NPK, IA, DRS, DCO, CW, MOG.A, KTOS) nel periodo di riferimento [difesa].",
+    "scenari_7_30_90": "- Orizzonte 7 giorni: Base: persistenza della volatilità geopolitica senza impatti sistemici immediati sull'azionario USA. Favorevole: distensione nei canali diplomatici USA-Russia. Avverso: interruzione delle forniture energetiche nel Golfo per attacchi mirati [75892ec407466804db, a06e75767baa8b8eb8]. Invalidazione: accordo di cessate il fuoco verificato.\n- Orizzonte 30 giorni: Base: stabilizzazione dei rendimenti obbligazionari francesi e gestione della crisi Houthi. Favorevole: ripresa effettiva dei negoziati di pace [75892ec407466804db]. Avverso: contagio della crisi del debito europeo [b3a1a76ebf6a6d0619]. Invalidazione: default sovrano o escalation militare globale.\n- Orizzonte 90 giorni: Base: assestamento dei mercati sulle attuali valutazioni macro. Favorevole: risoluzione dei conflitti regionali. Avverso: shock energetico prolungato [BRENT, WTI]. Invalidazione: mutamento radicale dei quadri istituzionali.",
+    "previsioni": "- Non sono presenti previsioni precedenti aperte da verificare nel registro del dossier.",
+    "valutazione_finale": "- Il quadro evidenzia tensioni geopolitiche elevate (indice di war escalation a 80) contrapposte a un mercato azionario USA stabile (S&P 500 a 7757.17) e a tensioni fiscali europee circoscritte alla Francia [75892ec407466804db, a06e75767baa8b8eb8, SP500, b3a1a76ebf6a6d0619]. Si raccomanda prudenza e monitoraggio costante delle fonti primarie.\n\n### Revisione della settimana\n- Settimana caratterizzata da forti tensioni geopolitiche in Medio Oriente ed Europa orientale, accompagnate da turbolenze sul debito sovrano europeo [75892ec407466804db, a06e75767baa8b8eb8, b3a1a76ebf6a6d0619].\n\n### Lezione\n- Distinguere sempre tra notizie non verificate da fonti media (RSS) e dati macroeconomici ufficiali consolidati.\n\n### Parole del giorno\n- Spread: Differenziale di rendimento tra titoli di Stato di riferimento (es. Francia e Germania) [b3a1a76ebf6a6d0619].\n\n### Fonti\n- FRED (SP500, VIX, EURUSD, US10Y, US2Y, BRENT, WTI), Al Jazeera, BBC World, The Guardian, Politico Europe, France 24 [sources].",
+    "lezione": "Lo spread misura il differenziale di rendimento tra i titoli di Stato di riferimento ed esprime la percezione del rischio di credito sul debito pubblico. Secondo i dati riportati, i costi di indebitamento della Francia sono saliti e i rendimenti obbligazionari hanno toccato i massimi da 24 anni a causa delle difficoltà sul bilancio [b3a1a76ebf6a6d0619, edb62bb4888df92a4b]. Un ampliamento dello spread riflette la tensione dei mercati finanziari verso la stabilità fiscale di un paese europeo [b3a1a76ebf6a6d0619].",
+    "limiti": "La verifica automatica non equivale a verifica indipendente.",
+    "inclinazione": {
+      "ES": {
+        "studio": "Neutrale",
+        "rilevanza": 5,
+        "motivi": "S&P 500 stabile a 7757.17 punti ma con rischi geopolitici attivi nel Golfo e in Europa [SP500, a06e75767baa8b8eb8].",
+        "rischio": "Possibile aumento della volatilità in caso di escalation energetica.",
+        "invalidazione": "Rompimento deciso dei supporti tecnici di mercato senza dati di supporto."
+      },
+      "GC": {
+        "studio": "Neutrale",
+        "rilevanza": 0,
+        "motivi": "Dati di prezzo non disponibili nel dossier per assenza di fonti collegate [mercati].",
+        "rischio": "Impossibilità di formulare valutazioni fondate sui prezzi.",
+        "invalidazione": "Connessione di una fonte dati verificata."
+      },
+      "6E": {
+        "studio": "Neutrale",
+        "rilevanza": 4,
+        "motivi": "EUR/USD a 1.1231 in un contesto di pressioni sui titoli di Stato francesi [EURUSD, b3a1a76ebf6a6d0619].",
+        "rischio": "Pressione ribassista sull'euro se la crisi di bilancio in Francia si protrae.",
+        "invalidazione": "Rientro dello spread e stabilizzazione del debito francese."
+      }
+    },
+    "mappa_forze": [
+      {
+        "forza": "Escalation Russia-Ucraina",
+        "fatto": "Scambio di attacchi aerei massicci tra Russia e Ucraina nonostante i contatti diplomatici USA [75892ec407466804db].",
+        "oro": [
+          50,
+          "Se i raid colpiscono infrastrutture critiche, allora l'oro potrebbe registrare flussi di bene rifugio se quotato.",
+          "Nessun dato oro disponibile nel dossier [GOLD]"
+        ],
+        "eur": [
+          40,
+          "Se il conflitto si protrae vicino ai confini UE, allora l'euro subisce pressioni indirette.",
+          "EUR/USD fermo a 1.1231 [EURUSD]"
+        ],
+        "sp": [
+          50,
+          "Se i mercati ignorano il rischio geopolitico locale, allora l'indice azionario mantiene i guadagni.",
+          "S&P 500 a 7757.17 punti [SP500]"
+        ]
+      },
+      {
+        "forza": "Attacchi Houthi e Crisi Energetica nel Golfo",
+        "fatto": "Attacchi missilistici e con droni contro aeroporti e impianti petroliferi in Arabia Saudita con vittime e ritiro parziale di diplomatici USA [a06e75767baa8b8eb8, 7897709cc50c2c9a9c].",
+        "oro": [
+          60,
+          "Se il prezzo del petrolio sale per timori di fornitura, allora l'oro beneficia di coperture anti-inflazione.",
+          "Dati oro n.d. [GOLD]"
+        ],
+        "eur": [
+          45,
+          "Se i costi energetici aumentano, allora la bilancia commerciale europea risente dello shock.",
+          "EUR/USD a 1.1231 [EURUSD]"
+        ],
+        "sp": [
+          45,
+          "Se i prezzi del Brent scendono a 115.22 USD, allora i timori inflattivi azionari diminuiscono parzialmente [BRENT].",
+          "S&P 500 a 7757.17 punti [SP500]"
+        ]
+      }
+    ]
   },
   "learning": {
     "osservazioni": [
-      "Dossier insufficiente per valutare previsioni o identificare errori ripetuti, in quanto non sono presenti previsioni passate (previous_days: 0, forecasts.items vuoto).",
-      "La copertura mostra 250 articoli nelle ultime 48 ore e 12 feed ok, con ruoli di audit tutti in stato ok ma con zero elementi registrati per la difesa (items: 0) e nessun flag di revisione."
+      "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+      "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+      "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+      "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari."
     ],
     "correzioni_proposte": [
-      "Raccogliere dati storici e previsioni valutabili per abilitare il calcolo delle metriche di Brier e l'analisi degli errori."
+      "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+      "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+      "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+    ],
+    "lezione": {
+      "titolo": "Comprendere lo spread dei titoli di Stato",
+      "area": "Macro",
+      "livello": "Base",
+      "spiegazione": "Lo spread misura il differenziale di rendimento tra i titoli di Stato di riferimento ed esprime la percezione del rischio di credito sul debito pubblico. Secondo i dati riportati, i costi di indebitamento della Francia sono saliti e i rendimenti obbligazionari hanno toccato i massimi da 24 anni a causa delle difficoltà sul bilancio [b3a1a76ebf6a6d0619, edb62bb4888df92a4b]. Un ampliamento dello spread riflette la tensione dei mercati finanziari verso la stabilità fiscale di un paese europeo [b3a1a76ebf6a6d0619].",
+      "esempio_oggi": "I rendimenti obbligazionari francesi toccano i massimi da 24 anni [b3a1a76ebf6a6d0619, edb62bb4888df92a4b].",
+      "domanda": "Cosa smentirebbe l'interpretazione di una crisi del debito francese?",
+      "risposta": "Un calo repentino e costante dei rendimenti dei titoli di Stato francesi accompagnato dall'approvazione stabile del bilancio federale [b3a1a76ebf6a6d0619].",
+      "parole": [
+        {
+          "termine": "Spread",
+          "spiegazione": "Differenziale di rendimento tra titoli di Stato di riferimento [b3a1a76ebf6a6d0619]."
+        },
+        {
+          "termine": "Rendimento",
+          "spiegazione": "Il guadagno percentuale che un investitore ottiene acquistando un'obbligazione."
+        }
+      ]
+    },
+    "diario": [
+      {
+        "problema": "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+        "regola_proposta": "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+        "esempio": "Registrazione delle previsioni sui tassi US10Y e VIX con scadenze definite e riscontro puntuale sui dati FRED."
+      },
+      {
+        "problema": "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "esempio": "Gli attacchi aerei a Kiev e Mosca e l'attacco in Arabia Saudita vanno trattati come fatti riportati da stampa finché non confermati da fonti istituzionali indipendenti multiple [75892ec407466804db, a06e75767baa8b8eb8]."
+      },
+      {
+        "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+        "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "esempio": "Valori di oro (GOLD), future ES, GC e 6E indicati come n.d. per assenza di collegamenti diretti verificati nel dossier [mercati]."
+      },
+      {
+        "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari.",
+        "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+        "esempio": "Se S&P 500 mantiene i livelli recenti e la volatilità VIX scende sotto 17, allora la propensione al rischio azionario potrebbe persistere nonostante le tensioni [SP500, VIX]."
+      }
     ],
     "metriche": {
       "previsioni_valutate": 0,
@@ -133,250 +215,911 @@
   "agent_audit": [
     {
       "role": "geopolitica",
-      "status": "ok",
-      "items": 5
+      "status": "ok"
     },
     {
       "role": "macro",
-      "status": "ok",
-      "items": 4
+      "status": "ok"
     },
     {
       "role": "difesa",
-      "status": "ok",
-      "items": 0
-    },
-    {
-      "role": "verificatore",
-      "status": "ok",
-      "flags": 0
+      "status": "ok"
     },
     {
       "role": "capo_desk",
       "status": "ok"
     },
     {
+      "role": "verificatore",
+      "status": "ok"
+    },
+    {
       "role": "apprendimento",
+      "status": "ok"
+    },
+    {
+      "role": "revisore_finale",
       "status": "ok"
     }
   ],
   "sources": [
     {
-      "id": "291313ba9f2424abdf",
-      "url": "https://www.theguardian.com/world/live/2026/oct/22/france-protests-emmanuel-macron-ukraine-energy-attacks-latest-europe-news-updates",
-      "title": "Zelenskyy appears to mock Witkoff for his praise for ‘humanitarian’ Putin after Kyiv attacks – Europe live",
-      "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "Zelenskyy said: ‘Three waves of ballistic missiles have been launched at Kyiv by Russian “humanitarians”’ As we are waiting for Macron , first details of the planned police response to this weekend’s protests are emerging. Junior interior minister, Jean-Didier Berger , said that the police presence will be “20% higher” than last weekend, with reinforcements from the army, elite police forces and gendarmerie. Continue reading..."
-    },
-    {
-      "id": "a06e75767baa8b8eb8",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-      "publisher": "BBC World",
-      "page_opened": true,
-      "description": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom."
-    },
-    {
-      "id": "f9ece080f1448ed63a",
-      "url": "https://www.npr.org/2026/10/22/nx-s1-6003503/morning-news-brief",
-      "title": "Morning news brief",
-      "publisher": "NPR",
-      "page_opened": true,
-      "description": "President Trump and former President Obama are on the campaign trail for the midterms, U.S. and Israel are planning for a possible post-midterms attack on Iran, Musk says SpaceX and Tesla could merge."
-    },
-    {
-      "id": "75892ec407466804db",
-      "url": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss",
-      "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+      "id": "df2e03e4418e41cb8c",
+      "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
       "publisher": "Al Jazeera",
-      "page_opened": true,
-      "description": "Ukraine says 'appeasement' will not end war as Russian attacks kill 1, injure 22 in its capital."
-    },
-    {
-      "id": "1b6c5103cabdaff4ab",
-      "url": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says?traffic_source=rss",
-      "title": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
-      "publisher": "Al Jazeera",
-      "page_opened": true,
-      "description": "US secretary of state says White House not to blame for reported speed limits on internet services in Ukraine."
-    },
-    {
-      "id": "c3c1d68e74497ca33f",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
-      "title": "Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – as it happened",
-      "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "This live blog is now closed. Sign up for Breaking News US email Send us your questions about immigration and the midterms Reporting from Jerusalem The Israeli military has detained about 80 US, Israeli and British volunteers helping Palestinians harvest olives near Bethlehem, including the New York Democratic congressional nominee Brad Lander, several rabbis and Israel’s former deputy attorney general. Continue reading..."
-    },
-    {
-      "id": "c1b2d88ea3ce25db7d",
-      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
-      "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
-      "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "Reports emerge of similar withdrawals in UAE, Jordan, Qatar and Bahrain amid concerns about a return to conflict with Iran after US midterm elections The US state department has ordered some diplomats and the families of US government employees to leave Saudi Arabia, as the gulf kingdom faces a barrage of near-daily attacks, with at least three people killed at an airport and oilfield on Wednesday evening. Attacks on “civilian airports and other critical i"
-    },
-    {
-      "id": "f8feeb7e4a9916c234",
-      "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
-      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-      "publisher": "Al Jazeera",
-      "page_opened": true,
-      "description": "Injured immediately transported to hospitals as aviation authority says updates will be forthcoming."
-    },
-    {
-      "id": "b837bc7577026b23f8",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child-2?traffic_source=rss",
-      "title": "Video shows Israeli settler assaulting Palestinian child",
-      "publisher": "Al Jazeera",
-      "page_opened": false,
-      "description": "An Israeli settler was filmed shouting at and assaulting a Palestinian child during an attack on a family east of Yatta."
-    },
-    {
-      "id": "7897709cc50c2c9a9c",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
-      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-      "publisher": "BBC World",
-      "page_opened": true,
-      "description": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field."
-    },
-    {
-      "id": "f816e60e335965bf5e",
-      "url": "https://www.bbc.co.uk/news/videos/cmd7qr0ezrq7o?at_medium=RSS&at_campaign=rss",
-      "title": "Woman 'scared to turn heating on' due to oil cost",
-      "publisher": "BBC Business",
-      "page_opened": true,
-      "description": "Roslynn Garner-Gatley uses a hot water bottle bed socks and earlier bedtimes to stay warm."
-    },
-    {
-      "id": "b3a1a76ebf6a6d0619",
-      "url": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
-      "title": "French borrowing costs overtake US amid budget turmoil",
-      "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "France’s bond market hit by another bout of selling as country recovers from weekend protests Business live – latest updates French borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped the country. France’s bond market was hit with another bout of selling, with the difference between French and German 10-year borrowing costs – a metric for the risk pre"
-    },
-    {
-      "id": "337a0a4618972e9019",
-      "url": "https://www.bbc.co.uk/news/articles/cmgel220j7nvo?at_medium=RSS&at_campaign=rss",
-      "title": "Woman 'scared to turn heating on' due to oil cost",
-      "publisher": "BBC Business",
-      "page_opened": true,
-      "description": "Roslynn Garner-Gatley starts using a hot water bottle, bed socks and earlier bedtimes to stay warm."
-    },
-    {
-      "id": "5b7debcc2366d434a2",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
-      "title": "No order, no seat: Starbucks China rolls out new store policy",
-      "publisher": "BBC Business",
-      "page_opened": true,
-      "description": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals."
-    },
-    {
-      "id": "bf2285f10ef9047e93",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
-      "title": "The 'trillion pound' oil fund the government believes Britain could have built",
-      "publisher": "BBC Business",
-      "page_opened": true,
-      "description": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds."
-    },
-    {
-      "id": "083f897b25de425776",
-      "url": "https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/",
-      "title": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
-      "publisher": "Politico Europe",
-      "page_opened": false,
-      "description": "Weidel said the far-right AfD is in \"talks\" to bridge differences with France’s National Rally that largely concern Russia."
-    },
-    {
-      "id": "edb62bb4888df92a4b",
-      "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
-      "title": "French bond yields hit 24-year high after unrest",
-      "publisher": "France 24",
-      "page_opened": false,
-      "description": "French bond yields have topped 5 percent, their highest level since 2002, after widespread protests and violence over the weekend. It's a sign that investors are losing confidence in France's finances, as the government grapples with budget and debt problems. Also in the show: chipmaker Nvidia says it's invested $10 billion in European tech firms to boost the \"AI economy\", and the UK approves a controversial natural gas field as PM Andy Burnham faces press"
-    },
-    {
-      "id": "e763a8075d561f267a",
-      "url": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
-      "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
-      "publisher": "BBC Business",
-      "page_opened": false,
-      "description": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget."
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
+      "published_at": "2026-10-22T09:57:47Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "5aa0acf97da6b9eb87",
-      "url": "https://www.politico.eu/article/russia-launches-massive-strikes-on-ukraine-us-donald-trump-says-peace-is-closer-than-ever/",
       "title": "Russia launches massive strikes on Ukraine as Trump says peace is closer than ever",
       "publisher": "Politico Europe",
-      "page_opened": false,
-      "description": "Kyiv also attacked Russia with more than 800 drones, the defense ministry in Moscow said."
+      "url": "https://www.politico.eu/article/russia-launches-massive-strikes-on-ukraine-us-donald-trump-says-peace-is-closer-than-ever/",
+      "published_at": "2026-10-22T09:49:04Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "25f4b724ac8b038559",
-      "url": "https://www.france24.com/en/tv-shows/business/20261022-meta-s-zuckerberg-pitches-ai-successes-to-investors-with-26-rise-in-quarterly-revenue",
       "title": "Meta's Zuckerberg pitches AI successes to investors with 26% rise in quarterly revenue",
       "publisher": "France 24",
-      "page_opened": false,
-      "description": "Meta Platforms CEO Mark Zuckerberg touted the company's progress on artificial intelligence during an earnings call on Wednesday and called for more investment. The tech giant's Muse AI agent has garnered 10 million users since its launch six weeks ago, while third-quarter revenue rose to $64.6 billion. Meanwhile, the company is accused of political interference in Brazil's presidential election. Also in this edition, we check in on France's rising borrowi"
+      "url": "https://www.france24.com/en/tv-shows/business/20261022-meta-s-zuckerberg-pitches-ai-successes-to-investors-with-26-rise-in-quarterly-revenue",
+      "published_at": "2026-10-22T09:18:14Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a06e75767baa8b8eb8",
+      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T09:14:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f9ece080f1448ed63a",
+      "title": "Morning news brief",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6003503/morning-news-brief",
+      "published_at": "2026-10-22T08:57:46Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "75892ec407466804db",
+      "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss",
+      "published_at": "2026-10-22T08:18:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1b6c5103cabdaff4ab",
+      "title": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says?traffic_source=rss",
+      "published_at": "2026-10-22T05:54:12Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c3c1d68e74497ca33f",
+      "title": "Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – as it happened",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
+      "published_at": "2026-10-22T02:01:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7897709cc50c2c9a9c",
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T01:07:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c1b2d88ea3ce25db7d",
+      "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "published_at": "2026-10-22T00:26:50Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f8feeb7e4a9916c234",
+      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
+      "published_at": "2026-10-22T00:25:41Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "a6fd775f5d695b531e",
-      "url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
       "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
       "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further information after the company announced there would be no questions"
+      "url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+      "published_at": "2026-10-21T23:03:16Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b837bc7577026b23f8",
+      "title": "Video shows Israeli settler assaulting Palestinian child",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child-2?traffic_source=rss",
+      "published_at": "2026-10-21T22:03:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d410ef1f85a3b92279",
+      "title": "L'ambasciata Usa ordina al personale e alle famiglie di lasciare l'Arabia Saudita",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/21/lambasciata-usa-ordina-al-personale-e-alle-famiglie-di-lasciare-larabia-saudita_4b4f6f3c-5061-4455-8278-f78323d4e52e.html",
+      "published_at": "2026-10-21T19:19:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1baa62e05b606b846f",
+      "title": "Heidi Levine recounts how Palestinian youths helped save her in settler attack",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/heidi-levine-palestinians-israeli-settler-attack-west-bank",
+      "published_at": "2026-10-21T17:59:14Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "34a576039cfcabdff4",
+      "title": "Macron visits Riyadh to show solidarity amid Houthi attacks, ease tensions at home via fuel deal",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/macron-visits-riyadh-show-solidarity-amid-houthi-attacks-ease-tensions-home-via-fuel-deal",
+      "published_at": "2026-10-21T17:09:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3e479a9503dbe533a5",
+      "title": "French President Macron lands in Saudi Arabia on surprise 'solidarity' visit",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+      "published_at": "2026-10-21T15:54:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "55a37496fef2ffb34a",
+      "title": "Troubled waters: life during wartime for Iranians on the strait of Hormuz",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/21/strait-of-hormuz-life-amid-wartime-iran",
+      "published_at": "2026-10-21T05:00:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b330d5f56757faec44",
+      "title": "Cyprus asks EU to put mutual defense back on the agenda",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/cyprus-asks-eu-to-put-mutual-defense-back-on-the-agenda/",
+      "published_at": "2026-10-22T10:25:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a1d1434e1307bec26c",
+      "title": "Dalai Lama appointed by China 'is going to be a fake one', exiled former Tibetan leader says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261022-dalai-lama-appointed-by-china-is-going-to-be-a-fake-one-exiled-former-tibetan-leader-says",
+      "published_at": "2026-10-22T10:22:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "59139c19c9859a888e",
+      "title": "Michigan Senate debate: Key takeaways from El-Sayed, Rogers clash",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/michigan-senate-debate-key-takeaways-from-el-sayed-rogers-clash?traffic_source=rss",
+      "published_at": "2026-10-22T10:06:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "25b19804463ba21266",
+      "title": "Israeli forces kill disabled man in southern Syria raid, state media says",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/israeli-forces-kill-disabled-man-in-southern-syria-raid-state-media-says?traffic_source=rss",
+      "published_at": "2026-10-22T10:01:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "aa4213f671a4afd51e",
+      "title": "Trump’s war and tariffs have battered Alaska. A pro-oil Democrat could flip the key Senate seat",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/22/alaska-mary-peltola-senate-midterms",
+      "published_at": "2026-10-22T10:00:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f816e60e335965bf5e",
+      "title": "Woman 'scared to turn heating on' due to oil cost",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/videos/cmd7qr0ezrq7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T09:55:16Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b3f46f3ebeeb343bf6",
+      "title": "How do Israel's elections work and who are the main contenders?",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T09:27:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7c573cf7ecdaf68a96",
+      "title": "Fighting rages in Yemen’s Taiz as UN warns nearly 260,000 displaced",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/fighting-rages-in-yemens-taiz-as-un-warns-nearly-260000-now-displaced?traffic_source=rss",
+      "published_at": "2026-10-22T09:00:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2331952f7fbd4a1cce",
+      "title": "Israeli elections: Is it just right wing versus right?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/israeli-elections-is-it-just-right-wing-versus-right?traffic_source=rss",
+      "published_at": "2026-10-22T08:55:18Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b3a1a76ebf6a6d0619",
+      "title": "French borrowing costs overtake US amid budget turmoil",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+      "published_at": "2026-10-22T08:40:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0f80f218841bd1a967",
+      "title": "Zelensky, 'dai compassionevoli russi tre ondate di missili balistici su Kiev'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/zelensky-dai-compassionevoli-russi-tre-ondate-di-missili-balistici-su-kiev_b59d8789-b5df-417e-9bf5-62f651cb1502.html",
+      "published_at": "2026-10-22T08:10:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9582fdd7de8bdb3805",
+      "title": "Can Russia broker a new US-Iran deal?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/22/can-russia-broker-a-new-us-iran-deal?traffic_source=rss",
+      "published_at": "2026-10-22T08:00:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "97298bde198423758c",
+      "title": "Nyt, 'Usa e Israele elaborano piani di attacco all'Iran dopo le midterm'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/22/nyt-usa-e-israele-elaborano-piani-di-attacco-alliran-dopo-le-midterm_2a5ea5a3-c197-46c3-850e-2f0ef1768667.html",
+      "published_at": "2026-10-22T07:36:06Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "236f4a096d44fe0f2b",
-      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/who-are-the-losers-from-the-budget/",
       "title": "Who are the losers from the budget?",
       "publisher": "Politico Europe",
-      "page_opened": false,
-      "description": "Can the government find more cuts across Whitehall to fund its NATO defence commitments? With less than a week to go until the budget, Treasury minister Emma Reynolds says squeezing more efficiency out of the government could free up cash for defence. But with public services already under pressure, where can the cuts be made […]"
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/who-are-the-losers-from-the-budget/",
+      "published_at": "2026-10-22T07:17:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "37d8027436a2bd77f6",
+      "title": "Wrong national anthems played three times at Asian Para Games in Japan",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/22/wrong-national-anthems-played-three-times-at-asian-para-games-in-japan?traffic_source=rss",
+      "published_at": "2026-10-22T07:10:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2ad966ee88094cf62d",
+      "title": "In Israel election, Palestinian citizens weigh fear against disillusionment",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/in-israel-election-palestinian-citizens-weigh-fear-against-disillusionment?traffic_source=rss",
+      "published_at": "2026-10-22T07:02:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "84beed52e05374a925",
+      "title": "China edge USA to women’s team gold at Gymnastics World Championships",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/22/china-edge-usa-to-womens-team-gold-at-gymnastics-world-championships?traffic_source=rss",
+      "published_at": "2026-10-22T06:23:30Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "ec465f45ede346044e",
-      "url": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
       "title": "Cookies and weapons: Women in Yemen’s Taiz find ways to help the city’s defence",
       "publisher": "Al Jazeera",
-      "page_opened": true,
-      "description": "Amid growing threats, a grassroots aid effort has transformed into an initiative to get more ammunition to the front."
+      "url": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
+      "published_at": "2026-10-22T06:06:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7fd708df820851ec43",
+      "title": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin",
+      "published_at": "2026-10-22T05:54:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1d6dc31667d17163df",
+      "title": "Man charged after allegedly making threats at Hannah Beazley’s electorate office while armed with nunchucks",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/man-with-nunchucks-arrested-wa-mp-hannah-beazley-ntwnfb",
+      "published_at": "2026-10-22T05:42:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b796f04bb1fd46f0cc",
+      "title": "How Arab parties could hold critical balance of power in Israeli election",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T05:30:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "337a0a4618972e9019",
+      "title": "Woman 'scared to turn heating on' due to oil cost",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cmgel220j7nvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T05:29:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "63adcdc58148d759ae",
+      "title": "Who speaks for Europe in the Ukraine peace talks?",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks/",
+      "published_at": "2026-10-22T04:05:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3afe2254e382cd6790",
+      "title": "No order, no seat: Starbucks China rolls out new store policy",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T04:02:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5b7debcc2366d434a2",
+      "title": "No order, no seat: Starbucks China rolls out new store policy",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T04:02:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8a2dea81f9779a6571",
+      "title": "Russia frees American Stephen Hubbard after 4 years behind bars",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-frees-american-stephen-hubbard-after-4-years-behind-bars?traffic_source=rss",
+      "published_at": "2026-10-22T02:16:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "535429e4f0974259cb",
+      "title": "Trump’s diesel deal derailed Ukraine-Russia peace progress, says Czech president",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/donald-trump-diesel-deal-derailed-ukraine-russia-peace-progress-says-czech-president-petr-pavel/",
+      "published_at": "2026-10-22T02:02:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b80f47eec0d6e6f0f0",
+      "title": "Ukraine’s foreign fighters battle Russians — and red tape",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/ukraine-foreign-fighters-face-bureaucratic-hurdles-residency-permits/",
+      "published_at": "2026-10-22T02:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8ccc1304f39e3d666f",
+      "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+      "published_at": "2026-10-22T01:51:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "59389f6a555a443610",
+      "title": "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
+      "published_at": "2026-10-22T01:45:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bc8f510d710abee289",
+      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "published_at": "2026-10-22T01:16:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7546ddd0bb6a69546f",
+      "title": "AIPAC halts endorsements and direct contributions to candidates",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+      "published_at": "2026-10-22T00:22:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6545e214c0cde688ac",
+      "title": "Iran war live: Trump denies Iran talks, says situation will resolve soon",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
+      "published_at": "2026-10-22T00:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7f3dbfc57d70dd31cb",
+      "title": "Attacco ucraino con droni sulla città russa di Lipetsk",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/attacco-ucraino-con-droni-sulla-citta-russa-di-lipetsk_cd67870c-0497-4552-be48-de9998617dc1.html",
+      "published_at": "2026-10-21T23:56:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "86a5ba137c51557f6d",
+      "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
+      "published_at": "2026-10-21T23:52:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bf2285f10ef9047e93",
+      "title": "The 'trillion pound' oil fund the government believes Britain could have built",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T23:27:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "692de4a0a788f14b28",
+      "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+      "published_at": "2026-10-21T23:13:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "aa6bbeb72c531c71dc",
+      "title": "Royal Navy lacks resources to counter Russian threat in high north, MPs warn",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/politics/2026/oct/22/uk-risk-russian-aggression-lack-submarines-warships-mps-warn",
+      "published_at": "2026-10-21T23:01:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d5e2fbc55019b5a574",
+      "title": "Attacco su aeroporto in Arabia Saudita, un morto e otto feriti",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/22/attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-feriti_106a5e82-4450-4268-9cd1-01f97f17bf68.html",
+      "published_at": "2026-10-21T22:41:32Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "104173ea8512ad86e6",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
       "title": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
       "publisher": "France 24",
-      "page_opened": false,
-      "description": "François Picard welcomes former US Assistant Secretary of Defense Jim Townsend and former US Air Force officer Michael (Mikey) Weinstein, founder and president of the Military Religious Freedom Foundation. Is American military power becoming an instrument of political and religious coercion, both at home and abroad? From the reported restrictions on Ukraine's access to Starlink satellite communications to the Trump administration's overtures towards Vladim"
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
+      "published_at": "2026-10-21T22:11:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8cb4cb3707a49dd35a",
+      "title": "Tehran displays mock installation of Trump behind bars",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
+      "published_at": "2026-10-21T21:43:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1bd7b20d6bcdb59083",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T21:27:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2bbb8330caab38b1b8",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261021-in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "published_at": "2026-10-21T21:25:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4be07cd252c218d5ba",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "published_at": "2026-10-21T21:21:46Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7a0a3f148146d7eef2",
+      "title": "Will Russia’s diesel shipment to the US lower prices before midterms?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms?traffic_source=rss",
+      "published_at": "2026-10-21T20:54:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "083f897b25de425776",
+      "title": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/",
+      "published_at": "2026-10-21T20:53:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "edb62bb4888df92a4b",
+      "title": "French bond yields hit 24-year high after unrest",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
+      "published_at": "2026-10-21T20:43:53Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "dfcdd411fe9193b6a3",
+      "title": "Jason Alexander recalls Palestinian protection in Ramallah",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/jason-alexander-recalls-palestinian-protection-in-ramallah?traffic_source=rss",
+      "published_at": "2026-10-21T20:18:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "47089e7c80e35f9dd2",
+      "title": "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T19:58:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "15d2df5ce3b626818c",
+      "title": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine/",
+      "published_at": "2026-10-21T19:53:50Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "c9b8ba9e8ab97dd403",
-      "url": "https://www.aljazeera.com/news/2026/10/21/conservative-party-suspends-ex-candidate-filmed-in-al-jazeera-investigation?traffic_source=rss",
       "title": "UK Conservative Party suspends ex-candidate after Al Jazeera investigation",
       "publisher": "Al Jazeera",
-      "page_opened": true,
-      "description": "The UK's Conservatives suspend former candidate Jack Ross after he was filmed discussing hiring contract killers."
+      "url": "https://www.aljazeera.com/news/2026/10/21/conservative-party-suspends-ex-candidate-filmed-in-al-jazeera-investigation?traffic_source=rss",
+      "published_at": "2026-10-21T19:36:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "53f404d9aa27f36440",
+      "title": "Putin agrees to resume three-way talks with Kyiv and Washington",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
+      "published_at": "2026-10-21T19:32:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6f1bdf61df6195b473",
+      "title": "Trump difende Witkoff per aver chiamato Putin compassionevole",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/trump-difende-witkoff-per-aver-chiamato-putin-compassionevole_7fa45686-8e37-49dd-a5b3-abcaf214b353.html",
+      "published_at": "2026-10-21T19:32:45Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1823c428631cb87bde",
+      "title": "Trump, forse siamo più vicini che mai alla fine della guerra in Ucraina",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/trump-forse-siamo-piu-vicini-che-mai-alla-fine-della_bc91def8-a094-4bff-99b0-53dc04de196e.html",
+      "published_at": "2026-10-21T19:22:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d9daaf6859f6f6719b",
+      "title": "Trump faces fresh questions over ties to 'humanitarian' Putin",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/trump-faces-fresh-questions-over-ties-to-humanitarian-putin",
+      "published_at": "2026-10-21T18:53:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "610b9b3b40d74f0516",
+      "title": "Zelensky, 'favorevoli a incontro trilaterale il prima possibile'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/zelensky-favorevoli-a-incontro-trilaterale-il-prima-possibile_785393e6-66ae-40ef-8863-3edb11aa9718.html",
+      "published_at": "2026-10-21T18:45:30Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "36104b55141eebf605",
-      "url": "https://www.theguardian.com/politics/2026/oct/21/former-tory-election-candidate-suspended-over-contract-killing-claims",
       "title": "Former Tory election candidate suspended over contract killing claims",
       "publisher": "The Guardian",
-      "page_opened": false,
-      "description": "Jack Ross was filmed allegedly discussing with an undercover reporter violent options to deal with enemies A former Conservative election candidate has been suspended from the party after he was seemingly filmed discussing the cost of hiring contract killers and offering to “broker” the services of a far-right activist with alleged paramilitary links. Jack Ross was filmed apparently asking an undercover reporter “What do you want done?” before listing the "
+      "url": "https://www.theguardian.com/politics/2026/oct/21/former-tory-election-candidate-suspended-over-contract-killing-claims",
+      "published_at": "2026-10-21T18:13:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a52911c8e9c351ed63",
+      "title": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/russia-ready-talks-end-ukraine-war/",
+      "published_at": "2026-10-21T18:13:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "13dd32db081e4dc467",
+      "title": "‘You are a humanitarian also, sir’: the US feeds Putin with lies as Ukraine’s children take cover and die | Andrew Roth",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/you-are-a-humanitarian-also-sir-us-putin-lies-ukraine-children-take-cover-and-die-witkoff",
+      "published_at": "2026-10-21T17:57:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "767fa614c279abb7e7",
+      "title": "Padre e figlio italiani arrestati in Cisgiordania, saranno espulsi",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/21/padre-e-figlio-italiani-arrestati-in-cisgiordania-saranno-espulsi_2c568a0d-afaa-4781-9839-5a4eb4a27693.html",
+      "published_at": "2026-10-21T17:16:01Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2f428f835604a51255",
+      "title": "Witkoff a Putin, 'anche lei è compassionevole'. Bufera in Usa, 'è un assassino'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/witkoff-a-putin-anche-lei-e-compassionevole.-bufera-in-usa-e-un-assassino_2324ab5a-a346-4ebb-9209-a407dc6e6263.html",
+      "published_at": "2026-10-21T16:35:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ddee2bb6a6e37f9b3c",
+      "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes",
+      "published_at": "2026-10-21T16:13:53Z",
+      "attribution": "Non verificato"
     },
     {
       "id": "b4d62a5b18aeeebcf6",
-      "url": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
       "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
       "publisher": "BBC Business",
-      "page_opened": false,
-      "description": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days."
+      "url": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T15:58:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1eec5b0be6957d5480",
+      "title": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
+      "published_at": "2026-10-21T15:51:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a252494b41b89c4683",
+      "title": "Macron rejects Trump’s claims blaming migrants for French riots",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261021-macron-rejects-trump-s-claims-blaming-migrants-for-french-riots",
+      "published_at": "2026-10-21T15:29:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e563fb5d2c3f24d5ee",
+      "title": "Thousands march in Greece over public education failures as Macron blasts ‘stupid’ commentary on French protests – as it happened",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "published_at": "2026-10-21T15:23:04Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "642f37b83c9e25a14b",
+      "title": "Besieged Yemeni city on verge of ‘unmanageable’ crisis, aid workers warn",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+      "published_at": "2026-10-21T14:24:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e6ff2a596433d65d32",
+      "title": "Israeli military detain US and UK volunteers in West Bank including Democratic NY politician Brad Lander",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest",
+      "published_at": "2026-10-21T14:08:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "98696445d3a740b060",
+      "title": "Macron accuses foreign leaders of exploiting French riots",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T14:04:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4b126d4fd56ed43ef1",
+      "title": "Zelensky, 'congelamento fronte con Russia come passo per avviare negoziati'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/zelensky-congelamento-fronte-con-russia-come-passo-per-avviare-negoziati_221bba3c-2a20-45e0-a873-f8bd6d9cc57c.html",
+      "published_at": "2026-10-21T12:49:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1ab622ce6a6540f44b",
+      "title": "Zelensky, 'congelamento fronte con Russia come passo per avviare negoziati'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/zelensky-congelamento-fronte-con-russia-come-passo-per-avviare-negoziati_67e8b45b-a13f-4d58-bfc1-53eaee4d31e9.html",
+      "published_at": "2026-10-21T12:48:59Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6ff93d760bd00bd20e",
+      "title": "Cremlino, l'incontro Putin-Witkoff terminato dopo circa 3 ore",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-lincontro-putin-witkoff-terminato-dopo-circa-3-ore_e254deed-2ad6-41c7-b00c-477302052df6.html",
+      "published_at": "2026-10-21T12:43:17Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e26cccd3349bcabe00",
+      "title": "Merz, 'la resa dell'Ucraina non è un'opzione'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/merz-la-resa-dellucraina-non-e-unopzione_012486ab-5d60-4527-95d6-cf2dae7afb46.html",
+      "published_at": "2026-10-21T12:08:50Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d8fbcd2aa0373ff8a1",
+      "title": "Trump, 'Hubbard in viaggio verso gli Usa, liberato senza dare nulla in cambio'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/trump-hubbard-in-viaggio-verso-gli-usa-liberato-senza-dare-nulla_503acfe7-06b8-460b-bd20-87319531bf4c.html",
+      "published_at": "2026-10-21T12:08:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "48599d902ed3d69273",
+      "title": "Witkoff auspica che Putin accetti la ripresa dei negoziati trilaterali con Kiev",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/witkoff-auspica-che-putin-accetti-la-ripresa-dei-negoziati-trilaterali-con_dca0e57c-6bba-4c23-aff5-cd991fb3afec.html",
+      "published_at": "2026-10-21T12:08:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e01d4289fa5273e15c",
+      "title": "Cremlino, 'Putin esaminerà proposte di Witkoff, ma molto dipende da Kiev'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-putin-esaminera-proposte-di-witkoff-ma-molto-dipende-da-kiev_4322e51f-8025-45e8-b7bd-168e6069261e.html",
+      "published_at": "2026-10-21T10:35:01Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "87c6bdf26f50b3d999",
+      "title": "Macron contro Trump e Netanyahu, 'c'è chi fa campagna elettorale su nostre spalle'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/macron-contro-trump-e-netanyahu-ce-chi-fa-campagna-elettorale-su-nostre-spalle_8daa24d4-3ee6-4d15-a89f-f8c872a0ac15.html",
+      "published_at": "2026-10-21T10:27:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e763a8075d561f267a",
+      "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T10:20:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a4be0bcb20c9ee4c29",
+      "title": "Inflation and government borrowing highest for a year ahead of next week's Budget",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T10:16:17Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "000821919f20076a9e",
+      "title": "Putin, rilasciato il cittadino americano Stephen Hubbard",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/putin-rilasciato-il-cittadino-americano-stephen-hubbard_0bc6e5f6-3d9e-4c3c-a4e9-9c4f233424c7.html",
+      "published_at": "2026-10-21T09:15:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "86e0b8ea8a0d2c4f24",
+      "title": "Putin, rilasciato il cittadino americano Stephen Hubbard",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/putin-rilasciato-il-cittadino-americano-stephen-hubbard_2ae00db9-c0b6-4016-8b7c-84ae92640e25.html",
+      "published_at": "2026-10-21T09:15:01Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b93017554ec3b5ff87",
+      "title": "Mosca, prima petroliera con gasolio russo parte domani per gli Usa",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/mosca-prima-petroliera-con-gasolio-russo-parte-domani-per-gli_0195fc9a-d5d5-436e-a8a6-7e5921ec2ca9.html",
+      "published_at": "2026-10-21T09:11:13Z",
+      "attribution": "Non verificato"
     }
   ],
-  "disclaimer": "Analisi IA su testi pubblicati. Verifica indipendente non garantita; nessun consiglio finanziario."
+  "indicatori_python": {
+    "global_risk": {
+      "value": null,
+      "coverage": "incompleto"
+    },
+    "market_stress": {
+      "value": 35,
+      "coverage": "4/5",
+      "experimental": false,
+      "method": "PASSO 3: media delle componenti disponibili; soltanto se almeno 3 input verificati e non vecchi",
+      "missing": [
+        "DXY"
+      ]
+    },
+    "war_escalation": {
+      "value": 80,
+      "coverage": 1,
+      "note": "Tensioni IA ammesse soltanto con due evidenze; non prova di indipendenza"
+    },
+    "macro_risk": {
+      "value": null,
+      "note": "n.d. senza confronti macro ufficiali e verificati"
+    },
+    "conviction": {
+      "value": 52,
+      "note": "Misura di completezza, NON probabilità di verità",
+      "missing_quotes": 6
+    }
+  },
+  "source_exclusions": [],
+  "forecast_proposals_unpublished": [
+    {
+      "evento": "Mantenimento del rendimento del Treasury a 10 anni (US10Y) sopra il 5.00% alla fine della settimana corrente.",
+      "conta": "Dati ufficiali FRED sui tassi dei titoli di Stato statunitensi.",
+      "non_conta": "Voci di corridoio o speculazioni di mercato non confermate.",
+      "riferimento_valore": 5.12,
+      "riferimento_strumento": "US10Y",
+      "riferimento_fonte": "FRED · DGS10",
+      "riferimento_ora": "2026-10-20",
+      "scadenza": "2026-10-25",
+      "criterio": "Il tasso US10Y rilevato da FRED rimane pari o superiore a 5.00%.",
+      "fonte_esito": "FRED",
+      "probabilita": 75,
+      "source_ids": [
+        "US10Y"
+      ]
+    },
+    {
+      "evento": "Mantenimento dell'indice di volatilità VIX sotto i 20 punti nei prossimi 7 giorni.",
+      "conta": "Chiusura ufficiale dell'indice VIX pubblicata da FRED.",
+      "non_conta": "Movimenti intraday non confermati dalla chiusura ufficiale.",
+      "riferimento_valore": 17.31,
+      "riferimento_strumento": "VIX",
+      "riferimento_fonte": "FRED · VIXCLS",
+      "riferimento_ora": "2026-10-20",
+      "scadenza": "2026-10-29",
+      "criterio": "Il valore di chiusura del VIX non supera soglia 20.",
+      "fonte_esito": "FRED",
+      "probabilita": 70,
+      "source_ids": [
+        "VIX"
+      ]
+    }
+  ],
+  "disclaimer": "Le fonti RSS non sono prova indipendente; indicatori e citazioni mancanti restano n.d. Nessun segnale di trading.",
+  "forecast_validation": {
+    "accepted_ids": [],
+    "rejected": [
+      {
+        "proposal": 1,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      },
+      {
+        "proposal": 2,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      }
+    ]
+  }
 }

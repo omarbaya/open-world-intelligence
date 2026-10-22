@@ -1,45 +1,91 @@
 [
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T09:57:42.797842+00:00",
+    "generated_at": "2026-10-22T13:45:07.484444+03:00",
     "status": "ok",
     "agent_audit": [
       {
         "role": "geopolitica",
-        "status": "ok",
-        "items": 5
+        "status": "ok"
       },
       {
         "role": "macro",
-        "status": "ok",
-        "items": 4
+        "status": "ok"
       },
       {
         "role": "difesa",
-        "status": "ok",
-        "items": 0
-      },
-      {
-        "role": "verificatore",
-        "status": "ok",
-        "flags": 0
+        "status": "ok"
       },
       {
         "role": "capo_desk",
         "status": "ok"
       },
       {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
         "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
         "status": "ok"
       }
     ],
     "learning": {
       "osservazioni": [
-        "Dossier insufficiente per valutare previsioni o identificare errori ripetuti, in quanto non sono presenti previsioni passate (previous_days: 0, forecasts.items vuoto).",
-        "La copertura mostra 250 articoli nelle ultime 48 ore e 12 feed ok, con ruoli di audit tutti in stato ok ma con zero elementi registrati per la difesa (items: 0) e nessun flag di revisione."
+        "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+        "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari."
       ],
       "correzioni_proposte": [
-        "Raccogliere dati storici e previsioni valutabili per abilitare il calcolo delle metriche di Brier e l'analisi degli errori."
+        "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "Comprendere lo spread dei titoli di Stato",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "Lo spread misura il differenziale di rendimento tra i titoli di Stato di riferimento ed esprime la percezione del rischio di credito sul debito pubblico. Secondo i dati riportati, i costi di indebitamento della Francia sono saliti e i rendimenti obbligazionari hanno toccato i massimi da 24 anni a causa delle difficoltà sul bilancio [b3a1a76ebf6a6d0619, edb62bb4888df92a4b]. Un ampliamento dello spread riflette la tensione dei mercati finanziari verso la stabilità fiscale di un paese europeo [b3a1a76ebf6a6d0619].",
+        "esempio_oggi": "I rendimenti obbligazionari francesi toccano i massimi da 24 anni [b3a1a76ebf6a6d0619, edb62bb4888df92a4b].",
+        "domanda": "Cosa smentirebbe l'interpretazione di una crisi del debito francese?",
+        "risposta": "Un calo repentino e costante dei rendimenti dei titoli di Stato francesi accompagnato dall'approvazione stabile del bilancio federale [b3a1a76ebf6a6d0619].",
+        "parole": [
+          {
+            "termine": "Spread",
+            "spiegazione": "Differenziale di rendimento tra titoli di Stato di riferimento [b3a1a76ebf6a6d0619]."
+          },
+          {
+            "termine": "Rendimento",
+            "spiegazione": "Il guadagno percentuale che un investitore ottiene acquistando un'obbligazione."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+          "regola_proposta": "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+          "esempio": "Registrazione delle previsioni sui tassi US10Y e VIX con scadenze definite e riscontro puntuale sui dati FRED."
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi aerei a Kiev e Mosca e l'attacco in Arabia Saudita vanno trattati come fatti riportati da stampa finché non confermati da fonti istituzionali indipendenti multiple [75892ec407466804db, a06e75767baa8b8eb8]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (GOLD), future ES, GC e 6E indicati come n.d. per assenza di collegamenti diretti verificati nel dossier [mercati]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se S&P 500 mantiene i livelli recenti e la volatilità VIX scende sotto 17, allora la propensione al rischio azionario potrebbe persistere nonostante le tensioni [SP500, VIX]."
+        }
       ],
       "metriche": {
         "previsioni_valutate": 0,
