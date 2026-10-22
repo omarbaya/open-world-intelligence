@@ -291,6 +291,8 @@ def run(now=None):
                         if any(isinstance(issue,dict) and issue.get("section")==section["title"] for issue in issues):
                             section["body"]="n.d. — contenuto sospeso dopo verifica con evidenza insufficiente."
                             section["source_ids"]=[]
+            drafted["date"]=date
+            drafted["evidence"]=[{"id":d["id"],"source":d["source"],"url":d["url"],"page_opened":d["page_opened"]} for d in docs]
             output["daily"]=drafted
             output["agents"]["capo_desk"]={"status":"ready"}
             output["agents"]["verificatore"]={"status":"ready","issues":len(issues)}
