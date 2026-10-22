@@ -27,6 +27,8 @@ jobs:
                   if entry.is_dir() or not entry.filename.startswith(prefix):
                       continue
                   rel = pathlib.PurePosixPath(entry.filename[len(prefix):])
+                  if rel.parts and rel.parts[0] == ".github":
+                      continue  # I workflow GitHub saranno installati separatamente
                   if not rel.parts or any(p in ("", ".", "..") for p in rel.parts):
                       raise SystemExit("Percorso non sicuro nello ZIP")
                   target = (base / pathlib.Path(*rel.parts)).resolve()
@@ -47,7 +49,7 @@ jobs:
         run: |
           git config user.name "open-world-bot"
           git config user.email "open-world-bot@users.noreply.github.com"
-          git add -A
+          git add -A -- . ':!.github/workflows/*'
           if ! git diff --cached --quiet; then
             git commit -m "Importa OPEN WORLD Intelligence Free Edition"
             git push
