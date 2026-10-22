@@ -326,7 +326,7 @@ def enrich(payload, cache=None, now=None, *, transport=http_bytes, environ=None)
                 api=url(BASE_AV,{'function':'TIME_SERIES_DAILY','symbol':sym,'outputsize':'compact','apikey':env['ALPHAVANTAGE_API_KEY']})
                 return alpha_daily(get_json(api,transport=transport),sym,comp)
             defense[symbol]=run_cached(part,26,fetch_alpha)
-    elif env.get('FMP_API_KEY'):
+    elif env.get('FMP_API_KEY') and env.get('FMP_PUBLIC_DISPLAY_LICENSED','').lower()=='true':
         for symbol,company in DEFENSE.items():
             part='fmp_defense_'+symbol.replace('.','_')
             def fetch_fmp(sym=symbol,comp=company):
