@@ -43,14 +43,18 @@ def run(force=False, now=None, agent=None):
     if not should_run(local,previous,force):
         # Gli articoli e i prezzi continuano ad aggiornare la dashboard originale ogni ora,
         # mentre il rapporto generativo quotidiano resta immutato fino al prossimo briefing.
-        save_original(latest,previous if previous.get('status') in ('ok','partial') else None,SITE)
+        current_ai=previous if previous.get('status') in ('ok','partial') and previous.get('date')==day else None
+        payload=dict(latest)
+        if current_ai:
+            payload['indicators']={**latest.get('indicators',{}),**current_ai.get('indicatori_python',{})}
+        save_original(payload,current_ai,SITE)
         return {'status':'skipped','message':'Dashboard dati aggiornata; briefing IA già disponibile o non ancora dovuto.'}
     if not os.getenv('GEMINI_API_KEY'):
         if not previous or previous.get('status') in ('not_configured','error'):
             store(DATA/'latest_ai.json',{'status':'not_configured','date':day,'generated_at':local.isoformat(),
                    'message':'Servizio AI cloud non configurato. Aggiungi il secret GEMINI_API_KEY nel repository GitHub.',
                    'provider':'Google Gemini Free API','model':os.getenv('GEMINI_MODEL','gemini-3.5-flash-lite')})
-        save_original(latest,previous if previous.get('status') in ('ok','partial') else None,SITE)
+        save_original(latest,previous if previous.get('status') in ('ok','partial') and previous.get('date')==day else None,SITE)
         return {'status':'not_configured','message':'GEMINI_API_KEY mancante; RSS e dashboard originali attivi, NON gli agenti IA.'}
     prior=load(DATA/'ai/history.json',[])
     forecaster=latest.get('forecasts') or {}
@@ -60,7 +64,7 @@ def run(force=False, now=None, agent=None):
         if previous.get('status') not in ('ok','partial'):
             store(DATA/'latest_ai.json',{'status':'error','date':day,'generated_at':local.isoformat(),
                    'message':str(e),'provider':'Gemini API, quota gratuita'})
-        save_original(latest,previous if previous.get('status') in ('ok','partial') else None,SITE)
+        save_original(latest,previous if previous.get('status') in ('ok','partial') and previous.get('date')==day else None,SITE)
         return {'status':'error','message':str(e)}
     # Event-log only, never change the baseline of an existing forecast.
     journal=ROOT/'state/forecast_events.jsonl'
