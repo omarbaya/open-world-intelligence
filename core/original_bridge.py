@@ -124,7 +124,19 @@ def build_rows(payload,ai=None):
         for i,(suffix,label,kind) in enumerate([('h','Massimo di ieri','high'),('l','Minimo di ieri','low'),('c','Chiusura di ieri','close'),('wh','Massimo della settimana','wkhigh'),('wl','Minimo della settimana','wklow')],1):
             price=entry.get(suffix)
             rows.append(row('level',sym+'-'+suffix,order=i,title=t,category=sym,value=price,
-              label=label,status=kind,unit='
+              label=label,status=kind,unit='USD' if sym=='GC' else '',
+              detail=entry.get('instrument') or 'n.d.; fonte OHLC non collegata',
+              time=entry.get('day') or 'n.d.',source=entry.get('source') or 'Non verificato',
+              url=entry.get('source_url')))
+    cot_data=payload.get('cot') or {}
+    for i,(k,v) in enumerate([('GC','Oro (COMEX)'),('EUR','Euro (CME)'),('ES','E-mini S&P 500 (CME)')],1):
+        cot=cot_data.get(k) or {}
+        rows.append(row('cot',k,order=i,title=v,value=cot.get('value'),prev=cot.get('previous'),
+          change=cot.get('change'),change_unit='contratti',label='Legacy Futures Only · non-commerciali' if cot else 'n.d.',
+          detail='Net = long - short; dato del martedì, pubblicato venerdì' if cot else
+                 'Report CFTC non disponibile nel momento del controllo',
+          time=cot.get('date') or 'n.d.',source=cot.get('source') or 'CFTC',url=cot.get('url') or
+          'https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm'))
     # Sections designed to remain honest when data is missing.
     brief=(ai or {}).get('brief',{})
     def article_section(section,field,title):
