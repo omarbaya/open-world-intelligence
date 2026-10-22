@@ -33,6 +33,10 @@ def run(force=False, now=None, agent=None):
     if not latest.get('articles'):
         return {'status':'skipped','message':'Nessun articolo pubblicato dalle fonti: non creo un briefing fittizio.'}
     previous=load(DATA/'latest_ai.json',{})
+    if previous.get('status') in ('ok','partial'):
+        store(DATA/'ai_status.json', {'status':previous['status'],'date':previous.get('date'),
+              'model':previous.get('model'),'agent_audit':previous.get('agent_audit',[]),
+              'message':'Briefing Gemini effettivamente generato.'})
     if not should_run(local,previous,force):
         return {'status':'skipped','message':'Non è ancora l’ora del briefing, oppure quello odierno è già stato generato.'}
     if not os.getenv('GEMINI_API_KEY'):
@@ -57,6 +61,9 @@ def run(force=False, now=None, agent=None):
         return {'status':'error','message':'Non ci sono risultati IA pubblicabili.'}
     store(DATA/'ai'/f'{day}.json',result)
     store(DATA/'latest_ai.json',result)
+    store(DATA/'ai_status.json', {'status':result['status'],'date':day,
+          'model':result.get('model'),'agent_audit':result.get('agent_audit',[]),
+          'message':'Briefing Gemini effettivamente generato.'})
     by_date={x['date']:x for x in prior if isinstance(x,dict) and 'date' in x}
     by_date[day]={'date':day,'generated_at':result['generated_at'],'status':result['status'],
                  'agent_audit':result.get('agent_audit',[]),'learning':result.get('learning',{})}
