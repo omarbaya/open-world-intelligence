@@ -68,13 +68,34 @@ jobs:
         run: |
           git config user.name "open-world-bot"
           git config user.email "open-world-bot@users.noreply.github.com"
-          git add -A -- site/data
-          if [ -d site/original/data ]; then git add -A -- site/original/data; fi
-          git add -A -- state/forecast_events.jsonl
-          if ! git diff --cached --quiet; then
+          mkdir -p /tmp/ow-save/data /tmp/ow-save/original
+          cp -a site/data/. /tmp/ow-save/data/
+          if [ -d site/original/data ]; then cp -a site/original/data/. /tmp/ow-save/original/; fi
+          if [ -f state/forecast_events.jsonl ]; then cp state/forecast_events.jsonl /tmp/ow-save/forecast_events.jsonl; fi
+          # Always base the data commit on the freshest main; never overwrite source code.
+          # An append-only forecast log is merged by exact event line.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p site/data site/original/data state
+            cp -a /tmp/ow-save/data/. site/data/
+            cp -a /tmp/ow-save/original/. site/original/data/
+            python - <<'PY'
+          from pathlib import Path
+          src=Path('/tmp/ow-save/forecast_events.jsonl')
+          dst=Path('state/forecast_events.jsonl')
+          old=dst.read_text(encoding='utf-8').splitlines() if dst.exists() else []
+          new=src.read_text(encoding='utf-8').splitlines() if src.exists() else []
+          rows=list(dict.fromkeys(x for x in old+new if x.strip()))
+          dst.write_text(''.join(x+'\n' for x in rows),encoding='utf-8')
+          PY
+            git add -A -- site/data site/original/data state/forecast_events.jsonl
+            if git diff --cached --quiet; then exit 0; fi
             git commit -m "AUTO: briefing e storico ${GITHUB_RUN_ID}"
-            git push origin HEAD:main
-          fi
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Main avanzato durante la raccolta: riprovo sulla revisione corrente ($attempt/3)"
+          done
+          exit 1
       - name: Configura Pages
         uses: actions/configure-pages@v5
       - name: Prepara sito web
