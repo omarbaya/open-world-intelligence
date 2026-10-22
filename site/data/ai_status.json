@@ -1,6 +1,36 @@
 {
-  "status": "not_configured",
+  "status": "ok",
   "date": "2026-10-22",
   "model": "gemini-3.5-flash-lite",
-  "message": "Collega GEMINI_API_KEY nei GitHub Secrets per attivare gli agenti."
+  "agent_audit": [
+    {
+      "role": "geopolitica",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "role": "macro",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "role": "difesa",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "role": "verificatore",
+      "status": "ok",
+      "flags": 0
+    },
+    {
+      "role": "capo_desk",
+      "status": "ok"
+    },
+    {
+      "role": "apprendimento",
+      "status": "ok"
+    }
+  ],
+  "message": "Briefing Gemini effettivamente generato."
 }
