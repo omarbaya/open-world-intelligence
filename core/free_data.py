@@ -281,6 +281,12 @@ def enrich(payload, cache=None, now=None, *, transport=http_bytes, environ=None)
     env=environ if environ is not None else os.environ
     cache=dict(cache or {})
     checked=dict(cache.get('fetched_at') or {})
+    # Migration: re-parse once after a provider-schema release. Previous empty
+    # CFTC datasets are not considered successful caches.
+    if cache.get('schema_version')!='3.2.1':
+        for part in ('cot','calendar'):checked.pop(part,None)
+    if not cache.get('cot'):checked.pop('cot',None)
+    cache['fetched_at']=checked
     checks={}
     # Four independent keyless feeds, reused according to their publishing cadence.
     def run_cached(part,hours,fn):
@@ -345,6 +351,7 @@ def enrich(payload, cache=None, now=None, *, transport=http_bytes, environ=None)
         fx_levels=cache.get('fx_levels')
     cache['fetched_at']=checked
     cache['last_refresh']=iso_utc(now)
+    cache['schema_version']='3.2.1'
     cache['provider_health']=checks
     payload=dict(payload)
     payload['calendar']=cal or []
