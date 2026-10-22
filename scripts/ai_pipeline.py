@@ -248,7 +248,7 @@ def run(now=None):
                 {"status":"not_configured","model":MODEL,"generated_at":now.isoformat(),
                  "message":"Agenti AI in attesa del segreto GEMINI_API_KEY in GitHub Actions.","items":[]})
         return {"status":"not_configured"}
-    daily_due = (local.hour >= 8 and memories[-1].get("date") != date) if memories else local.hour >= 8
+    daily_due = (local.hour, local.minute) >= (8, 50) and not any(x.get("date") == date for x in memories)
     docs=documents(latest.get("articles",[]), 13 if daily_due else 8, 6 if daily_due else 2)
     if not docs:
         return {"status":"no_documents"}
