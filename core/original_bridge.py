@@ -7,6 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import json
+import re
 
 FIELDS=('section','id','order','title','category','value','prev','change','change_unit','unit','label','level','score','text','detail','extra','levels','catalysts','invalidation','status','time','source','url','lat','lon','horizon')
 FRONTS={
@@ -165,6 +166,21 @@ def build_rows(payload,ai=None):
     for i,f in enumerate(payload.get('forecasts',{}).get('items',[]) if isinstance(payload.get('forecasts'),dict) else [],1):
         if str(f.get('id',i)) in known_ids: continue
         rows.append(row('forecast',str(f.get('id',i)),order=len(known_ids)+i,title=f.get('claim','n.d.'),category=str(f.get('date','')),time=str(f.get('due','')),text='Registro verificabile',status=str(f.get('status','Aperta'))))
+    # Seven defense securities remain visible even if verified closes/contracts are absent.
+    defense_symbols=(('NPK','National Presto'),('IA','Innovative Aerosystems'),
+                     ('DRS','Leonardo DRS'),('DCO','Ducommun'),('CW','Curtiss-Wright'),
+                     ('MOG.A','Moog'),('KTOS','Kratos Defense'))
+    reported=(ai or {}).get('research',{}).get('difesa',{}).get('items',[]) or []
+    for i,(ticker,company) in enumerate(defense_symbols,1):
+        linked=[x for x in reported if (re.search(r'(?<!\w)'+re.escape(ticker)+r'(?!\w)',
+                ' '.join(str(x.get(k,'')) for k in ('traduzione','fatto','perche_conta')), re.IGNORECASE)
+                or company.lower() in ' '.join(str(x.get(k,'')) for k in ('traduzione','fatto','perche_conta')).lower())]
+        brief_text='; '.join(str(x.get('fatto',''))[:250] for x in linked[:2]) if linked else 'Nessuna novità rilevante nelle fonti raccolte; non equivale a controllo esaustivo.'
+        rows.append(row('defense',ticker,order=i,title=company,category=ticker,
+            value=None,change=None,change_unit='%',label='Chiusura ufficiale: n.d.',
+            text=brief_text,detail='Contratti e prezzi non verificati: n.d.',
+            status='Copertura limitata',time='n.d.',source='n.d.'))
+
     # Calendar + upcoming are left blank, avoiding fictitious current schedules.
     rows.append(row('calendar','none',order=1,title='Agenda ufficiale non collegata',text='n.d.',status='Atteso',time='Tutto il giorno'))
     rows.append(row('upcoming','none',order=1,title='Calendario a 30 giorni non collegato',text='n.d.',status='Da confermare',time='n.d.'))
