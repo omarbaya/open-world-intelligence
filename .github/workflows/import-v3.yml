@@ -28,6 +28,8 @@ jobs:
               rel=pathlib.PurePosixPath(*path.parts[1:])
               if not rel.parts or any(x in ('..','.','') for x in rel.parts): raise SystemExit('Percorso non valido')
               if rel.parts[:2]==('.github','workflows'): continue
+              if rel.parts[:2]==('site','data'): continue  # conserva dati e storico gia online
+              if rel.as_posix()=='state/forecast_events.jsonl' and (root/'state/forecast_events.jsonl').exists(): continue
               dest=(root / pathlib.Path(*rel.parts)).resolve()
               if not dest.is_relative_to(root): raise SystemExit('Percorso fuori repository')
               dest.parent.mkdir(parents=True,exist_ok=True)
