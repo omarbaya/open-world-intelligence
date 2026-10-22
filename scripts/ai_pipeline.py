@@ -219,6 +219,14 @@ def verify(docs, brief):
         " Non scrivere 'verificato' se non hai prove indipendenti.",
         {"documents":docs, "brief":brief}, max_tokens=1750)
 
+def repair_brief(docs, draft, issues):
+    """Request corrections before publishing disputed claims."""
+    fixed = ask("Editor verifiche",
+        'Riscrivi il briefing correggendo o eliminando le affermazioni segnalate. Non inventare nuove fonti. '
+        'Rispondi con key_takeaway, sections, uncertainties e today_lesson nello stesso formato JSON.',
+        {"documents": docs, "draft": draft, "issues": issues}, max_tokens=6100)
+    return sanitize_brief(fixed, docs)
+
 def sanitize_brief(brief, docs):
     ids={d["id"] for d in docs}
     sections=[]
@@ -275,6 +283,14 @@ def run(now=None):
             drafted["verification"]={"status":"reviewed_with_issues" if issues else "reviewed_limited_evidence",
                                      "issues":issues,
                                      "note":"Revisione AI su estratti disponibili; non verifica indipendente degli eventi."}
+            if issues:
+                try:
+                    drafted=repair_brief(docs,drafted,issues)
+                except RuntimeError:
+                    for section in drafted["sections"]:
+                        if any(isinstance(issue,dict) and issue.get("section")==section["title"] for issue in issues):
+                            section["body"]="n.d. — contenuto sospeso dopo verifica con evidenza insufficiente."
+                            section["source_ids"]=[]
             output["daily"]=drafted
             output["agents"]["capo_desk"]={"status":"ready"}
             output["agents"]["verificatore"]={"status":"ready","issues":len(issues)}
