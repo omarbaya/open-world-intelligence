@@ -41,7 +41,10 @@ def run(force=False, now=None, agent=None):
              'model':previous.get('model'),'agent_audit':previous.get('agent_audit',[]),
              'message':'Briefing IA eseguito e controllato.'})
     if not should_run(local,previous,force):
-        return {'status':'skipped','message':'Non è ancora l’ora del briefing, oppure quello odierno è già stato generato.'}
+        # Gli articoli e i prezzi continuano ad aggiornare la dashboard originale ogni ora,
+        # mentre il rapporto generativo quotidiano resta immutato fino al prossimo briefing.
+        save_original(latest,previous if previous.get('status') in ('ok','partial') else None,SITE)
+        return {'status':'skipped','message':'Dashboard dati aggiornata; briefing IA già disponibile o non ancora dovuto.'}
     if not os.getenv('GEMINI_API_KEY'):
         if not previous or previous.get('status') in ('not_configured','error'):
             store(DATA/'latest_ai.json',{'status':'not_configured','date':day,'generated_at':local.isoformat(),

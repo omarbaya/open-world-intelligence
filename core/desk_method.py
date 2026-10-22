@@ -82,6 +82,21 @@ def form_research(result,documented,ids):
                       'certezza':v['etichetta'],'source_ids':v.get('fonti',[])})
     return items
 
+def validated_force_rows(items):
+    """Reject unsupported force magnitudes; only -1, 0, +1 and Forte/Debole can reach UI."""
+    good=[];errors=[]
+    for item in items if isinstance(items,list) else []:
+        if not isinstance(item,dict):continue
+        ok=True
+        for asset in ('oro','eur','sp'):
+            val=item.get(asset)
+            if not (isinstance(val,list) and len(val)==3 and isinstance(val[0],int) and not isinstance(val[0],bool)
+                    and val[0] in (-1,0,1) and val[1] in ('Forte','Debole') and isinstance(val[2],str)):
+                ok=False
+        if ok:good.append(item)
+        else:errors.append(str(item.get('forza','mappa forze')))
+    return good,errors
+
 def parse_sections(markdown):
     """Keep Markdown untouched in archive; existing dashboard needs named fields."""
     headings=re.split(r'(?m)^##\s+(?=\d+\.)',str(markdown))
@@ -104,7 +119,7 @@ def sanitize_markdown(md,evidence,local):
     return '\n'.join(clean),sorted(set(flags))
 
 def daily_packet(payload,now,history,forecaster,previous_lessons):
-    # Il lunedì la finestra si allarga dal venerdì sera; altrimenti 48 ore.
+    # On Mondays cover from Friday evening; on other days enforce the 48-hour freshness limit.
     window=72 if now.weekday()==0 else 48
     docs,excluded=recent_documents(payload.get('articles',[]),now.astimezone(timezone.utc),max_age_hours=window)
     src={a['id']:dict(a,attribution=attribution(a)) for a in docs if isinstance(a,dict) and a.get('id')}
@@ -152,10 +167,15 @@ def build_daily_method(payload, *, history=None, forecaster=None, prior_learning
     evidence=json.dumps(packet,ensure_ascii=False)
     clean_md,invalid_numbers=sanitize_markdown(original_md,evidence,now)
     chief['brief_markdown']=clean_md
+    chief['mappa_forze'],bad_forces=validated_force_rows(chief.get('mappa_forze',[]))
     verify=step('verificatore',{'draft':chief,'sources':raw_sources,'indicators':indicators,'source_date_rejections':excluded})
     if verify.get('errori'):
         # Chief is NOT silently allowed to publish factually disputed paragraphs as verified.
         chief['brief_markdown']='AVVISO: il verificatore ha trovato errori nella bozza; interpretazioni non confermate.\n\n'+chief['brief_markdown']
+    if bad_forces:
+        verify.setdefault('errori',[]).append({'testo_errato':'Mappa delle forze non conforme: '+', '.join(bad_forces[:7]),
+          'correzione':'Righe escluse (ammessi solo -1/0/+1 e Forte/Debole)', 'fonte':'validazione Python', 'gravita':'media'})
+        verify['esito']='Errori trovati'
     if invalid_numbers:
         verify.setdefault('errori',[]).append({'testo_errato':'Numeri non presenti negli input: '+', '.join(invalid_numbers[:15]),
              'correzione':'Sostituiti con n.d. automaticamente','fonte':'controllo Python','gravita':'alta'})

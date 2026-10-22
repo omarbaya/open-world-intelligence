@@ -64,12 +64,16 @@ def build_rows(payload,ai=None):
             rows.append(row('snapshot',f'feed-{i}',order=i,title=a.get('title'),category=(a.get('topics') or ['News'])[0],
                 level='Media',text='Titolo RSS pubblicato da '+a.get('source','n.d.')+'. Analisi IA non disponibile.',
                 detail='n.d.',status='Non verificato',time=a.get('published_at'),source=a.get('source'),url=a.get('url')))
+    front_scores=(payload.get('indicators',{}).get('war_escalation') or {}).get('front_scores') or {}
     for i,(key,(name,lat,lon,topic)) in enumerate(FRONTS.items(),1):
         topic_articles=[a for a in payload.get('articles',[]) if topic in a.get('topics',[])][:2]
         summary='; '.join(a['title'] for a in topic_articles) if topic_articles else 'Nessun fatto nuovo verificato.'
-        rows.append(row('front',key,order=i,title=name,lat=lat,lon=lon,value=None,prev=None,label='n.d.',
-            text=summary,detail='Tensione numerica non assegnata senza verifica indipendente.',
-            extra='Effetto di mercato: scenario condizionale, non prezzo certo.',status='Non verificato'))
+        score=front_scores.get(key)
+        if not (isinstance(score,int) and not isinstance(score,bool) and 0<=score<=100):score=None
+        rows.append(row('front',key,order=i,title=name,lat=lat,lon=lon,value=score,prev=None,
+            label='Stima IA corroborata (non prova definitiva)' if score is not None else 'n.d.',
+            text=summary,detail='Tensione stimata sulla base di almeno due testate distinte; indipendenza non dimostrata.' if score is not None else 'Tensione non stimabile senza prove sufficienti.',
+            extra='Effetto sui mercati: scenario condizionale, non segnale operativo.',status='Interpretazione IA' if score is not None else 'Non verificato'))
     market_map={'ES':'SP500','GC':'GOLD','EURUSD':'EURUSD','DXY':'DXY','VIX':'VIX','US2Y':'US2Y','US10Y':'US10Y','BRENT':'BRENT','WTI':'WTI','TTF':'TTF'}
     mk={x['id']:x for x in payload.get('markets',[])}
     for i,(id,symbol) in enumerate(market_map.items(),1):
@@ -88,10 +92,17 @@ def build_rows(payload,ai=None):
         text=lesson.get('spiegazione') or 'Una notizia RSS da sola non è una verifica indipendente.',
         detail=lesson.get('esempio_oggi') or 'n.d.',extra=lesson.get('domanda') or 'Le prove disponibili bastano?',
         catalysts=lesson.get('risposta') or 'n.d.'))
+    leanings=(ai or {}).get('brief',{}).get('inclinazione',{}) or {}
     for i,(instrument,description) in enumerate([('ES','S&P 500 · ES / MES'),('GC','Oro · GC / MGC'),('6E','Euro · 6E / M6E')],1):
-        rows.append(row('trading',instrument,order=i,title=description,category='Sessioni e orari: n.d.',
-            score=None,label='n.d.',level='n.d.',text='Solo studio: notizie attribuite e dati ritardati.',
-            detail='n.d. senza calendario macro ufficiale.',levels='Non verificati',invalidation='n.d.'))
+        proposal=leanings.get(instrument,{}) if isinstance(leanings,dict) else {}
+        score=proposal.get('rilevanza')
+        if not isinstance(score,int) or isinstance(score,bool) or not 0<=score<=10:score=None
+        label=proposal.get('studio')
+        if label not in ('Rialzista','Neutrale','Ribassista'):label='n.d.'
+        rows.append(row('trading',instrument,order=i,title=description,category='Interpretazione IA · solo studio',
+            score=score,label=label,level='Lettura IA',text=str(proposal.get('motivi') or 'n.d.; servono più dati aggiornati.'),
+            detail=str(proposal.get('rischio') or 'Scenario non validato sui mercati.')+' Non è un segnale operativo.',
+            levels='Non verificati',invalidation=str(proposal.get('invalidazione') or 'n.d.')))
     level_titles={'ES':'S&P 500 · indice cash (riferimento per ES/MES)',
        'GC':'Oro · spot XAU/USD (riferimento per GC/MGC)', '6E':'EUR/USD · cambio spot (riferimento per 6E/M6E)'}
     for sym,t in level_titles.items():
@@ -110,11 +121,28 @@ def build_rows(payload,ai=None):
     article_section('warning','limiti','Avvertenze e limiti dei dati')
     article_section('scenario','scenari_7_30_90','Scenari condizionali 7–30–90 giorni')
     article_section('change','valutazione_finale','Cosa cambia e perché')
-    # The 5 thematic 'force' columns are displayed but without invented direction.
-    for j,name in enumerate(('Geopolitica','Inflazione','Banche centrali'),1):
-        for x,label in enumerate(('Oro','EUR/USD','S&P 500'),1):
-            rows.append(row('force',f'{j}-{x}',order=j,title=name,category=label,value=0,level='Debole',
-                text='Direzione non stimabile senza input verificati.',detail='Matrice informativa, non segnale di trading.'))
+    # A model can propose forces, but Python admits only the discrete -1/0/+1 scheme.
+    force_proposals=(ai or {}).get('brief',{}).get('mappa_forze',[]) or []
+    validated=[]
+    for item in force_proposals if isinstance(force_proposals,list) else []:
+        if not isinstance(item,dict):continue
+        if all(isinstance(item.get(asset),list) and len(item[asset])==3
+               and isinstance(item[asset][0],int) and not isinstance(item[asset][0],bool)
+               and item[asset][0] in (-1,0,1) and item[asset][1] in ('Forte','Debole')
+               for asset in ('oro','eur','sp')):
+            validated.append(item)
+    if validated:
+        for j,item in enumerate(validated[:5],1):
+            for suffix,label,asset in (('oro','Oro','oro'),('eur','EUR/USD','eur'),('sp','S&P 500','sp')):
+                degree,weight,why=item[asset]
+                rows.append(row('force',f'forza{j}-{suffix}',order=j,title=str(item.get('forza','Forza')),category=label,
+                    value=degree,level=weight,text=str(item.get('fatto','n.d.'))[:800],
+                    detail=str(why)[:700],status='Lettura IA (non segnale di trading)'))
+    else:
+        for j,name in enumerate(('Geopolitica','Inflazione','Banche centrali'),1):
+            for x,label in enumerate(('Oro','EUR/USD','S&P 500'),1):
+                rows.append(row('force',f'{j}-{x}',order=j,title=name,category=label,value=0,level='Debole',
+                    text='Direzione non stimabile senza input verificati.',detail='Matrice informativa, non segnale di trading.'))
     for n,(key,name) in enumerate((('global','Globale'),('riskon','Risk-on'),('equity','Azioni'),('gold','Oro'),('eurusd','EUR/USD'),('oil','Petrolio'),('war','Guerre')),1):
         rows.append(row('sentiment',key,order=n,title='Sentiment '+name,value=None,text='n.d.',detail='Misura non disponibile senza input sufficienti.'))
     for i,a in enumerate(payload.get('articles',[])[:28],1):

@@ -107,6 +107,7 @@ def calculate_indicators(payload,geo=None,macro=None):
     conviction=ind.conviction(missing,singles,0)
     return {'global_risk':{'value':global_score,'coverage':'3/3' if global_score is not None else 'incompleto'},
             'market_stress':existing.get('market_stress',{'value':None}),
-            'war_escalation':{'value':war,'coverage':len(tensions),'note':'Tensioni IA ammesse soltanto con due evidenze; non prova di indipendenza'},
+            'war_escalation':{'value':war,'coverage':len(tensions),'note':'Tensioni IA ammesse soltanto con due testate distinte; NON prova di indipendenza',
+                              'front_scores':tensions},
             'macro_risk':{'value':macro_score,'note':'n.d. senza confronti macro ufficiali e verificati'},
             'conviction':{'value':conviction,'note':'Misura di completezza, NON probabilità di verità','missing_quotes':missing}}

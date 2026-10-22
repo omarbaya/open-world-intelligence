@@ -24,6 +24,10 @@ class MethodKitTest(unittest.TestCase):
    out=call_role('geopolitica',{},datetime(2026,10,22,12,tzinfo=timezone.utc),key='testing')
   self.assertEqual(len(out['fronti']),0)
   self.assertEqual(f.call_count,2)
+ def test_null_cot_schema_is_valid(self):
+  from jsonschema import validate
+  macro={k:({} if v is dict else None if isinstance(v,tuple) else []) for k,v in __import__('core.desk_method',fromlist=['SCHEMAS']).SCHEMAS['macro'].items()}
+  validate(macro,schema('macro'))
  def test_48_hour_window_rejects_old_articles(self):
   now=datetime(2026,10,22,9,tzinfo=timezone.utc)
   rows=[{'id':'old','published_at':(now-timedelta(hours=49)).isoformat()},
@@ -117,3 +121,22 @@ class RoleChainTest(unittest.TestCase):
   rows=build_rows({**payload,'indicators':result['indicatori_python']},result)
   self.assertTrue(all(tuple(r)==FIELDS for r in rows))
   self.assertEqual(len(rows),len({(r['section'],r['id']) for r in rows}))
+
+class DashboardAgentIntegrationTest(unittest.TestCase):
+ def test_front_and_trade_use_only_validated_values(self):
+  p={'generated_at':'2026-10-22T10:00:00Z','articles':[],'markets':[],
+     'indicators':{'market_stress':{'value':None},'war_escalation':{'value':70,'front_scores':{'gulf':70,'ru-ua':-20,'tw':150}}}}
+  ai={'brief':{'inclinazione':{'ES':{'studio':'Rialzista','rilevanza':8,'motivi':'Studio condizionale','rischio':'Alta volatilità','invalidazione':'Nuovi dati'}},
+       'mappa_forze':[{'forza':'Notizia test','fatto':'Fonte specificata','oro':[1,'Forte','Scenario condizionale'],
+                       'eur':[-1,'Debole','Condizione'], 'sp':[0,'Debole','Neutro']},
+                      {'forza':'Non valida','oro':[50,'Forte','invalid'], 'eur':[40,'Debole','invalid'], 'sp':[50,'Forte','invalid']}]},
+      'learning':{'lezione':{'titolo':'Rendimenti','spiegazione':'Test'}}}
+  rows=build_rows(p,ai)
+  idx={(r['section'],r['id']):r for r in rows}
+  self.assertEqual(idx['front','gulf']['value'],70)
+  self.assertIsNone(idx['front','ru-ua']['value'])
+  self.assertEqual(idx['trading','ES']['label'],'Rialzista')
+  self.assertEqual(idx['trading','ES']['score'],8)
+  self.assertEqual(idx['force','forza1-oro']['value'],1)
+  self.assertFalse(any(r['section']=='force' and r.get('value')==50 for r in rows))
+  self.assertEqual(idx['lesson','main']['title'],'Rendimenti')
