@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'OPEN_WORLD_INTELLIGENCE_FREE.zip'
+      - '.github/workflows/import-zip.yml'
   workflow_dispatch:
 permissions:
   contents: write
