@@ -1,0 +1,54 @@
+name: Importa OPEN WORLD dallo ZIP
+on:
+  push:
+    paths:
+      - 'OPEN_WORLD_INTELLIGENCE_FREE.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Estrai il progetto mantenendo le cartelle
+        run: |
+          python3 - <<'PY'
+          import pathlib, zipfile
+          archive = pathlib.Path("OPEN_WORLD_INTELLIGENCE_FREE.zip")
+          if not archive.is_file():
+              raise SystemExit("Carica OPEN_WORLD_INTELLIGENCE_FREE.zip nella radice del repository.")
+          prefix = "OPEN_WORLD_INTELLIGENCE_FREE/"
+          base = pathlib.Path.cwd().resolve()
+          n = 0
+          with zipfile.ZipFile(archive) as z:
+              for entry in z.infolist():
+                  if entry.is_dir() or not entry.filename.startswith(prefix):
+                      continue
+                  rel = pathlib.PurePosixPath(entry.filename[len(prefix):])
+                  if not rel.parts or any(p in ("", ".", "..") for p in rel.parts):
+                      raise SystemExit("Percorso non sicuro nello ZIP")
+                  target = (base / pathlib.Path(*rel.parts)).resolve()
+                  if not target.is_relative_to(base):
+                      raise SystemExit("Percorso fuori repository")
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with z.open(entry) as source, target.open("wb") as dest:
+                      import shutil
+                      shutil.copyfileobj(source, dest)
+                  n += 1
+          print(f"File importati: {n}")
+          if n < 20:
+              raise SystemExit("Archivio incompleto")
+          PY
+      - name: Test software
+        run: python3 -m unittest discover -s tests -v
+      - name: Salva progetto importato
+        run: |
+          git config user.name "open-world-bot"
+          git config user.email "open-world-bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Importa OPEN WORLD Intelligence Free Edition"
+            git push
+          fi
