@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0", "generated_at": null, "last_news_success": null,
+  "news_unavailable": true, "articles": [], "topics": [], "clusters": [], "alerts": [],
+  "markets": [], "warnings": ["Il progetto non è ancora stato avviato: esegui python scripts/refresh.py con accesso a Internet."],
+  "quality": {"feeds_total": 12, "feeds_ok": 0, "feeds_failed": 12, "source_coverage_pct": 0, "status": [], "articles_48h": 0},
+  "indicators": {"market_stress": {"value": null, "coverage": "0/5", "missing": []}, "war_escalation": {"value": null}, "macro_risk": {"value": null}, "global_risk": {"value": null}},
+  "forecasts": {"items": [], "brier": null, "brier_n": 0, "open": 0}
+}

@@ -1,0 +1,14 @@
+[
+  {"name":"BBC World","url":"https://feeds.bbci.co.uk/news/world/rss.xml","type":"media","region":"global"},
+  {"name":"BBC Business","url":"https://feeds.bbci.co.uk/news/business/rss.xml","type":"media","region":"macro"},
+  {"name":"The Guardian","url":"https://www.theguardian.com/world/rss","type":"media","region":"global"},
+  {"name":"Deutsche Welle","url":"https://rss.dw.com/rdf/rss-en-all","type":"media","region":"europe"},
+  {"name":"France 24","url":"https://www.france24.com/en/rss","type":"media","region":"global"},
+  {"name":"Al Jazeera","url":"https://www.aljazeera.com/xml/rss/all.xml","type":"media","region":"global"},
+  {"name":"NPR","url":"https://feeds.npr.org/1001/rss.xml","type":"media","region":"us"},
+  {"name":"Fed · Press releases","url":"https://www.federalreserve.gov/feeds/press_all.xml","type":"primary","region":"macro"},
+  {"name":"Fed · Monetary policy","url":"https://www.federalreserve.gov/feeds/press_monetary.xml","type":"primary","region":"macro"},
+  {"name":"BCE · Comunicati","url":"https://www.ecb.europa.eu/rss/press.html","type":"primary","region":"macro"},
+  {"name":"Politico Europe","url":"https://www.politico.eu/feed/","type":"media","region":"europe"},
+  {"name":"ANSA · Mondo","url":"https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml","type":"media","region":"italy"}
+]

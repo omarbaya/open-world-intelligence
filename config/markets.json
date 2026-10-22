@@ -1,0 +1,14 @@
+[
+ {"id":"SP500","name":"S&P 500","unit":"punti","source":"FRED · SP500","series":"SP500","type":"index"},
+ {"id":"VIX","name":"VIX","unit":"punti","source":"FRED · VIXCLS","series":"VIXCLS","type":"index"},
+ {"id":"EURUSD","name":"EUR/USD (fixing)","unit":"USD per EUR","source":"FRED · DEXUSEU","series":"DEXUSEU","type":"fx"},
+ {"id":"US10Y","name":"Treasury 10 anni","unit":"%","source":"FRED · DGS10","series":"DGS10","type":"rate"},
+ {"id":"US2Y","name":"Treasury 2 anni","unit":"%","source":"FRED · DGS2","series":"DGS2","type":"rate"},
+ {"id":"BRENT","name":"Brent","unit":"USD/barile","source":"FRED · DCOILBRENTEU","series":"DCOILBRENTEU","type":"commodity"},
+ {"id":"WTI","name":"WTI","unit":"USD/barile","source":"FRED · DCOILWTICO","series":"DCOILWTICO","type":"commodity"},
+ {"id":"GOLD","name":"Oro XAU/USD","unit":"USD/oncia","source":"non collegata","series":null,"type":"commodity"},
+ {"id":"DXY","name":"Dollar Index DXY","unit":"punti","source":"non collegata","series":null,"type":"index"},
+ {"id":"ES","name":"Future ES/MES","unit":"punti","source":"non collegata","series":null,"type":"future"},
+ {"id":"GC","name":"Future GC/MGC","unit":"USD/oncia","source":"non collegata","series":null,"type":"future"},
+ {"id":"6E","name":"Future 6E/M6E","unit":"USD per EUR","source":"non collegata","series":null,"type":"future"}
+]
