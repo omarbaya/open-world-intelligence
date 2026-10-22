@@ -49,13 +49,20 @@ jobs:
             git push
           fi
       - name: Configura GitHub Pages
+        id: pages
+        continue-on-error: true
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Pages non autorizzato
+        if: steps.pages.outcome == 'failure'
+        run: echo '::warning::La raccolta news è riuscita, ma Pages deve essere attivato una volta da Settings > Pages > Source > GitHub Actions.'
       - name: Prepara sito statico
+        if: steps.pages.outcome == 'success'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - name: Pubblica su GitHub Pages
+        if: steps.pages.outcome == 'success'
         id: deployment
         uses: actions/deploy-pages@v4
