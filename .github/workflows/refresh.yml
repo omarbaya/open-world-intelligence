@@ -5,6 +5,14 @@ on:
     - cron: '50 5 * * *'
     - cron: '50 6 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh.yml'
+      - 'scripts/**'
+      - 'core/**'
+      - 'site/**'
+      - 'config/**'
 permissions:
   contents: write
   pages: write
@@ -15,6 +23,9 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
@@ -39,9 +50,12 @@ jobs:
           fi
       - name: Configura GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Prepara sito statico
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - name: Pubblica su GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
