@@ -14,3 +14,6 @@
 **Qualità**: un modello IA che legge un articolo non costituisce un secondo testimone indipendente. Le etichette `riportato da...` non vengono elevate automaticamente a Verificato. Il modello non può introdurre ID/URL inesistenti. Il livello di certezza viene forzato in modo prudenziale in `verified_items`. Il riassunto potrebbe comunque contenere errori: controlla sempre la fonte.
 
 **Apprendimento**: ogni giorno l'output `learning` cita le criticità del giorno e lo storico recente. Le osservazioni vengono riutilizzate nelle richieste successive; non c'è fine-tuning, apprendimento dei parametri o modifica autonoma del codice. Le previsioni originali non vengono riscritte. Le ipotesi nuove richiedono criteri verificabili.
+
+### Aggiornamento 22 ottobre 2026: sette ruoli
+Il sistema esegue `geopolitica`, `macro`, `difesa`, `capo_desk`, `verificatore`, `apprendimento` (Insegnante) e `revisore_finale`. Prompt autonomi in `config/prompts/`. Schema JSON validato via `jsonschema` con una sola ripetizione. Verificatore automatico non è un secondo testimone della notizia. Le verifiche quantitative sono Python, il diario registra proposte, non riscrive autonomamente codice o prompt.
