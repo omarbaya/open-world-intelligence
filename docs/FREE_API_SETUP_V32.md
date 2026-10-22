@@ -15,7 +15,7 @@ Versione: 22 ottobre 2026. Zero API a pagamento, nessuna fatturazione abilitata.
 
 1. **METALS_DEV_API_KEY** · https://metals.dev/pricing · 100 richieste/mese gratis, max una richiesta ogni 25h; controllo terzo indipendente dell'oro; la verifica delle fonti si esegue solo su timestamp ravvicinati, scostamenti >0,5% risultano `conflict`, non prezzo certo.
 2. **ALPHAVANTAGE_API_KEY** · https://www.alphavantage.co/support/ · 25 richieste/giorno, modello EOD di sei società difesa e barre forex giornaliere; niente live USA. Il ticker **IA** resta deliberatamente escluso finché la società non è identificata in modo verificabile.
-3. **FMP_API_KEY** · https://site.financialmodelingprep.com/pricing-plans · piano Basic gratuito 250 richieste/giorno, alternativa alle quotazioni giornaliere di Alpha Vantage; endpoint non incluso nel piano -> `n.d.`, nessun upgrade automatico.
+3. **FMP_API_KEY** · https://site.financialmodelingprep.com/pricing-plans · piano Basic gratuito 250 richieste/giorno per test. **ATTENZIONE: il provider richiede uno specifico Data Display and Licensing Agreement per pubblicare/redistribuire dati FMP.** Il connettore non viene eseguito per un sito pubblico salvo autorizzazione verificata e impostazione esplicita `FMP_PUBLIC_DISPLAY_LICENSED=true`. Non è necessario acquistare servizi FMP: puoi lasciare la chiave assente.
 4. **FINANCECALENDAR_API_KEY** · chiave opzionale per 10.000 richieste/giorno gratuite; chiave non necessaria col ritmo configurato.
 5. **FRED_API_KEY** · https://fred.stlouisfed.org/docs/api/api_key.html · facoltativa per estendere l'API economica primaria successivamente.
 
