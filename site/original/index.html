@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="it"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OPEN WORLD — Dashboard originale Claude, edizione indipendente</title>
+<script src="./assets/d3.min.js"></script>
+<script src="./assets/dash-shim.js"></script>
+<style>body{margin:0;background:#f4f5f7;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}#dash-root{padding:16px}noscript{padding:2rem;display:block}</style>
+</head><body>
+<div id="dash-root"><p>Caricamento della dashboard originale…</p></div>
+<noscript>Attiva JavaScript per visualizzare la dashboard.</noscript>
+<script>
+fetch('./assets/original-claude-dashboard.html',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTML '+r.status);return r.text()}).then(html=>{
+  const root=document.getElementById('dash-root');root.innerHTML=html;
+  const scripts=[...root.querySelectorAll('script')];
+  scripts.forEach(el=>{const run=document.createElement('script');
+    if(el.src){run.src=el.src}else{run.textContent=el.textContent};el.replaceWith(run)});
+}).catch(err=>{document.getElementById('dash-root').textContent='Dashboard non caricata: '+err.message});
+</script></body></html>

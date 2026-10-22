@@ -1,0 +1,2085 @@
+<style>
+/* OPEN WORLD — colour language: grey = neutral, blue = favourable / rising, amber = adverse / falling / attention, red = danger only.
+   Every colour is paired with a symbol (▲ ▼ ◆ ✓ ? !) so nothing depends on colour alone. Theme follows the viewer: light by day, dark by night. */
+#dash-root { --dash-gutter: 0; }
+.ow {
+  color-scheme: light;
+  --ow-bg: #f4f5f7;
+  --ow-panel: #ffffff;
+  --ow-panel-hi: #fafbfc;
+  --ow-line: #e2e5ea;
+  --ow-line-hi: #cdd3db;
+  --ow-text: #151a21;
+  --ow-muted: #4b5563;
+  --ow-faint: #5f6a78;
+  --ow-up: #1f6fd1;          /* favourable, rising, bullish */
+  --ow-up-ink: #1f6fd1;
+  --ow-dn: #c98f00;          /* adverse, falling, bearish, attention (fill) */
+  --ow-dn-ink: #8a5f00;      /* same family for text: 4.5:1+ */
+  --ow-crit: #cc2f36;        /* danger only */
+  --ow-crit-ink: #b4262d;
+  --ow-up-wash: rgba(31, 111, 209, 0.08);
+  --ow-dn-wash: rgba(201, 143, 0, 0.12);
+  --ow-crit-wash: rgba(204, 47, 54, 0.08);
+  --ow-dot: #c9d0d9;
+  --ow-sans: var(--font-anthropic-sans, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif);
+  --ow-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .ow {
+    color-scheme: dark;
+    --ow-bg: #0e141b; --ow-panel: #151d27; --ow-panel-hi: #19222e; --ow-line: #273341; --ow-line-hi: #384757;
+    --ow-text: #e4e9ef; --ow-muted: #a9b4c1; --ow-faint: #8592a2;
+    --ow-up: #5aa9f5; --ow-up-ink: #5aa9f5; --ow-dn: #e2b341; --ow-dn-ink: #e2b341; --ow-crit: #ff6363; --ow-crit-ink: #ff6b6b;
+    --ow-up-wash: rgba(90, 169, 245, 0.10); --ow-dn-wash: rgba(226, 179, 65, 0.10); --ow-crit-wash: rgba(255, 99, 99, 0.10);
+    --ow-dot: #2a3646;
+  }
+}
+:root[data-theme="dark"] .ow {
+  color-scheme: dark;
+  --ow-bg: #0e141b; --ow-panel: #151d27; --ow-panel-hi: #19222e; --ow-line: #273341; --ow-line-hi: #384757;
+  --ow-text: #e4e9ef; --ow-muted: #a9b4c1; --ow-faint: #8592a2;
+  --ow-up: #5aa9f5; --ow-up-ink: #5aa9f5; --ow-dn: #e2b341; --ow-dn-ink: #e2b341; --ow-crit: #ff6363; --ow-crit-ink: #ff6b6b;
+  --ow-up-wash: rgba(90, 169, 245, 0.10); --ow-dn-wash: rgba(226, 179, 65, 0.10); --ow-crit-wash: rgba(255, 99, 99, 0.10);
+  --ow-dot: #2a3646;
+}
+.ow {
+  background: var(--ow-bg);
+  color: var(--ow-text);
+  font-family: var(--ow-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.ow * { box-sizing: border-box; }
+.ow-wrap { max-width: 1180px; margin-inline: auto; display: grid; gap: 32px; }
+.ow a { color: inherit; text-decoration: underline; text-decoration-color: var(--ow-line-hi); text-underline-offset: 3px; }
+.ow a:hover { text-decoration-color: currentColor; }
+.ow a:focus-visible, .ow button:focus-visible, .ow summary:focus-visible, .ow .hot:focus-visible { outline: 2px solid var(--ow-up); outline-offset: 2px; border-radius: 6px; }
+.ow-num { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; }
+.ow-eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ow-faint); }
+.ow-muted { color: var(--ow-muted); }
+.ow-faint { color: var(--ow-faint); }
+
+/* hero */
+.ow-hero { display: grid; gap: 18px; }
+.ow-hero-top { display: grid; gap: 6px; }
+.ow-hero h1 { margin: 0; font-size: clamp(24px, 4vw, 32px); line-height: 1.15; font-weight: 650; letter-spacing: -0.015em; text-wrap: balance; }
+.ow-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--ow-muted); }
+.ow-meta span { display: inline-flex; align-items: center; gap: 6px; }
+.ow-live { width: 7px; height: 7px; border-radius: 50%; background: var(--ow-faint); }
+.ow-summary { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; max-width: 70ch; }
+.ow-summary li { position: relative; padding-left: 18px; font-size: 16px; line-height: 1.5; color: var(--ow-text); }
+.ow-summary li::before { content: ""; position: absolute; left: 0; top: 0.7em; width: 8px; height: 2px; background: var(--ow-faint); }
+
+.ow-gauges { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (min-width: 760px) { .ow-gauges { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.ow-gauge { background: var(--ow-panel); border: 1px solid var(--ow-line); border-radius: 14px; padding: 14px; display: grid; gap: 8px; align-content: start; }
+.ow-gauge-name { font-size: 13px; font-weight: 600; color: var(--ow-muted); }
+.ow-gauge svg { width: 100%; max-width: 180px; height: auto; display: block; margin-inline: auto; overflow: visible; }
+.ow-gauge-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.ow-gauge-why { font-size: 12.5px; line-height: 1.45; color: var(--ow-muted); margin: 0; }
+.ow-gauge details { border-top: 1px solid var(--ow-line); padding-top: 6px; }
+.ow-gauge details p { font-size: 12.5px; line-height: 1.45; }
+
+/* colour key */
+.ow-key { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 12.5px; color: var(--ow-muted); }
+.ow-key b { font-weight: 600; color: var(--ow-text); }
+.ow-key i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+/* jump nav */
+.ow-jump { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0; scrollbar-width: none; position: sticky; top: 0; z-index: 5; background: var(--ow-bg); border-bottom: 1px solid var(--ow-line); margin-block: -8px; }
+.ow-jump::-webkit-scrollbar { display: none; }
+.ow-jump a.is-on { color: var(--ow-panel); background: var(--ow-text); border-color: var(--ow-text); }
+.ow-jump a { flex: none; font-size: 13px; color: var(--ow-muted); text-decoration: none; border: 1px solid var(--ow-line); border-radius: 999px; padding: 6px 12px; background: var(--ow-panel); }
+.ow-jump a:hover { color: var(--ow-text); border-color: var(--ow-line-hi); }
+
+/* sections */
+.ow-sec { display: grid; gap: 14px; scroll-margin-top: 60px; }
+.ow-sec-h { display: grid; gap: 2px; }
+.ow-sec-h h2 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
+.ow-sec-h p { margin: 0; font-size: 13.5px; color: var(--ow-muted); max-width: 80ch; }
+.ow-panel { background: var(--ow-panel); border: 1px solid var(--ow-line); border-radius: 14px; padding: 16px; min-width: 0; }
+.ow-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
+.ow-grid-wide { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); }
+.ow-card { background: var(--ow-panel); border: 1px solid var(--ow-line); border-radius: 14px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.ow-card h3 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+.ow-card p { margin: 0; }
+.ow-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.ow-row-between { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.ow-k { font-size: 12px; font-weight: 600; color: var(--ow-faint); }
+.ow-dl { display: grid; gap: 8px; margin: 0; }
+.ow-dl div { display: grid; gap: 1px; }
+.ow-dl dt { font-size: 12px; font-weight: 600; color: var(--ow-faint); }
+.ow-dl dd { margin: 0; color: var(--ow-text); }
+.ow-src { font-size: 12.5px; color: var(--ow-faint); }
+.ow-src a { color: var(--ow-muted); }
+
+/* chips: neutral by default; colour only where it means something */
+.ow-chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 500; line-height: 1; padding: 5px 8px; border-radius: 999px; border: 1px solid var(--ow-line-hi); color: var(--ow-muted); background: transparent; white-space: nowrap; }
+.ow-chip.is-up { color: var(--ow-up-ink); border-color: var(--ow-up); background: var(--ow-up-wash); }
+.ow-chip.is-dn { color: var(--ow-dn-ink); border-color: var(--ow-dn); background: var(--ow-dn-wash); }
+.ow-chip.is-crit { color: var(--ow-crit-ink); border-color: var(--ow-crit); background: var(--ow-crit-wash); font-weight: 600; }
+.ow-chip.is-strong { color: var(--ow-text); border-color: var(--ow-line-hi); }
+.ow-chip.is-dashed { border-style: dashed; }
+.ow-chip.is-muted { color: var(--ow-muted); }
+
+/* snapshot: importance is lightness, not hue */
+.ow-snap { position: relative; padding-left: 20px; }
+.ow-snap::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 14px; width: 3px; border-radius: 3px; background: var(--ow-line); }
+.ow-snap.lvl-alta::before { background: var(--ow-text); }
+.ow-snap.lvl-media::before { background: var(--ow-faint); }
+.ow-fc-noprob { font-size: 12.5px; color: var(--ow-faint); }
+.ow-plain { margin: 0; font-size: 14px; line-height: 1.45; color: var(--ow-text); }
+.ow-plain b { font-weight: 600; }
+.ow-gauge .ow-plain { font-size: 13.5px; }
+.ow-guide { background: var(--ow-panel); border: 1px solid var(--ow-line); border-radius: 14px; padding: 12px 16px; }
+.ow-guide summary { font-size: 14px; color: var(--ow-text); }
+.ow-guide ol { margin: 10px 0 4px; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; color: var(--ow-muted); }
+.ow-guide ol b { color: var(--ow-text); font-weight: 600; }
+.ow-gnum { display: flex; align-items: baseline; gap: 6px; }
+.ow-gnum .n { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+.ow-gnum .u { font-family: var(--ow-mono); font-size: 13px; color: var(--ow-faint); }
+.ow-zone { display: grid; gap: 4px; margin-top: 4px; }
+.ow-zone-bar { position: relative; display: grid; gap: 0; height: 10px; }
+.ow-zone-bar span + span { border-left: 2px solid var(--ow-panel); }
+.ow-zone-bar span { border-radius: 3px; background: var(--ow-line); }
+.ow-zone-bar span.on { background: var(--zc); }
+.ow-zone-mark { position: absolute; top: -5px; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 7px solid var(--ow-text); transform: translateX(-6px); }
+.ow-zone-prev { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ow-faint); transform: translateX(-1px); border-radius: 1px; }
+.ow-zone-lab { display: grid; gap: 0; font-size: 11px; color: var(--ow-faint); }
+.ow-zone-lab span { text-align: center; }
+.ow-zone-lab span.on { color: var(--ow-text); font-weight: 600; }
+.ow-implies { margin: 0; font-size: 13px; color: var(--ow-muted); }
+.ow-implies b { color: var(--ow-text); font-weight: 600; }
+.ow-forces { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+.ow-forces th { text-align: left; font-size: 12px; font-weight: 600; color: var(--ow-faint); padding: 8px 10px; border-bottom: 1px solid var(--ow-line-hi); }
+.ow-forces th.m { text-align: center; width: 22%; }
+.ow-forces td { padding: 10px; border-bottom: 1px solid var(--ow-line); vertical-align: top; }
+.ow-forces tr:last-child td { border-bottom: 0; }
+.ow-forces td.f b { display: block; font-weight: 600; }
+.ow-forces td.f span { display: block; font-size: 13px; color: var(--ow-muted); margin-top: 2px; }
+.ow-fx { display: grid; gap: 3px; justify-items: center; text-align: center; }
+.ow-fx .a { font-size: 13px; font-weight: 700; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--ow-line-hi); color: var(--ow-muted); white-space: nowrap; }
+.ow-fx .a.up { color: var(--ow-up-ink); border-color: var(--ow-up); background: var(--ow-up-wash); }
+.ow-fx .a.dn { color: var(--ow-dn-ink); border-color: var(--ow-dn); background: var(--ow-dn-wash); }
+.ow-fx .w { font-size: 12px; color: var(--ow-muted); line-height: 1.35; }
+.ow-forces-box { overflow-x: auto; }
+@media (max-width: 640px) {
+  .ow-forces thead { display: none; }
+  .ow-forces, .ow-forces tbody { display: block; }
+  .ow-forces tr { border-bottom: 1px solid var(--ow-line); padding: 10px 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 6px; }
+  .ow-forces tr:last-child { border-bottom: 0; }
+  .ow-forces td { display: block; border: 0; padding: 0; }
+  .ow-forces td.f { grid-column: 1 / -1; }
+  .ow-forces td.mk::before { content: attr(data-m); display: block; text-align: center; font-size: 11.5px; font-weight: 600; color: var(--ow-faint); margin-bottom: 4px; }
+  .ow-fx .a { font-size: 12px; padding: 3px 6px; }
+  .ow-fx .w { font-size: 11.5px; }
+}
+.ow-chart { position: relative; }
+.ow-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ow-chart text { font-family: var(--ow-sans); }
+.ow-chart .tick { fill: var(--ow-faint); font-size: 11px; }
+.ow-chart .lab { fill: var(--ow-text); font-size: 13px; font-weight: 600; }
+.ow-chart .val { fill: var(--ow-text); font-size: 13px; font-family: var(--ow-mono); font-weight: 700; }
+.ow-chart .band-l { fill: var(--ow-faint); font-size: 10.5px; }
+.ow-tip { position: absolute; pointer-events: none; background: var(--ow-panel); border: 1px solid var(--ow-line-hi); border-radius: 8px; padding: 6px 8px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.12); white-space: nowrap; z-index: 3; }
+.ow-tip b { font-weight: 600; }
+.ow-trend { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); }
+.ow-trend .ow-card h3 { font-size: 14px; }
+.ow-next { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--ow-panel); border: 1px solid var(--ow-line); border-left: 3px solid var(--ow-dn); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.ow-next[hidden], .ow-tip[hidden] { display: none !important; }
+.ow-next .t { font-family: var(--ow-mono); font-weight: 700; }
+.ow-table tr.is-high td { background: var(--ow-dn-wash); }
+.ow-gloss { display: grid; gap: 10px 24px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin: 0; }
+.ow-gloss div { display: grid; gap: 2px; }
+.ow-gloss dt { font-weight: 600; }
+.ow-gloss dd { margin: 0; color: var(--ow-muted); font-size: 14px; }
+.ow-impact { color: var(--ow-muted); font-size: 14px; }
+.ow-impact b { color: var(--ow-text); font-weight: 600; }
+
+/* map */
+.ow-map { position: relative; }
+.ow-map svg { display: block; width: 100%; height: auto; }
+.ow-map .dots { fill: var(--ow-dot); }
+.ow-map .grat { stroke: var(--ow-line); stroke-width: 1; stroke-dasharray: 2 4; fill: none; }
+.ow-map .grat-l { fill: var(--ow-faint); font-family: var(--ow-mono); font-size: 10px; paint-order: stroke; stroke: var(--ow-panel); stroke-width: 4px; stroke-linejoin: round; }
+.ow-map .hot { cursor: pointer; }
+.ow-map .hot .core { fill: var(--ow-panel); stroke-width: 2.5; }
+.ow-map .hot text { fill: var(--ow-text); font-family: var(--ow-mono); font-size: 11px; font-weight: 700; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.ow-map .hot .ring { fill: none; stroke-width: 1.5; opacity: 0; transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: no-preference) {
+  /* a few pulses on load, only on fronts that are escalating, then stillness */
+  .ow-map .hot.is-rising .ring { animation: ow-pulse 2.4s ease-out 3; }
+  @keyframes ow-pulse { 0% { transform: scale(0.7); opacity: 0.6; } 100% { transform: scale(1.8); opacity: 0; } }
+}
+.ow-legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.ow-front.is-hl { border-color: var(--ow-text); box-shadow: 0 0 0 1px var(--ow-text) inset; }
+.ow-badge { flex: none; display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; font-family: var(--ow-mono); font-size: 12px; font-weight: 700; color: var(--ow-text); background: var(--ow-panel); border: 2.5px solid var(--ow-line-hi); }
+.ow-meter { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; }
+.ow-meter-track { height: 6px; border-radius: 6px; background: var(--ow-line); overflow: hidden; }
+.ow-meter-fill { height: 100%; border-radius: 6px; }
+
+/* markets */
+.ow-mkt-val { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.ow-mkt-val .v { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+.ow-mkt-val .c { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; font-size: 13.5px; font-weight: 600; }
+.ow-up { color: var(--ow-up-ink); }
+.ow-down { color: var(--ow-dn-ink); }
+.ow-flat { color: var(--ow-muted); }
+.ow-spark { height: 36px; }
+.ow-spark svg { display: block; width: 100%; height: 36px; }
+.ow-spark-note { font-size: 12px; color: var(--ow-faint); height: 36px; display: flex; align-items: center; border: 1px dashed var(--ow-line); border-radius: 8px; padding: 0 10px; }
+.ow details { border-top: 1px solid var(--ow-line); padding-top: 8px; }
+.ow summary { cursor: pointer; font-size: 12.5px; font-weight: 600; color: var(--ow-muted); list-style: none; }
+.ow summary::-webkit-details-marker { display: none; }
+.ow summary::before { content: "+ "; color: var(--ow-faint); }
+.ow details[open] summary::before { content: "− "; }
+.ow details p { margin: 6px 0 0; color: var(--ow-muted); }
+
+/* trading */
+.ow-score { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; width: 110px; }
+.ow-score i { height: 8px; border-radius: 2px; background: var(--ow-line); }
+.ow-score i.on { background: var(--ow-text); }
+
+/* tables */
+.ow-tablebox { overflow-x: auto; border: 1px solid var(--ow-line); border-radius: 14px; background: var(--ow-panel); }
+.ow-table { width: 100%; border-collapse: collapse; min-width: 760px; font-size: 14px; }
+.ow-table th { text-align: left; font-size: 12px; font-weight: 600; color: var(--ow-faint); padding: 10px 12px; border-bottom: 1px solid var(--ow-line-hi); white-space: nowrap; }
+.ow-table td { padding: 10px 12px; border-bottom: 1px solid var(--ow-line); vertical-align: top; }
+.ow-table tbody tr:hover td { background: var(--ow-panel-hi); }
+.ow-table tr:last-child td { border-bottom: 0; }
+.ow-table td.t { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
+.ow-table tr.is-done td { color: var(--ow-faint); }
+
+/* sentiment: diverging blue ↔ amber around a grey zero */
+.ow-sent { display: grid; gap: 16px; }
+.ow-sent-row { display: grid; gap: 6px; }
+.ow-sent-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.ow-sent-head b { font-weight: 600; }
+.ow-sent-val { font-family: var(--ow-mono); font-variant-numeric: tabular-nums; font-size: 15px; font-weight: 700; }
+.ow-div { position: relative; height: 8px; border-radius: 8px; background: var(--ow-line); }
+.ow-div::after { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--ow-faint); }
+.ow-div span { position: absolute; top: 0; bottom: 0; border-radius: 8px; }
+.ow-sent-txt { font-size: 13px; color: var(--ow-muted); margin: 0; }
+.ow-scale { display: flex; justify-content: space-between; font-family: var(--ow-mono); font-size: 11px; color: var(--ow-faint); }
+
+/* scenarios */
+.ow-tabs { display: inline-flex; gap: 4px; padding: 4px; border: 1px solid var(--ow-line); border-radius: 999px; background: var(--ow-panel); justify-self: start; }
+.ow-tabs button { font: inherit; font-size: 13px; color: var(--ow-muted); background: transparent; border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.ow-tabs button[aria-pressed="true"] { background: var(--ow-text); color: var(--ow-panel); font-weight: 600; }
+.ow-scen-cols { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.ow-scen-col { border: 1px solid var(--ow-line); border-top-width: 3px; border-radius: 10px; padding: 10px; display: grid; gap: 4px; align-content: start; }
+.ow-scen-col.base { border-top-color: var(--ow-faint); }
+.ow-scen-col.pos { border-top-color: var(--ow-up); }
+.ow-scen-col.neg { border-top-color: var(--ow-dn); }
+
+/* warnings */
+.ow-warn-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: w; }
+.ow-warn-list li { counter-increment: w; display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; }
+.ow-warn-list li::before { content: counter(w); display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--ow-line-hi); color: var(--ow-muted); font-family: var(--ow-mono); font-weight: 700; }
+.ow-warn-list li:first-child::before { border-color: var(--ow-dn); color: var(--ow-dn-ink); background: var(--ow-dn-wash); }
+
+/* forecasts */
+.ow-prob { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+
+/* sources */
+.ow-src-groups { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.ow-src-groups ul { margin: 6px 0 0; padding-left: 16px; display: grid; gap: 4px; font-size: 13.5px; }
+
+.ow-foot { border-top: 1px solid var(--ow-line); padding-top: 14px; font-size: 12.5px; color: var(--ow-faint); display: grid; gap: 4px; }
+.ow-state { font-size: 13px; color: var(--ow-muted); display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 80px; border: 1px dashed var(--ow-line); border-radius: 14px; }
+.ow-state .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ow-crit); }
+.ow [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+@media (max-width: 560px) {
+  #ow-markets { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .ow-mkt { padding: 12px; gap: 6px; }
+  .ow-mkt h3 { font-size: 14px; }
+  .ow-mkt .ow-mkt-cat { display: none; }
+  .ow-mkt .ow-mkt-val { gap: 2px 8px; }
+  .ow-mkt .ow-mkt-val .v { font-size: 18px; }
+  .ow-mkt .ow-mkt-val .c { font-size: 12px; }
+  .ow-mkt .ow-spark, .ow-mkt .ow-spark svg { height: 26px; }
+  .ow-mkt .ow-chip { font-size: 11px; padding: 4px 6px; }
+  .ow-mkt .ow-src { font-size: 11.5px; }
+}
+@media (max-width: 520px) {
+  .ow { font-size: 15px; }
+  .ow-hero h1 { font-size: 24px; }
+  .ow-summary li { font-size: 15.5px; }
+}
+
+/* ---- diario ---- */
+.ow-diary { display: grid; gap: 14px; }
+.ow-diary-rows { display: grid; gap: 10px; }
+.ow-diary-row { display: grid; grid-template-columns: minmax(90px, 140px) 1fr; align-items: center; gap: 8px 12px; }
+.ow-diary-row > b { font-size: 14px; font-weight: 600; }
+.ow-seg { display: inline-flex; border: 1px solid var(--ow-line-hi); border-radius: 999px; overflow: hidden; width: max-content; max-width: 100%; }
+.ow-seg button { font: inherit; font-size: 13px; padding: 7px 12px; border: 0; background: transparent; color: var(--ow-muted); cursor: pointer; min-height: 36px; }
+.ow-seg button + button { border-left: 1px solid var(--ow-line-hi); }
+.ow-seg button[aria-pressed="true"].v-up { background: var(--ow-up-wash); color: var(--ow-up-ink); font-weight: 600; box-shadow: inset 0 0 0 2px var(--ow-up); }
+.ow-seg button[aria-pressed="true"].v-dn { background: var(--ow-dn-wash); color: var(--ow-dn-ink); font-weight: 600; box-shadow: inset 0 0 0 2px var(--ow-dn); }
+.ow-seg button[aria-pressed="true"].v-flat { background: var(--ow-panel-hi); color: var(--ow-text); font-weight: 600; box-shadow: inset 0 0 0 2px var(--ow-line-hi); }
+.ow-seg button:disabled { cursor: default; opacity: .7; }
+.ow-diary input[type="text"] { font: inherit; font-size: 14px; width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--ow-line-hi); background: var(--ow-panel-hi); color: var(--ow-text); }
+.ow-btn { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--ow-text); background: var(--ow-text); color: var(--ow-panel); cursor: pointer; }
+.ow-btn:disabled { opacity: .5; cursor: default; }
+.ow-btn.is-ghost { background: transparent; color: var(--ow-text); border-color: var(--ow-line-hi); }
+.ow-score-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.ow-hit { display: grid; gap: 4px; }
+.ow-hit .big { font-size: 26px; font-weight: 650; font-family: var(--font-anthropic-serif, Georgia, serif); }
+.ow-hitbar { height: 8px; border-radius: 4px; background: var(--ow-line); overflow: hidden; }
+.ow-hitbar i { display: block; height: 100%; background: var(--ow-text); }
+.ow-dtable { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.ow-dtable th { text-align: left; font-size: 12px; font-weight: 600; color: var(--ow-faint); padding: 6px 8px; border-bottom: 1px solid var(--ow-line-hi); }
+.ow-dtable td { padding: 7px 8px; border-bottom: 1px solid var(--ow-line); }
+.ow-ok { color: var(--ow-up-ink); font-weight: 700; }
+.ow-ko { color: var(--ow-dn-ink); font-weight: 700; }
+
+/* ---- lezione ---- */
+.ow-lesson { display: grid; gap: 12px; border-left: 3px solid var(--ow-up); }
+.ow-lesson h3 { font-size: 18px; }
+.ow-lesson .ex { background: var(--ow-panel-hi); border: 1px solid var(--ow-line); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.ow-lesson .q { font-weight: 600; }
+.ow-lesson details summary { cursor: pointer; font-size: 14px; color: var(--ow-up-ink); font-weight: 600; }
+.ow-lesson details p { margin-top: 8px; }
+
+/* ---- livelli ---- */
+.ow-lvl dl { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; margin: 0; font-size: 14px; }
+.ow-lvl dt { color: var(--ow-muted); }
+.ow-lvl dd { margin: 0; text-align: right; font-family: var(--ow-mono); font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.ow-lvl dd.nd { color: var(--ow-faint); font-weight: 400; }
+.ow-range { margin-top: 4px; }
+.ow-range svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ow-range text { font-family: var(--ow-sans); font-size: 11px; fill: var(--ow-faint); }
+
+/* ---- orologio ---- */
+.ow-clock svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ow-clock text { font-family: var(--ow-sans); }
+.ow-clock .lab { fill: var(--ow-text); font-size: 12.5px; font-weight: 600; }
+.ow-clock .tick { fill: var(--ow-faint); font-size: 11px; }
+.ow-clock-note { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--ow-muted); margin-top: 8px; }
+
+/* ---- prossime settimane ---- */
+.ow-up-list { display: grid; gap: 14px; }
+.ow-up-week h3 { margin: 0 0 6px; font-size: 13px; font-weight: 600; color: var(--ow-faint); text-transform: uppercase; letter-spacing: .04em; }
+.ow-up-item { display: grid; grid-template-columns: 74px 1fr; gap: 4px 12px; padding: 10px 0; border-top: 1px solid var(--ow-line); }
+.ow-up-item .d { font-family: var(--ow-mono); font-size: 13px; font-weight: 700; }
+.ow-up-item .d small { display: block; font-family: var(--ow-sans); font-weight: 400; color: var(--ow-faint); font-size: 11.5px; }
+.ow-up-item .t { font-weight: 600; }
+.ow-up-item p { margin: 2px 0 0; font-size: 13.5px; color: var(--ow-muted); }
+
+/* ---- COT ---- */
+.ow-cot .ow-chart svg { max-height: 70px; }
+.ow-cot .net { font-family: var(--ow-mono); font-size: 20px; font-weight: 700; }
+
+/* ---- correlazione ---- */
+.ow-corr { --c-gold: #eb6834; --c-usd: #6250d6; --c-y: #1baf7a; }
+@media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) .ow-corr { --c-gold: #d95926; --c-usd: #9085e9; --c-y: #199e70; } }
+:root[data-theme="dark"] .ow-corr { --c-gold: #d95926; --c-usd: #9085e9; --c-y: #199e70; }
+.ow-corr-key { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--ow-muted); }
+.ow-corr-key i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: 3px; }
+@media (max-width: 640px) {
+  .ow-diary-row { grid-template-columns: 1fr; }
+  .ow-seg button { padding: 7px 10px; }
+}
+
+@media (forced-colors: active) {
+  .ow-meter-fill, .ow-div span, .ow-score i.on { background: CanvasText !important; }
+}
+</style>
+
+
+<div class="ow" id="ow">
+  <div class="ow-wrap">
+    <header class="ow-hero" id="top">
+      <div class="ow-hero-top">
+        <div class="ow-eyebrow">OPEN WORLD · Situation Room</div>
+        <h1 id="ow-title" class="dash-skeleton" data-source="oggi" data-field="title" data-where="section=header&amp;id=main">—</h1>
+        <div class="ow-meta">
+          <span><i class="ow-live" aria-hidden="true"></i><span id="ow-time" data-source="oggi" data-field="time" data-where="section=header&amp;id=main">—</span></span>
+          <span>Aggiornamento quotidiano alle 8:50 (ora di Atene)</span>
+          <span><span id="ow-cov-k">Copertura:</span> <span id="ow-coverage" data-source="oggi" data-field="detail" data-where="section=header&amp;id=main">—</span></span>
+        </div>
+      </div>
+      <ul class="ow-summary dash-skeleton" id="ow-summary" data-source="oggi"></ul>
+      <details class="ow-guide" id="guida">
+        <summary>Nuovo qui? Come leggere questa pagina in un minuto</summary>
+        <ol>
+          <li><b>Le tre frasi qui sopra</b> dicono cosa è successo di più importante nelle ultime 24 ore.</li>
+          <li><b>I quattro indicatori</b> qui sotto misurano la giornata da 0 a 100: la barra mostra in quale fascia siamo (basso, medio, alto, molto alto) e la tacca grigia dove eravamo ieri.</li>
+          <li><b>La mappa delle forze</b> mostra chi spinge oro, euro e borsa americana, su o giù, e perché.</li>
+          <li><b>Notizie, fronti e mercati</b> danno i dettagli, ognuno con la sua spiegazione «Per i mercati».</li>
+          <li><b>I colori</b> hanno sempre lo stesso significato: blu favorevole o in salita, ambra contro o in discesa, rosso solo per il pericolo, grigio neutro.</li>
+          <li><b>Per allenarti:</b> prima di leggere compila il <a href="#diario">diario</a>, poi leggi la <a href="#lezione">lezione del giorno</a>. In fondo trovi livelli, orologio dei mercati, le prossime settimane e cosa fanno i grandi speculatori.</li>
+          <li>Una parola che non conosci? È spiegata in fondo, nelle <a href="#glossario">Parole chiave</a>.</li>
+        </ol>
+      </details>
+      <div class="ow-gauges" id="ow-gauges" data-source="oggi storico"></div>
+      <div class="ow-key" role="note" aria-label="Legenda dei colori"><span><i style="background:var(--ow-up)"></i><b>Blu</b> favorevole, in salita ▲</span><span><i style="background:var(--ow-dn)"></i><b>Ambra</b> sfavorevole, in discesa ▼, attenzione</span><span><i style="background:var(--ow-crit)"></i><b>Rosso</b> solo pericolo</span><span><i style="background:var(--ow-line-hi)"></i><b>Grigio</b> neutro</span></div>
+    </header>
+
+    <nav class="ow-jump" aria-label="Sezioni">
+      <a href="#diario" data-go="diario">Diario</a>
+      <a href="#snapshot" data-go="snapshot">Notizie</a>
+      <a href="#lezione" data-go="lezione">Lezione</a>
+      <a href="#forze" data-go="forze">Forze</a>
+      <a href="#fronti" data-go="fronti">Fronti</a>
+      <a href="#mercati" data-go="mercati">Mercati</a>
+      <a href="#livelli" data-go="livelli">Livelli</a>
+      <a href="#trading" data-go="trading">Trading</a>
+      <a href="#agenda" data-go="agenda">Agenda</a>
+      <a href="#settimane" data-go="settimane">Settimane</a>
+      <a href="#operatori" data-go="operatori">Speculatori</a>
+      <a href="#sentiment" data-go="sentiment">Sentiment</a>
+      <a href="#scenari" data-go="scenari">Scenari</a>
+      <a href="#allerte" data-go="allerte">Allerte</a>
+      <a href="#cambiamenti" data-go="cambiamenti">Da ieri</a>
+      <a href="#andamento" data-go="andamento">Andamento</a>
+      <a href="#difesa" data-go="difesa">Difesa</a>
+      <a href="#previsioni" data-go="previsioni">Previsioni</a>
+      <a href="#glossario" data-go="glossario">Parole chiave</a>
+      <a href="#fonti" data-go="fonti">Fonti</a>
+    </nav>
+
+    <section class="ow-sec" id="diario">
+      <div class="ow-sec-h"><h2>Il tuo diario di lettura</h2><p>Prima di leggere il brief, scegli cosa pensi che faranno oggi oro, euro e borsa USA, con una riga sul perché. Il giorno dopo la pagina confronta la tua lettura con quella dell'agente e con il movimento reale. È un allenamento: conta il ragionamento, non indovinare.</p></div>
+      <div class="ow-panel ow-diary" id="ow-diary" data-source="storico"></div>
+    </section>
+
+    <section class="ow-sec" id="snapshot">
+      <div class="ow-sec-h"><h2>Le notizie che contano oggi</h2><p>Dalla più importante. Ogni scheda dice cosa è successo, cosa può cambiare per i mercati e quanto è sicura la notizia (✓ verificata, ≈ dichiarazione di una parte, ? non verificata).</p></div>
+      <div class="ow-grid" id="ow-snapshot" data-source="oggi"></div>
+    </section>
+
+
+    <section class="ow-sec" id="lezione">
+      <div class="ow-sec-h"><h2>La lezione di oggi</h2><p>Un concetto al giorno, preso dalle notizie di oggi: spiegazione, esempio reale e una domanda per verificare di averlo capito.</p></div>
+      <div id="ow-lesson" data-source="oggi"></div>
+    </section>
+    <section class="ow-sec" id="forze">
+      <div class="ow-sec-h"><h2>Mappa delle forze</h2><p>Le forze che oggi spingono i tre mercati che studi. ▲ sostiene il prezzo, ▼ lo frena, ◆ effetto neutro; due frecce vogliono dire effetto forte. È una lettura dell'agente basata su meccanismi noti, non un segnale.</p></div>
+      <div class="ow-panel ow-forces-box"><table class="ow-forces" id="ow-forces" data-source="oggi"></table></div>
+    </section>
+
+    <section class="ow-sec" id="fronti">
+      <div class="ow-sec-h"><h2>Fronti aperti</h2><p>Quanto è tesa ogni crisi, da 0 a 100: fino a 40 calma o piccoli incidenti, 41–60 guerra stabile, 61–80 escalation, oltre 80 escalation grave. La tacca grigia è il valore di ieri.</p></div>
+      <div class="ow-panel"><div class="ow-chart" id="ow-front-rank" data-source="oggi"></div></div>
+      <div class="ow-panel">
+        <div class="ow-map" id="ow-map" data-source="oggi"></div>
+        <div class="ow-legend" aria-label="Legenda della tensione">
+          <span class="ow-chip is-crit">! 81–100 escalation maggiore</span>
+          <span class="ow-chip is-dn">61–80 escalation</span>
+          <span class="ow-chip is-strong">41–60 conflitto attivo</span>
+          <span class="ow-chip">0–40 calma o incidenti</span>
+        </div>
+      </div>
+      <div class="ow-grid" id="ow-fronts" data-source="oggi"></div>
+    </section>
+
+    <section class="ow-sec" id="mercati">
+      <div class="ow-sec-h"><h2>Mercati</h2><p>Prezzo più recente, variazione dalla chiusura precedente e una frase su cosa significa. La linea mostra i giorni precedenti. Il colore della variazione indica solo se il prezzo sale o scende; l'inclinazione è una lettura dell'agente, non un segnale.</p></div>
+      <div class="ow-grid" id="ow-markets" data-source="oggi storico"></div>
+    </section>
+
+
+    <section class="ow-sec" id="livelli">
+      <div class="ow-sec-h"><h2>Livelli di riferimento</h2><p>I prezzi che molti operatori guardano: massimo, minimo e chiusura di ieri e della settimana. Sono fatti, non segnali. La barra mostra dove ha chiuso il prezzo dentro l'escursione di ieri: vicino al massimo vuol dire che a fine giornata comandavano i compratori, vicino al minimo i venditori. «n.d.» vuol dire che non c'è un dato verificato.</p></div>
+      <div class="ow-grid" id="ow-levels" data-source="oggi"></div>
+    </section>
+    <section class="ow-sec" id="trading">
+      <div class="ow-sec-h"><h2>ES/MES, GC/MGC, 6E/M6E</h2><p>Cosa osservare oggi su questi mercati, a scopo di studio: nessun ingresso, stop o target.</p></div>
+      <div class="ow-grid-wide" id="ow-trading" data-source="oggi"></div>
+    </section>
+
+    <section class="ow-sec" id="agenda">
+      <div class="ow-sec-h"><h2>Agenda di oggi, ora di Atene</h2><p>Gli eventi che possono muovere i prezzi. Le righe colorate hanno impatto alto: lì il mercato può muoversi di colpo. «Atteso» è la previsione degli analisti: se il dato esce molto diverso, il mercato reagisce.</p></div>
+
+      <div class="ow-panel ow-clock" id="ow-clock-box">
+        <div class="ow-k">Orologio dei mercati, ora di Atene</div>
+        <div id="ow-clock" data-source="oggi"></div>
+        <div class="ow-clock-note" id="ow-clock-note"></div>
+      </div>
+      <div class="ow-next" id="ow-next" hidden></div>
+      <div class="ow-tablebox">
+        <table class="ow-table" id="ow-calendar" data-source="oggi" data-row-key="section,id">
+          <thead><tr>
+            <th data-field="time">Ora</th><th data-field="title">Evento</th><th data-field="text">Atteso</th><th data-field="detail">Precedente</th><th data-field="extra">Uscito</th><th data-field="level">Impatto</th><th data-field="category">Mercati</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <section class="ow-sec" id="settimane">
+      <div class="ow-sec-h"><h2>Le prossime settimane</h2><p>Gli appuntamenti dei prossimi 30 giorni che possono muovere i mercati, comprese le scadenze delle previsioni dell'agente. ●●● impatto alto, ●●○ medio, ●○○ basso; sulla linea, i pallini pieni più grandi sono quelli ad alto impatto. «Da confermare» vuol dire che la data non è ancora ufficiale.</p></div>
+      <div class="ow-panel"><div class="ow-chart" id="ow-up-strip" data-source="oggi"></div></div>
+      <div class="ow-panel"><div class="ow-up-list" id="ow-upcoming" data-source="oggi"></div></div>
+    </section>
+
+    <section class="ow-sec" id="operatori">
+      <div class="ow-sec-h"><h2>Cosa fanno i grandi speculatori</h2><p>Ogni venerdì l'autorità USA dei future (CFTC) pubblica quanti contratti hanno comprato o venduto i grandi speculatori, con i dati del martedì precedente. «Netti lunghi» vuol dire che scommettono più sul rialzo, «netti corti» sul ribasso. La barra mostra la posizione di questa settimana; la tacca grigia quella della settimana prima.</p></div>
+      <div class="ow-grid" id="ow-cot" data-source="oggi"></div>
+    </section>
+    <section class="ow-sec" id="sentiment">
+      <div class="ow-sec-h"><h2>Sentiment dell'agente</h2><p>Da −100 a +100. Sopra zero il vento è a favore di quel mercato, sotto zero è contro; per «Rischio guerre» più alto vuol dire più pericolo. Calcolato con le regole fisse in Come funziona.</p></div>
+      <div class="ow-panel ow-sent" id="ow-sentiment" data-source="oggi storico"></div>
+    </section>
+
+    <section class="ow-sec" id="scenari">
+      <div class="ow-sec-h"><h2>Scenari</h2><p>Cosa può succedere nei prossimi 7, 30 e 90 giorni: lo scenario più probabile (base), il migliore (favorevole) e il peggiore (avverso), con la notizia che farebbe cambiare idea.</p></div>
+      <div class="ow-tabs" id="ow-scen-tabs" role="group" aria-label="Orizzonte"></div>
+      <div class="ow-grid-wide" id="ow-scenarios" data-source="oggi"></div>
+    </section>
+
+    <section class="ow-sec" id="allerte">
+      <div class="ow-sec-h"><h2>Da monitorare nelle prossime 24–72 ore</h2><p>Le cinque cose da tenere d'occhio, dalla più importante, con cosa potrebbero cambiare sui mercati.</p></div>
+      <div class="ow-panel"><ol class="ow-warn-list" id="ow-warnings" data-source="oggi"></ol></div>
+    </section>
+
+    <section class="ow-sec" id="cambiamenti">
+      <div class="ow-sec-h"><h2>Cosa è cambiato da ieri</h2><p>Cosa abbiamo imparato rispetto a ieri: letture nuove (●), confermate (✓), rafforzate (↑), indebolite (↓) o da rivedere (!).</p></div>
+      <div class="ow-grid" id="ow-changes" data-source="oggi"></div>
+    </section>
+
+    <section class="ow-sec" id="andamento">
+      <div class="ow-sec-h"><h2>Andamento degli indicatori</h2><p>Come sono cambiati i quattro indicatori giorno per giorno. Le fasce colorate sono le zone alta e molto alta. Più giorni passano, più la linea diventa utile.</p></div>
+      <div class="ow-trend" id="ow-trend" data-source="storico"></div>
+
+      <article class="ow-card ow-corr" id="ow-corr-card">
+        <h3>Oro, dollaro e rendimenti insieme</h3>
+        <p class="ow-plain">I tre prezzi riportati a 100 il primo giorno, per vederli sulla stessa scala. Di solito l'oro va in direzione opposta a dollaro e rendimenti: quando non succede, sta accadendo qualcosa di insolito.</p>
+        <div class="ow-corr-key"><span><i style="background:var(--c-gold)"></i>Oro</span><span><i style="background:var(--c-usd)"></i>Dollaro (DXY)</span><span><i style="background:var(--c-y)"></i>Rendimento Treasury 10 anni</span></div>
+        <div class="ow-chart" id="ow-corr" data-source="storico"></div>
+      </article>
+
+    </section>
+
+    <section class="ow-sec" id="difesa">
+      <div class="ow-sec-h"><h2>Titoli della difesa seguiti</h2><p>Solo le novità rilevanti. La valutazione è dell'agente, non un consiglio d'acquisto.</p></div>
+      <div class="ow-grid" id="ow-defense" data-source="oggi"></div>
+      <div class="ow-row" id="ow-defense-quiet"></div>
+    </section>
+
+    <section class="ow-sec" id="previsioni">
+      <div class="ow-sec-h"><h2>Previsioni aperte</h2><p>Previsioni verificabili dell'agente, ognuna con una probabilità e una data. Alla scadenza si controlla se era giusta: così si misura quanto fidarsi delle sue stime.</p></div>
+      <div class="ow-grid-wide" id="ow-forecasts" data-source="oggi"></div>
+    </section>
+
+    <section class="ow-sec" id="glossario">
+      <div class="ow-sec-h"><h2>Parole chiave</h2><p>I termini tecnici usati oggi, spiegati in una riga.</p></div>
+      <div class="ow-panel"><dl class="ow-gloss" id="ow-glossary" data-source="oggi"></dl></div>
+    </section>
+
+    <section class="ow-sec" id="fonti">
+      <div class="ow-sec-h"><h2>Fonti principali</h2></div>
+      <div class="ow-panel"><div class="ow-src-groups" id="ow-sources" data-source="oggi"></div></div>
+    </section>
+
+    <footer class="ow-foot">
+      <span>Informazione, non consulenza finanziaria. Nessun segnale operativo.</span>
+      <span>Testo completo e registro: <a href="https://claude.ai/code/artifact/4ec1e025-7bdb-4332-a7e0-29309824ec77" target="_blank" rel="noopener">OPEN WORLD – Intelligence Desk</a></span>
+    </footer>
+  </div>
+</div>
+
+<script>
+(() => {
+  const MASK = {"lonMin":-25,"lonMax":150,"latMin":-12,"latMax":68,"step":1.5,"cols":117,"rows":53,"hex":"0000001ffff27fffbffffffffffff8|5e00007f7f0ffffffffffffffffff8|3c0000fe7fbffffffffffffffffff8|000007f9fffffffffffffffffffff8|00000ff1fffffffffffffffffffff8|000007f80ffffffffffffffffffff8|000404f17ffffffffffffffffffc00|00060371fffffffffffffffffff800|000703a1ffffffffffffffffffe000|003983fffffffffffffffffffff400|0033cfffffffffffffffffffffff00|00033ffffffffffffffffffffffd00|0000fffffffffffffffffffffffd00|0003fffffffffffffffffffffffd00|0000fffffb3f8ffffffffffffff900|0000ff9ff13f1ffffffffffffff100|001fe8cfe00f1fffffffffffffc1c0|001fe263e30f87fffffffffffe0000|001f8213bfffcfffffffffffbc0200|003f80111fff87fffffffffe0c0200|001e00211fffc7ffffffffff460600|0000ff00007fffffffffffff861e00|000ffe0000ffffffffffffff80b000|041fffc100ffffffffffffff838000|003ffff3e5ffffffffffffffc00000|003fffffffffbfffffffffffc00000|047fffffffff9fffffffffff800000|00fffffffe7fc9ffffffffff000000|01ffffffff7fc047ffffffff000000|03ffffffff3ffe03fffffffe400000|03ffffffff9fff81fffbfff0000000|03ffffffff9fff007fe3ff00000000|03ffffffffcffe007f81fe40000000|03ffffffffc7fc007f00ff00400000|03ffffffffe7f0003e01bf80400000|07fffffffff7c0003c003f80400000|07fffffffffe00003c002fc0400000|03fffffffff820001c022780000000|01ffffffffffe0001c002300000000|00ffffffffffc0000a002000080000|007fffffffffc00002001000100000|003f8fffffff800000000803000000|000001ffffff800000004c06000000|000001ffffff00000000ac1e000000|000001fffffc00000000587f400000|000001fffff8000000001c7e800000|000001fffff0000000000c3cc15800|000000ffffe0000000000e1cc37f00|0000007fffe0000000000200800fc0|0000007fffe00000000001800007e8|0000007fffe00000000000380007e0|0000007fffe0000000000000100010|0000003ffff0000000000000000000"};
+  const MONTHS = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
+  const MINUS = '−';
+  const $ = (id) => document.getElementById(id);
+  let scenHorizon = null;
+  let firstDraw = true;
+
+  const el = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = String(text);
+    return e;
+  };
+  const svgEl = (tag, attrs) => {
+    const e = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    if (attrs) {
+      if (attrs.style) e.setAttribute('style', attrs.style);
+      for (const k in attrs) {
+        if (k === 'style') continue;
+        const v = String(attrs[k]);
+        if ((k === 'fill' || k === 'stroke' || k === 'stop-color') && v.includes('var(')) e.style.setProperty(k, v);
+        else e.setAttribute(k, v);
+      }
+    }
+    return e;
+  };
+  const mark = (e, section, id, field) => {
+    e.setAttribute('data-source', 'oggi');
+    if (field) e.setAttribute('data-field', field);
+    e.setAttribute('data-where', 'section=' + encodeURIComponent(section) + '&id=' + encodeURIComponent(id));
+    return e;
+  };
+  const isNum = (v) => typeof v === 'number' && isFinite(v);
+  const has = (v) => v !== null && v !== undefined && String(v).trim() !== '';
+  const safeUrl = (u) => (typeof u === 'string' && /^https:\/\//i.test(u.trim())) ? u.trim() : null;
+  const signed = (s) => s.replace(/^-/, MINUS);
+  const byOrder = (a, b) => (isNum(a.order) ? a.order : 999) - (isNum(b.order) ? b.order : 999);
+
+  // Italian figures: 4.185,65 · 1,1236 · +0,35%
+  const IT = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['', '\u00a0$'], minus: MINUS });
+  const fmtValue = (v, unit) => {
+    if (!isNum(v)) return 'n.d.';
+    if (unit === '%') return IT.format('.2f')(v);
+    const a = Math.abs(v);
+    if (a < 10) return IT.format('.4f')(v);
+    if (Number.isInteger(v)) return IT.format(',')(v);
+    return IT.format(',.2f')(v);
+  };
+  const fmtChange = (v, unit) => {
+    if (!isNum(v)) return 'n.d.';
+    if (unit === 'pb') return IT.format(Number.isInteger(v) ? '+' : '+.1f')(v) + ' pb';
+    return IT.format('+.2f')(v) + '%';
+  };
+  const fmtDate = (iso) => {
+    if (typeof iso !== 'string' || !/^\d{4}-\d{2}-\d{2}/.test(iso)) return iso || '';
+    const [y, m, d] = iso.slice(0, 10).split('-').map(Number);
+    return d + ' ' + MONTHS[m - 1] + ' ' + y;
+  };
+  const dayDiff = (fromIso, toIso) => {
+    const f = Date.parse(String(fromIso).slice(0, 10) + 'T00:00:00Z');
+    const t = Date.parse(String(toIso).slice(0, 10) + 'T00:00:00Z');
+    if (!isFinite(f) || !isFinite(t)) return null;
+    return Math.round((t - f) / 86400000);
+  };
+
+  const levelClass = (label) => {
+    const s = String(label || '').toLowerCase();
+    if (/molto alt/.test(s)) return 'is-crit';
+    if (/^alt/.test(s)) return 'is-dn';
+    if (/^medi/.test(s)) return 'is-strong';
+    return 'is-muted';
+  };
+  const biasInfo = (label) => {
+    const s = String(label || '').toLowerCase();
+    if (s.startsWith('rialz')) return { cls: 'is-up', sym: '▲' };
+    if (s.startsWith('ribass')) return { cls: 'is-dn', sym: '▼' };
+    return { cls: 'is-muted', sym: '◆' };
+  };
+  const trendInfo = (label) => {
+    const s = String(label || '').toLowerCase();
+    if (s.includes('aument')) return { cls: 'is-dn', sym: '↑' };
+    if (s.includes('calo')) return { cls: 'is-up', sym: '↓' };
+    return { cls: 'is-muted', sym: '→' };
+  };
+  const statusInfo = (st) => {
+    const t = String(st || '').toLowerCase();
+    if (t.startsWith('verific')) return { cls: 'is-strong', sym: '✓' };
+    if (t.startsWith('dichiar')) return { cls: 'is-muted', sym: '≈' };
+    if (t.startsWith('non verific')) return { cls: 'is-dn is-dashed', sym: '?' };
+    return { cls: 'is-muted', sym: '' };
+  };
+  const ratingClass = (s) => {
+    const t = String(s || '').toLowerCase();
+    if (t.startsWith('interess')) return 'is-up';
+    if (t.startsWith('costos')) return 'is-dn';
+    if (t.startsWith('warn')) return 'is-dn';
+    return 'is-muted';
+  };
+  const changeInfo = (s) => {
+    const t = String(s || '').toLowerCase();
+    if (t.startsWith('rafforz')) return { cls: 'is-up', sym: '↑' };
+    if (t.startsWith('indebol')) return { cls: 'is-dn', sym: '↓' };
+    if (t.startsWith('da rived')) return { cls: 'is-dn', sym: '!' };
+    if (t.startsWith('valid')) return { cls: 'is-strong', sym: '✓' };
+    return { cls: 'is-strong', sym: '●' };
+  };
+  // tension bands follow the desk rules: 0–40 calm or incidents, 41–60 active conflict, 61–80 escalation, 81–100 major escalation
+  const tensionColor = (v) => (v > 80 ? 'var(--ow-crit)' : v > 60 ? 'var(--ow-dn)' : v > 40 ? 'var(--ow-muted)' : 'var(--ow-line-hi)');
+  const gaugeColor = (id, v) => {
+    if (id === 'conviction') return v >= 70 ? 'var(--ow-up)' : v >= 40 ? 'var(--ow-muted)' : 'var(--ow-dn)';
+    return v >= 75 ? 'var(--ow-crit)' : v >= 50 ? 'var(--ow-dn)' : v >= 25 ? 'var(--ow-muted)' : 'var(--ow-line-hi)';
+  };
+  const convictionClass = (label) => {
+    const s = String(label || '').toLowerCase();
+    return s.startsWith('alt') ? 'is-up' : s.startsWith('bass') ? 'is-dn' : 'is-strong';
+  };
+  const statusChip = (st) => { const i = statusInfo(st); return chip((i.sym ? i.sym + ' ' : '') + st, i.cls); };
+  const chip = (text, cls) => el('span', 'ow-chip ' + (cls || 'is-muted'), text);
+
+  const prevOf = (row, series, hist, today) => {
+    if (isNum(row.prev)) return row.prev;
+    const pts = hist.filter((h) => h.series === series && String(h.date) < String(today) && isNum(+h.value));
+    if (!pts.length) return null;
+    pts.sort((a, b) => String(a.date).localeCompare(String(b.date)));
+    return +pts[pts.length - 1].value;
+  };
+  const deltaText = (v, p, unit) => {
+    if (!isNum(v) || !isNum(p)) return null;
+    const d = v - p;
+    if (Math.round(d) === 0) return 'invariato da ieri';
+    return IT.format('+,')(Math.round(d)) + (unit || '') + ' da ieri';
+  };
+
+  const clear = (id) => { const n = $(id); if (n) n.replaceChildren(); return n; };
+  const stateLine = (text, fail) => {
+    const box = el('div', 'ow-state');
+    if (fail) box.append(el('span', 'dot'));
+    box.append(el('span', '', text));
+    return box;
+  };
+
+  // ---------- header ----------
+  function drawHeader(head) {
+    const title = $('ow-title');
+    const time = $('ow-time');
+    const cov = $('ow-coverage');
+    const sum = clear('ow-summary');
+    title.classList.remove('dash-skeleton');
+    sum.classList.remove('dash-skeleton');
+    if (!head) { title.textContent = 'OPEN WORLD'; time.textContent = ''; cov.textContent = ''; return; }
+    title.textContent = head.title || 'OPEN WORLD';
+    time.textContent = head.time || '';
+    cov.textContent = head.detail || '';
+    $('ow-cov-k').hidden = !head.detail;
+    String(head.text || '').split('\n').map((s) => s.trim().replace(/(\d) (\$|%|€|pb)/g, '$1\u00a0$2')).filter(Boolean).slice(0, 3).forEach((line) => sum.append(el('li', '', line)));
+  }
+
+  // ---------- gauges ----------
+  const ZONES = {
+    risk: [[0, 25, 'Basso', 'var(--ow-line-hi)'], [25, 50, 'Medio', 'var(--ow-muted)'], [50, 75, 'Alto', 'var(--ow-dn)'], [75, 101, 'Molto alto', 'var(--ow-crit)']],
+    conviction: [[0, 40, 'Bassa', 'var(--ow-dn)'], [40, 70, 'Media', 'var(--ow-muted)'], [70, 101, 'Alta', 'var(--ow-up)']],
+  };
+  const zoneBar = (v, p, zones) => {
+    const box = el('div', 'ow-zone');
+    // segment widths follow each zone's real range, so the marker at v% sits in the right zone
+    const cols = zones.map(([a, b]) => (Math.min(b, 100) - a) + 'fr').join(' ');
+    const bar = el('div', 'ow-zone-bar');
+    const lab = el('div', 'ow-zone-lab');
+    bar.style.gridTemplateColumns = cols;
+    lab.style.gridTemplateColumns = cols;
+    zones.forEach(([a, b, name, color]) => {
+      const on = v !== null && v >= a && v < b;
+      const seg = el('span', on ? 'on' : '');
+      if (on) seg.style.setProperty('--zc', color);
+      bar.append(seg);
+      lab.append(el('span', on ? 'on' : '', name));
+    });
+    if (isNum(p)) { const t = el('i', 'ow-zone-prev'); t.style.left = Math.max(0, Math.min(100, p)) + '%'; t.title = 'Ieri: ' + p; bar.append(t); }
+    if (v !== null) { const m = el('i', 'ow-zone-mark'); m.style.left = v + '%'; bar.append(m); }
+    bar.setAttribute('aria-hidden', 'true');
+    box.append(bar, lab);
+    return box;
+  };
+  function drawGauge(row, hist, today) {
+    const card = el('div', 'ow-gauge');
+    card.id = 'gauge-' + row.id;
+    card.append(el('div', 'ow-gauge-name', row.title));
+    const v = isNum(row.value) ? Math.max(0, Math.min(100, row.value)) : null;
+    const nline = el('div', 'ow-gnum');
+    const num = el('span', 'n', v === null ? 'n.d.' : String(row.value));
+    mark(num, 'gauge', row.id, 'value');
+    nline.append(num, el('span', 'u', 'su 100'));
+    card.append(nline);
+    const p = prevOf(row, 'gauge:' + row.id, hist, today);
+    card.append(zoneBar(v, p, row.id === 'conviction' ? ZONES.conviction : ZONES.risk));
+    const foot = el('div', 'ow-gauge-foot');
+    const dt = deltaText(row.value, p);
+    foot.append(chip(v === null ? 'n.d.' : dt || 'primo giorno', 'is-muted'));
+    card.append(foot);
+    if (has(row.detail)) card.append(el('p', 'ow-plain', row.detail));
+    if (has(row.extra)) { const im = el('p', 'ow-implies'); im.append(el('b', '', 'Cosa comporta: '), document.createTextNode(row.extra)); card.append(im); }
+    if (has(row.text)) {
+      const det = el('details');
+      det.append(el('summary', '', 'Come è calcolato'), el('p', 'ow-gauge-why', row.text));
+      card.append(det);
+    }
+    return card;
+  }
+
+  // ---------- forces ----------
+  const MKTS = ['Oro', 'EUR/USD', 'S&P 500'];
+  function drawForces(rows) {
+    const t = clear('ow-forces');
+    const sec = $('forze');
+    sec.hidden = !rows.length;
+    const nav = document.querySelector('.ow-jump a[data-go="forze"]');
+    if (nav) nav.hidden = !rows.length;
+    if (!rows.length) return;
+    const forces = [];
+    rows.slice().sort(byOrder).forEach((r) => { if (!forces.includes(r.title)) forces.push(r.title); });
+    const thead = el('thead'); const hr = el('tr');
+    hr.append(el('th', '', 'Forza di oggi'));
+    MKTS.forEach((m) => hr.append(el('th', 'm', m)));
+    thead.append(hr);
+    const tb = el('tbody');
+    forces.forEach((f) => {
+      const fr = rows.filter((r) => r.title === f);
+      const tr = el('tr');
+      const fc = el('td', 'f');
+      fc.append(el('b', '', f));
+      const d = fr.find((r) => has(r.detail));
+      if (d) fc.append(el('span', '', d.detail));
+      tr.append(fc);
+      MKTS.forEach((m) => {
+        const td = el('td', 'mk');
+        td.setAttribute('data-m', m);
+        const r = fr.find((x) => x.category === m);
+        const box = el('div', 'ow-fx');
+        if (r && isNum(r.value)) {
+          const strong = String(r.level || '').toLowerCase().startsWith('fort');
+          const sym = r.value > 0 ? (strong ? '▲▲' : '▲') : r.value < 0 ? (strong ? '▼▼' : '▼') : '◆';
+          const word = r.value > 0 ? 'sostiene' : r.value < 0 ? 'frena' : 'neutro';
+          const a = el('span', 'a ' + (r.value > 0 ? 'up' : r.value < 0 ? 'dn' : ''), sym + ' ' + word);
+          a.setAttribute('aria-label', word + (strong ? ', effetto forte' : ''));
+          box.append(a);
+          if (has(r.text)) box.append(mark(el('span', 'w', r.text), 'force', r.id, 'text'));
+        } else box.append(el('span', 'w', '—'));
+        td.append(box);
+        tr.append(td);
+      });
+      tb.append(tr);
+    });
+    t.append(thead, tb);
+  }
+
+  // ---------- front ranking chart ----------
+  const BANDS = [[0, 40, 'calma', 'transparent'], [40, 60, 'guerra stabile', 'transparent'], [60, 80, 'escalation', 'var(--ow-dn-wash)'], [80, 100, 'grave', 'var(--ow-crit-wash)']];
+  function drawFrontRank(fronts, hist, today) {
+    const box = clear('ow-front-rank');
+    const rows = fronts.filter((f) => isNum(f.value)).slice().sort((a, b) => b.value - a.value);
+    if (!rows.length) { box.append(stateLine('Nessun fronte con un valore.')); return; }
+    const W = Math.max(300, box.clientWidth || 600);
+    const narrow = W < 520;
+    const labW = narrow ? 0 : 190;
+    const rowH = narrow ? 46 : 34, top = narrow ? 6 : 22, padR = 40;
+    const H = top + rows.length * rowH + 4;
+    const x = d3.scaleLinear([0, 100], [labW, W - padR]);
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Tensione dei fronti da 0 a 100, dal più teso' });
+    BANDS.forEach(([a, b, name, fill]) => {
+      svg.append(svgEl('rect', { x: x(a), y: top - 4, width: x(b) - x(a), height: H - top, fill }));
+      if (!narrow) { const t = svgEl('text', { class: 'band-l', x: x(a) + 4, y: 12 }); t.textContent = name; svg.append(t); }
+      if (a > 0) svg.append(svgEl('line', { x1: x(a), x2: x(a), y1: top - 4, y2: H, stroke: 'var(--ow-line)', 'stroke-dasharray': '2 3' }));
+    });
+    rows.forEach((f, i) => {
+      const y0 = top + i * rowH;
+      const barY = narrow ? y0 + 20 : y0 + 6;
+      const barH = narrow ? 14 : 16;
+      if (narrow) { const t = svgEl('text', { class: 'lab', x: 0, y: y0 + 13 }); t.textContent = (f.order ? f.order + '. ' : '') + f.title; svg.append(t); }
+      else { const t = svgEl('text', { class: 'lab', x: 0, y: barY + barH - 3 }); t.textContent = (f.order ? f.order + '. ' : '') + f.title; svg.append(t); }
+      svg.append(svgEl('rect', { x: x(0), y: barY, width: Math.max(2, x(f.value) - x(0)), height: barH, rx: 4, fill: tensionColor(f.value) }));
+      const p = prevOf(f, 'front:' + f.id, hist, today);
+      if (isNum(p)) svg.append(svgEl('rect', { x: x(p) - 1, y: barY - 3, width: 2, height: barH + 6, fill: 'var(--ow-text)', opacity: 0.55 }));
+      const vt = svgEl('text', { class: 'val', x: x(f.value) + 6, y: barY + barH - 3 });
+      vt.textContent = String(f.value);
+      mark(vt, 'front', f.id, 'value');
+      svg.append(vt);
+    });
+    box.append(svg);
+  }
+
+  // ---------- trend of the four indicators ----------
+  function drawTrend(hist, gauges) {
+    const box = clear('ow-trend');
+    if (!gauges.length) return;
+    const cards = gauges.map((g) => {
+      const card = el('article', 'ow-card');
+      card.id = 'trend-' + g.id;
+      card.append(el('h3', '', g.title));
+      const wrap = el('div', 'ow-chart');
+      card.append(wrap);
+      box.append(card);
+      return [g, wrap];
+    });
+    cards.forEach(([g, wrap]) => {
+      const pts = hist.filter((h) => h.series === 'gauge:' + g.id && isNum(+h.value))
+        .map((h) => ({ date: String(h.date).slice(0, 10), value: +h.value }))
+        .sort((a, b) => a.date.localeCompare(b.date)).slice(-30);
+      if (pts.length < 2) { wrap.append(el('div', 'ow-spark-note', 'Storico in costruzione')); return; }
+      const W = Math.max(220, wrap.clientWidth || 260), H = 120, l = 26, r = 30, t = 8, b = 20;
+      const x = d3.scaleLinear([0, pts.length - 1], [l, W - r]);
+      const y = d3.scaleLinear([0, 100], [H - b, t]);
+      const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': g.title + ' negli ultimi ' + pts.length + ' giorni' });
+      const zones = g.id === 'conviction' ? [] : [[50, 75, 'var(--ow-dn-wash)'], [75, 100, 'var(--ow-crit-wash)']];
+      zones.forEach(([a, c, fill]) => svg.append(svgEl('rect', { x: l, y: y(c), width: W - r - l, height: y(a) - y(c), fill })));
+      [0, 50, 100].forEach((v) => {
+        svg.append(svgEl('line', { x1: l, x2: W - r, y1: y(v), y2: y(v), stroke: 'var(--ow-line)' }));
+        const tt = svgEl('text', { class: 'tick', x: l - 6, y: y(v) + 4, 'text-anchor': 'end' });
+        tt.textContent = String(v);
+        svg.append(tt);
+      });
+      const line = d3.line().x((p, i) => x(i)).y((p) => y(p.value));
+      svg.append(svgEl('path', { d: line(pts), fill: 'none', stroke: 'var(--ow-text)', 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+      pts.forEach((p, i) => svg.append(svgEl('circle', { cx: x(i), cy: y(p.value), r: i === pts.length - 1 ? 4 : 2.5, fill: i === pts.length - 1 ? gaugeColor(g.id, p.value) : 'var(--ow-text)', stroke: 'var(--ow-panel)', 'stroke-width': 1.5 })));
+      const last = pts[pts.length - 1];
+      const lt = svgEl('text', { class: 'val', x: x(pts.length - 1) + 7, y: y(last.value) + 4 });
+      lt.textContent = String(last.value);
+      svg.append(lt);
+      const fd = (d) => { const [, m, dd] = d.split('-').map(Number); return dd + ' ' + MONTHS[m - 1]; };
+      const a1 = svgEl('text', { class: 'tick', x: l, y: H - 4 }); a1.textContent = fd(pts[0].date); svg.append(a1);
+      const a2 = svgEl('text', { class: 'tick', x: W - r, y: H - 4, 'text-anchor': 'end' }); a2.textContent = fd(last.date); svg.append(a2);
+      // hover: nearest day
+      const tip = el('div', 'ow-tip'); tip.hidden = true; wrap.append(tip);
+      const hit = svgEl('rect', { x: l, y: t, width: W - r - l, height: H - t - b, fill: 'transparent' });
+      const show = (ev) => {
+        const rect = svg.getBoundingClientRect();
+        const px = (ev.clientX - rect.left) * (W / rect.width);
+        const i = Math.max(0, Math.min(pts.length - 1, Math.round(x.invert(px))));
+        tip.replaceChildren(el('span', '', fd(pts[i].date) + ' '), el('b', '', String(pts[i].value)));
+        tip.hidden = false;
+        const left = Math.min(rect.width - 80, Math.max(0, x(i) * rect.width / W - 30));
+        tip.style.left = left + 'px'; tip.style.top = '0px';
+      };
+      hit.addEventListener('pointermove', show);
+      hit.addEventListener('pointerdown', show);
+      hit.addEventListener('pointerleave', () => { tip.hidden = true; });
+      svg.append(hit);
+      wrap.setAttribute('data-source', 'storico');
+      wrap.prepend(svg);
+    });
+  }
+
+  // ---------- next event (agenda) ----------
+  function athensNow() {
+    const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Athens', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(new Date());
+    const g = (t) => (parts.find((p) => p.type === t) || {}).value;
+    return { date: g('year') + '-' + g('month') + '-' + g('day'), min: (+g('hour') % 24) * 60 + +g('minute') };
+  }
+  function drawNext(rows, today) {
+    const box = $('ow-next');
+    box.replaceChildren();
+    const now = athensNow();
+    if (now.date !== today) { box.hidden = true; return; }
+    const next = rows.filter((r) => /^\d{1,2}:\d{2}$/.test(String(r.time || '')) && !String(r.status || '').toLowerCase().startsWith('uscit'))
+      .map((r) => { const [h, m] = r.time.split(':').map(Number); return { r, min: h * 60 + m }; })
+      .filter((o) => o.min >= now.min).sort((a, b) => a.min - b.min);
+    const pick = next.find((o) => /^alt/i.test(o.r.level || '')) || next.find((o) => /^medi/i.test(o.r.level || '')) || next[0];
+    if (!pick) { box.hidden = true; return; }
+    const mins = pick.min - now.min;
+    const when = mins < 60 ? 'tra ' + mins + ' min' : 'tra ' + Math.floor(mins / 60) + ' h ' + String(mins % 60).padStart(2, '0') + ' min';
+    box.append(el('b', '', 'Prossimo evento da guardare:'), el('span', 't', pick.r.time), el('span', '', pick.r.title), chip(when, 'is-muted'));
+    if (has(pick.r.level)) box.append(chip('impatto ' + String(pick.r.level).toLowerCase(), levelClass(pick.r.level)));
+    box.hidden = false;
+  }
+
+  // ---------- snapshot ----------
+  function drawSnapshot(rows) {
+    const box = clear('ow-snapshot');
+    if (!rows.length) { box.append(stateLine('Nessuna notizia per oggi.')); return; }
+    rows.forEach((r) => {
+      const lvl = String(r.level || '').toLowerCase();
+      const card = el('article', 'ow-card ow-snap lvl-' + (lvl.startsWith('alt') ? 'alta' : lvl.startsWith('medi') ? 'media' : 'bassa'));
+      card.id = 'snap-' + r.id;
+      const chips = el('div', 'ow-row');
+      if (has(r.level)) {
+        const dots = lvl.startsWith('alt') ? '●●●' : lvl.startsWith('medi') ? '●●○' : '●○○';
+        chips.append(chip(dots + ' Importanza ' + String(r.level).toLowerCase(), lvl.startsWith('alt') ? 'is-strong' : 'is-muted'));
+      }
+      if (has(r.category)) chips.append(chip(r.category, 'is-muted'));
+      if (has(r.status)) chips.append(statusChip(r.status));
+      card.append(chips);
+      card.append(el('h3', '', r.title));
+      if (has(r.text)) card.append(el('p', '', r.text));
+      if (has(r.detail)) {
+        const imp = el('p', 'ow-impact');
+        imp.append(el('b', '', 'Per i mercati: '), document.createTextNode(r.detail));
+        card.append(imp);
+      }
+      const src = el('div', 'ow-src');
+      const bits = [];
+      if (has(r.time)) bits.push(r.time);
+      src.append(document.createTextNode(bits.join(' · ')));
+      const u = safeUrl(r.url);
+      if (has(r.source)) {
+        if (bits.length) src.append(document.createTextNode(' · '));
+        if (u) { const a = el('a', '', r.source); a.href = u; a.target = '_blank'; a.rel = 'noopener'; src.append(a); }
+        else src.append(document.createTextNode(r.source));
+      }
+      card.append(src);
+      box.append(card);
+    });
+  }
+
+  // ---------- map ----------
+  function drawMap(fronts) {
+    const box = clear('ow-map');
+    const W = Math.max(300, box.clientWidth || 360);
+    const { lonMin, lonMax, latMin, latMax, step, cols } = MASK;
+    const H = Math.round(W * (latMax - latMin) / (lonMax - lonMin) * 1.18);
+    const px = (lon) => (lon - lonMin) / (lonMax - lonMin) * W;
+    const py = (lat) => (latMax - lat) / (latMax - latMin) * H;
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Mappa dei fronti tra Europa, Medio Oriente e Asia' });
+    const labels = [];
+    [0, 30, 60].forEach((lat) => {
+      if (lat < latMin || lat > latMax) return;
+      svg.append(svgEl('line', { class: 'grat', x1: 0, x2: W, y1: py(lat), y2: py(lat) }));
+      const t = svgEl('text', { class: 'grat-l', x: 4, y: py(lat) - 4 });
+      t.textContent = lat === 0 ? '0°' : lat + '°N';
+      labels.push(t);
+    });
+    [0, 30, 60, 90, 120].forEach((lon) => {
+      svg.append(svgEl('line', { class: 'grat', x1: px(lon), x2: px(lon), y1: 0, y2: H }));
+      const t = svgEl('text', { class: 'grat-l', x: px(lon) + 4, y: H - 6 });
+      t.textContent = lon === 0 ? '0°' : lon + '°E';
+      labels.push(t);
+    });
+    const r = Math.max(0.9, W / 1000 * 2.5);
+    let d = '';
+    MASK.hex.split('|').forEach((rowHex, j) => {
+      const y = py(latMax - (j + 0.5) * step);
+      let i = 0;
+      for (const ch of rowHex) {
+        const n = parseInt(ch, 16);
+        for (let b = 3; b >= 0; b--) {
+          if (i < cols && ((n >> b) & 1)) {
+            const x = px(lonMin + (i + 0.5) * step);
+            d += `M${(x - r).toFixed(1)} ${y.toFixed(1)}a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(2 * r).toFixed(2)} 0a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(-2 * r).toFixed(2)} 0`;
+          }
+          i++;
+        }
+      }
+    });
+    svg.append(svgEl('path', { class: 'dots', d }));
+    labels.forEach((t) => svg.append(t));
+    const outside = [];
+    fronts.forEach((f, k) => {
+      const num = isNum(f.order) ? f.order : k + 1;
+      if (!isNum(f.lat) || !isNum(f.lon) || f.lon < lonMin || f.lon > lonMax || f.lat < latMin || f.lat > latMax) { outside.push(f); return; }
+      const x = px(f.lon), y = py(f.lat);
+      const color = tensionColor(isNum(f.value) ? f.value : 0);
+      const rising = /aument/i.test(String(f.label || '')) && isNum(f.value) && f.value > 60;
+      const g = svgEl('g', { class: 'hot' + (rising ? ' is-rising' : ''), transform: `translate(${x.toFixed(1)},${y.toFixed(1)})`, tabindex: 0, role: 'button', 'aria-label': num + '. ' + f.title });
+      g.append(svgEl('circle', { class: 'ring', r: 20, stroke: color, style: 'animation-delay:' + (k * 0.35).toFixed(2) + 's' }));
+      g.append(svgEl('circle', { class: 'core', r: 12, stroke: color }));
+      const t = svgEl('text', { x: 0, y: 0.5 });
+      t.textContent = String(num);
+      g.append(t);
+      const go = () => {
+        const card = $('front-' + f.id);
+        if (!card) return;
+        document.querySelectorAll('.ow-front.is-hl').forEach((n) => n.classList.remove('is-hl'));
+        card.classList.add('is-hl');
+        card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      };
+      g.addEventListener('click', go);
+      g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+      svg.append(g);
+    });
+    box.append(svg);
+    if (outside.length) box.append(el('p', 'ow-src', 'Fuori mappa: ' + outside.map((f) => f.title).join(', ')));
+  }
+
+  function drawFronts(rows, hist, today) {
+    const box = clear('ow-fronts');
+    if (!rows.length) { box.append(stateLine('Nessun fronte segnalato.')); return; }
+    rows.forEach((f, k) => {
+      const num = isNum(f.order) ? f.order : k + 1;
+      const v = isNum(f.value) ? f.value : null;
+      const card = el('article', 'ow-card ow-front');
+      card.id = 'front-' + f.id;
+      const head = el('div', 'ow-row-between');
+      const left = el('div', 'ow-row');
+      const badge = el('span', 'ow-badge', num);
+      badge.style.borderColor = tensionColor(v || 0);
+      left.append(badge, el('h3', '', f.title));
+      head.append(left);
+      const tr = trendInfo(f.label);
+      if (has(f.label)) head.append(chip(tr.sym + ' ' + f.label, tr.cls));
+      card.append(head);
+      const meter = el('div', 'ow-meter');
+      const track = el('div', 'ow-meter-track');
+      const fill = el('div', 'ow-meter-fill');
+      fill.style.width = (v === null ? 0 : Math.max(2, Math.min(100, v))) + '%';
+      fill.style.background = tensionColor(v || 0);
+      track.append(fill);
+      const val = el('span', 'ow-num', v === null ? 'n.d.' : String(f.value));
+      mark(val, 'front', f.id, 'value');
+      meter.append(track, val);
+      card.append(meter);
+      const p = prevOf(f, 'front:' + f.id, hist, today);
+      const dt = deltaText(f.value, p);
+      const chips = el('div', 'ow-row');
+      chips.append(chip('Tensione ' + (dt ? dt.replace(/^invariato/, 'invariata') : 'primo giorno'), 'is-muted'));
+      if (has(f.status)) chips.append(statusChip(f.status));
+      card.append(chips);
+      const dl = el('dl', 'ow-dl');
+      if (has(f.text)) { const row = el('div'); row.append(el('dt', '', 'Cosa è successo'), el('dd', '', f.text)); dl.append(row); }
+      card.append(dl);
+      if (has(f.detail) || has(f.extra)) {
+        const det = el('details');
+        det.append(el('summary', '', 'Rischio di escalation e impatto'));
+        if (has(f.detail)) det.append(el('p', '', 'Rischio: ' + f.detail));
+        if (has(f.extra)) det.append(el('p', '', 'Impatto: ' + f.extra));
+        card.append(det);
+      }
+      box.append(card);
+    });
+  }
+
+  // ---------- markets ----------
+  function sparkline(series, today, idKey, dotColor) {
+    const pts = series.filter((h) => isNum(+h.value) && String(h.date) <= String(today))
+      .map((h) => ({ date: String(h.date).slice(0, 10), value: +h.value }))
+      .sort((a, b) => a.date.localeCompare(b.date)).slice(-30);
+    const wrap = el('div', 'ow-spark');
+    wrap.setAttribute('data-source', 'storico');
+    if (pts.length < 2) { wrap.replaceChildren(el('div', 'ow-spark-note', 'Storico in costruzione: la linea compare dal secondo giorno')); return wrap; }
+    const W = 240, H = 36, pad = 3;
+    const x = d3.scaleLinear([0, pts.length - 1], [pad, W - pad]);
+    const ext = d3.extent(pts, (p) => p.value);
+    const span = ext[1] - ext[0] || Math.abs(ext[1]) * 0.01 || 1;
+    const y = d3.scaleLinear([ext[0] - span * 0.1, ext[1] + span * 0.1], [H - pad, pad]);
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, preserveAspectRatio: 'none', role: 'img', 'aria-label': 'Andamento negli ultimi ' + pts.length + ' briefing' });
+    const gid = 'sg-' + idKey.replace(/[^A-Za-z0-9_-]/g, '');
+    const defs = svgEl('defs');
+    const lg = svgEl('linearGradient', { id: gid, x1: 0, y1: 0, x2: 0, y2: 1 });
+    [[0, 0.28], [0.5, 0.08], [1, 0]].forEach(([o, a]) => lg.append(svgEl('stop', { offset: o, style: `stop-color: var(--ow-faint); stop-opacity: ${a * 0.6}` })));
+    defs.append(lg);
+    svg.append(defs);
+    const line = d3.line().x((p, i) => x(i)).y((p) => y(p.value));
+    const area = d3.area().x((p, i) => x(i)).y0(H).y1((p) => y(p.value));
+    svg.append(svgEl('path', { d: area(pts), fill: `url(#${gid})` }));
+    svg.append(svgEl('path', { d: line(pts), fill: 'none', stroke: 'var(--ow-muted)', 'stroke-width': 1.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'vector-effect': 'non-scaling-stroke' }));
+    const last = pts[pts.length - 1];
+    svg.append(svgEl('circle', { cx: x(pts.length - 1), cy: y(last.value), r: 3, fill: dotColor || 'var(--ow-muted)' }));
+    wrap.append(svg);
+    return wrap;
+  }
+
+  function drawMarkets(rows, hist, today) {
+    const box = clear('ow-markets');
+    if (!rows.length) { box.append(stateLine('Dati di mercato non disponibili.')); return; }
+    rows.forEach((m) => {
+      const card = el('article', 'ow-card ow-mkt');
+      card.id = 'mkt-' + m.id;
+      const head = el('div', 'ow-row-between');
+      head.append(el('h3', '', m.title));
+      if (has(m.category)) { const cc = chip(m.category, 'is-muted ow-mkt-cat'); head.append(cc); }
+      card.append(head);
+      const vline = el('div', 'ow-mkt-val');
+      const unitPre = '';
+      const unitPost = m.unit ? (m.unit === '%' ? '%' : '\u00a0' + m.unit) : '';
+      // units the dashboard's checker can't read (€/MWh, pb) sit outside the marked number
+      const plainUnit = (u) => u && u !== '%' && u !== '$';
+      const v = el('span', 'v');
+      if (isNum(m.value) && plainUnit(m.unit)) {
+        const n = el('span', '', unitPre + fmtValue(m.value, m.unit));
+        mark(n, 'market', m.id, 'value');
+        v.append(n, document.createTextNode(unitPost));
+      } else {
+        v.textContent = isNum(m.value) ? unitPre + fmtValue(m.value, m.unit) + unitPost : 'n.d.';
+        mark(v, 'market', m.id, 'value');
+      }
+      const cls = !isNum(m.change) ? 'ow-flat' : m.change > 0 ? 'ow-up' : m.change < 0 ? 'ow-down' : 'ow-flat';
+      const arrow = isNum(m.change) ? (m.change > 0 ? '▲ ' : m.change < 0 ? '▼ ' : '') : '';
+      const c = el('span', 'c ' + cls);
+      if (isNum(m.change) && m.change_unit === 'pb') {
+        const n = el('span', '', arrow + IT.format(Number.isInteger(m.change) ? '+' : '+.1f')(m.change));
+        mark(n, 'market', m.id, 'change');
+        c.append(n, document.createTextNode('\u00a0pb'));
+      } else {
+        c.textContent = arrow + fmtChange(m.change, m.change_unit);
+        mark(c, 'market', m.id, 'change');
+      }
+      vline.append(v, c);
+      card.append(vline);
+      const series = hist.filter((h) => h.series === 'mkt:' + m.id);
+      const dotColor = !isNum(m.change) || m.change === 0 ? 'var(--ow-muted)' : m.change > 0 ? 'var(--ow-up)' : 'var(--ow-dn)';
+      card.append(sparkline(series, today, 'mkt-' + m.id, dotColor));
+      const chips = el('div', 'ow-row');
+      const b = biasInfo(m.label);
+      if (has(m.label)) chips.append(chip(b.sym + ' ' + m.label, b.cls));
+      if (has(m.level)) chips.append(chip('Rischio ' + String(m.level).toLowerCase(), levelClass(m.level)));
+      card.append(chips);
+      if (has(m.extra)) { const pl = el('p', 'ow-plain'); pl.append(el('b', '', 'Per i mercati: '), document.createTextNode(m.extra)); card.append(pl); }
+      if (has(m.text) || has(m.detail)) {
+        const det = el('details');
+        det.append(el('summary', '', 'Contesto e driver'));
+        if (has(m.text)) det.append(el('p', '', m.text));
+        if (has(m.detail)) det.append(el('p', '', 'Driver: ' + m.detail));
+        card.append(det);
+      }
+      const src = el('div', 'ow-src');
+      src.append(document.createTextNode(has(m.time) ? m.time : 'Ora n.d.'));
+      if (has(m.source)) {
+        src.append(document.createTextNode(' · '));
+        const u = safeUrl(m.url);
+        if (u) { const a = el('a', '', m.source); a.href = u; a.target = '_blank'; a.rel = 'noopener'; src.append(a); }
+        else src.append(document.createTextNode(m.source));
+      }
+      card.append(src);
+      box.append(card);
+    });
+  }
+
+  // ---------- trading ----------
+  function drawTrading(rows) {
+    const box = clear('ow-trading');
+    if (!rows.length) { box.append(stateLine('Nessuna lettura di trading per oggi.')); return; }
+    rows.forEach((t) => {
+      const card = el('article', 'ow-card');
+      card.id = 'trade-' + t.id;
+      const head = el('div', 'ow-row-between');
+      head.append(el('h3', '', t.title));
+      const sc = el('div', 'ow-row');
+      const meter = el('div', 'ow-score');
+      meter.setAttribute('aria-hidden', 'true');
+      const s = isNum(t.score) ? Math.max(0, Math.min(10, Math.round(t.score))) : 0;
+      for (let i = 0; i < 10; i++) meter.append(el('i', i < s ? 'on' : ''));
+      const sv = el('span', 'ow-num', isNum(t.score) ? String(t.score) : 'n.d.');
+      mark(sv, 'trading', t.id, 'score');
+      sc.append(meter, sv, el('span', 'ow-faint ow-num', '/10'));
+      head.append(sc);
+      card.append(head);
+      card.append(el('div', 'ow-k', 'Rilevanza di oggi, per lo studio'));
+      const chips = el('div', 'ow-row');
+      const b = biasInfo(t.label);
+      if (has(t.label)) chips.append(chip(b.sym + ' Inclinazione ' + String(t.label).toLowerCase(), b.cls));
+      if (has(t.level)) chips.append(chip('Volatilità ' + String(t.level).toLowerCase(), levelClass(t.level === 'Alta' ? 'Alto' : t.level === 'Media' ? 'Medio' : 'Basso')));
+      card.append(chips);
+      const dl = el('dl', 'ow-dl');
+      [['Cosa ci aspettiamo', t.text], ['Cosa può muoverlo', t.detail], ['Cosa smentirebbe questa lettura', t.invalidation]].forEach(([k, v]) => {
+        if (!has(v)) return;
+        const row = el('div');
+        row.append(el('dt', '', k), el('dd', '', v));
+        dl.append(row);
+      });
+      card.append(dl);
+      if (has(t.category) || has(t.levels)) {
+        const det = el('details');
+        det.append(el('summary', '', 'Sessioni e livelli'));
+        if (has(t.category)) det.append(el('p', '', 'Sessioni sensibili: ' + t.category));
+        if (has(t.levels)) det.append(el('p', '', 'Livelli verificabili: ' + t.levels));
+        card.append(det);
+      }
+      box.append(card);
+    });
+  }
+
+  // ---------- calendar ----------
+  function drawCalendar(rows) {
+    const body = $('ow-calendar').querySelector('tbody');
+    body.replaceChildren();
+    if (!rows.length) {
+      const tr = el('tr');
+      const td = el('td', 'ow-muted', 'Nessun evento in agenda.');
+      td.colSpan = 7;
+      tr.append(td);
+      body.append(tr);
+      return;
+    }
+    rows.forEach((r) => {
+      const tr = el('tr');
+      tr.setAttribute('data-key', encodeURIComponent('calendar') + ',' + encodeURIComponent(r.id));
+      if (String(r.status || '').toLowerCase().startsWith('uscit')) tr.className = 'is-done';
+      else if (/^alt/i.test(String(r.level || ''))) tr.className = 'is-high';
+      const lvl = el('td');
+      if (has(r.level)) lvl.append(chip(r.level, levelClass(r.level)));
+      tr.append(el('td', 't', r.time || ''), el('td', '', r.title || ''), el('td', 'ow-num', r.text || ''), el('td', 'ow-num', r.detail || ''), el('td', 'ow-num', r.extra || ''), lvl, el('td', 'ow-muted', r.category || ''));
+      body.append(tr);
+    });
+  }
+
+  // ---------- sentiment ----------
+  function drawSentiment(rows, hist, today) {
+    const box = clear('ow-sentiment');
+    if (!rows.length) { box.append(stateLine('Sentiment non disponibile.')); return; }
+    rows.forEach((s) => {
+      const v = isNum(s.value) ? Math.max(-100, Math.min(100, s.value)) : null;
+      const inverse = s.id === 'war';
+      const good = v === null ? null : inverse ? v <= 0 : v >= 0;
+      const color = v === null || v === 0 ? 'var(--ow-faint)' : good ? 'var(--ow-up)' : 'var(--ow-dn)';
+      const ink = v === null || v === 0 ? 'var(--ow-muted)' : good ? 'var(--ow-up-ink)' : 'var(--ow-dn-ink)';
+      const row = el('div', 'ow-sent-row');
+      row.id = 'sent-' + s.id;
+      const head = el('div', 'ow-sent-head');
+      head.append(el('b', '', s.title));
+      const right = el('div', 'ow-row');
+      const p = prevOf(s, 'sent:' + s.id, hist, today);
+      const dt = deltaText(s.value, p);
+      right.append(chip(dt || 'primo giorno', 'is-muted'));
+      const val = el('span', 'ow-sent-val', v === null ? 'n.d.' : IT.format('+')(s.value));
+      val.style.color = ink;
+      mark(val, 'sentiment', s.id, 'value');
+      right.append(val);
+      head.append(right);
+      row.append(head);
+      const bar = el('div', 'ow-div');
+      if (v !== null && v !== 0) {
+        const span = el('span');
+        const w = Math.abs(v) / 2;
+        span.style.left = (v > 0 ? 50 : 50 - w) + '%';
+        span.style.width = w + '%';
+        span.style.background = color;
+        bar.append(span);
+      }
+      row.append(bar);
+      if (has(s.extra)) row.append(el('p', 'ow-plain', s.extra));
+      if (has(s.detail)) row.append(el('p', 'ow-sent-txt', /^da\s/i.test(String(s.detail).trim()) ? String(s.detail) : 'Da ieri: ' + s.detail));
+      if (has(s.text)) {
+        const det = el('details');
+        det.append(el('summary', '', 'Come è calcolato'), el('p', '', s.text));
+        row.append(det);
+      }
+      box.append(row);
+    });
+    const scale = el('div', 'ow-scale');
+    scale.append(el('span', '', MINUS + '100'), el('span', '', '0'), el('span', '', '+100'));
+    box.append(scale);
+  }
+
+  // ---------- scenarios ----------
+  function drawScenarios(rows) {
+    const tabs = clear('ow-scen-tabs');
+    const box = clear('ow-scenarios');
+    if (!rows.length) { tabs.hidden = true; box.append(stateLine('Nessuno scenario per oggi.')); return; }
+    const horizons = [];
+    rows.forEach((r) => { const h = r.horizon || 'Senza orizzonte'; if (!horizons.includes(h)) horizons.push(h); });
+    if (!scenHorizon || !horizons.includes(scenHorizon)) scenHorizon = horizons[0];
+    tabs.hidden = horizons.length < 2;
+    horizons.forEach((h) => {
+      const b = el('button', '', h);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(h === scenHorizon));
+      b.addEventListener('click', () => { scenHorizon = h; drawScenarios(rows); });
+      tabs.append(b);
+    });
+    rows.filter((r) => (r.horizon || 'Senza orizzonte') === scenHorizon).forEach((r) => {
+      const card = el('article', 'ow-card');
+      card.id = 'scen-' + r.id;
+      const head = el('div', 'ow-row-between');
+      head.append(el('h3', '', r.title));
+      const chips = el('div', 'ow-row');
+      if (has(r.horizon)) chips.append(chip(r.horizon, 'is-strong'));
+      if (has(r.level)) chips.append(chip(r.level, 'is-muted'));
+      head.append(chips);
+      card.append(head);
+      if (has(r.label)) card.append(el('p', 'ow-src', 'Probabilità indicative: ' + r.label));
+      const cols = el('div', 'ow-scen-cols');
+      [['base', 'Scenario base', r.text], ['pos', 'Favorevole', r.detail], ['neg', 'Avverso', r.extra]].forEach(([c, k, v]) => {
+        if (!has(v)) return;
+        const col = el('div', 'ow-scen-col ' + c);
+        col.append(el('div', 'ow-k', k), el('p', '', v));
+        cols.append(col);
+      });
+      card.append(cols);
+      const dl = el('dl', 'ow-dl');
+      [['Catalizzatori', r.catalysts], ['Cosa lo smentirebbe', r.invalidation]].forEach(([k, v]) => {
+        if (!has(v)) return;
+        const row = el('div');
+        row.append(el('dt', '', k), el('dd', '', v));
+        dl.append(row);
+      });
+      card.append(dl);
+      box.append(card);
+    });
+  }
+
+  // ---------- warnings ----------
+  function drawWarnings(rows) {
+    const box = clear('ow-warnings');
+    if (!rows.length) { box.append(el('li', 'ow-muted', 'Nessun segnale da monitorare.')); return; }
+    rows.forEach((w) => {
+      const li = el('li');
+      li.id = 'warn-' + w.id;
+      const body = el('div');
+      body.style.display = 'grid';
+      body.style.gap = '4px';
+      const head = el('div', 'ow-row-between');
+      head.append(el('b', '', w.title));
+      if (has(w.time)) head.append(chip(w.time, 'is-muted'));
+      body.append(head);
+      if (has(w.text)) body.append(el('div', '', w.text));
+      if (has(w.detail)) body.append(el('div', 'ow-muted', 'Cosa potrebbe cambiare: ' + w.detail));
+      li.append(body);
+      box.append(li);
+    });
+  }
+
+  // ---------- changes ----------
+  function drawChanges(rows) {
+    const box = clear('ow-changes');
+    if (!rows.length) { box.append(stateLine('Nessun cambiamento rilevante da ieri.')); return; }
+    const groups = new Map();
+    rows.forEach((r) => { const k = r.category || 'Nota'; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); });
+    groups.forEach((items, k) => {
+      const card = el('article', 'ow-card');
+      const top = el('div', 'ow-row');
+      const ci = changeInfo(k);
+      top.append(chip(ci.sym + ' ' + k, ci.cls));
+      card.append(top);
+      const ul = el('ul');
+      ul.style.margin = '0';
+      ul.style.paddingLeft = '18px';
+      ul.style.display = 'grid';
+      ul.style.gap = '6px';
+      items.forEach((r) => ul.append(el('li', '', r.text)));
+      card.append(ul);
+      box.append(card);
+    });
+  }
+
+  // ---------- defense ----------
+  function drawDefense(rows) {
+    const box = clear('ow-defense');
+    const quiet = clear('ow-defense-quiet');
+    const isQuiet = (r) => !has(r.text) || /^nessuna novit/i.test(String(r.text).trim());
+    const loud = rows.filter((r) => !isQuiet(r));
+    const calm = rows.filter(isQuiet);
+    if (!loud.length) box.append(stateLine('Nessuna novità rilevante sui titoli seguiti.'));
+    loud.forEach((r) => {
+      const card = el('article', 'ow-card');
+      card.id = 'def-' + r.id;
+      const head = el('div', 'ow-row-between');
+      const t = el('div', 'ow-row');
+      t.append(el('span', 'ow-num', r.id), el('span', 'ow-muted', r.title));
+      head.append(t);
+      if (has(r.label)) head.append(chip(r.label, ratingClass(r.label)));
+      card.append(head);
+      if (isNum(r.value) || isNum(r.change)) {
+        const vline = el('div', 'ow-mkt-val');
+        const v = el('span', 'v', isNum(r.value) ? fmtValue(r.value) + '\u00a0$' : 'n.d.');
+        mark(v, 'defense', r.id, 'value');
+        v.style.fontSize = '20px';
+        const cls = !isNum(r.change) ? 'ow-flat' : r.change > 0 ? 'ow-up' : 'ow-down';
+        const c = el('span', 'c ' + cls, fmtChange(r.change, '%'));
+        mark(c, 'defense', r.id, 'change');
+        vline.append(v, c);
+        card.append(vline);
+      }
+      card.append(el('p', '', r.text));
+      if (has(r.detail)) card.append(el('p', 'ow-muted', r.detail));
+      const src = el('div', 'ow-src');
+      if (has(r.time)) src.append(document.createTextNode(r.time));
+      if (has(r.source)) {
+        if (has(r.time)) src.append(document.createTextNode(' · '));
+        const u = safeUrl(r.url);
+        if (u) { const a = el('a', '', r.source); a.href = u; a.target = '_blank'; a.rel = 'noopener'; src.append(a); }
+        else src.append(document.createTextNode(r.source));
+      }
+      card.append(src);
+      box.append(card);
+    });
+    if (calm.length) {
+      quiet.append(el('span', 'ow-k', 'Nessuna novità:'));
+      calm.forEach((r) => {
+        const c = chip(r.id + (has(r.label) ? ' · ' + r.label : ''), ratingClass(r.label));
+        c.title = r.title || r.id;
+        quiet.append(c);
+      });
+    }
+  }
+
+  // ---------- forecasts ----------
+  function drawForecasts(rows, today) {
+    const box = clear('ow-forecasts');
+    if (!rows.length) { box.append(stateLine('Nessuna previsione aperta.')); return; }
+    rows.slice().sort((a, b) => String(a.time || '9999').localeCompare(String(b.time || '9999'))).forEach((f) => {
+      const card = el('article', 'ow-card');
+      card.id = 'fc-' + f.id;
+      const head = el('div', 'ow-row-between');
+      head.append(el('span', 'ow-num ow-muted', f.id));
+      const days = dayDiff(today, f.time);
+      const when = has(f.time) ? 'Scade il ' + fmtDate(f.time) + (days !== null ? (days > 0 ? ' · tra ' + days + ' g' : days === 0 ? ' · oggi' : ' · scaduta') : '') : 'Scadenza n.d.';
+      head.append(chip(when, days !== null && days <= 3 ? 'is-dn' : 'is-muted'));
+      card.append(head);
+      card.append(el('h3', '', f.title));
+      const p = isNum(f.value) ? Math.max(0, Math.min(100, f.value)) : null;
+      if (p !== null) {
+        const pr = el('div', 'ow-prob');
+        const track = el('div', 'ow-meter-track');
+        const fill = el('div', 'ow-meter-fill');
+        fill.style.width = p + '%';
+        fill.style.background = 'var(--ow-muted)';
+        track.append(fill);
+        const pv = el('span', 'ow-num', p + '%');
+        mark(pv, 'forecast', f.id, 'value');
+        pr.append(track, pv);
+        card.append(pr);
+        if (has(f.text)) card.append(el('p', 'ow-src', f.text));
+      } else {
+        card.append(el('p', 'ow-fc-noprob', has(f.text) ? f.text + ' · fuori dal punteggio Brier' : 'Senza probabilità · fuori dal punteggio Brier'));
+      }
+      const det = el('details');
+      det.append(el('summary', '', 'Riferimento e criterio'));
+      if (has(f.extra)) det.append(el('p', '', 'Riferimento: ' + f.extra));
+      if (has(f.detail)) det.append(el('p', '', 'Criterio: ' + f.detail));
+      card.append(det);
+      box.append(card);
+    });
+  }
+
+  // ---------- glossary ----------
+  function drawGlossary(rows) {
+    const box = clear('ow-glossary');
+    const sec = $('glossario');
+    sec.hidden = !rows.length;
+    const nav = document.querySelector('.ow-jump a[data-go="glossario"]');
+    if (nav) nav.hidden = !rows.length;
+    rows.forEach((g) => {
+      const d = el('div');
+      d.id = 'gl-' + g.id;
+      d.append(el('dt', '', g.title), el('dd', '', g.text || ''));
+      box.append(d);
+    });
+  }
+
+  // ---------- sources ----------
+  function drawSources(rows) {
+    const box = clear('ow-sources');
+    if (!rows.length) { box.append(el('p', 'ow-muted', 'Fonti non disponibili.')); return; }
+    const groups = new Map();
+    rows.forEach((r) => { const k = r.category || 'Altre'; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); });
+    groups.forEach((items, k) => {
+      const g = el('div');
+      g.append(el('div', 'ow-k', k));
+      const ul = el('ul');
+      items.forEach((r) => {
+        const li = el('li');
+        const u = safeUrl(r.url);
+        if (u) { const a = el('a', '', r.title || u); a.href = u; a.target = '_blank'; a.rel = 'noopener'; li.append(a); }
+        else li.append(document.createTextNode(r.title || ''));
+        if (has(r.time)) li.append(el('span', 'ow-faint', ' · ' + r.time));
+        ul.append(li);
+      });
+      g.append(ul);
+      box.append(g);
+    });
+  }
+
+
+  // ---------- lezione del giorno ----------
+  function drawLesson(rows) {
+    const box = clear('ow-lesson');
+    const r = rows[0];
+    if (!r) { box.append(stateLine('Nessuna lezione oggi.')); return; }
+    const card = el('article', 'ow-card ow-lesson');
+    const top = el('div', 'ow-row');
+    if (has(r.level)) top.append(chip('Livello ' + String(r.level).toLowerCase(), 'is-muted'));
+    if (has(r.category)) top.append(chip(r.category, 'is-muted'));
+    card.append(top, mark(el('h3', '', r.title), 'lesson', r.id, 'title'));
+    if (has(r.text)) card.append(mark(el('p', 'ow-plain', r.text), 'lesson', r.id, 'text'));
+    if (has(r.detail)) { const ex = el('div', 'ex'); ex.append(el('div', 'ow-k', 'Esempio di oggi'), mark(el('p', '', r.detail), 'lesson', r.id, 'detail')); card.append(ex); }
+    if (has(r.extra)) {
+      const q = el('div');
+      q.append(el('div', 'ow-k', 'Verifica'), mark(el('p', 'q', r.extra), 'lesson', r.id, 'extra'));
+      card.append(q);
+      if (has(r.catalysts)) {
+        const d = el('details');
+        d.append(el('summary', '', 'Pensa alla risposta, poi apri'), mark(el('p', 'ow-plain', r.catalysts), 'lesson', r.id, 'catalysts'));
+        card.append(d);
+      }
+    }
+    box.append(card);
+  }
+
+  // ---------- livelli di riferimento ----------
+  function drawLevels(rows) {
+    const box = clear('ow-levels');
+    if (!rows.length) { box.append(stateLine('Livelli non disponibili oggi.')); return; }
+    const groups = d3.groups(rows, (r) => r.category);
+    groups.forEach(([g, items]) => {
+      const card = el('article', 'ow-card ow-lvl');
+      card.id = 'lvl-' + g;
+      card.append(el('h3', '', items[0].title || g));
+      const dl = el('dl');
+      items.forEach((r) => {
+        dl.append(el('dt', '', r.label + (has(r.time) ? ' (' + r.time + ')' : '')));
+        const dd = el('dd', isNum(r.value) ? '' : 'nd');
+        if (isNum(r.value)) {
+          const n = mark(el('span', '', fmtValue(r.value, r.unit)), 'level', r.id, 'value');
+          dd.append(n);
+          if (r.unit === '$') dd.append(document.createTextNode(' $'));
+        } else dd.textContent = 'n.d.';
+        dl.append(dd);
+      });
+      card.append(dl);
+      const by = (k) => items.find((r) => r.status === k && isNum(r.value));
+      const hi = by('high'), lo = by('low'), cl = by('close');
+      const rb = el('div', 'ow-range');
+      if (hi && lo && cl && hi.value > lo.value) {
+        const W = 300, H = 46, pad = 8;
+        const x = d3.scaleLinear([lo.value, hi.value], [pad, W - pad]).clamp(true);
+        const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Dove ha chiuso il prezzo dentro l\'escursione di ieri' });
+        svg.append(svgEl('rect', { x: pad, y: 14, width: W - 2 * pad, height: 8, rx: 4, fill: 'var(--ow-line)' }));
+        svg.append(svgEl('rect', { x: x(cl.value) - 2, y: 8, width: 4, height: 20, rx: 2, fill: 'var(--ow-text)' }));
+        const t1 = svgEl('text', { x: pad, y: 42 }); t1.textContent = 'minimo'; svg.append(t1);
+        const t2 = svgEl('text', { x: W - pad, y: 42, 'text-anchor': 'end' }); t2.textContent = 'massimo'; svg.append(t2);
+        rb.append(svg);
+        const pos = (cl.value - lo.value) / (hi.value - lo.value);
+        const txt = pos >= 0.75 ? 'Chiusura vicino al massimo: a fine giornata comandavano i compratori.' : pos <= 0.25 ? 'Chiusura vicino al minimo: a fine giornata comandavano i venditori.' : 'Chiusura a metà dell\'escursione: giornata senza un vincitore chiaro.';
+        rb.append(el('p', 'ow-plain', txt));
+      } else rb.append(el('div', 'ow-spark-note', 'Escursione di ieri non verificata: barra non disponibile'));
+      card.append(rb);
+      const srcs = [...new Map(items.filter((r) => has(r.source)).map((r) => [r.source, safeUrl(r.url)])).entries()];
+      if (srcs.length) {
+        const s = el('div', 'ow-src', 'Fonte: ');
+        srcs.forEach(([name, url], i) => { if (i) s.append('; '); if (url) { const a = el('a', '', name); a.href = url; a.target = '_blank'; a.rel = 'noopener'; s.append(a); } else s.append(name); });
+        card.append(s);
+      }
+      box.append(card);
+    });
+  }
+
+  // ---------- orologio delle sessioni ----------
+  const tzOffset = (tz, ms) => {
+    const p = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }).formatToParts(new Date(ms));
+    const g = (t) => +((p.find((x) => x.type === t) || {}).value);
+    return Date.UTC(g('year'), g('month') - 1, g('day'), g('hour') % 24, g('minute')) - Math.floor(ms / 60000) * 60000;
+  };
+  const zonedMs = (dateIso, h, m, tz) => {
+    const [y, mo, d] = dateIso.split('-').map(Number);
+    let guess = Date.UTC(y, mo - 1, d, h, m);
+    guess -= tzOffset(tz, guess);
+    return Date.UTC(y, mo - 1, d, h, m) - tzOffset(tz, guess);
+  };
+  const SESSIONS = [
+    ['Asia (Tokyo)', 'Asia/Tokyo', [9, 0], [18, 0]],
+    ['Europa (Londra)', 'Europe/London', [8, 0], [17, 0]],
+    ['USA (New York)', 'America/New_York', [8, 0], [17, 0]],
+  ];
+  function drawClock(calRows, today) {
+    const box = clear('ow-clock');
+    const note = clear('ow-clock-note');
+    const now = athensNow();
+    const day = now.date;
+    const base = zonedMs(day, 0, 0, 'Europe/Athens');
+    const toMin = (ms) => (ms - base) / 60000;
+    const W = Math.max(300, box.clientWidth || 600);
+    const narrow = W < 520;
+    const labW = narrow ? 0 : 130, padR = 10, rowH = narrow ? 36 : 28, top = 6;
+    const x = d3.scaleLinear([0, 1440], [labW, W - padR]).clamp(true);
+    const rowsY = SESSIONS.length * rowH;
+    const H = top + rowsY + 46;
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Sessioni di Asia, Europa e USA nella giornata, in ora di Atene' });
+    for (let h = 0; h <= 24; h += 3) {
+      svg.append(svgEl('line', { x1: x(h * 60), x2: x(h * 60), y1: top, y2: top + rowsY, stroke: 'var(--ow-line)' }));
+      const t = svgEl('text', { class: 'tick', x: x(h * 60), y: top + rowsY + 14, 'text-anchor': h === 0 ? 'start' : h === 24 ? 'end' : 'middle' });
+      t.textContent = String(h).padStart(2, '0'); svg.append(t);
+    }
+    const spans = [];
+    SESSIONS.forEach(([name, tz, a, b], i) => {
+      const y0 = top + i * rowH;
+      const s = toMin(zonedMs(day, a[0], a[1], tz)), e = toMin(zonedMs(day, b[0], b[1], tz));
+      spans.push([s, e]);
+      const barY = narrow ? y0 + 16 : y0 + 6, barH = narrow ? 14 : 16;
+      const lab = svgEl('text', { class: 'lab', x: narrow ? x(Math.max(0, s)) : 0, y: narrow ? y0 + 12 : barY + 12 }); lab.textContent = name; svg.append(lab);
+      [[s, e], [s - 1440, e - 1440], [s + 1440, e + 1440]].forEach(([p, q]) => {
+        if (q <= 0 || p >= 1440) return;
+        svg.append(svgEl('rect', { x: x(Math.max(0, p)), y: barY, width: Math.max(2, x(Math.min(1440, q)) - x(Math.max(0, p))), height: barH, rx: 4, fill: 'var(--ow-line-hi)' }));
+      });
+      if (tz === 'America/New_York') {
+        const o = toMin(zonedMs(day, 9, 30, tz)), c = toMin(zonedMs(day, 16, 0, tz));
+        svg.append(svgEl('rect', { x: x(o), y: barY, width: x(c) - x(o), height: barH, rx: 4, fill: 'var(--ow-muted)' }));
+      }
+    });
+    const [lS, lE] = spans[1], [nS, nE] = spans[2];
+    const ovS = Math.max(lS, nS), ovE = Math.min(lE, nE);
+    if (ovE > ovS) svg.append(svgEl('rect', { x: x(ovS), y: top - 2, width: x(ovE) - x(ovS), height: rowsY + 2, fill: 'var(--ow-up-wash)' }));
+    const sameDay = day === today;
+    const ticks = sameDay ? calRows.filter((r) => /^\d{1,2}:\d{2}$/.test(String(r.time || ''))) : [];
+    const ty = top + rowsY + 22;
+    ticks.forEach((r) => {
+      const [h, m] = r.time.split(':').map(Number);
+      const hiI = /^alt/i.test(r.level || '');
+      svg.append(svgEl('path', { d: `M${x(h * 60 + m)},${ty} l-5,9 h10 z`, fill: hiI ? 'var(--ow-dn)' : 'var(--ow-faint)' }));
+    });
+    const nx = x(now.min);
+    svg.append(svgEl('line', { x1: nx, x2: nx, y1: top - 4, y2: ty + 12, stroke: 'var(--ow-crit)', 'stroke-width': 2 }));
+    const nt = svgEl('text', { class: 'tick', x: Math.min(W - padR, Math.max(labW, nx)), y: H - 2, 'text-anchor': nx > W - 60 ? 'end' : nx < labW + 60 ? 'start' : 'middle' });
+    nt.textContent = 'adesso ' + String(Math.floor(now.min / 60)).padStart(2, '0') + ':' + String(now.min % 60).padStart(2, '0');
+    svg.append(nt);
+    box.append(svg);
+    const fm = (mn) => { const v = ((Math.round(mn) % 1440) + 1440) % 1440; return String(Math.floor(v / 60)).padStart(2, '0') + ':' + String(v % 60).padStart(2, '0'); };
+    const open = SESSIONS.filter((s, i) => { const [a, b] = spans[i]; return (now.min >= a && now.min < b) || (now.min >= a - 1440 && now.min < b - 1440) || (now.min >= a + 1440 && now.min < b + 1440); }).map((s) => s[0].split(' ')[0]);
+    note.append(el('span', '', open.length ? 'Aperte adesso: ' + open.join(', ') + '.' : 'Adesso le grandi piazze sono chiuse: movimenti di solito più lenti.'));
+    if (ovE > ovS) note.append(el('span', '', 'Fascia azzurra ' + fm(ovS) + '–' + fm(ovE) + ': Londra e New York aperte insieme, il momento con più scambi.'));
+    note.append(el('span', '', 'Grigio scuro: borsa di New York aperta. ▲ dati di oggi (ambra = impatto alto). I future sono quotati quasi 24 ore su 24.'));
+  }
+
+  // ---------- prossime settimane ----------
+  function drawUpcoming(rows, forecasts, today) {
+    const strip = clear('ow-up-strip');
+    const list = clear('ow-upcoming');
+    const items = rows.filter((r) => /^\d{4}-\d{2}-\d{2}$/.test(String(r.time || ''))).map((r) => ({ r, d: dayDiff(today, r.time), kind: 'ev' }));
+    forecasts.forEach((f) => { if (/^\d{4}-\d{2}-\d{2}$/.test(String(f.time || ''))) items.push({ r: { section: 'forecast', id: f.id, time: f.time, title: 'Scadenza previsione ' + f.id, level: 'Basso', category: 'Registro', text: f.title }, d: dayDiff(today, f.time), kind: 'fc' }); });
+    const win = items.filter((o) => o.d !== null && o.d >= 0 && o.d <= 30).sort((a, b) => a.d - b.d || byOrder(a.r, b.r));
+    if (!win.length) { list.append(stateLine('Nessun appuntamento nei prossimi 30 giorni.')); return; }
+    const sym = (l) => (/^alt/i.test(l || '') ? '●●●' : /^medi/i.test(l || '') ? '●●○' : '●○○');
+    // strip
+    const W = Math.max(300, strip.clientWidth || 600), H = 64, l = 10, rr = 10;
+    const x = d3.scaleLinear([0, 30], [l, W - rr]);
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Appuntamenti dei prossimi 30 giorni' });
+    svg.append(svgEl('line', { x1: x(0), x2: x(30), y1: 30, y2: 30, stroke: 'var(--ow-line-hi)', 'stroke-width': 2 }));
+    for (let i = 0; i <= 30; i += 7) {
+      svg.append(svgEl('line', { x1: x(i), x2: x(i), y1: 24, y2: 36, stroke: 'var(--ow-line-hi)' }));
+      const t = svgEl('text', { class: 'tick', x: x(i), y: 54, 'text-anchor': i === 0 ? 'start' : i >= 28 ? 'end' : 'middle' });
+      t.textContent = i === 0 ? 'oggi' : '+' + i + ' giorni'; svg.append(t);
+    }
+    const stack = {};
+    win.forEach((o) => {
+      const k = o.d; stack[k] = (stack[k] || 0) + 1;
+      const cy = 30 - (stack[k] - 1) * 12;
+      const hi = /^alt/i.test(o.r.level || ''), md = /^medi/i.test(o.r.level || '');
+      svg.append(svgEl('circle', { cx: x(o.d), cy, r: hi ? 6 : 4.5, fill: hi ? 'var(--ow-text)' : md ? 'var(--ow-muted)' : 'var(--ow-panel)', stroke: hi ? 'var(--ow-panel)' : 'var(--ow-muted)', 'stroke-width': 1.5 }));
+    });
+    strip.append(svg);
+    // list grouped by week
+    const weeks = d3.groups(win, (o) => Math.floor(o.d / 7));
+    weeks.forEach(([w, its]) => {
+      const g = el('div', 'ow-up-week');
+      g.append(el('h3', '', w === 0 ? 'Questa settimana' : w === 1 ? 'Tra una settimana' : 'Tra ' + w + ' settimane'));
+      its.forEach((o) => {
+        const r = o.r;
+        const it = el('div', 'ow-up-item');
+        const dd = el('div', 'd', fmtDate(r.time).replace(/ \d{4}$/, ''));
+        dd.append(el('small', '', o.d === 0 ? 'oggi' : o.d === 1 ? 'domani' : 'tra ' + o.d + ' giorni'));
+        const body = el('div');
+        const t = el('div', 't', sym(r.level) + ' ');
+        t.append(o.kind === 'fc' ? el('span', '', r.title) : mark(el('span', '', r.title), 'upcoming', r.id, 'title'));
+        body.append(t);
+        const meta = el('div', 'ow-row');
+        if (has(r.category)) meta.append(chip(r.category, 'is-muted'));
+        if (has(r.status)) meta.append(chip(r.status, /confermare/i.test(r.status) ? 'is-muted is-dashed' : 'is-strong'));
+        body.append(meta);
+        if (has(r.text)) body.append(el('p', '', r.text));
+        const u = safeUrl(r.url);
+        if (u) { const s = el('div', 'ow-src'); const a = el('a', '', has(r.source) ? r.source : 'Fonte'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; s.append(a); body.append(s); }
+        it.append(dd, body);
+        g.append(it);
+      });
+      list.append(g);
+    });
+  }
+
+  // ---------- COT ----------
+  function drawCot(rows) {
+    const box = clear('ow-cot');
+    if (!rows.length) { box.append(stateLine('Rapporto settimanale non disponibile.')); return; }
+    const fmtN = (v) => IT.format('+,')(v);
+    rows.forEach((r) => {
+      const card = el('article', 'ow-card ow-cot');
+      card.id = 'cot-' + r.id;
+      card.append(el('h3', '', r.title));
+      const top = el('div', 'ow-row');
+      if (isNum(r.value)) top.append(mark(el('span', 'net', fmtN(r.value)), 'cot', r.id, 'value'));
+      if (has(r.label)) top.append(chip((r.value >= 0 ? '▲ ' : '▼ ') + r.label, r.value >= 0 ? 'is-up' : 'is-dn'));
+      card.append(top);
+      if (isNum(r.change)) {
+        const c = el('div', 'ow-src');
+        c.append('Rispetto alla settimana prima: ', mark(el('b', '', fmtN(r.change)), 'cot', r.id, 'change'), ' contratti');
+        card.append(c);
+      }
+      if (isNum(r.value)) {
+        const wrap = el('div', 'ow-chart');
+        const W = Math.max(240, wrap.clientWidth || 300), H = 40;
+        const m = Math.max(Math.abs(r.value), Math.abs(isNum(r.prev) ? r.prev : 0)) * 1.15 || 1;
+        const x = d3.scaleLinear([-m, m], [6, W - 6]);
+        const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Posizione netta degli speculatori: a destra lunghi, a sinistra corti' });
+        svg.append(svgEl('rect', { x: Math.min(x(0), x(r.value)), y: 8, width: Math.abs(x(r.value) - x(0)), height: 14, rx: 3, fill: r.value >= 0 ? 'var(--ow-up)' : 'var(--ow-dn)' }));
+        svg.append(svgEl('line', { x1: x(0), x2: x(0), y1: 2, y2: 28, stroke: 'var(--ow-text)', 'stroke-width': 1.5 }));
+        if (isNum(r.prev)) svg.append(svgEl('rect', { x: x(r.prev) - 1, y: 4, width: 2, height: 22, fill: 'var(--ow-text)', opacity: 0.55 }));
+        const a = svgEl('text', { class: 'tick', x: 6, y: 38 }); a.textContent = '◀ corti (ribasso)'; svg.append(a);
+        const b = svgEl('text', { class: 'tick', x: W - 6, y: 38, 'text-anchor': 'end' }); b.textContent = 'lunghi (rialzo) ▶'; svg.append(b);
+        wrap.append(svg);
+        card.append(wrap);
+      }
+      if (has(r.text)) card.append(mark(el('p', 'ow-plain', r.text), 'cot', r.id, 'text'));
+      if (has(r.extra)) { const p = el('p', 'ow-plain'); p.append(el('b', '', 'Per i mercati: '), mark(el('span', '', r.extra), 'cot', r.id, 'extra')); card.append(p); }
+      const s = el('div', 'ow-src', (r.detail ? r.detail + '. ' : '') + (r.time ? r.time + '. ' : ''));
+      const u = safeUrl(r.url);
+      if (u) { const a = el('a', '', r.source || 'CFTC'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; s.append(a); }
+      card.append(s);
+      box.append(card);
+    });
+  }
+
+  // ---------- correlazione oro / dollaro / rendimenti ----------
+  function drawCorr(hist) {
+    const box = clear('ow-corr');
+    const S = [['mkt:GC', 'Oro', 'var(--c-gold)'], ['mkt:DXY', 'Dollaro', 'var(--c-usd)'], ['mkt:US10Y', 'Rendimento 10 anni', 'var(--c-y)']];
+    const ser = S.map(([k]) => new Map(hist.filter((h) => h.series === k && isNum(+h.value)).map((h) => [String(h.date).slice(0, 10), +h.value])));
+    const dates = [...ser[0].keys()].filter((d) => ser.every((m) => m.has(d))).sort().slice(-60);
+    const NEED = 5;
+    if (dates.length < NEED) { box.append(el('div', 'ow-spark-note', 'In costruzione: ' + dates.length + ' giorni su ' + NEED + ' necessari. Il grafico compare da solo quando lo storico è sufficiente.')); return; }
+    const norm = ser.map((m) => { const b = m.get(dates[0]); return dates.map((d) => (m.get(d) / b) * 100); });
+    const W = Math.max(280, box.clientWidth || 500), H = 170, l = 34, r = 64, t = 10, b = 22;
+    const all = norm.flat();
+    const y = d3.scaleLinear(d3.extent(all), [H - b, t]).nice();
+    const x = d3.scaleLinear([0, dates.length - 1], [l, W - r]);
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Oro, dollaro e rendimento a 10 anni, base 100' });
+    y.ticks(4).forEach((v) => {
+      svg.append(svgEl('line', { x1: l, x2: W - r, y1: y(v), y2: y(v), stroke: v === 100 ? 'var(--ow-line-hi)' : 'var(--ow-line)' }));
+      const tt = svgEl('text', { class: 'tick', x: l - 6, y: y(v) + 4, 'text-anchor': 'end' }); tt.textContent = IT.format(',')(v); svg.append(tt);
+    });
+    norm.forEach((vals, i) => svg.append(svgEl('path', { d: d3.line().x((v, j) => x(j)).y((v) => y(v))(vals), fill: 'none', stroke: S[i][2], 'stroke-width': 2.2, 'stroke-linejoin': 'round' })));
+    const fd = (d) => { const [, m, dd] = d.split('-').map(Number); return dd + ' ' + MONTHS[m - 1]; };
+    const a1 = svgEl('text', { class: 'tick', x: l, y: H - 4 }); a1.textContent = fd(dates[0]); svg.append(a1);
+    const a2 = svgEl('text', { class: 'tick', x: W - r, y: H - 4, 'text-anchor': 'end' }); a2.textContent = fd(dates[dates.length - 1]); svg.append(a2);
+    const ends = norm.map((vals, i) => ({ i, y: y(vals[vals.length - 1]) })).sort((a, c) => a.y - c.y);
+    ends.forEach((e, k) => { if (k && e.y - ends[k - 1].y < 13) e.y = ends[k - 1].y + 13; });
+    ends.forEach((e) => { const tx = svgEl('text', { class: 'lab', x: W - r + 6, y: e.y + 4, fill: S[e.i][2], style: 'font-size:12px' }); tx.textContent = ['Oro', 'Dollaro', '10 anni'][e.i]; svg.append(tx); });
+    const tip = el('div', 'ow-tip'); tip.hidden = true;
+    const hit = svgEl('rect', { x: l, y: t, width: W - r - l, height: H - t - b, fill: 'transparent' });
+    const show = (ev) => {
+      const rect = svg.getBoundingClientRect();
+      const j = Math.max(0, Math.min(dates.length - 1, Math.round(x.invert((ev.clientX - rect.left) * (W / rect.width)))));
+      tip.replaceChildren(el('b', '', fd(dates[j])), ...S.map((s, i) => el('div', '', s[1] + ': ' + IT.format(',.1f')(norm[i][j]))));
+      tip.hidden = false;
+      tip.style.left = Math.min(rect.width - 150, Math.max(0, x(j) * rect.width / W - 60)) + 'px'; tip.style.top = '0px';
+    };
+    hit.addEventListener('pointermove', show); hit.addEventListener('pointerdown', show); hit.addEventListener('pointerleave', () => { tip.hidden = true; });
+    svg.append(hit);
+    box.append(svg, tip);
+    if (dates.length >= 15) {
+      const ret = (vals) => vals.slice(1).map((v, i) => v - vals[i]);
+      const corr = (a, c) => { const ma = d3.mean(a), mc = d3.mean(c); let s = 0, sa = 0, sc = 0; a.forEach((v, i) => { s += (v - ma) * (c[i] - mc); sa += (v - ma) ** 2; sc += (c[i] - mc) ** 2; }); return sa && sc ? s / Math.sqrt(sa * sc) : null; };
+      const rg = ret(norm[0]);
+      const say = (v) => v === null ? 'n.d.' : IT.format('+.2f')(v) + (v <= -0.5 ? ' (si muovono spesso in direzioni opposte)' : v >= 0.5 ? ' (si muovono spesso insieme)' : ' (legame debole)');
+      const p = el('p', 'ow-plain');
+      p.append(el('b', '', 'Legame degli ultimi ' + dates.length + ' giorni: '), 'oro e dollaro ' + say(corr(rg, ret(norm[1]))) + '; oro e rendimenti ' + say(corr(rg, ret(norm[2]))) + '.');
+      box.append(p);
+    }
+  }
+
+  // ---------- diario di lettura ----------
+  const DIARY_MK = [['gc', 'Oro', 'GC', 0.3], ['eur', 'EUR/USD', 'EURUSD', 0.15], ['es', 'S&P 500', 'ES', 0.3]];
+  const diary = { db: null, uid: null, state: 'init', entries: new Map(), draft: {}, editing: false, unsub: null, hist: [], today: null, msg: '' };
+  async function diaryInit() {
+    try {
+      const c = window.claude;
+      if (!c || typeof c.use !== 'function') { diary.state = 'off'; drawDiary(); return; }
+      const [db, user] = await Promise.all([c.use('db'), c.use('user')]);
+      const uid = user && typeof user.id === 'function' ? await user.id() : null;
+      if (!db || !uid) { diary.state = 'off'; drawDiary(); return; }
+      diary.db = db; diary.uid = uid; diary.state = 'ready';
+      diary.unsub = db.collection('data/users/' + uid + '/diario/entries').orderBy('date', 'desc').limit(120).onSnapshot((snap) => {
+        diary.entries = new Map(snap.docs.filter((d) => d.exists).map((d) => [d.id, d.data()]));
+        drawDiary();
+      }, () => { diary.state = 'error'; drawDiary(); });
+    } catch (e) { diary.state = 'off'; }
+    drawDiary();
+  }
+  const dirOf = (pct, thr) => (pct > thr ? 1 : pct < -thr ? -1 : 0);
+  const dirSym = (v) => (v === 1 ? '▲ su' : v === -1 ? '▼ giù' : v === 0 ? '◆ neutro' : '—');
+  function diaryScore(hist) {
+    const val = (k) => new Map(hist.filter((h) => h.series === k && isNum(+h.value)).map((h) => [String(h.date).slice(0, 10), +h.value]));
+    const out = [];
+    DIARY_MK.forEach(([key, name, ser, thr]) => {
+      const px = val('mkt:' + ser), ag = val('lettura:' + ser);
+      const days = [...px.keys()].sort();
+      days.forEach((d, i) => {
+        const next = days[i + 1];
+        if (!next) return;
+        const real = dirOf((px.get(next) / px.get(d) - 1) * 100, thr);
+        const e = diary.entries.get(d);
+        const mine = e && isNum(e[key]) ? e[key] : null;
+        const agent = ag.has(d) ? ag.get(d) : null;
+        if (mine === null && agent === null) return;
+        out.push({ date: d, name, real, mine, agent });
+      });
+    });
+    return out.sort((a, b) => b.date.localeCompare(a.date));
+  }
+  function drawDiary() {
+    const box = clear('ow-diary');
+    if (!box) return;
+    const today = diary.today;
+    if (diary.state === 'init') { box.append(stateLine('Caricamento del diario…')); return; }
+    if (diary.state === 'off') { box.append(stateLine('Il diario funziona quando apri la dashboard su claude.ai con il tuo account: lì le tue scelte vengono salvate, private, solo per te.')); }
+    if (diary.state === 'error') { box.append(stateLine('Il diario non è raggiungibile in questo momento. Riprova più tardi.', true)); }
+    if (diary.state === 'ready' && today) {
+      const saved = diary.entries.get(today);
+      const editing = !saved || diary.editing;
+      const form = el('div', 'ow-diary-rows');
+      form.append(el('div', 'ow-k', saved && !diary.editing ? 'La tua lettura di oggi (salvata)' : 'Cosa pensi che faranno oggi, fino a domani mattina?'));
+      DIARY_MK.forEach(([key, name]) => {
+        const row = el('div', 'ow-diary-row');
+        row.append(el('b', '', name));
+        const seg = el('div', 'ow-seg'); seg.setAttribute('role', 'group'); seg.setAttribute('aria-label', name);
+        const cur = editing ? (key in diary.draft ? diary.draft[key] : saved ? saved[key] : null) : saved[key];
+        [[1, '▲ Su', 'v-up'], [0, '◆ Neutro', 'v-flat'], [-1, '▼ Giù', 'v-dn']].forEach(([v, t, cls]) => {
+          const b = el('button', cls, t); b.type = 'button';
+          b.setAttribute('aria-pressed', String(cur === v));
+          b.disabled = !editing;
+          b.addEventListener('click', () => { diary.draft[key] = v; drawDiary(); });
+          seg.append(b);
+        });
+        row.append(seg);
+        form.append(row);
+      });
+      const why = el('input'); why.type = 'text'; why.maxLength = 200; why.placeholder = 'Perché, in una riga (es. «dollaro debole e paura nel Golfo»)';
+      why.value = editing ? (diary.draft.why !== undefined ? diary.draft.why : (saved && saved.why) || '') : (saved.why || '');
+      why.disabled = !editing;
+      why.setAttribute('aria-label', 'Il tuo perché');
+      why.addEventListener('input', () => { diary.draft.why = why.value; });
+      form.append(why);
+      const act = el('div', 'ow-row');
+      if (editing) {
+        const pick = (k) => (k in diary.draft ? diary.draft[k] : saved ? saved[k] : null);
+        const ready = DIARY_MK.every(([k]) => isNum(pick(k)));
+        const btn = el('button', 'ow-btn', saved ? 'Salva le modifiche' : 'Salva la mia lettura');
+        btn.type = 'button'; btn.disabled = !ready;
+        btn.addEventListener('click', async () => {
+          btn.disabled = true;
+          const doc = { date: today, gc: pick('gc'), eur: pick('eur'), es: pick('es'), why: String(why.value || '').slice(0, 200), at: new Date().toISOString() };
+          if (saved && saved.firstAt) doc.firstAt = saved.firstAt; else doc.firstAt = saved ? saved.at || doc.at : doc.at;
+          try { await diary.db.collection('data/users/' + diary.uid + '/diario/entries').doc(today).set(doc); diary.draft = {}; diary.editing = false; diary.msg = 'Salvato.'; }
+          catch (e) { diary.msg = 'Non sono riuscito a salvare: ' + (e && e.message ? e.message : 'errore') + '.'; }
+          drawDiary();
+        });
+        act.append(btn);
+        if (!ready) act.append(el('span', 'ow-faint', 'Scegli una direzione per tutti e tre.'));
+      } else {
+        const b = el('button', 'ow-btn is-ghost', 'Modifica'); b.type = 'button';
+        b.addEventListener('click', () => { diary.editing = true; drawDiary(); });
+        act.append(b);
+      }
+      if (diary.msg) act.append(el('span', 'ow-faint', diary.msg));
+      form.append(act);
+      box.append(form);
+    }
+    // score
+    const sc = diaryScore(diary.hist);
+    const mineRows = sc.filter((s) => s.mine !== null), agRows = sc.filter((s) => s.agent !== null);
+    const grid = el('div', 'ow-score-grid');
+    const tile = (title, rows, key) => {
+      const t = el('div', 'ow-hit');
+      t.append(el('div', 'ow-k', title));
+      if (!rows.length) { t.append(el('div', 'ow-faint', 'Ancora nessun giorno da valutare.')); return t; }
+      const ok = rows.filter((r) => r[key] === r.real).length;
+      t.append(el('div', 'big', Math.round(ok / rows.length * 100) + '%'));
+      t.append(el('div', 'ow-faint', ok + ' letture giuste su ' + rows.length));
+      const bar = el('div', 'ow-hitbar'); const i = el('i'); i.style.width = (ok / rows.length * 100) + '%'; bar.append(i); t.append(bar);
+      return t;
+    };
+    grid.append(tile('Le tue letture', mineRows, 'mine'), tile("Le letture dell'agente", agRows, 'agent'));
+    box.append(el('div', 'ow-k', 'Il punteggio'), grid);
+    if (sc.length) {
+      const wrap = el('div', 'ow-tablebox');
+      const tb = el('table', 'ow-dtable');
+      const hr = el('tr'); ['Giorno', 'Mercato', 'Tu', 'Agente', 'Com\'è andata'].forEach((h) => hr.append(el('th', '', h)));
+      const th = el('thead'); th.append(hr); tb.append(th);
+      const body = el('tbody');
+      sc.slice(0, 15).forEach((s) => {
+        const tr = el('tr');
+        const res = (v) => { const td = el('td'); if (v === null) { td.textContent = '—'; return td; } td.append(el('span', '', dirSym(v) + ' '), el('span', v === s.real ? 'ow-ok' : 'ow-ko', v === s.real ? '✓' : '✗')); return td; };
+        tr.append(el('td', '', fmtDate(s.date).replace(/ \d{4}$/, '')), el('td', '', s.name), res(s.mine), res(s.agent), el('td', '', dirSym(s.real)));
+        body.append(tr);
+      });
+      tb.append(body); wrap.append(tb); box.append(wrap);
+    }
+    box.append(el('p', 'ow-src', 'Come si valuta: si confronta il prezzo di un giorno con quello del brief successivo. Oro e S&P 500 sono «neutri» se si muovono meno dello 0,3%, l\'euro meno dello 0,15%. Le tue scelte sono private: le vedi solo tu.'));
+  }
+
+  // ---------- states ----------
+  const LISTS = ['ow-gauges', 'ow-snapshot', 'ow-map', 'ow-fronts', 'ow-markets', 'ow-trading', 'ow-sentiment', 'ow-scenarios', 'ow-warnings', 'ow-changes', 'ow-defense', 'ow-defense-quiet', 'ow-forecasts', 'ow-sources', 'ow-scen-tabs', 'ow-glossary', 'ow-forces', 'ow-front-rank', 'ow-trend', 'ow-lesson', 'ow-levels', 'ow-clock', 'ow-clock-note', 'ow-up-strip', 'ow-upcoming', 'ow-cot', 'ow-corr'];
+  function drawEmpty(status) {
+    LISTS.forEach((id) => clear(id));
+    $('ow-calendar').querySelector('tbody').replaceChildren();
+    const title = $('ow-title');
+    const sum = $('ow-summary');
+    if (status === 'loading') {
+      title.classList.add('dash-skeleton');
+      sum.classList.add('dash-skeleton');
+      return;
+    }
+    title.classList.remove('dash-skeleton');
+    sum.classList.remove('dash-skeleton');
+    title.textContent = 'OPEN WORLD';
+    $('ow-time').textContent = '';
+    $('ow-coverage').textContent = '';
+    $('ow-gauges').append(stateLine('Failed to load', true));
+  }
+
+  // ---------- main ----------
+  const openDetails = new Set();
+  const detKey = (det) => { const host = det.closest('[id]'); const sum = det.querySelector('summary'); return (host ? host.id : '') + '|' + (sum ? sum.textContent : ''); };
+  $('ow').addEventListener('toggle', (e) => {
+    const det = e.target;
+    if (!(det instanceof HTMLDetailsElement)) return;
+    const k = detKey(det);
+    if (det.open) openDetails.add(k); else openDetails.delete(k);
+  }, true);
+  const restoreDetails = () => document.querySelectorAll('#ow details').forEach((det) => { if (openDetails.has(detKey(det))) det.open = true; });
+
+  let clockRows = [], clockToday = null;
+  setInterval(() => { if (clockToday) drawClock(clockRows, clockToday); }, 60000);
+  diaryInit();
+  dash.onData(() => {
+    const d = dash.data('oggi');
+    const h = dash.data('storico');
+    if (d.status !== 'ok' || !Array.isArray(d.data)) { drawEmpty(d.status); return; }
+    const rows = d.data;
+    const hist = h.status === 'ok' && Array.isArray(h.data) ? h.data : [];
+    const sec = (name) => rows.filter((r) => r && r.section === name).sort(byOrder);
+    const head = sec('header')[0] || null;
+    const today = head && /^\d{4}-\d{2}-\d{2}/.test(String(head.category || '')) ? String(head.category).slice(0, 10) : new Date().toISOString().slice(0, 10);
+    drawHeader(head);
+    const gbox = clear('ow-gauges');
+    const gauges = sec('gauge');
+    if (!gauges.length) gbox.append(stateLine('Indicatori non disponibili.'));
+    gauges.forEach((g) => gbox.append(drawGauge(g, hist, today)));
+    drawSnapshot(sec('snapshot'));
+    drawForces(sec('force'));
+    const fronts = sec('front');
+    drawFrontRank(fronts, hist, today);
+    drawMap(fronts);
+    drawFronts(fronts, hist, today);
+    drawMarkets(sec('market'), hist, today);
+    drawTrading(sec('trading'));
+    drawCalendar(sec('calendar'));
+    drawNext(sec('calendar'), today);
+    drawSentiment(sec('sentiment'), hist, today);
+    drawScenarios(sec('scenario'));
+    drawWarnings(sec('warning'));
+    drawChanges(sec('change'));
+    drawTrend(hist, gauges);
+    drawDefense(sec('defense'));
+    drawForecasts(sec('forecast'), today);
+    drawGlossary(sec('glossary'));
+    drawSources(sec('source'));
+    drawLesson(sec('lesson'));
+    drawLevels(sec('level'));
+    clockRows = sec('calendar'); clockToday = today;
+    drawClock(clockRows, today);
+    drawUpcoming(sec('upcoming'), sec('forecast'), today);
+    drawCot(sec('cot'));
+    drawCorr(hist);
+    diary.hist = hist; diary.today = today;
+    const ae = document.activeElement;
+    if (!(ae && ae.tagName === 'INPUT' && $('ow-diary').contains(ae))) drawDiary();
+    restoreDetails();
+    if (firstDraw) {
+      firstDraw = false;
+      const named = document.getElementById(location.hash.slice(1));
+      if (named) { named.scrollIntoView(); dash.setLink(named.id); }
+    }
+  });
+
+  if ('IntersectionObserver' in window) {
+    const links = new Map();
+    document.querySelectorAll('.ow-jump a[data-go]').forEach((a) => links.set(a.getAttribute('data-go'), a));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        links.forEach((a) => a.classList.remove('is-on'));
+        const a = links.get(en.target.id);
+        if (a) { dash.setLink(en.target.id); a.classList.add('is-on'); const nav = a.parentElement; const l = a.offsetLeft - nav.offsetLeft; if (l < nav.scrollLeft || l + a.offsetWidth > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = l - 16; }
+      });
+    }, { root: document, rootMargin: '-45% 0px -50% 0px' });
+    links.forEach((a, id) => { const t = document.getElementById(id); if (t) io.observe(t); });
+  }
+  document.querySelectorAll('.ow-jump a[data-go]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      const target = document.getElementById(a.getAttribute('data-go'));
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      dash.setLink(target.id);
+    });
+  });
+})();
+</script>
