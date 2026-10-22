@@ -1,8 +1,3133 @@
 {
-  "version": "2.0.0", "generated_at": null, "last_news_success": null,
-  "news_unavailable": true, "articles": [], "topics": [], "clusters": [], "alerts": [],
-  "markets": [], "warnings": ["Il progetto non è ancora stato avviato: esegui python scripts/refresh.py con accesso a Internet."],
-  "quality": {"feeds_total": 12, "feeds_ok": 0, "feeds_failed": 12, "source_coverage_pct": 0, "status": [], "articles_48h": 0},
-  "indicators": {"market_stress": {"value": null, "coverage": "0/5", "missing": []}, "war_escalation": {"value": null}, "macro_risk": {"value": null}, "global_risk": {"value": null}},
-  "forecasts": {"items": [], "brier": null, "brier_n": 0, "open": 0}
+  "version": "2.0.0",
+  "generated_at": "2026-10-22T01:18:13.118880Z",
+  "timezone": "Europe/Athens",
+  "last_news_success": "2026-10-22T01:18:13.118880Z",
+  "last_market_fetch": "2026-10-22T01:18:13.118880Z",
+  "news_unavailable": false,
+  "articles": [
+    {
+      "id": "c1b2d88ea3ce25db7d",
+      "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+      "summary": "Reports emerge of similar withdrawals in UAE, Jordan, Qatar and Bahrain amid concerns about a return to conflict with Iran after US midterm elections The US state department has ordered some diplomats and the families of US government employees to leave Saudi Arabia, as the gulf kingdom faces a barrage of near-daily attacks, with at least three people killed at an airport and oilfield on Wednesday evening. Attacks on “civilian airports and other critical i",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:26:50Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso",
+        "Medio Oriente"
+      ],
+      "relevance": 3,
+      "article_age_hours": 0.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "f8feeb7e4a9916c234",
+      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+      "summary": "Injured immediately transported to hospitals as aviation authority says updates will be forthcoming.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:25:41Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 3,
+      "article_age_hours": 0.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6545e214c0cde688ac",
+      "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
+      "summary": "Iran's IRGC threatens to invade any country that attacks it under a new 'offensive and asymmetrical' doctrine.",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:00:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente",
+        "Mercati e difesa"
+      ],
+      "relevance": 3,
+      "article_age_hours": 1.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a6fd775f5d695b531e",
+      "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+      "summary": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further information after the company announced there would be no questions",
+      "url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:03:16Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 3,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b837bc7577026b23f8",
+      "title": "Video shows Israeli settler assaulting Palestinian child",
+      "summary": "An Israeli settler was filmed shouting at and assaulting a Palestinian child during an attack on a family east of Yatta.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child-2?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:03:54Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 3,
+      "article_age_hours": 3.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d410ef1f85a3b92279",
+      "title": "L'ambasciata Usa ordina al personale e alle famiglie di lasciare l'Arabia Saudita",
+      "summary": "Lo riferisce una fonte diplomatica. La decisione per il timore di nuovi attacchi Houthi",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/21/lambasciata-usa-ordina-al-personale-e-alle-famiglie-di-lasciare-larabia-saudita_4b4f6f3c-5061-4455-8278-f78323d4e52e.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:19:15Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 3,
+      "article_age_hours": 6.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1baa62e05b606b846f",
+      "title": "Heidi Levine recounts how Palestinian youths helped save her in settler attack",
+      "summary": "US photojournalist describes ‘protective shield’, vows to return to work in West Bank and criticises Netanyahu comments on incident The Washington Post photojournalist who was attacked and seriously injured by Israeli settlers in the West Bank on Friday has described how she was saved with the help of local Palestinians. Heidi Levine sustained four fractured vertebrae, two broken ribs and four puncture wounds when she was knocked to the ground and repeated",
+      "url": "https://www.theguardian.com/world/2026/oct/21/heidi-levine-palestinians-israeli-settler-attack-west-bank",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T17:59:14Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 3,
+      "article_age_hours": 7.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "34a576039cfcabdff4",
+      "title": "Macron visits Riyadh to show solidarity amid Houthi attacks, ease tensions at home via fuel deal",
+      "summary": "French President Emmanuel Macron on Wednesday paid an unannounced visit to Riyadh in a bid to underscore French support for the kingdom amid intensified attacks by Houthi rebels and an attempt to ease tensions at home by securing oil and diesel imports.",
+      "url": "https://www.france24.com/en/macron-visits-riyadh-show-solidarity-amid-houthi-attacks-ease-tensions-home-via-fuel-deal",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T17:09:37Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 3,
+      "article_age_hours": 8.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3e479a9503dbe533a5",
+      "title": "French President Macron lands in Saudi Arabia on surprise 'solidarity' visit",
+      "summary": "⁠French President Emmanuel ​Macron landed in Riyadh on Wednseday, ‌adding an ⁠unscheduled stop to his ‌ongoing tour of the Gulf ⁠region. The president's office said the visit aimed to demonstrate “France's solidarity” ​with Saudi Arabia in ‌the face of attacks launched by the ‌Houthis against its territory. Details by FRANCE 24 international affairs editor Douglas Herbert.",
+      "url": "https://www.france24.com/en/french-president-macron-lands-in-saudi-arabia-on-surprise-solidarity-visit",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:54:08Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 3,
+      "article_age_hours": 9.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "55a37496fef2ffb34a",
+      "title": "Troubled waters: life during wartime for Iranians on the strait of Hormuz",
+      "summary": "Despite US-Israeli airstrikes and Tehran’s attacks on shipping, the waterway still has to provide a lifeline for those that live and work there Capt Farouq turns the wheel as he watches the ferry terminal of Bandar Abbas grow smaller, its bright lights flickering in the distance. In front of him, the navigation radar beeps periodically, its green and pink lights glowing in the darkness. The ferry, today at about half capacity with roughly 100 passengers, t",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/21/strait-of-hormuz-life-amid-wartime-iran",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T05:00:02Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente",
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 3,
+      "article_age_hours": 20.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7546ddd0bb6a69546f",
+      "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+      "summary": "The pro-Israel lobbying group and influential political donor announced it would no longer endorse candidates or give directly to campaigns, instead mobilizing its members to give individually.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:22:48Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7f3dbfc57d70dd31cb",
+      "title": "Attacco ucraino con droni sulla città russa di Lipetsk",
+      "summary": "Esplosioni nella città che ospita un importante acciaieria",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/attacco-ucraino-con-droni-sulla-citta-russa-di-lipetsk_cd67870c-0497-4552-be48-de9998617dc1.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:56:47Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "86a5ba137c51557f6d",
+      "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
+      "summary": "The latest round of negotiations comes amid growing concerns in Kyiv the US is backing away from its support of Ukraine.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:52:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "bf2285f10ef9047e93",
+      "title": "The \"trillion pound\" oil fund the government believes Britain could have built",
+      "summary": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:27:05Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "692de4a0a788f14b28",
+      "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+      "summary": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:13:35Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso",
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "aa6bbeb72c531c71dc",
+      "title": "Royal Navy lacks resources to counter Russian threat in high north, MPs warn",
+      "summary": "Committee cites shortfalls of submarines and warships and says ‘dramatic progress’ needed by end of decade Britain risks failing to deter future Russian aggression in the high north beyond the UK because of shortfalls in the number and availability of Royal Navy submarines and warships, MPs on the defence select committee have said. The committee focused on the slow deployment of HMS Dragon to Cyprus this spring, declining numbers of frigates, and reports ",
+      "url": "https://www.theguardian.com/politics/2026/oct/22/uk-risk-russian-aggression-lack-submarines-warships-mps-warn",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:01:03Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d5e2fbc55019b5a574",
+      "title": "Attacco su aeroporto in Arabia Saudita, un morto e otto feriti",
+      "summary": "Colpito lo scalo di Dammam",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/22/attacco-su-aeroporto-in-arabia-saudita-un-morto-e-otto-feriti_106a5e82-4450-4268-9cd1-01f97f17bf68.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:41:32Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "104173ea8512ad86e6",
+      "title": "Trump admin 'destroying' US democracy with 'autocratic, terrorist version of Christian nationalism'",
+      "summary": "François Picard welcomes former US Assistant Secretary of Defense Jim Townsend and former US Air Force officer Michael (Mikey) Weinstein, founder and president of the Military Religious Freedom Foundation. Is American military power becoming an instrument of political and religious coercion, both at home and abroad? From the reported restrictions on Ukraine's access to Starlink satellite communications to the Trump administration's overtures towards Vladim",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261021-trump-admin-destroying-us-democracy-with-autocratic-terrorist-version-of-christian-nationalism",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:11:27Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "8cb4cb3707a49dd35a",
+      "title": "Tehran displays mock installation of Trump behind bars",
+      "summary": "An Iranian performer in Tehran’s busy Tajrish Square has impersonated US President Donald Trump behind bars.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:43:06Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1bd7b20d6bcdb59083",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:27:41Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "2bbb8330caab38b1b8",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "summary": "Research carried out by the Alliance4Europe NGO suggests that pro-Russian networks manipulated information online in an effort to exacerbate anger in France ahead of last weekend's massive protests and subsequent unrest. After analysing more than half a million posts across various social media platforms, the group says it was able to track the campaign back to the start of September. FRANCE 24's Sharon Gaffney speaks with Omri Preiss, Managing Director at",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261021-in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:25:55Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "bc8f510d710abee289",
+      "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+      "summary": "Russia frees Stephen Hubbard after US request while Steve Witkoff praises Putin, wanted by ICC as war criminal, as a ‘humanitarian’ Vladimir Putin ordered the release of an American man from a Russian jail as he met Donald Trump’s envoy Steve Witkoff in St Petersburg on Wednesday for fresh talks on ending the war in Ukraine, amid increasingly close relations between Moscow and Washington. Trump had previously asked Putin to free Stephen Hubbard, a 74-year-",
+      "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:23:37Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4be07cd252c218d5ba",
+      "title": "In run-up to mass protests and riots, pro-Russian accounts amplified French anger, NGO finds",
+      "summary": "Research carried out by the Alliance4Europe NGO suggests that pro-Russian networks manipulated information online in an effort to exacerbate anger in France ahead of last weekend's massive protests and subsequent unrest. After analysing more than half a million posts across various social media platforms, the group says it was able to track the campaign back to the start of September. FRANCE 24's Sharon Gaffney speaks with Omri Preiss, Managing Director at",
+      "url": "https://www.france24.com/en/in-run-up-to-mass-protests-and-riots-pro-russian-accounts-amplified-french-anger-ngo-finds",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:21:46Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7a0a3f148146d7eef2",
+      "title": "Will Russia’s diesel shipment to the US lower prices before midterms?",
+      "summary": "Moscow dispatches its inaugural diesel shipment to the US, aiming to ease fuel shortages as midterm elections loom.",
+      "url": "https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:54:27Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 4.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "083f897b25de425776",
+      "title": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+      "summary": "Weidel said the far-right AfD is in \"talks\" to bridge differences with France’s National Rally that largely concern Russia.",
+      "url": "https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:53:20Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina",
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 4.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "edb62bb4888df92a4b",
+      "title": "French bond yields hit 24-year high after unrest",
+      "summary": "French bond yields have topped 5%, their highest level since 2002, after widespread protests and violence over the weekend. It's a sign that investors are losing confidence in France's finances, as the government grapples with budget and debt problems. Also in the show - chipmaker Nvidia says it's invested $10 billion in European tech firms to boost the 'AI economy,' and the UK approves a controversial natural gas field as PM Andy Burnham faces pressure ov",
+      "url": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:43:53Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 4.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "dfcdd411fe9193b6a3",
+      "title": "Jason Alexander recalls Palestinian protection in Ramallah",
+      "summary": "Seinfeld actor Jason Alexander recalls a visit to Ramallah that challenged his fears about visiting Palestinian cities.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/jason-alexander-recalls-palestinian-protection-in-ramallah?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:18:02Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "47089e7c80e35f9dd2",
+      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+      "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:58:06Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "15d2df5ce3b626818c",
+      "title": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+      "summary": "European officials know they need to be able to speak to Russia’s leader directly. The problem is choosing who should do it.",
+      "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:53:50Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c9b8ba9e8ab97dd403",
+      "title": "UK Conservative Party suspends ex-candidate after Al Jazeera investigation",
+      "summary": "The UK's Conservatives suspend former candidate Jack Ross after he was filmed discussing hiring contract killers.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/conservative-party-suspends-ex-candidate-filmed-in-al-jazeera-investigation?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:36:54Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "53f404d9aa27f36440",
+      "title": "Putin agrees to resume three-way talks with Kyiv and Washington",
+      "summary": "President ⁠Volodymyr Zelenskiy ​said on Wednesday ​that Ukraine supported a US proposal for ​three-way talks ‌with Russia ⁠and the United ‌States at the level ⁠of negotiators to be held as soon ​as possible, preferably ‌no later than early November. Speaking with FRANCE 24's Mark Owen, Grégoire Roos, Director of the Europe, Russia and Eurasia Programme at Chatham House, says that \"it's not clear whether Putin would meet Trump and Zelensky\", adding that \"me",
+      "url": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:32:52Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6f1bdf61df6195b473",
+      "title": "Trump difende Witkoff per aver chiamato Putin compassionevole",
+      "summary": "'Ha permesso di uscire a un uomo che pensava di finire in prigione a vita'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/trump-difende-witkoff-per-aver-chiamato-putin-compassionevole_7fa45686-8e37-49dd-a5b3-abcaf214b353.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:32:45Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1823c428631cb87bde",
+      "title": "Trump, forse siamo più vicini che mai alla fine della guerra in Ucraina",
+      "summary": "'Ci stiamo avvicinando'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/trump-forse-siamo-piu-vicini-che-mai-alla-fine-della_bc91def8-a094-4bff-99b0-53dc04de196e.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:22:25Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 5.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d9daaf6859f6f6719b",
+      "title": "Trump faces fresh questions over ties to 'humanitarian' Putin",
+      "summary": "US President Donald Trump's pivot away from Ukraine has triggered fresh questions about his attachment to Russian leader Vladimir Putin, the man a top American envoy flattered on Wednesday as a \"humanitarian. Trump has cast his dealings with Putin as part of a mega-deal that has secured the release of American detainee Stephen Hubbard -- and which Trump says will end Russia's war on Ukraine. FRANCE 24's Gulliver Cragg reports from Kharkiv.",
+      "url": "https://www.france24.com/en/trump-faces-fresh-questions-over-ties-to-humanitarian-putin",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:53:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 6.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "610b9b3b40d74f0516",
+      "title": "Zelensky, 'favorevoli a incontro trilaterale il prima possibile'",
+      "summary": "La dichiarazione dopo i vari colloqui separati che ha avuto Witkoff con Kiev e Mosca",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/zelensky-favorevoli-a-incontro-trilaterale-il-prima-possibile_785393e6-66ae-40ef-8863-3edb11aa9718.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:45:30Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 6.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "36104b55141eebf605",
+      "title": "Former Tory election candidate suspended over contract killing claims",
+      "summary": "Jack Ross was filmed allegedly discussing with an undercover reporter violent options to deal with enemies A former Conservative election candidate has been suspended from the party after he was seemingly filmed discussing the cost of hiring contract killers and offering to “broker” the services of a far-right activist with alleged paramilitary links. Jack Ross was filmed apparently asking an undercover reporter “What do you want done?” before listing the ",
+      "url": "https://www.theguardian.com/politics/2026/oct/21/former-tory-election-candidate-suspended-over-contract-killing-claims",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:13:55Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 7.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a52911c8e9c351ed63",
+      "title": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+      "summary": "\"The conflict in Ukraine is coming to an end,” Vladimir Putin’s top aide told reporters.",
+      "url": "https://www.politico.eu/article/russia-ready-talks-end-ukraine-war/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:13:23Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 7.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "13dd32db081e4dc467",
+      "title": "‘You are a humanitarian also, sir’: the US feeds Putin with lies as Ukraine’s children take cover and die | Andrew Roth",
+      "summary": "Steve Witkoff’s flattery of the Russian leader could be just the start of a mendacious stratagem from a US president who says Moscow ‘has been fine on Ukraine’ They say the first casualty of war is truth. For the Trump administration, the road to peace with Russia now encompasses some extraordinary lies. Steve Witkoff delivered one as he sat down with Vladimir Putin in St Petersburg on Wednesday, aiming to close the deal on Russia’s land grab in Ukraine wi",
+      "url": "https://www.theguardian.com/world/2026/oct/21/you-are-a-humanitarian-also-sir-us-putin-lies-ukraine-children-take-cover-and-die-witkoff",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T17:57:48Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 7.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "767fa614c279abb7e7",
+      "title": "Padre e figlio italiani arrestati in Cisgiordania, saranno espulsi",
+      "summary": "Per entrambi è scattato un divieto di ingresso in Israele di dieci anni",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/21/padre-e-figlio-italiani-arrestati-in-cisgiordania-saranno-espulsi_2c568a0d-afaa-4781-9839-5a4eb4a27693.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T17:16:01Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 8.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "2f428f835604a51255",
+      "title": "Witkoff a Putin, 'anche lei è compassionevole'. Bufera in Usa, 'è un assassino'",
+      "summary": "Senatori e deputati repubblicani attaccano l'inviato di presidente",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/witkoff-a-putin-anche-lei-e-compassionevole.-bufera-in-usa-e-un-assassino_2324ab5a-a346-4ebb-9209-a407dc6e6263.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T16:35:15Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 8.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "ddee2bb6a6e37f9b3c",
+      "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
+      "summary": "Person named ‘K’ from China paid five defendants to injure Huang Yi-hao, New Taipei prosecutors say Taiwanese prosecutors have charged five men over a plot to ram a car into a comedian who made fun of the Chinese Communist party and Xi Jinping. Taiwan has repeatedly accused China of transnational repression to silence critics on the self-governed island, which Beijing claims as its territory and has vowed to take by force if necessary. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T16:13:53Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Cina–Taiwan"
+      ],
+      "relevance": 2,
+      "article_age_hours": 9.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b4d62a5b18aeeebcf6",
+      "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
+      "summary": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
+      "url": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:58:05Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 9.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1eec5b0be6957d5480",
+      "title": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
+      "summary": "Moscow is ready to resume trilateral US-Ukraine-Russia talks next month, the Kremlin said Wednesday after President Vladimir Putin met with US envoy Steve Witkoff in Russia. FRANCE 24's correspondent Gulliver Cragg has more.",
+      "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:51:32Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 9.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a252494b41b89c4683",
+      "title": "Macron rejects Trump’s claims blaming migrants for French riots",
+      "summary": "French President Emmanuel Macron condemned comments by \"foreign leaders\" on the violent protests in France on October 17. He has now arrived in Saudi Arabia as part of his Gulf tour.",
+      "url": "https://www.france24.com/en/video/20261021-macron-rejects-trump-s-claims-blaming-migrants-for-french-riots",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:29:48Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 9.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e563fb5d2c3f24d5ee",
+      "title": "Thousands march in Greece over public education failures as Macron blasts ‘stupid’ commentary on French protests – as it happened",
+      "summary": "Students, teachers and civil servants have shown up in Athens, with demonstrations also in Thessaloniki and other cities Meanwhile, back to Witkoff’s meeting with Putin in St Petersburg, the US president, Donald Trump, has just welcomed the release of Stephen Hubbard, a US citizen held by Moscow on allegations of fighting as a mercenary for Ukraine ( 11:24 ). In a post on Truth Social, he said : “Stephen Hubbard, taken four years ago by Russia during the B",
+      "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:23:04Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 9.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "642f37b83c9e25a14b",
+      "title": "Besieged Yemeni city on verge of ‘unmanageable’ crisis, aid workers warn",
+      "summary": "Water and fresh food running out in Taiz as fighting intensifies and Houthi advance cuts off most supply routes The humanitarian crisis in the besieged Yemeni city of Taiz is becoming unmanageable as the city runs out of water, fuel and fresh food, Oxfam aid workers in the country have warned. Iran-allied Houthi forces have largely encircled the city of more than 900,000 people, cutting it off from most supply routes. This week, heavy fighting has raged ar",
+      "url": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T14:24:02Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 10.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e6ff2a596433d65d32",
+      "title": "Israeli military detain US and UK volunteers in West Bank including Democratic NY politician Brad Lander",
+      "summary": "About 80 US, Israeli and British volunteers held near Nahalin in West Bank and taken to police station The Israeli military has detained about 80 US, Israeli and British volunteers helping Palestinians harvest olives near Bethlehem, including the New York Democratic congressional nominee Brad Lander, several rabbis and Israel’s former deputy attorney general. “I’ve been detained by the IDF, along with a group of rabbis and volunteers,” Lander posted from a",
+      "url": "https://www.theguardian.com/world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T14:08:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 11.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "98696445d3a740b060",
+      "title": "Macron accuses foreign leaders of exploiting French riots",
+      "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T14:04:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 11.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4b126d4fd56ed43ef1",
+      "title": "Zelensky, 'congelamento fronte con Russia come passo per avviare negoziati'",
+      "summary": "'Poi garanzie di sicurezza da parte degli Stati Uniti ed Europa'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/zelensky-congelamento-fronte-con-russia-come-passo-per-avviare-negoziati_221bba3c-2a20-45e0-a873-f8bd6d9cc57c.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:49:02Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 12.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1ab622ce6a6540f44b",
+      "title": "Zelensky, 'congelamento fronte con Russia come passo per avviare negoziati'",
+      "summary": "'Poi garanzie di sicurezza da parte degli Stati Uniti ed Europa'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/zelensky-congelamento-fronte-con-russia-come-passo-per-avviare-negoziati_67e8b45b-a13f-4d58-bfc1-53eaee4d31e9.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:48:59Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 12.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6ff93d760bd00bd20e",
+      "title": "Cremlino, l'incontro Putin-Witkoff terminato dopo circa 3 ore",
+      "summary": "Lo ha detto il portavoce Dmitry Peskov",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-lincontro-putin-witkoff-terminato-dopo-circa-3-ore_e254deed-2ad6-41c7-b00c-477302052df6.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:43:17Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 12.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e26cccd3349bcabe00",
+      "title": "Merz, 'la resa dell'Ucraina non è un'opzione'",
+      "summary": "Cancelliere, la Germania e gli europei sono sempre disponibili al dialogo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/merz-la-resa-dellucraina-non-e-unopzione_012486ab-5d60-4527-95d6-cf2dae7afb46.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:08:50Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 13.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d8fbcd2aa0373ff8a1",
+      "title": "Trump, 'Hubbard in viaggio verso gli Usa, liberato senza dare nulla in cambio'",
+      "summary": "'Una situazione senza precedenti per la Russia'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/trump-hubbard-in-viaggio-verso-gli-usa-liberato-senza-dare-nulla_503acfe7-06b8-460b-bd20-87319531bf4c.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:08:40Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 13.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "48599d902ed3d69273",
+      "title": "Witkoff auspica che Putin accetti la ripresa dei negoziati trilaterali con Kiev",
+      "summary": "",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/witkoff-auspica-che-putin-accetti-la-ripresa-dei-negoziati-trilaterali-con_dca0e57c-6bba-4c23-aff5-cd991fb3afec.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T12:08:08Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 13.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e01d4289fa5273e15c",
+      "title": "Cremlino, 'Putin esaminerà proposte di Witkoff, ma molto dipende da Kiev'",
+      "summary": "",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-putin-esaminera-proposte-di-witkoff-ma-molto-dipende-da-kiev_4322e51f-8025-45e8-b7bd-168e6069261e.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T10:35:01Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 14.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "87c6bdf26f50b3d999",
+      "title": "Macron contro Trump e Netanyahu, 'c'è chi fa campagna elettorale su nostre spalle'",
+      "summary": "'Su proteste in Francia non vedo ingerenze straniere ma manipolazioni successive'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/macron-contro-trump-e-netanyahu-ce-chi-fa-campagna-elettorale-su-nostre-spalle_8daa24d4-3ee6-4d15-a89f-f8c872a0ac15.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T10:27:13Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 14.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e763a8075d561f267a",
+      "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
+      "summary": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T10:20:15Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 15.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a4be0bcb20c9ee4c29",
+      "title": "Inflation and government borrowing highest for a year ahead of next week's Budget",
+      "summary": "Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).",
+      "url": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T10:16:17Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 15.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "000821919f20076a9e",
+      "title": "Putin, rilasciato il cittadino americano Stephen Hubbard",
+      "summary": "Si trova all'aeroporto Pulkovo di San Pietroburgo per essere rimpatriato",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/putin-rilasciato-il-cittadino-americano-stephen-hubbard_0bc6e5f6-3d9e-4c3c-a4e9-9c4f233424c7.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T09:15:20Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "86e0b8ea8a0d2c4f24",
+      "title": "Putin, rilasciato il cittadino americano Stephen Hubbard",
+      "summary": "Si trova all'aeroporto Pulkovo di San Pietroburgo per essere rimpatriato",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/putin-rilasciato-il-cittadino-americano-stephen-hubbard_2ae00db9-c0b6-4016-8b7c-84ae92640e25.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T09:15:01Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b93017554ec3b5ff87",
+      "title": "Mosca, prima petroliera con gasolio russo parte domani per gli Usa",
+      "summary": "Lo ha annunciato il vice primo ministro, Aleksandr Novak, dopo revoca sanzioni Usa",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/21/mosca-prima-petroliera-con-gasolio-russo-parte-domani-per-gli_0195fc9a-d5d5-436e-a8a6-7e5921ec2ca9.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T09:11:13Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "5c5d1c5dec862cda57",
+      "title": "Mosca, prima petroliera con gasolio russo parte domani per gli Usa",
+      "summary": "Lo ha annunciato il vice primo ministro, Aleksandr Novak, dopo revoca sanzioni Usa",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/mosca-prima-petroliera-con-gasolio-russo-parte-domani-per-gli_a9e5f6ff-e3d3-4c73-9118-e0dc02e90965.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T09:11:09Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "ee07c421a5640c5698",
+      "title": "What is happening to UK prices?",
+      "summary": "UK inflation rose in September, pushed up by higher petrol and diesel prices.",
+      "url": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T08:35:47Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Energia",
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "563309854f384286b8",
+      "title": "Cremlino, oggi Putin incontra il premier cinese Li Qiang",
+      "summary": "A San Pietroburgo, dove è in programma anche il colloquio con Witkoff",
+      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/10/21/cremlino-oggi-putin-incontra-il-premier-cinese-li-qiang_4c25d6f9-8f46-4f94-b370-b1d529ba3fe3.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T08:15:18Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 17.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "01831e2ab800405f30",
+      "title": "Cremlino, oggi Putin incontra il premier cinese Li Qiang",
+      "summary": "A San Pietroburgo, dove è in programma anche il colloquio con Witkoff",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/cremlino-oggi-putin-incontra-il-premier-cinese-li-qiang_6d010e04-7a8a-49a8-8ac7-e0db5f4c890f.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T08:15:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 17.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "bca10058d7116e1f0f",
+      "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+      "source": "BCE · Comunicati",
+      "source_type": "primary",
+      "published_at": "2026-10-21T08:00:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 2,
+      "article_age_hours": 17.3,
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "id": "ecac02dc9b9a828a30",
+      "title": "Ft, 'Ue indaga su disinformazione filo-russa relativa alle proteste in Francia'",
+      "summary": "Anche Iran e Algeria sospettati di essere coinvolti nelle interferenze online",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/21/ft-ue-indaga-su-disinformazione-filo-russa-relativa-alle-proteste-in-francia_da3904bf-3d17-4a31-82b6-943a45e242c2.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T07:15:41Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 18.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "67a16fceb06d5d524b",
+      "title": "Ft, 'Netanyahu era pronto ad attaccare l'Iran il 10 ottobre, Trump ha detto no'",
+      "summary": "Idf preparato per giorni di bombardamenti. Il tycoon, 'non prima delle midterm'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/21/ft-netanyahu-era-pronto-ad-attaccare-liran-il-10-ottobre-trump-ha-detto-no_48def71c-41a0-49bf-a4e1-b320bbe6f8c1.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T06:38:39Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 18.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "65c2caf608ca12257b",
+      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+      "source": "BCE · Comunicati",
+      "source_type": "primary",
+      "published_at": "2026-10-21T04:15:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 2,
+      "article_age_hours": 21.1,
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "id": "149bb4f40c46f9908e",
+      "title": "Maxi sussidi in Repubblica Dominicana per frenare l'inflazione",
+      "summary": "Stanziati oltre due miliardi di dollari per luce e carburanti",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/21/maxi-sussidi-in-repubblica-dominicana-per-frenare-linflazione_5547d330-83ec-4257-a6c7-ed9ca221b5b3.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T01:52:05Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 23.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d8280a9e5ae6cd7f45",
+      "title": "El Salvador, Bukele difende l'ergastolo e il piano di reinserimento",
+      "summary": "'I criminali non usciranno mai, ma per reati minori serve il recupero'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/21/el-salvador-bukele-difende-lergastolo-e-il-piano-di-reinserimento_a47be845-79af-421e-b397-3f2148ce2293.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T01:24:51Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 23.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1505480484f76745c1",
+      "title": "Suspect arrested after historic town hall set alight - French media",
+      "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-20T21:05:50Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Golfo e Mar Rosso",
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 28.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "50b8ce5000da200697",
+      "title": "Trump and Zelensky at loggerheads despite new optimism",
+      "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-20T20:00:57Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 29.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "df7b521398a616f01d",
+      "title": "'I'm fed up of swiping': The singles choosing dating events over apps",
+      "summary": "The BBC hears from people who think dating events are better value for money than dating apps.",
+      "url": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-20T10:28:36Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 38.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "cbb5e6b09d5cd47cfb",
+      "title": "Billionaire Mukesh Ambani launches India’s biggest-ever IPO",
+      "summary": "Low-cost broadband provider Jio Platforms aims for £81bn valuation when it floats on the stock market on Wednesday India’s second-richest man, Mukesh Ambani, is launching what could be the country’s biggest-ever initial public offering (IPO), despite a stock market downturn. Mumbai-based Jio Platforms, a telecoms company backed by Meta Platforms and Google, is hoping to raise up to 302bn rupees (£2.4bn) and is targeting a 10.3tn rupees valuation when it fl",
+      "url": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-20T09:53:27Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 39.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d92c7b69e0527dc19a",
+      "title": "Frank Elderson: Interview with Die Presse",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
+      "source": "BCE · Comunicati",
+      "source_type": "primary",
+      "published_at": "2026-10-20T07:00:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 2,
+      "article_age_hours": 42.3,
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "id": "b5d7226acfb510fb19",
+      "title": "She was harassed for crude remarks about Modi at a Cockroach protest. Now she can’t leave home",
+      "summary": "​After a protest clip went viral, a teenager’s life was torn apart by threats that sent her and her family into hiding. Plus, a book on citizen journalism • Don’t get This is India delivered to your inbox? Sign up here Before 24 July, a person I will call R was preoccupied with the ordinary routines of teenage life: experimenting with makeup, grumbling over mathematics homework and hanging out with friends at a tea stall. That month, as the fever of studen",
+      "url": "https://www.theguardian.com/world/2026/oct/19/this-is-india-student-protests-abuse-modi-cockroach-protests",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-20T06:30:18Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 42.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "8e815b1fe98ea5c5df",
+      "title": "How is the US economy really doing under President Trump?",
+      "summary": "Ahead of the midterms Trump has boasted about the performance of the US economy. BBC Verify looks at inflation, jobs and economic growth in the country.",
+      "url": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-20T05:00:45Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 44.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c3c1d68e74497ca33f",
+      "title": "Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – live",
+      "summary": "‘That was great, man. Wow. Man, I loved that,’ the president says from podium as multiple protesters interrupt his remarks Sign up for Breaking News US email Send us your questions about immigration and the midterms Reporting from Jerusalem The Israeli military has detained about 80 US, Israeli and British volunteers helping Palestinians harvest olives near Bethlehem, including the New York Democratic congressional nominee Brad Lander, several rabbis and I",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:34:52Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 0.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b93408ca5ec87f687f",
+      "title": "Labor, Coalition and crossbench MPs afraid at home and work after alleged attack on Helen Haines",
+      "summary": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email , free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about widening threats after the alleged attack on Helen Haines. The",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:04:49Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "2cb9c99e183262fb3a",
+      "title": "Vance tells Republicans to 'stop whining' about controversial Ohio attack ad",
+      "summary": "The ad by Ohio Republican Vivek Ramaswamy features his Democratic rival's estranged mother, who she has not seen since her stepfather was charged with sexual abuse in her childhood.",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:59:18Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 2.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3c83643464564978fa",
+      "title": "Sudan’s war escalates as UN warns of wider regional crisis",
+      "summary": "In tonight’s edition: Sudan’s brutal war continues to take a devastating regional toll, as a drone strike in Abyei reportedly kills 153 people. We speak to the UN envoy for Sudan following an emergency international meeting on the escalating crisis. Also, health authorities prepare to coordinate a response as Ebola cases emerge in Nigeria and rise in Kenya. Finally, ten years after Cameroon’s deadliest railway disaster, families of the 79 victims are still",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261021-sudan-s-war-escalates-as-un-warns-of-wider-regional-crisis",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:41:43Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 2.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "ef20a66050c4fb032b",
+      "title": "House prices falling in every Australian capital city for first time in 15 years",
+      "summary": "House prices in Sydney are at a two-year low after falling 4.7% in the September quarter to $1.66m, according to Domain report Get our breaking news email , free app or daily news podcast House prices are falling across every capital city for the first time in 15 years and the second time on record, according to figures from Domain’s September Quarter 2026 House Price report. House prices in Sydney are at a two-year low after falling 4.7% in the September ",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/house-prices-fall-sydney-melbourne-perth-brisbane-adelaide-hobart-darwin",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:56:27Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 3.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "82ec5fa45249a306bf",
+      "title": "‘Huge moment’: long-awaited extension to Sydney’s metro line to open next week",
+      "summary": "The south-west metro extension will open on Friday 30 October, more than two years after the former T3 heavy rail line closed Get our breaking news email , free app or daily news podcast A long-awaited extension to Sydney’s metro line will open next week, bringing an end to more than two years of replacement buses for residents in the city’s south-west. In a video shared on Instagram on Thursday morning, the New South Wales premier, Chris Minns, announced ",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/sydney-southwest-metro-extension-opening-friday-chris-minns",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:01:54Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 5.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "9fc64434e4cd86f659",
+      "title": "NSW passes ‘human compost’ laws with several MPs saying they will utilise practice after they die",
+      "summary": "Australia-first laws provide a third legal option other than burial and cremation for the treatment of bodies Get our breaking news email , free app or daily news podcast Several New South Wales MPs say they want their own bodies turned into “human compost” after Australian-first laws were passed allowing the unusual practice. The laws, passed on Wednesday, provide a third legal option other than burial and cremation for the treatment of bodies. Continue r",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/nsw-passes-human-compost-laws-with-several-mps-saying-they-will-utilise-practice-after-they-die",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:37:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 5.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3e755e1be94d3ee390",
+      "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
+      "summary": "Saurav Das and Ashutosh Ranka were accused of breaking into an unauthorised protest venue in Delhi.",
+      "url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:22:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 6.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3463d68b21c7dc4b4b",
+      "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+      "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
+      "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T18:10:42Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 7.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "aad62945603ca62fb7",
+      "title": "How Trump's attacks on voting system integrity might affect upcoming elections",
+      "summary": "Election law expert Rick Hasen explains Trump's interference in the midterms, including threatening local officials with criminal prosecution unless they strike alleged noncitizens from voter rolls.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6010463/how-trumps-attacks-on-voting-system-integrity-might-affect-upcoming-elections",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-21T16:01:44Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 9.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a63f16aae0c986d2d6",
+      "title": "World set to breach 1.5°C warming limit set by Paris Climate Agreement",
+      "summary": "The UN is warning that global commitments to cut planet-heating emissions are falling far short of the Paris climate goals of 1.5 degrees Celsius warming – and put the world on course for 2.6C warming this century. The report by the United Nations Environment Programme lays bare the chasm between rhetoric and action when it comes to tackling global warming, and the challenge before political leaders at November's COP31 climate summit - set to take place ne",
+      "url": "https://www.france24.com/en/video/20261021-world-set-to-breach-1-5%C2%B0c-warming-limit-set-by-paris-climate-agreement",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T15:56:42Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 9.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "80683a80212e5983fe",
+      "title": "Majority of Australians who report penicillin allergy not truly allergic",
+      "summary": "Peak body for immunologists changes guidelines as evidence shows up to 90% of those reporting allergy don’t have one Get our breaking news email , free app or daily news podcast The majority of Australians who report a penicillin allergy are not truly allergic, prompting the peak body for immunologists to change its guidelines in a bid to reduce hospital stays and tackle antimicrobial resistance. Penicillin, one of the most commonly prescribed antibiotics ",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/penicillin-allergy-australia-doctors-antibiotic-guidelines",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T14:00:20Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 11.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d190e9907f6da30308",
+      "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
+      "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+      "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T06:50:40Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 18.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3d18acf9cb6ecea73e",
+      "title": "BBC inside Australian court as man charged with attacking MP stays silent in first hearing",
+      "summary": "BBC's Katy Watson describes what unfolded in Wangaratta as 43-year-old Brendan Nugent appeared before court over the alleged attack of Helen Haines.",
+      "url": "https://www.bbc.co.uk/news/videos/cq398rg0lnd1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T03:58:16Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 21.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e7c6886963b678a7a7",
+      "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+      "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
+      "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-20T22:22:17Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 26.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "37df4d81afe967b80f",
+      "title": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
+      "summary": "Mitchell Fairbarn found guilty of animal cruelty after prosecutors say he hurt and frightened the 27-year-old bird A Canadian man was convicted of animal cruelty charges on Monday for snatching a flamingo named Peachy from its enclosure at an iconic Las Vegas hotel. Prosecutors said it was a malicious prank while a lawyer for the tourist insisted it was drunken foolishness not meant to harm the bird. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/man-convicted-peachy-the-flamingo-las-vegas-hotel",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-20T16:11:21Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 33.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "8d4176c79e8e219601",
+      "title": "Swimmer, 65, killed in shark attack off South Africa's east coast",
+      "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
+      "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-20T15:58:57Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 33.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "9524be9f9ca1af1a18",
+      "title": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+      "summary": "Far-right presidential candidate’s TV debate swipe at rival backfires as people take to social media to parody it To Flávio Bolsonaro and his publicists, it must have seemed an ingenious idea that would expose his rival’s supposed crookedness on the eve of Brazil’s presidential election. But the far-right politician’s decision to attend a primetime television debate against his leftwing opponent, Luiz Inácio Lula da Silva, with the word “corrupto” (corrupt",
+      "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-20T15:41:44Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 33.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "644e923fa221cdc53e",
+      "title": "Union attacks NatWest plans to get workers back to the office",
+      "summary": "The bank says workers will be required to attend the office at least two days a week from February.",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-20T14:50:19Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 1,
+      "article_age_hours": 34.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4b0a166dc412310e64",
+      "title": "Colombian president purges National Museum of works promoting ‘communism’",
+      "summary": "Far-right President Abelardo de la Espriella says he will wage a 'counterrevolution' against cultural institutions.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-22T01:09:40Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 0.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7a1c7a19d466a6998c",
+      "title": "Brother of George Bush endorses Democratic Senate candidate in Texas",
+      "summary": "Neil Bush says that he will vote for Democrat James Talarico due to reservations about Republican candidate Ken Paxton.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/brother-of-george-bush-endorses-democratic-senate-candidate-in-texas?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-22T01:01:52Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 0.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "bb87586c8c8e41f00e",
+      "title": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
+      "summary": "Irish lawmakers voted Wednesday to scrap a requirement for UN approval before deploying military peacekeepers overseas, approving the controversial legislation by 79 votes to 71. Opposition lawmakers warned the move threatened Ireland’s longstanding military neutrality. Ireland is not a NATO member but has traditionally participated in international peacekeeping missions.",
+      "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:35:35Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 0.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "cf694d94d92b455c39",
+      "title": "The Justice Department begins notifying counties where it wants to monitor elections",
+      "summary": "The department has long deployed election monitors, but the Trump administration's unprecedented steps to try to wrestle control over elections have led to new concerns about DOJ monitoring this year.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:18:47Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a093734740c2d3eeb2",
+      "title": "Real Madrid thrash RB Leipzig as Mbappe scores in Champions League win",
+      "summary": "Real Madrid thrashed RB Leipzig 4-1 on Wednesday to secure their third consecutive Champions League victory. Bernardo Silva, Arda Guler, Kylian Mbappe and Yan Diomande scored for Jose Mourinho’s side, while Tidiam Gomis replied for Leipzig. Mbappe has scored in all three European matches this season, taking his tally to 12 goals.",
+      "url": "https://www.france24.com/en/sport/20261022-real-madrid-thrash-rb-leipzig-as-mbappe-scores-in-champions-league-win",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:11:37Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "434821c65aca43be66",
+      "title": "World leaders warn of security flaws found in PHP programming language",
+      "summary": "AI was used to pinpoint two vulnerabilities in the PHP language, used by about 70 percent of websites.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-22T00:10:27Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "43bb5b33b580a0d45e",
+      "title": "Brasile, ordinato l'arresto di ex militare uruguaiano condannato in Italia",
+      "summary": "È il primo a scontare nel Paese una pena per crimini commessi durante il Plan Condor",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/brasile-ordinato-larresto-di-ex-militare-uruguaiano-condannato-in-italia_04ed3f0c-e103-4c62-89f7-e60e37aff0f4.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:59:05Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d5a5c05b337cf10608",
+      "title": "US accuses Canada of election interference ahead of midterms",
+      "summary": "Washington cites Canadian tariffs, political meetings and anti-Trump ads as evidence of attempted election interference.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:52:21Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "dc2f10c0a5ef8b7c73",
+      "title": "The real reasons US politicians are getting older",
+      "summary": "No country for young men and women: why do older politicians seem to have such a tight grip on the US political system?",
+      "url": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:52:12Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "746a9a8fa5a73c1bd8",
+      "title": "Trump contestato anche in South Carolina, 'manifestanti pagati'",
+      "summary": "Durante un comizio a sostegno della senatrice Darline Graham",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/22/trump-contestato-anche-in-south-carolina-manifestanti-pagati_3361f898-de61-44c9-8fb8-9fc7fab91fda.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:49:01Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "16a6b05a52c57f8310",
+      "title": "Cuba: il 27% della popolazione ha più di 60 anni, è il Paese più anziano della regione",
+      "summary": "La statistica ufficiale registra 9,4 milioni di abitanti, tra denatalità ed emigrazione",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/cuba-il-27-della-popolazione-ha-piu-di-60-anni-e-il-paese-piu-anziano-della-regione_b7c11245-7a98-48b5-89af-4cd67694d2f1.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:41:54Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3b125ccc4a3c94dc38",
+      "title": "Venezuela, chavismo e opposizione scendono in piazza a Caracas",
+      "summary": "Psuv contro il cancro al seno, Machado per elezioni nel 2027",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/venezuela-chavismo-e-opposizione-scendono-in-piazza-a-caracas_2cecad6f-bf88-4b0a-979d-2dea448f3ac5.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:36:40Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6ef6dbef7f7af5685c",
+      "title": "Officials confirm flesh-eating New World screwworm parasite found in US wildlife",
+      "summary": "USDA says screwworm found in elk in Texas, and warns hunters and ranchers to be vigilant to help stop spread The US Department of Agriculture (USDA) said on Wednesday it had ⁠confirmed the ⁠first detection ​of flesh-eating parasite the New World screwworm in US wildlife in an ⁠elk in Pecos county, Texas. The elk was located on a game ⁠ranch and was reported after being harvested by ​a hunter, the ‌USDA said ‌in a statement. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:36:31Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 1.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "367e3cd2b369edb15b",
+      "title": "Pope Leo needs no further treatment after cancer surgery, doctors say",
+      "summary": "The 71-year-old leader of the Catholic Church has had the lower lobe of his right lung removed in surgery.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/pope-leo-needs-no-further-treatment-after-cancer-surgery-doctors-say?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:20:58Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c8c70ffc9cb80a5275",
+      "title": "Nigeria’s first Ebola case matches DR Congo strain, health officials say",
+      "summary": "The Bundibugyo strain outbreak is the DR Congo's deadliest ever and has now reached West Africa for the first time.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:20:12Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7c44fd96554be0667d",
+      "title": "Brasile, Lula accetta le condizioni di Flávio Bolsonaro sui dati riservati",
+      "summary": "La campagna del presidente presenterà la risposta al Tribunale superiore elettorale",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/brasile-lula-accetta-le-condizioni-di-flavio-bolsonaro-sui-dati-riservati_cd1d940a-9f07-4269-9e5a-8f0d6676f8af.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:18:45Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1c861dafcc92ad1190",
+      "title": "The grads ditching the UK for a fresh start abroad",
+      "summary": "With graduate jobs hard to come by, more young adults are reported to be considering emigrating.",
+      "url": "https://www.bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:12:06Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "526196c13128195bb7",
+      "title": "Trump's green card curbs test Indian tech workers' American dream",
+      "summary": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians.",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:06:37Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "0342abe199b34e7f80",
+      "title": "Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
+      "summary": "Leaders criticised for spreading misleading information as France prepares for further protests this weekend Emmanuel Macron has accused Donald Trump and other foreign leaders of making “stupid comments” about France’s street unrest for political gain, as the country prepared for more protests this weekend. Speaking during a visit to Qatar, the French president did not name names but said “manipulation of information” after Saturday’s riots had led to “com",
+      "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:06:36Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e897507dce00e28388",
+      "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:04:03Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "053958213b76d04f3e",
+      "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:04:03Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "58da29f99e9429df94",
+      "title": "Aneurin Bevan’s personal security file was ‘remarkably tame’ – National Archives",
+      "summary": "Some in UK’s security services questioned why Welsh Labour firebrand was of interest Aneurin “Nye” Bevan, the Welsh Labour firebrand who spearheaded the creation of the NHS, was monitored by security services for more than two decades, though his personal file was “remarkably tame”, according to official files released to the public. Bevan came to MI5’s attention in the 1930s over concerns about his links with known communists, papers released to the Natio",
+      "url": "https://www.theguardian.com/politics/2026/oct/22/aneurin-bevans-personal-security-file-was-remarkably-tame-national-archives",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T23:01:03Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "190f91478d376bf644",
+      "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+      "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:54:58Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b3c0f403180fdaa5d7",
+      "title": "Nancy Pelosi’s office latest recipient of letter containing white powder",
+      "summary": "Former speaker is latest target of mailings sent to various Congress members in the lead-up to the midterm elections California representative Nancy Pelosi’s office received “a suspicious letter” on Wednesday in what appears to be the latest incident of ill-intentioned mailings targeted at US Congress members before the midterm elections. The offices of more than three dozen members of Congress across the political spectrum have received envelopes containi",
+      "url": "https://www.theguardian.com/us-news/2026/oct/21/nancy-pelosi-office-letter-white-powder",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:47:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c99e5b0e0259f312d1",
+      "title": "Perù, il Senato concede a Fujimori poteri legislativi su clima e sicurezza",
+      "summary": "Via libera alla delega al governo per 90 giorni contro fenomeno El Niño e criminalità",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/peru-il-senato-concede-a-fujimori-poteri-legislativi-su-clima-e-sicurezza_75688c71-0919-4371-ad75-e809b20fbde5.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:43:21Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "16396cbca774c96f82",
+      "title": "How will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questions",
+      "summary": "With ICE arrests and detentions at their highest levels, immigration remains a key issue for voters less than two weeks before election day Sign in or sign up to join the conversation From mass raids to quiet crackdown: a timeline of Trump’s strategic ICE pivot It’s our last US midterms live Q&A before election day on 3 November, and our reporters are answering your immigration questions. Since Donald Trump began his second term , ICE arrests have reached ",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/21/immigration-ice-mass-deportation-trump-midterm-elections",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:35:17Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4612a95ef99235e082",
+      "title": "Colombia, Petro denuncia collaboratori per presunto complotto",
+      "summary": "Contesta le accuse dell'ex leader paramilitare su piano contro Uribe e altri politici",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/22/colombia-petro-denuncia-collaboratori-per-presunto-complotto_036c9740-ddd5-4e23-a5ea-393cd46b52ff.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:28:46Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 2.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "25c6f50341a6172e3d",
+      "title": "Canadian publisher drops writer Thelyson Orelien over AI use in novel",
+      "summary": "Publisher Boreal says investigations confirmed the Haitian-Canadian Thelyson Orelien used AI in his breakthrough novel.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/canadian-publisher-cuts-ties-with-best-selling-writer-orelien-over-ai-use?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:16:50Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4c067a029c683599ab",
+      "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
+      "summary": "The BBC's Liza Tambunan is in central Kalimantan, to explain what peat is and why Indonesia is facing its worst wildfire season in a decade.",
+      "url": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:02:18Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d5bbe8fd1455ebe89c",
+      "title": "Japan is known for world-class events - but the Asian Games were chaotic",
+      "summary": "Hotel chaos, transport mishaps and diplomatic blunders cast a spotlight on organisers and the firm hired to deliver the games.",
+      "url": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T22:00:58Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "9ee47278a9644b713d",
+      "title": "Man United captain Fernandes slams Carrick’s tactics after Como hammering",
+      "summary": "Manchester United winless run continues with 4-1 Champions League humbling in Como, and Bruno Fernandes slams tactics.",
+      "url": "https://www.aljazeera.com/sports/2026/10/21/man-united-captain-fernandes-slams-carricks-tactics-after-como-hammering?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:50:28Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "2443ff58d47d23ce22",
+      "title": "Meta fined $25bn for 'lies' over user data privacy",
+      "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:49:07Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1b81c1af003dcef183",
+      "title": "Meta fined $25bn for 'lies' over user data privacy",
+      "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:49:07Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1b49b229d5ad095d83",
+      "title": "Repubblica Dominicana, sospese 24 aziende cinesi per violazioni sul lavoro",
+      "summary": "Controlli su 101 imprese, accertate 1.016 irregolarità tra sicurezza e diritti negati",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/21/repubblica-dominicana-sospese-24-aziende-cinesi-per-violazioni-sul-lavoro_c6159aa6-c376-4e00-a964-aa04d009a4b5.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:49:07Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "cfa884a9b2117cae32",
+      "title": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+      "summary": "Pope Leo XIV, 71, will require no further treatment for lung cancer after tests confirmed the disease was localised, the Vatican said Wednesday. The pontiff underwent surgery last week to remove part of his right lung after being diagnosed with adenocarcinoma. He was discharged Saturday and will gradually resume activities.",
+      "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:41:19Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "0386ff59d67680f8c2",
+      "title": "Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start",
+      "summary": "Kylian Mbappe and Yan Diomande score stunners as Real beat Leipzig to make it three from three in the Champions League.",
+      "url": "https://www.aljazeera.com/sports/2026/10/21/real-madrid-rout-leipzig-to-continue-perfect-champions-league-start?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:36:31Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4599a8f2ff27be7db1",
+      "title": "Brasile, indigeni dell'Amazzonia rischiano di non votare al ballottaggio",
+      "summary": "Tribunale elettorale nega i trasporti per le comunità isolate della valle dello Javari",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/21/brasile-indigeni-dellamazzonia-rischiano-di-non-votare-al-ballottaggio_44814071-b8c1-4f60-8fdb-76c1311e18cf.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:34:49Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e95e597b0d6c934ee9",
+      "title": "Declan Rice grabs Arsenal draw at Bayern Munich in Champions League",
+      "summary": "Eze gave Arsenal the lead, but Davies levelled and Kane netted a penalty for the hosts before Rice made it 2-2.",
+      "url": "https://www.aljazeera.com/sports/2026/10/21/declan-rice-grabs-arsenal-draw-at-bayern-munich-in-champions-league?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:28:34Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1b58d0327b5fd8b4fb",
+      "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+      "summary": "The participation of US agents in an April drug operation has raised questions about whether Mexico's laws were upheld.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:25:21Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6a59139766b41be2d5",
+      "title": "Meta fined $25 billion in New Mexico over Cambridge Analytica scandal",
+      "summary": "A New Mexico judge ordered Meta to pay $25 billion after a jury found the company deceived users in a case linked to the Cambridge Analytica scandal, media reported Wednesday. The ruling follows an $18 billion settlement with 48 other states over similar claims. Meta called the penalty “a tax on speech.”",
+      "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:21:41Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "5e7e15c3c9cce0bc44",
+      "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+      "summary": "The race between the sister of late Senator Lindsey Graham and Democrat Annie Andrews has tightened in deep-red state.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:07:43Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "eb0f31df0e5586d357",
+      "title": "Judge orders Meta to pay $25bn in fines for Facebook privacy violations",
+      "summary": "A jury found Meta guilty of lying to Facebook users in ⁠⁠⁠⁠⁠⁠⁠⁠New Mexico about access to their data.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:01:32Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "cf531eb890878b8543",
+      "title": "Orangutans prefer food associated with sounds of laughter, study suggests",
+      "summary": "Apes in study more likely to choose treats linked to sound of peers having fun, suggesting emotions influence learning Orangutans base their food choices on whether others appear to be having a good time, research suggests. Scientists studying captive orangutans have found that when the great apes heard the sound of their peers laughing before they searched a bowl for a tasty treat, they valued the reward more highly. Continue reading...",
+      "url": "https://www.theguardian.com/science/2026/oct/21/orangutans-prefer-food-laughter-sounds-study",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-21T21:00:01Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b0823fe18c020f1ea3",
+      "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
+      "summary": "A new poll shows record support for Democratic congressional candidates ahead of the midterms, as voters feel the party is better attuned to handling their top issues.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:56:07Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "78a70146da4da6ecdb",
+      "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
+      "summary": "Colombian authorities have seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:51:23Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c135b7af85bcabe98a",
+      "title": "Huge crowds watch attempt to rescue shark stranded in South Korean canal",
+      "summary": "Early on Thursday morning local time, South Korea's oceans ministry said the shark had been successfully guided out of the canal.",
+      "url": "https://www.bbc.co.uk/news/videos/ckq6n56e5qrqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:31:47Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c45a4b2b48f516d0a0",
+      "title": "EU prosecutors search European Parliament offices of far-right group",
+      "summary": "The far-right European Parliament group of French presidential frontrunner Marine Le Pen's party said Wednesday EU prosecutors were searching its offices as part of a graft probe into its now-defunct predecessor. The Patriots for Europe group said the European Public Prosecutor's Office (EPPO) had been searching its administrative offices in Brussels and Strasbourg \"since this morning\". FRANCE 24's Dave Keating reports from Strasbourg.",
+      "url": "https://www.france24.com/en/eu-prosecutors-search-european-parliament-offices-of-far-right-group",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:21:16Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 4.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "1617025d2b62e4e1a6",
+      "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
+      "summary": "César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April.",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:19:51Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "f8d38ad62454442abb",
+      "title": "Pope does not need further treatment after lung cancer surgery",
+      "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+      "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:09:10Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "96bee98bcb6a4dc5d4",
+      "title": "L'attività economica non riparte in Argentina, ad agosto -1,7% su anno",
+      "summary": "Recupera solo lo 0,1% su mese dopo il crollo di 2,9 punti a luglio",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/21/lattivita-economica-non-riparte-in-argentina-ad-agosto-17-su-anno_328e14e0-6d27-458f-9154-619c0cc58df9.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:04:03Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "49f16386b17a245f37",
+      "title": "Meet the people moving north to escape increasingly hot summers",
+      "summary": "As climate change fuels hotter summers, some Britons are moving north in search of cooler weather. Could a similar shift be on the horizon in the United States?",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-5977837/climate-uk-usa-housing",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-21T20:00:00Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "67e39c4855202b74d5",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:54:57Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "74fa889da6a01f9431",
+      "title": "Cuba accuses US of threatening countries ahead of UN embargo vote",
+      "summary": "Havana says Washington is threatening countries with retaliation if they refuse to vote against condemning its embargo.",
+      "url": "https://www.aljazeera.com/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:51:29Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "b6601ec886a3aa9e57",
+      "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+      "summary": "The top Democrats on the House and Senate intelligence committees said they are working under the presumption that the president will seek to justify election interference by alleging fraud.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:47:18Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "86df6dcc7eb7a77d54",
+      "title": "What happened to Australian politician Helen Haines?",
+      "summary": "Australian Lawmaker Helen Haines has lost both legs after a car rammed into her.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/what-happened-to-australian-politician-helen-haines?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:38:02Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "50f580ef54ee79e468",
+      "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+      "summary": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
+      "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:29:40Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a7b2e6f0776052f3dc",
+      "title": "Trump exploits France riots to push false immigration claims ahead of midterms",
+      "summary": "Donald Trump and his inner circle are using unrest in France to push unsubstantiated claims blaming the riots on immigration, even showing French protest footage at midterm rallies. But there is no evidence linking immigration to the unrest, and it's prompted French President Emmanuel Macron to accuse world leaders of making “stupid comments” at France’s expense. Trump’s focus comes as Republicans face mounting pressure ahead of the midterms and his approv",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261021-trump-uses-france-riots-to-push-false-immigration-claims-ahead-of-midterms",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:28:54Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "edced19683589d8360",
+      "title": "'Neither the Sudanese military, nor the RSF take any acknowledgement of human life in this war'",
+      "summary": "The death toll from a drone strike Monday on a market in an area disputed between Sudan and South Sudan has risen to 153 and is likely even higher, a local official told AFP on Wednesday. Authorities in Abyei district said the strike on the Amiet market involved the use of multiple munitions and was carried out by the Sudanese army. FRANCE 24's Mark Owen speaks with Jan Pospisil, Sudan Affairs Analyst at the Peace and Conflict Resolution Evidence Platform.",
+      "url": "https://www.france24.com/en/neither-the-sudanese-military-nor-the-rsf-take-any-acknowledgement-of-human-life-in-this-war",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-21T19:28:21Z",
+      "language": "original",
+      "collected_at": "2026-10-22T01:18:13.118880Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 0,
+      "article_age_hours": 5.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Altre notizie",
+      "articles": 167,
+      "sources": 9,
+      "recent": "2026-10-21T08:00:00Z"
+    },
+    {
+      "topic": "Russia–Ucraina",
+      "articles": 33,
+      "sources": 6,
+      "recent": "2026-10-21T23:56:47Z"
+    },
+    {
+      "topic": "Medio Oriente",
+      "articles": 16,
+      "sources": 5,
+      "recent": "2026-10-22T00:26:50Z"
+    },
+    {
+      "topic": "Golfo e Mar Rosso",
+      "articles": 11,
+      "sources": 5,
+      "recent": "2026-10-22T00:26:50Z"
+    },
+    {
+      "topic": "Macro e banche centrali",
+      "articles": 8,
+      "sources": 4,
+      "recent": "2026-10-21T20:43:53Z"
+    },
+    {
+      "topic": "Mercati e difesa",
+      "articles": 7,
+      "sources": 4,
+      "recent": "2026-10-22T00:00:00Z"
+    },
+    {
+      "topic": "Energia",
+      "articles": 6,
+      "sources": 4,
+      "recent": "2026-10-21T23:27:05Z"
+    },
+    {
+      "topic": "Cina–Taiwan",
+      "articles": 1,
+      "sources": 1,
+      "recent": "2026-10-21T16:13:53Z"
+    }
+  ],
+  "clusters": [
+    {
+      "headline": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+      "sources": [
+        "France 24",
+        "Politico Europe"
+      ],
+      "source_count": 2,
+      "articles": [
+        "a52911c8e9c351ed63",
+        "1eec5b0be6957d5480"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Pope Leo needs no further treatment after cancer surgery, doctors say",
+      "sources": [
+        "Al Jazeera",
+        "France 24"
+      ],
+      "source_count": 2,
+      "articles": [
+        "367e3cd2b369edb15b",
+        "cfa884a9b2117cae32"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "sources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "source_count": 2,
+      "articles": [
+        "e897507dce00e28388",
+        "053958213b76d04f3e"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Meta fined $25bn for 'lies' over user data privacy",
+      "sources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "source_count": 2,
+      "articles": [
+        "2443ff58d47d23ce22",
+        "1b81c1af003dcef183"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Mexico charges prosecutor with treason over US involvement in drug raid",
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "source_count": 2,
+      "articles": [
+        "1b58d0327b5fd8b4fb",
+        "1617025d2b62e4e1a6"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "EU prosecutors search European Parliament offices of far-right group",
+      "sources": [
+        "France 24",
+        "Politico Europe"
+      ],
+      "source_count": 2,
+      "articles": [
+        "c45a4b2b48f516d0a0",
+        "f30b315b964c53e3d4"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "sources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "source_count": 2,
+      "articles": [
+        "15726e7c9919a78277",
+        "845b2b6683633ad1b5"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
+    {
+      "headline": "Trump sued over Canadian tariffs in latest legal challenge",
+      "sources": [
+        "BBC Business",
+        "BBC World"
+      ],
+      "source_count": 2,
+      "articles": [
+        "b84512f49501caf4f4",
+        "3417cc4eb82b936a46"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    }
+  ],
+  "alerts": [
+    {
+      "article_id": "6545e214c0cde688ac",
+      "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
+      "source": "Al Jazeera",
+      "published_at": "2026-10-22T00:00:00Z",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
+      "match": [
+        "militare"
+      ],
+      "label": "parole chiave: richiede controllo umano"
+    }
+  ],
+  "markets": [
+    {
+      "id": "SP500",
+      "name": "S&P 500",
+      "unit": "punti",
+      "source": "FRED · SP500",
+      "type": "index",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series SP500 missing from FRED CSV"
+    },
+    {
+      "id": "VIX",
+      "name": "VIX",
+      "unit": "punti",
+      "source": "FRED · VIXCLS",
+      "type": "index",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series VIXCLS missing from FRED CSV"
+    },
+    {
+      "id": "EURUSD",
+      "name": "EUR/USD (fixing)",
+      "unit": "USD per EUR",
+      "source": "FRED · DEXUSEU",
+      "type": "fx",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series DEXUSEU missing from FRED CSV"
+    },
+    {
+      "id": "US10Y",
+      "name": "Treasury 10 anni",
+      "unit": "%",
+      "source": "FRED · DGS10",
+      "type": "rate",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series DGS10 missing from FRED CSV"
+    },
+    {
+      "id": "US2Y",
+      "name": "Treasury 2 anni",
+      "unit": "%",
+      "source": "FRED · DGS2",
+      "type": "rate",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series DGS2 missing from FRED CSV"
+    },
+    {
+      "id": "BRENT",
+      "name": "Brent",
+      "unit": "USD/barile",
+      "source": "FRED · DCOILBRENTEU",
+      "type": "commodity",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series DCOILBRENTEU missing from FRED CSV"
+    },
+    {
+      "id": "WTI",
+      "name": "WTI",
+      "unit": "USD/barile",
+      "source": "FRED · DCOILWTICO",
+      "type": "commodity",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Series DCOILWTICO missing from FRED CSV"
+    },
+    {
+      "id": "GOLD",
+      "name": "Oro XAU/USD",
+      "unit": "USD/oncia",
+      "source": "non collegata",
+      "type": "commodity",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Nessuna fonte gratuita verificata configurata"
+    },
+    {
+      "id": "DXY",
+      "name": "Dollar Index DXY",
+      "unit": "punti",
+      "source": "non collegata",
+      "type": "index",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Nessuna fonte gratuita verificata configurata"
+    },
+    {
+      "id": "ES",
+      "name": "Future ES/MES",
+      "unit": "punti",
+      "source": "non collegata",
+      "type": "future",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Nessuna fonte gratuita verificata configurata"
+    },
+    {
+      "id": "GC",
+      "name": "Future GC/MGC",
+      "unit": "USD/oncia",
+      "source": "non collegata",
+      "type": "future",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Nessuna fonte gratuita verificata configurata"
+    },
+    {
+      "id": "6E",
+      "name": "Future 6E/M6E",
+      "unit": "USD per EUR",
+      "source": "non collegata",
+      "type": "future",
+      "value": null,
+      "previous": null,
+      "change": null,
+      "change_pct": null,
+      "observation_date": null,
+      "previous_date": null,
+      "stale": true,
+      "delayed": true,
+      "error": "Nessuna fonte gratuita verificata configurata"
+    }
+  ],
+  "quality": {
+    "feeds_total": 12,
+    "feeds_ok": 12,
+    "feeds_failed": 0,
+    "source_coverage_pct": 100,
+    "status": [
+      {
+        "name": "ANSA · Mondo",
+        "ok": true,
+        "count": 68,
+        "elapsed_ms": 1068
+      },
+      {
+        "name": "Al Jazeera",
+        "ok": true,
+        "count": 25,
+        "elapsed_ms": 145
+      },
+      {
+        "name": "BBC Business",
+        "ok": true,
+        "count": 35,
+        "elapsed_ms": 553
+      },
+      {
+        "name": "BBC World",
+        "ok": true,
+        "count": 38,
+        "elapsed_ms": 446
+      },
+      {
+        "name": "BCE · Comunicati",
+        "ok": true,
+        "count": 5,
+        "elapsed_ms": 471
+      },
+      {
+        "name": "Deutsche Welle",
+        "ok": true,
+        "count": 0,
+        "elapsed_ms": 470
+      },
+      {
+        "name": "Fed · Monetary policy",
+        "ok": true,
+        "count": 0,
+        "elapsed_ms": 40
+      },
+      {
+        "name": "Fed · Press releases",
+        "ok": true,
+        "count": 0,
+        "elapsed_ms": 68
+      },
+      {
+        "name": "France 24",
+        "ok": true,
+        "count": 24,
+        "elapsed_ms": 294
+      },
+      {
+        "name": "NPR",
+        "ok": true,
+        "count": 10,
+        "elapsed_ms": 248
+      },
+      {
+        "name": "Politico Europe",
+        "ok": true,
+        "count": 10,
+        "elapsed_ms": 200
+      },
+      {
+        "name": "The Guardian",
+        "ok": true,
+        "count": 44,
+        "elapsed_ms": 127
+      }
+    ],
+    "articles_48h": 242,
+    "method": "RSS/Atom: titoli e descrizioni; classificazione deterministica, non fact checking indipendente."
+  },
+  "indicators": {
+    "market_stress": {
+      "value": null,
+      "coverage": "0/5",
+      "experimental": false,
+      "method": "PASSO 3: media delle componenti disponibili; soltanto se almeno 3 input verificati e non vecchi",
+      "missing": [
+        "VIX",
+        "S&P 500",
+        "Treasury 10y",
+        "Brent",
+        "DXY"
+      ]
+    },
+    "war_escalation": {
+      "value": null,
+      "note": "Richiede tensioni dei fronti fondate su eventi verificati; n.d. senza analista."
+    },
+    "macro_risk": {
+      "value": null,
+      "note": "Richiede confronti actual/consensus e probabilità dei tassi; n.d. senza dati."
+    },
+    "global_risk": {
+      "value": null,
+      "note": "Richiede escalation, stress e rischio macro; n.d. senza componenti."
+    }
+  },
+  "forecasts": {
+    "items": [],
+    "brier": null,
+    "brier_n": 0,
+    "open": 0
+  },
+  "warnings": [
+    "Oro live, DXY e futures non collegati: non sostituiti con dati simulati."
+  ]
 }
