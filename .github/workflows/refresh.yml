@@ -58,7 +58,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
-          AI_FORCE: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.generate_ai == true) }}
+          AI_FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_ai == true }}
         run: python scripts/ai_daily.py
       - name: Salva brief e dati sul repository
         run: |
