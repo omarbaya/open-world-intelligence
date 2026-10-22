@@ -858,5 +858,35 @@
     "date": "2026-10-22",
     "series": "gauge:market_stress",
     "value": 35
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:SP500",
+    "value": 7757.17
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:VIX",
+    "value": 17.31
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:US10Y",
+    "value": 5.12
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:US2Y",
+    "value": 4.79
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:BRENT",
+    "value": 115.22
+  },
+  {
+    "date": "2026-10-22",
+    "series": "mkt:WTI",
+    "value": 107.89
   }
 ]
