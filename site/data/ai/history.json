@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T09:57:42.797842+00:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok",
+        "items": 5
+      },
+      {
+        "role": "macro",
+        "status": "ok",
+        "items": 4
+      },
+      {
+        "role": "difesa",
+        "status": "ok",
+        "items": 0
+      },
+      {
+        "role": "verificatore",
+        "status": "ok",
+        "flags": 0
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Dossier insufficiente per valutare previsioni o identificare errori ripetuti, in quanto non sono presenti previsioni passate (previous_days: 0, forecasts.items vuoto).",
+        "La copertura mostra 250 articoli nelle ultime 48 ore e 12 feed ok, con ruoli di audit tutti in stato ok ma con zero elementi registrati per la difesa (items: 0) e nessun flag di revisione."
+      ],
+      "correzioni_proposte": [
+        "Raccogliere dati storici e previsioni valutabili per abilitare il calcolo delle metriche di Brier e l'analisi degli errori."
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
+  }
+]
