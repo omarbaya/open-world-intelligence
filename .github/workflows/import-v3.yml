@@ -1,0 +1,53 @@
+name: Installa OPEN WORLD 3.0 dallo ZIP
+on:
+  push:
+    paths:
+      - 'OPEN_WORLD_V3_DEPLOY.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Estrai e controlla i file
+        run: |
+          python3 - <<'PY'
+          import pathlib,zipfile,shutil
+          archive=pathlib.Path('OPEN_WORLD_V3_DEPLOY.zip')
+          if not archive.is_file(): raise SystemExit('ZIP mancante nella radice del repository')
+          root=pathlib.Path.cwd().resolve()
+          count=0
+          with zipfile.ZipFile(archive) as z:
+            for info in z.infolist():
+              if info.is_dir(): continue
+              path=pathlib.PurePosixPath(info.filename)
+              if not path.parts or path.parts[0]!='OPEN_WORLD_V3': continue
+              rel=pathlib.PurePosixPath(*path.parts[1:])
+              if not rel.parts or any(x in ('..','.','') for x in rel.parts): raise SystemExit('Percorso non valido')
+              if rel.parts[:2]==('.github','workflows'): continue
+              dest=(root / pathlib.Path(*rel.parts)).resolve()
+              if not dest.is_relative_to(root): raise SystemExit('Percorso fuori repository')
+              dest.parent.mkdir(parents=True,exist_ok=True)
+              with z.open(info) as f, dest.open('wb') as o: shutil.copyfileobj(f,o)
+              count+=1
+          print('File importati:',count)
+          if count<25: raise SystemExit('ZIP non valido o incompleto')
+          if not (root/'site/original/assets/original-claude-dashboard.html').exists(): raise SystemExit('Dashboard originale mancante')
+          PY
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test di accettazione
+        run: python -m unittest discover -s tests -v
+      - name: Pubblica sorgenti importate
+        run: |
+          git config user.name "open-world-bot"
+          git config user.email "open-world-bot@users.noreply.github.com"
+          git add -A -- . ':(exclude).github/workflows/**'
+          if ! git diff --cached --quiet; then
+            git commit -m "IMPORT: OPEN WORLD 3.0 + originale + Gemini agents"
+            git push origin HEAD:main
+          fi
