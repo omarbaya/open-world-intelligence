@@ -104,7 +104,9 @@ def sanitize_markdown(md,evidence,local):
     return '\n'.join(clean),sorted(set(flags))
 
 def daily_packet(payload,now,history,forecaster,previous_lessons):
-    docs,excluded=recent_documents(payload.get('articles',[]),now.astimezone(timezone.utc))
+    # Il lunedì la finestra si allarga dal venerdì sera; altrimenti 48 ore.
+    window=72 if now.weekday()==0 else 48
+    docs,excluded=recent_documents(payload.get('articles',[]),now.astimezone(timezone.utc),max_age_hours=window)
     src={a['id']:dict(a,attribution=attribution(a)) for a in docs if isinstance(a,dict) and a.get('id')}
     buckets=shortlist({'articles':docs})
     return docs,src,buckets,excluded
