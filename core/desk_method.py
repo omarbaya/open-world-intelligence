@@ -29,6 +29,7 @@ def schema(role):
         if value is str:return 'string'
         if value is dict:return 'object'
         if value is list:return 'array'
+        if value is type(None):return 'null'
         if isinstance(value,tuple):return [type_of(v) for v in value]
         raise ValueError('Invalid schema')
     return {'type':'object','required':list(required),'properties':{k:{'type':type_of(v)} for k,v in required.items()},'additionalProperties':True}
