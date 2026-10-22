@@ -84,8 +84,14 @@ def safe_news_hostname(host):
 
 class ArticleText(HTMLParser):
     def __init__(self):
-        super().__init__(convert_charrefs=True); self.exclude=0; self.output=[]; self.in_main=False
+        super().__init__(convert_charrefs=True); self.exclude=0; self.output=[]; self.in_main=False; self.published=[]
     def handle_starttag(self,tag,attrs):
+        if tag=='meta':
+            attrs=dict(attrs)
+            key=str(attrs.get('property') or attrs.get('name') or '').lower()
+            if key in ('article:published_time','datepublished','pubdate','publication_date','parsely-pub-date','date'):
+                stamp=str(attrs.get('content') or '')
+                if stamp:self.published.append(stamp)
         if tag in ('script','style','svg','nav','footer','header','noscript','form'): self.exclude+=1
         if tag in ('article','main'): self.in_main=True
     def handle_endtag(self,tag):
@@ -113,6 +119,13 @@ def read_public_article(url, *, opener=None):
             if final.scheme != 'https' or not safe_news_hostname(final.hostname) or 'html' not in typ: return None
             raw=r.read(230000)
         parser=ArticleText(); parser.feed(raw.decode('utf-8','replace'))
+        # An explicit old publication date in the PAGE overrides any misleading live RSS caption.
+        for stamp in parser.published:
+            try:
+                published=datetime.fromisoformat(stamp.replace('Z','+00:00'))
+                if published.tzinfo and (datetime.now(timezone.utc)-published.astimezone(timezone.utc)).total_seconds()>48*3600:
+                    return None
+            except (TypeError,ValueError):pass
         text=parser.text()
         return text if len(text)>250 else None
     except (HTTPError,URLError,OSError,TimeoutError,ValueError):

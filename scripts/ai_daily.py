@@ -8,7 +8,10 @@ import sys
 from datetime import datetime,timezone
 from zoneinfo import ZoneInfo
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from core.cloud_ai import build_daily, LLMError
+from core.cloud_ai import LLMError
+from core.desk_method import build_daily_method
+from core import forecasts
+from core.forecast_rules import ingest_proposals
 from core.original_bridge import save_original
 from core.engine import load,store,ROOT
 
@@ -34,9 +37,9 @@ def run(force=False, now=None, agent=None):
         return {'status':'skipped','message':'Nessun articolo pubblicato dalle fonti: non creo un briefing fittizio.'}
     previous=load(DATA/'latest_ai.json',{})
     if previous.get('status') in ('ok','partial'):
-        store(DATA/'ai_status.json', {'status':previous['status'],'date':previous.get('date'),
-              'model':previous.get('model'),'agent_audit':previous.get('agent_audit',[]),
-              'message':'Briefing Gemini effettivamente generato.'})
+        store(DATA/'ai_status.json',{'status':previous['status'],'date':previous.get('date'),
+             'model':previous.get('model'),'agent_audit':previous.get('agent_audit',[]),
+             'message':'Briefing IA eseguito e controllato.'})
     if not should_run(local,previous,force):
         return {'status':'skipped','message':'Non è ancora l’ora del briefing, oppure quello odierno è già stato generato.'}
     if not os.getenv('GEMINI_API_KEY'):
@@ -49,26 +52,39 @@ def run(force=False, now=None, agent=None):
     prior=load(DATA/'ai/history.json',[])
     forecaster=latest.get('forecasts') or {}
     try:
-        result=(agent or build_daily)(latest,history=prior,forecaster=forecaster,prior_learning=[x.get('learning',{}) for x in prior[-7:]])
+        result=(agent or build_daily_method)(latest,history=prior,forecaster=forecaster,prior_learning=[x.get('learning',{}) for x in prior[-10:]])
     except LLMError as e:
         if previous.get('status') not in ('ok','partial'):
             store(DATA/'latest_ai.json',{'status':'error','date':day,'generated_at':local.isoformat(),
                    'message':str(e),'provider':'Gemini API, quota gratuita'})
         save_original(latest,previous if previous.get('status') in ('ok','partial') else None,SITE)
         return {'status':'error','message':str(e)}
+    # Event-log only, never change the baseline of an existing forecast.
+    journal=ROOT/'state/forecast_events.jsonl'
+    events=forecasts.read_events(journal)
+    proposals=result.get('forecast_proposals_unpublished',[])
+    accepted,rejected=ingest_proposals(proposals,events,latest.get('markets',[]),result.get('sources',[]),local.date())
+    for event in accepted:forecasts.append_event(journal,event)
+    result['forecast_validation']={'accepted_ids':[x['id'] for x in accepted],'rejected':rejected}
     result['date']=day  # data locale di Atene, non UTC, anche per avvio manuale notturno
     if result.get('status') not in ('ok','partial'):
         return {'status':'error','message':'Non ci sono risultati IA pubblicabili.'}
     store(DATA/'ai'/f'{day}.json',result)
     store(DATA/'latest_ai.json',result)
-    store(DATA/'ai_status.json', {'status':result['status'],'date':day,
-          'model':result.get('model'),'agent_audit':result.get('agent_audit',[]),
-          'message':'Briefing Gemini effettivamente generato.'})
+    store(DATA/'ai_status.json',{'status':result['status'],'date':day,
+         'model':result.get('model'),'agent_audit':result.get('agent_audit',[]),
+         'message':'Briefing IA con sette ruoli generato.'})
+    brief_path=DATA/'briefs'/f'{day}_method.md'
+    brief_path.parent.mkdir(parents=True,exist_ok=True)
+    brief_path.write_text(result.get('brief',{}).get('brief_markdown','n.d.'),encoding='utf-8')
     by_date={x['date']:x for x in prior if isinstance(x,dict) and 'date' in x}
     by_date[day]={'date':day,'generated_at':result['generated_at'],'status':result['status'],
                  'agent_audit':result.get('agent_audit',[]),'learning':result.get('learning',{})}
     store(DATA/'ai/history.json',list(by_date.values())[-365:])
-    count=save_original(latest,result,SITE)
+    payload=dict(latest)
+    payload['indicators']={**latest.get('indicators',{}),**result.get('indicatori_python',{})}
+    payload['forecasts']=forecasts.project(forecasts.read_events(journal))
+    count=save_original(payload,result,SITE)
     return {'status':result['status'],'agents':len(result.get('agent_audit',[])),'original_rows':count}
 
 if __name__=='__main__':

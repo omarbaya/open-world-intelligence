@@ -49,7 +49,7 @@ def build_rows(payload,ai=None):
         item=indicators.get(key) or {}
         value=item.get('value')
         rows.append(row('gauge',key,order=n,title=title,value=value if isinstance(value,(int,float)) else None,
-          label='n.d.' if value is None else 'Parziale',detail='Indicatore disponibile solo con sufficienti dati verificati.',
+          label='n.d.' if value is None else 'Calcolato da Python',detail='Indicatore disponibile solo con sufficienti dati verificati.',
           text=str(item.get('method') or item.get('note') or 'n.d.'),extra='Nessun punteggio inventato.'))
     research=(ai or {}).get('research',{})
     for i,(claim,source) in enumerate(ai_sources(ai)[:10],1):
@@ -82,9 +82,12 @@ def build_rows(payload,ai=None):
             extra='Dato ritardato' if q.get('stale') else 'Data di osservazione riportata.',
             time=q.get('observation_date') or 'n.d.',source=q.get('source','n.d.'),url=q.get('url')))
     # Preserve every original UI module with blank/no-evidence states rather than old facts.
-    rows.append(row('lesson','main',title='Una notizia non è una prova',category='Strumenti',level='Base',
-        text='Un articolo attribuisce un fatto alla propria fonte. Un titolo RSS non è una verifica indipendente. Una dichiarazione di un esercito va attribuita alla parte interessata. Un possibile impatto sul mercato non è una previsione garantita.',
-        detail='Nel desk la lettura IA è distinta dalle osservazioni documentate.',extra='Un solo titolo RSS conferma un evento?',catalysts='No. Occorre una fonte primaria pertinente o più indagini indipendenti.'))
+    lesson=(ai or {}).get('learning',{}).get('lezione',{})
+    rows.append(row('lesson','main',title=lesson.get('titolo') or 'Una notizia non è una prova',
+        category=lesson.get('area') or 'Strumenti',level=lesson.get('livello') or 'Base',
+        text=lesson.get('spiegazione') or 'Una notizia RSS da sola non è una verifica indipendente.',
+        detail=lesson.get('esempio_oggi') or 'n.d.',extra=lesson.get('domanda') or 'Le prove disponibili bastano?',
+        catalysts=lesson.get('risposta') or 'n.d.'))
     for i,(instrument,description) in enumerate([('ES','S&P 500 · ES / MES'),('GC','Oro · GC / MGC'),('6E','Euro · 6E / M6E')],1):
         rows.append(row('trading',instrument,order=i,title=description,category='Sessioni e orari: n.d.',
             score=None,label='n.d.',level='n.d.',text='Solo studio: notizie attribuite e dati ritardati.',
@@ -112,8 +115,8 @@ def build_rows(payload,ai=None):
         for x,label in enumerate(('Oro','EUR/USD','S&P 500'),1):
             rows.append(row('force',f'{j}-{x}',order=j,title=name,category=label,value=0,level='Debole',
                 text='Direzione non stimabile senza input verificati.',detail='Matrice informativa, non segnale di trading.'))
-    for n,name in enumerate(('Globale','Oro','Euro','Azioni','Energia','Difesa','Rischio geopolitico'),1):
-        rows.append(row('sentiment',str(n),order=n,title='Sentiment '+name,value=None,text='n.d.',detail='Misura non disponibile senza fonti e calcolo completo.'))
+    for n,(key,name) in enumerate((('global','Globale'),('riskon','Risk-on'),('equity','Azioni'),('gold','Oro'),('eurusd','EUR/USD'),('oil','Petrolio'),('war','Guerre')),1):
+        rows.append(row('sentiment',key,order=n,title='Sentiment '+name,value=None,text='n.d.',detail='Misura non disponibile senza input sufficienti.'))
     for i,a in enumerate(payload.get('articles',[])[:28],1):
         rows.append(row('source','src'+str(i),order=i,title=a.get('source','')+' — '+a.get('title',''),category=(a.get('topics') or ['News'])[0],url=a.get('url')))
     for i,(term,description) in enumerate([('CPI','Indice dei prezzi al consumo'),('PPI','Prezzi all’ingrosso'),('DXY','Indice del dollaro USA'),('VIX','Volatilità implicita dell’S&P 500'),('Tassi','Costo del denaro'),('Rendimento','Interesse percentuale di un titolo'),('Futures','Contratto con scadenza'),('Risk-off','Preferenza per attività considerate meno rischiose'),('Fed','Banca centrale USA'),('BCE','Banca centrale dell’eurozona')],1):
@@ -151,10 +154,26 @@ def save_original(payload,ai,site_dir, *, history_seed=None):
     stamp=payload.get('generated_at') or datetime.now(ZoneInfo('Europe/Athens')).isoformat()
     date=datetime.fromisoformat(stamp.replace('Z','+00:00')).astimezone(ZoneInfo('Europe/Athens')).date().isoformat()
     seen={(x.get('date'),x.get('series')) for x in history if isinstance(x,dict)}
-    # Do not add today's artificially estimated score; only calculated non-stale stress.
-    stress=payload.get('indicators',{}).get('market_stress',{}).get('value')
-    if isinstance(stress,(int,float)):
-        new={'date':date,'series':'gauge:market_stress','value':stress}
-        if (date,new['series']) not in seen: history.append(new)
+    def record(series,value):
+        if not isinstance(value,(int,float)) or isinstance(value,bool):return
+        if (date,series) not in seen:
+            history.append({'date':date,'series':series,'value':value});seen.add((date,series))
+    # Only documented, numeric, non-stale metrics appear in historical series.
+    for name,x in payload.get('indicators',{}).items():
+        if name in ('global_risk','market_stress','war_escalation','conviction') and isinstance(x,dict):
+            record('gauge:'+name,x.get('value'))
+    for row_ in items:
+        kind=row_['section'];id_=row_['id'];value=row_.get('value')
+        if kind=='sentiment':record('sent:'+id_,value)
+        if kind=='front':record('front:'+id_,value)
+        if kind=='trading':
+            label=row_.get('label')
+            if label in ('Rialzista','Ribassista','Neutrale'):
+                record('lettura:'+('EURUSD' if id_=='6E' else id_),{'Rialzista':1,'Neutrale':0,'Ribassista':-1}[label])
+    for quote in payload.get('markets',[]):
+        if not quote.get('stale') and isinstance(quote.get('value'),(int,float)):
+            record('mkt:'+quote.get('id','n.d.'),quote['value'])
+    dates=sorted({x['date'] for x in history if isinstance(x,dict) and isinstance(x.get('date'),str)})[-400:]
+    history=[x for x in history if isinstance(x,dict) and x.get('date') in dates]
     (dest/'storico.json').write_text(json.dumps(history,ensure_ascii=False,indent=2),encoding='utf-8')
     return len(items)

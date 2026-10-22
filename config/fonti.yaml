@@ -1,0 +1,7 @@
+{
+  "affidabili": ["Reuters", "Associated Press", "AP", "AFP", "BBC", "Bloomberg", "Financial Times", "Wall Street Journal", "The Guardian", "Deutsche Welle", "France 24", "Politico Europe"],
+  "primarie": ["BLS", "BEA", "Eurostat", "Federal Reserve", "European Central Bank", "BCE", "CFTC", "US SEC", "Department of Defense"],
+  "media_di_stato": {"TASS":"Russia", "RT":"Russia", "Sputnik":"Russia", "Press TV":"Iran", "Tasnim":"Iran", "Fars":"Iran", "IRNA":"Iran", "Al-Masirah":"Houthi", "Xinhua":"Cina", "CGTN":"Cina", "Global Times":"Cina"},
+  "aggregatori": ["Investing.com", "Trading Economics", "StockAnalysis"],
+  "nota": "Due nomi di testata non provano indipendenza: verificare agenzia condivisa e riscontri primari. JSON è anche YAML valido."
+}
