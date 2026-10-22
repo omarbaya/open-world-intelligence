@@ -13,6 +13,7 @@ from core.desk_method import build_daily_method
 from core import forecasts
 from core.forecast_rules import ingest_proposals
 from core.original_bridge import save_original
+from core.free_data import calculate_conservative_sentiments
 from core.engine import load,store,ROOT
 
 SITE=ROOT/'site'
@@ -47,6 +48,7 @@ def run(force=False, now=None, agent=None):
         payload=dict(latest)
         if current_ai:
             payload['indicators']={**latest.get('indicators',{}),**current_ai.get('indicatori_python',{})}
+        payload['sentiments_python']=calculate_conservative_sentiments(payload)
         save_original(payload,current_ai,SITE)
         return {'status':'skipped','message':'Dashboard dati aggiornata; briefing IA già disponibile o non ancora dovuto.'}
     if not os.getenv('GEMINI_API_KEY'):
@@ -91,6 +93,7 @@ def run(force=False, now=None, agent=None):
     payload=dict(latest)
     payload['indicators']={**latest.get('indicators',{}),**result.get('indicatori_python',{})}
     payload['forecasts']=forecasts.project(forecasts.read_events(journal))
+    payload['sentiments_python']=calculate_conservative_sentiments(payload)
     count=save_original(payload,result,SITE)
     return {'status':result['status'],'agents':len(result.get('agent_audit',[])),'original_rows':count}
 
