@@ -11,7 +11,9 @@ on:
       - '.github/workflows/refresh.yml'
       - 'scripts/**'
       - 'core/**'
-      - 'site/**'
+      - 'site/*.html'
+      - 'site/*.css'
+      - 'site/*.js'
       - 'config/**'
 permissions:
   contents: write
@@ -26,7 +28,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    timeout-minutes: 8
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,6 +44,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Fonti, dashboard e brief
         run: python scripts/refresh.py
+      - name: Agenti AI · traduzione, analisi e memoria
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          python -m py_compile scripts/ai_pipeline.py
+          python scripts/ai_pipeline.py
       - name: Salva i dati in repository
         run: |
           git config user.name "open-world-bot"
