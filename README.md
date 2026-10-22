@@ -1,4 +1,4 @@
-# OPEN WORLD Intelligence Desk 3.0 — Claude original + Gemini Cloud Free
+# OPEN WORLD Intelligence Desk 3.1 — Claude original + Gemini Cloud Free
 
 Ricostruzione fedele dell'interfaccia **originale Claude** (`site/original/assets/original-claude-dashboard.html`, stessa sequenza di byte dell'archivio fornito) con una pipeline dati open-source indipendente. È disponibile in parallelo la dashboard OPEN WORLD V2 e il nuovo pannello agenti IA.
 
@@ -12,7 +12,7 @@ Ricostruzione fedele dell'interfaccia **originale Claude** (`site/original/asset
 
 - Raccolta RSS/Atom ogni ora via GitHub Actions, deduplicazione e fonti attribuite.
 - FRED (serie storiche, NON live) e `n.d.` dove i prezzi non sono verificati.
-- Sei ruoli IA basati sulla stessa API Google Gemini: geopolitica, macro/mercati, difesa, verificatore, Capo Desk, apprendimento. Sono **sei invocazioni logiche sequenziali** dello stesso modello, non sei modelli sempre residenti.
+- Sette ruoli IA basati sulla stessa API Google Gemini: geopolitica, macro/mercati, difesa, Capo Desk, verificatore, Insegnante, Revisore finale. Sono **sette invocazioni logiche sequenziali** dello stesso modello, non sei modelli sempre residenti.
 - Lettura delle pagine pubbliche quando accessibili; se bloccate, stato `solo RSS`, nessun bypass.
 - Traduzione in italiano, spiegazione del perché conta e impatto *condizionale* su oro, euro e S&P 500. Niente istruzioni di acquisto/vendita.
 - Revisione con fonte-id validato contro il dossier reale; il Verificatore IA è una critica automatica, NON una seconda fonte indipendente.
@@ -52,3 +52,7 @@ python scripts/serve.py
 ## Privacy dei file originali
 
 Il prompt storico di Claude con riferimenti personali non è incluso nei file destinati al repository GitHub **pubblico**. Il codice della dashboard originale è incluso identico, e le regole operative rilevanti sono implementate nei moduli Python. La copia integrale del prompt originale resta negli archivi Claude forniti dall’utente. Il diario privato non viene esportato né pubblicato.
+
+## Metodo Claude (kit 22 ottobre 2026)
+
+I sette prompt separati sono in `config/prompts/`, con le regole comuni in `common.md`. Validazione JSON (`jsonschema`), scarto notizie fuori finestra, calcolo degli indicatori e registro immutabile delle previsioni sono implementati in Python. Il workflow mantiene la dashboard originale e pubblica i dati RSS ogni ora, conservando il briefing IA quotidiano. Le nuove previsioni prive di valore di riferimento verificabile sono respinte. Le tensioni dei fronti e le inclinazioni ES/GC/6E sono interpretazioni, NON fatti o consigli di trading. Vedi `docs/METHOD_KIT_2026_10_22.md`.
