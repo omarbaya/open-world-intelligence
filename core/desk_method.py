@@ -149,6 +149,11 @@ def build_daily_method(payload, *, history=None, forecaster=None, prior_learning
         raw_sources[role]=samples
         packet={'date_athens':now.isoformat(),'articles':samples,'previous_10_days':(history or [])[-10:],
                 'markets':payload.get('markets',[])[:14] if role=='macro' else [],
+                'calendar_official':(payload.get('calendar') or [])[:60] if role=='macro' else [],
+                'cot_cftc':payload.get('cot') if role=='macro' else {},
+                'levels_spot':payload.get('levels') if role=='macro' else {},
+                'defense_eod':payload.get('defense_eod') if role=='difesa' else {},
+                'source_health':payload.get('free_sources',{}).get('providers',{}),
                 'forecast_registry':forecaster or {},'information_scope':'24h/48h max, timestamp mandatory'}
         response=step(role,packet)
         response=sanitize_claims(response,allowed,source_index)
@@ -159,6 +164,11 @@ def build_daily_method(payload, *, history=None, forecaster=None, prior_learning
         raise LLMError('Nessuno specialista ha prodotto risultati fondati su ID esistenti.')
     indicators=calculate_indicators(payload,outputs.get('geopolitica'),outputs.get('macro'))
     packet={'specialists':outputs,'indicatori_python':indicators,'mercati_originali':payload.get('markets',[]),
+            'calendar_official':(payload.get('calendar') or [])[:70],
+            'cot_cftc':payload.get('cot') or {},
+            'levels_spot':payload.get('levels') or {},
+            'defense_eod':payload.get('defense_eod') or {},
+            'free_source_health':payload.get('free_sources',{}).get('providers',{}),
             'sources':raw_sources,'brief_ieri':(history or [])[-1:] if history else [],
             'lesson_history':(prior_learning or [])[-10:],'forecasts':forecaster or {},
             'scope':'NO numeri nuovi, NO dati da fonti non incluse'}
