@@ -1834,41 +1834,65 @@
     "gold_api": "2026-10-22T12:53:07.240886Z",
     "xaus": "2026-10-22T12:53:07.240886Z",
     "cot": "2026-10-22T12:53:07.240886Z",
-    "gold_levels": "2026-10-22T12:53:07.240886Z"
+    "gold_levels": "2026-10-22T12:53:07.240886Z",
+    "ecb": "2026-10-22T13:01:15.097763Z"
   },
-  "last_refresh": "2026-10-22T12:53:07.240886Z",
+  "last_refresh": "2026-10-22T13:01:15.097763Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "ok",
-      "checked_at": "2026-10-22T12:53:07.240886Z"
+      "status": "cached",
+      "checked_at": "2026-10-22T13:01:15.097763Z",
+      "last_fetched": "2026-10-22T12:53:07.240886Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "error",
-      "checked_at": "2026-10-22T12:53:07.240886Z",
-      "reason": "TimeoutError",
-      "cached": false
+      "status": "ok",
+      "checked_at": "2026-10-22T13:01:15.097763Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "ok",
-      "checked_at": "2026-10-22T12:53:07.240886Z"
+      "status": "cached",
+      "checked_at": "2026-10-22T13:01:15.097763Z",
+      "last_fetched": "2026-10-22T12:53:07.240886Z"
     },
     "xaus": {
       "name": "xaus",
-      "status": "ok",
-      "checked_at": "2026-10-22T12:53:07.240886Z"
+      "status": "cached",
+      "checked_at": "2026-10-22T13:01:15.097763Z",
+      "last_fetched": "2026-10-22T12:53:07.240886Z"
     },
     "cot": {
       "name": "cot",
-      "status": "ok",
-      "checked_at": "2026-10-22T12:53:07.240886Z"
+      "status": "cached",
+      "checked_at": "2026-10-22T13:01:15.097763Z",
+      "last_fetched": "2026-10-22T12:53:07.240886Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "ok",
-      "checked_at": "2026-10-22T12:53:07.240886Z"
+      "status": "cached",
+      "checked_at": "2026-10-22T13:01:15.097763Z",
+      "last_fetched": "2026-10-22T12:53:07.240886Z"
     }
+  },
+  "ecb": {
+    "id": "EURUSD",
+    "name": "EUR/USD fixing BCE",
+    "unit": "USD per EUR",
+    "type": "fx",
+    "source": "BCE · EXR/D.USD.EUR.SP00.A",
+    "instrument": "EUR/USD spot reference ECB",
+    "value": 1.1234,
+    "previous": 1.1215,
+    "change": 0.0019,
+    "change_pct": 0.1694,
+    "observation_date": "2026-10-21",
+    "previous_date": "2026-10-20",
+    "stale": false,
+    "delayed": true,
+    "error": null,
+    "url": "https://data.ecb.europa.eu/data/datasets/EXR/EXR.D.USD.EUR.SP00.A",
+    "verified_source": "primary",
+    "quote_quality": "official_daily_reference"
   }
 }
