@@ -963,5 +963,35 @@
     "date": "2026-10-23",
     "series": "mkt:WTI",
     "value": 107.89
+  },
+  {
+    "date": "2026-10-23",
+    "series": "gauge:war_escalation",
+    "value": 75
+  },
+  {
+    "date": "2026-10-23",
+    "series": "gauge:conviction",
+    "value": 45
+  },
+  {
+    "date": "2026-10-23",
+    "series": "lettura:ES",
+    "value": 0
+  },
+  {
+    "date": "2026-10-23",
+    "series": "lettura:GC",
+    "value": 0
+  },
+  {
+    "date": "2026-10-23",
+    "series": "lettura:EURUSD",
+    "value": 0
+  },
+  {
+    "date": "2026-10-23",
+    "series": "sent:war",
+    "value": 50
   }
 ]

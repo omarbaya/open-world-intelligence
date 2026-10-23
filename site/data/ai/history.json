@@ -92,5 +92,81 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T13:34:10.427426+03:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche)."
+      ],
+      "correzioni_proposte": [
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Vietare l'inserimento di qualsiasi valore numerico (prezzi, variazioni percentuali) non esplicitamente presente e tracciabile nel dossier fornito."
+      ],
+      "lezione": {
+        "titolo": "Produzione armi pesanti Regno Unito",
+        "area": "Strumenti",
+        "livello": "Base",
+        "spiegazione": "Il Regno Unito ha inaugurato la produzione di barili per armi pesanti a Telford tramite Rheinmetall, creando cento posti di lavoro [c8ea532c1db3dc594f]. Questa attività industriale rafforza la filiera della difesa locale senza indicare prezzi di borsa [difesa].",
+        "esempio_oggi": "A Telford Rheinmetall produce canne e culatte da 120mm e 155mm [c8ea532c1db3dc594f].",
+        "domanda": "Cosa smentirebbe l'avvio della produzione a Telford?",
+        "risposta": "Una smentita ufficiale di Rheinmetall o del governo britannico [c8ea532c1db3dc594f].",
+        "parole": [
+          {
+            "termine": "Rheinmetall",
+            "spiegazione": "Azienda della difesa attiva nella produzione di componenti militari [c8ea532c1db3dc594f]."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Uso di valori come 'Neutrale' anziché la scala numerica o booleana richiesta dai controlli di validazione Python."
+        },
+        {
+          "problema": "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche).",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico (prezzi, variazioni percentuali) non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Sostituzione automatica operata dal controllo Python su valori percentuali e numerici non verificati tramite le fonti [verification]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
