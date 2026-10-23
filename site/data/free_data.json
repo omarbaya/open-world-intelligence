@@ -96,13 +96,13 @@
       "name": "UK Retail Sales October 2026",
       "country": "GB",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "09:00",
       "release_at_utc": "2026-10-23T06:00:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "-0.4",
       "consensus": null,
-      "previous": null,
+      "previous": "0.7",
       "unit": "% m/m",
       "source": "Office for National Statistics",
       "source_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4005.800049,
-    "as_of": "2026-10-23T04:57:13Z",
+    "value": 4024.800049,
+    "as_of": "2026-10-23T12:11:44Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4024.600098,
-    "as_of": "2026-10-23T10:33:52.178000Z",
+    "value": 4024.800049,
+    "as_of": "2026-10-23T12:11:52.659000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,49 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-23T04:57:11.619286Z",
-    "xaus": "2026-10-23T10:34:09.977023Z",
+    "gold_api": "2026-10-23T12:12:03.043970Z",
+    "xaus": "2026-10-23T12:12:03.043970Z",
     "gold_levels": "2026-10-23T04:57:11.619286Z",
-    "ecb": "2026-10-23T04:57:11.619286Z",
-    "calendar": "2026-10-23T04:57:11.619286Z",
+    "ecb": "2026-10-23T12:12:03.043970Z",
+    "calendar": "2026-10-23T12:12:03.043970Z",
     "cot": "2026-10-22T13:03:08.843910Z"
   },
-  "last_refresh": "2026-10-23T10:34:09.977023Z",
+  "last_refresh": "2026-10-23T12:12:03.043970Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-23T10:34:09.977023Z",
-      "last_fetched": "2026-10-23T04:57:11.619286Z"
+      "status": "ok",
+      "checked_at": "2026-10-23T12:12:03.043970Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-23T10:34:09.977023Z",
-      "last_fetched": "2026-10-23T04:57:11.619286Z"
+      "status": "ok",
+      "checked_at": "2026-10-23T12:12:03.043970Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "error",
-      "checked_at": "2026-10-23T10:34:09.977023Z",
-      "reason": "URLError",
-      "cached": true
+      "status": "ok",
+      "checked_at": "2026-10-23T12:12:03.043970Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-23T10:34:09.977023Z"
+      "checked_at": "2026-10-23T12:12:03.043970Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-23T10:34:09.977023Z",
+      "checked_at": "2026-10-23T12:12:03.043970Z",
       "last_fetched": "2026-10-22T13:03:08.843910Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-10-23T10:34:09.977023Z",
+      "checked_at": "2026-10-23T12:12:03.043970Z",
       "last_fetched": "2026-10-23T04:57:11.619286Z"
     }
   },
