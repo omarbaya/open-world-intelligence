@@ -1804,22 +1804,22 @@
   "gold_api": {
     "source": "Gold API",
     "value": 3996.899902,
-    "as_of": "2026-10-24T19:31:24Z",
+    "as_of": "2026-10-24T22:31:24Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 3996.899902,
-    "as_of": "2026-10-24T19:30:59.076000Z",
+    "as_of": "2026-10-24T22:31:01.434000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
     "GC": {
       "id": "GC",
-      "date": "2026-10-13",
-      "value": 207879,
-      "previous": 210335,
-      "change": -2456,
+      "date": "2026-10-20",
+      "value": 199865,
+      "previous": 207879,
+      "change": -8014,
       "source": "CFTC Legacy Futures Only · Noncommercial net",
       "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm",
       "unit": "contratti",
@@ -1827,10 +1827,10 @@
     },
     "EUR": {
       "id": "EUR",
-      "date": "2026-10-13",
-      "value": -137573,
-      "previous": -99332,
-      "change": -38241,
+      "date": "2026-10-20",
+      "value": -134524,
+      "previous": -137573,
+      "change": 3049,
       "source": "CFTC Legacy Futures Only · Noncommercial net",
       "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm",
       "unit": "contratti",
@@ -1838,10 +1838,10 @@
     },
     "ES": {
       "id": "ES",
-      "date": "2026-10-13",
-      "value": -140995,
-      "previous": -154070,
-      "change": 13075,
+      "date": "2026-10-20",
+      "value": -142671,
+      "previous": -140995,
+      "change": -1676,
       "source": "CFTC Legacy Futures Only · Noncommercial net",
       "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalCompressed/index.htm",
       "unit": "contratti",
@@ -1864,47 +1864,47 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-24T19:31:25.490694Z",
-    "xaus": "2026-10-24T19:31:25.490694Z",
+    "gold_api": "2026-10-24T22:31:34.502445Z",
+    "xaus": "2026-10-24T22:31:34.502445Z",
     "gold_levels": "2026-10-24T19:31:25.490694Z",
     "ecb": "2026-10-24T16:38:18.745526Z",
     "calendar": "2026-10-24T16:38:18.745526Z",
-    "cot": "2026-10-23T19:17:53.220103Z"
+    "cot": "2026-10-24T22:31:34.502445Z"
   },
-  "last_refresh": "2026-10-24T19:31:25.490694Z",
+  "last_refresh": "2026-10-24T22:31:34.502445Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
       "status": "cached",
-      "checked_at": "2026-10-24T19:31:25.490694Z",
+      "checked_at": "2026-10-24T22:31:34.502445Z",
       "last_fetched": "2026-10-24T16:38:18.745526Z"
     },
     "ecb": {
       "name": "ecb",
       "status": "cached",
-      "checked_at": "2026-10-24T19:31:25.490694Z",
+      "checked_at": "2026-10-24T22:31:34.502445Z",
       "last_fetched": "2026-10-24T16:38:18.745526Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-24T19:31:25.490694Z"
+      "checked_at": "2026-10-24T22:31:34.502445Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-24T19:31:25.490694Z"
+      "checked_at": "2026-10-24T22:31:34.502445Z"
     },
     "cot": {
       "name": "cot",
-      "status": "cached",
-      "checked_at": "2026-10-24T19:31:25.490694Z",
-      "last_fetched": "2026-10-23T19:17:53.220103Z"
+      "status": "ok",
+      "checked_at": "2026-10-24T22:31:34.502445Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "ok",
-      "checked_at": "2026-10-24T19:31:25.490694Z"
+      "status": "cached",
+      "checked_at": "2026-10-24T22:31:34.502445Z",
+      "last_fetched": "2026-10-24T19:31:25.490694Z"
     }
   },
   "ecb": {
