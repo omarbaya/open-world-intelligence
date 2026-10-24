@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-10-24T09:52:00.054481Z",
+  "generated_at": "2026-10-24T11:40:05.905258Z",
   "timezone": "Europe/Athens",
-  "last_news_success": "2026-10-24T09:52:00.054481Z",
-  "last_market_fetch": "2026-10-24T07:21:07.537849Z",
+  "last_news_success": "2026-10-24T11:40:05.905258Z",
+  "last_market_fetch": "2026-10-24T11:40:05.905258Z",
   "news_unavailable": false,
   "articles": [
     {
@@ -20,7 +20,7 @@
         "Medio Oriente"
       ],
       "relevance": 4,
-      "article_age_hours": 25.3,
+      "article_age_hours": 27.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -32,13 +32,30 @@
       "source_type": "primary",
       "published_at": "2026-10-23T08:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Macro e banche centrali"
       ],
       "relevance": 4,
-      "article_age_hours": 25.9,
+      "article_age_hours": 27.7,
       "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "id": "ca2c6e858d7c19134e",
+      "title": "Netanyahu orders West Bank operation",
+      "summary": "Israel has imposed widespread closures across the occupied West Bank and displaced residents following attacks by Palestinian gunmen that killed two Israeli soldiers. Prime Minister Benjamin Netanyahu visited the site of the attack near Hebron and instructed security forces to immediately cordon off the city. Morgan Ayre reports.",
+      "url": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:33:52Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 3,
+      "article_age_hours": 1.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "9a1d8b8742859d72ca",
@@ -49,12 +66,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T20:50:51Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 13.0,
+      "article_age_hours": 14.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -66,12 +83,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T18:26:35Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 15.4,
+      "article_age_hours": 17.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -83,12 +100,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T17:21:00Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 16.5,
+      "article_age_hours": 18.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -105,7 +122,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 16.6,
+      "article_age_hours": 18.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -117,12 +134,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T17:11:58Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 16.7,
+      "article_age_hours": 18.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -134,14 +151,14 @@
       "source_type": "media",
       "published_at": "2026-10-23T16:48:28Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Energia",
         "Medio Oriente",
         "Golfo e Mar Rosso"
       ],
       "relevance": 3,
-      "article_age_hours": 17.1,
+      "article_age_hours": 18.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -158,7 +175,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 17.4,
+      "article_age_hours": 19.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -170,12 +187,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T15:56:28Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 17.9,
+      "article_age_hours": 19.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -187,12 +204,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T15:37:07Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 18.2,
+      "article_age_hours": 20.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -204,12 +221,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T14:55:15Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 18.9,
+      "article_age_hours": 20.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -221,12 +238,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T13:31:40Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 20.3,
+      "article_age_hours": 22.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -243,7 +260,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 20.9,
+      "article_age_hours": 22.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -255,12 +272,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T11:48:04Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 3,
-      "article_age_hours": 22.1,
+      "article_age_hours": 23.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -277,7 +294,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 22.5,
+      "article_age_hours": 24.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -294,7 +311,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 23.2,
+      "article_age_hours": 25.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -311,7 +328,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 24.2,
+      "article_age_hours": 26.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -328,7 +345,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 25.1,
+      "article_age_hours": 26.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -347,7 +364,7 @@
         "Energia"
       ],
       "relevance": 3,
-      "article_age_hours": 26.2,
+      "article_age_hours": 28.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -364,7 +381,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 39.6,
+      "article_age_hours": 41.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -381,7 +398,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 41.1,
+      "article_age_hours": 42.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -398,7 +415,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 41.3,
+      "article_age_hours": 43.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -415,7 +432,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 41.8,
+      "article_age_hours": 43.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -433,7 +450,7 @@
         "Energia"
       ],
       "relevance": 3,
-      "article_age_hours": 42.1,
+      "article_age_hours": 43.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -450,7 +467,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 3,
-      "article_age_hours": 44.1,
+      "article_age_hours": 45.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -467,7 +484,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 44.5,
+      "article_age_hours": 46.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -485,60 +502,144 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 44.8,
+      "article_age_hours": 46.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "a7f173e60513cd31c7",
-      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
-      "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
-      "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
-      "source": "NPR",
+      "id": "96b5c8c3a74a1f90ce",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
       "source_type": "media",
-      "published_at": "2026-10-22T11:28:24Z",
+      "published_at": "2026-10-24T11:17:35Z",
       "language": "original",
-      "collected_at": "2026-10-23T04:56:57.760904Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 3,
-      "article_age_hours": 46.4,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "3c0727b94895de6daa",
-      "title": "Oil prices jump to five-month high as attacks threaten global supply",
-      "summary": "Iran’s IRGC says it hit four vessels in the northern Gulf and three more struck mines near the strait of Hormuz Shipping workers: how is the Middle East conflict affecting you? Oil prices jumped to a five-month high on Thursday after ​attacks in Saudi Arabia and hits to tankers in the strait of Hormuz threatened further disruptions to the world’s crude supply. Brent crude, the international benchmark for oil prices, rose by 3% to hit $112 a barrel for firs",
-      "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
-      "source": "The Guardian",
-      "source_type": "media",
-      "published_at": "2026-10-22T11:28:11Z",
-      "language": "original",
-      "collected_at": "2026-10-24T01:38:35.509656Z",
-      "topics": [
-        "Golfo e Mar Rosso",
-        "Energia",
-        "Medio Oriente"
-      ],
-      "relevance": 3,
-      "article_age_hours": 46.4,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "df2e03e4418e41cb8c",
-      "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
-      "summary": "Overnight attacks on Kyiv injured 15 people, while two were injured in Moscow as Russia said it intercepted 163 drones.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-22T09:57:47Z",
-      "language": "original",
-      "collected_at": "2026-10-22T13:09:20.042682Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
-      "relevance": 3,
-      "article_age_hours": 47.9,
+      "relevance": 2,
+      "article_age_hours": 0.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "59a22e88391ffa07d9",
+      "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
+      "summary": "No injuries were reported at the building, while police said a ‘suspicious person’ had been taken into custody.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-24T11:01:05Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6d910249113143c5c3",
+      "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+      "summary": "Leading restaurateur says Gulf countries actively help businesses set up, while east Asia has a better work ethic Some of London’s top restaurants are opening branches in Dubai because of a “tax tsunami” in the UK and better work ethic abroad, according to a leading restaurateur. James Robson, a co-owner of Fallow in St James’s Market, regarded as the capital’s hottest restaurant, serving 1,000 people a day, has just signed a deal to open an outpost in the",
+      "url": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-24T11:00:31Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "7ff3c7a058a3eb38fe",
+      "title": "Typhoon Champi batters Taiwan",
+      "summary": "Typhoon Champi is heading towards China and Japan. Yesterday, it battered Taiwan with heavy rain and winds reaching up to 180 kilometres per hour. Across the island, 56,000 households are without power. Nicolas Chamontin and Ophelie Jacobson report.",
+      "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:33:04Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Cina–Taiwan"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d026a171a0b53ba0ec",
+      "title": "Zakharova, 'Meloni ascolti Al Bano che chiede di riaprire le porte a Mosca'",
+      "summary": "Portavoce di Lavrov posta un'intervista del cantante: 'Non sanzioni ma fiori alla Russia'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/zakharova-meloni-ascolti-al-bano-che-chiede-di-riaprire-le-porte-a-mosca_7c07d183-575a-419e-ae76-acd5dea54dd4.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:19:56Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4f05eff8b4704e6b13",
+      "title": "Starlink connection restored at high speed in Ukraine, defense minister says",
+      "summary": "SpaceX's satellite internet service had been restricted since last week.",
+      "url": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:09:36Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Russia–Ucraina",
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d8a57765f4eb5fa0d3",
+      "title": "Farnesina, rimpatriate le cinque italiane fermate in Cisgiordania",
+      "summary": "'Ieri visita consolare di funzionari ambasciata di Tel Aviv, erano in buone condizioni'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/farnesina-rimpatriate-le-cinque-italiane-fermate-in-cisgiordania_0e2d9a20-ad47-44f4-8cbe-a02aa930f972.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:06:28Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "d9d175ac4f32151c64",
+      "title": "Farnesina: rimpatriate le cinque italiane fermate in Cisgiordania",
+      "summary": "I media locali: 'Decine di palestinesi arrestati nei blitz dell'Idf'",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/24/farnesina-rimpatriate-le-cinque-italiane-fermate-in-cisgiordania_efc8cd4a-8403-4739-bcdf-6a0660124edc.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-24T10:04:12Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -550,47 +651,64 @@
       "source_type": "media",
       "published_at": "2026-10-24T09:48:23Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina",
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 0.1,
+      "article_age_hours": 1.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "4bdddb2c691f4d16da",
+      "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
+      "summary": "The children were subsequently rescued from the water, police say.",
+      "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-24T09:45:47Z",
+      "language": "original",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "f8f967e8155064f8aa",
       "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-      "summary": "The 36-year-old died after two boys reportedly swept away by strong current near Bimini, police say A British woman has died in the Bahamas while trying to rescue her two sons after a current swept them away as they were snorkelling. The Royal Bahamas police force said it launched an investigation after the death of a 36-year-old woman on Tuesday. Continue reading...",
+      "summary": "Mother, 36, died after current off North Bimini reportedly swept away two boys, who were later rescued, police say A British woman has died in the Bahamas while trying to rescue her two sons after a current swept them away as they were snorkelling. The Royal Bahamas police force said it had launched an investigation after the death of a 36-year-old woman on Tuesday. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
       "source": "The Guardian",
       "source_type": "media",
       "published_at": "2026-10-24T09:43:09Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 0.1,
+      "article_age_hours": 1.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "14518eb9313521627a",
       "title": "Kim Jong-un crosses over newly opened bridge into China",
-      "summary": "Visit by train over New Yalu River Bridge marks North Korean leader’s first known trip abroad in more than a year Kim Jong-un has travelled to China over a newly opened bridge marking the North Korean leader’s first known trip abroad in more than a year, South Korean officials have said. A government source told the Yonhap news agency on Saturday that Kim had arrived in the Chinese border city of Dandong, in Liaoning province, after taking a train from Pyo",
+      "summary": "Visit by train over New Yalu River Bridge marks North Korean leader’s first known trip abroad in more than a year Kim Jong-un has travelled to China over a newly opened bridge marking the North Korean leader’s first known trip abroad in more than a year. A South Korean government source told the Yonhap news agency that Kim had arrived in the Chinese border city of Dandong, in Liaoning province, after taking a train from Pyongyang to Sinuiju and crossing th",
       "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
       "source": "The Guardian",
       "source_type": "media",
       "published_at": "2026-10-24T09:34:40Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 0.3,
+      "article_age_hours": 2.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -602,12 +720,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T09:14:40Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 0.6,
+      "article_age_hours": 2.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -624,7 +742,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 2.3,
+      "article_age_hours": 4.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -636,12 +754,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T07:17:44Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 2.6,
+      "article_age_hours": 4.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -653,29 +771,29 @@
       "source_type": "media",
       "published_at": "2026-10-24T07:09:55Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 2.7,
+      "article_age_hours": 4.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "f5ddd3e737c98263c2",
       "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
-      "summary": "Kim arrived in the Chinese border city of Dandong using the New Yalu River Bridge, officially opened about a week ago.",
+      "summary": "South Korean officials say Kim arrived in Dandong using the New Yalu River Bridge, which opened about a week ago.",
       "url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
       "source": "Al Jazeera",
       "source_type": "media",
       "published_at": "2026-10-24T07:07:20Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 2.7,
+      "article_age_hours": 4.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -687,30 +805,13 @@
       "source_type": "media",
       "published_at": "2026-10-24T07:04:13Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Golfo e Mar Rosso",
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 2.8,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "25a61a5eed3dac5a87",
-      "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-      "summary": "About 200 firefighters deployed to tackle the blaze at former Nazi retreat in a remote part of southern Germany German police said Saturday they had detained a suspect after a fire at Adolf Hitler’s former mountain retreat, known as the Eagle’s Nest, in the state of Bavaria. About 200 firefighters were deployed to tackle the blaze at the Nazi dictator’s remote and difficult-to-access Kehlsteinhaus residence, on the peak of Obersalzberg in southern Germany.",
-      "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-      "source": "The Guardian",
-      "source_type": "media",
-      "published_at": "2026-10-24T06:21:44Z",
-      "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
-      "topics": [
-        "Golfo e Mar Rosso"
-      ],
-      "relevance": 2,
-      "article_age_hours": 3.5,
+      "article_age_hours": 4.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -722,12 +823,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T06:17:13Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 3.6,
+      "article_age_hours": 5.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -739,12 +840,12 @@
       "source_type": "primary",
       "published_at": "2026-10-24T06:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 3.9,
+      "article_age_hours": 5.7,
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
@@ -756,12 +857,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T05:29:07Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 4.4,
+      "article_age_hours": 6.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -778,7 +879,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 4.5,
+      "article_age_hours": 6.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -795,7 +896,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 4.8,
+      "article_age_hours": 6.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -807,12 +908,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T05:00:24Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 4.9,
+      "article_age_hours": 6.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -829,7 +930,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 5.1,
+      "article_age_hours": 6.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -846,7 +947,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 6.1,
+      "article_age_hours": 7.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -858,12 +959,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T02:22:32Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 7.5,
+      "article_age_hours": 9.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -875,12 +976,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T02:01:54Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 7.8,
+      "article_age_hours": 9.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -892,12 +993,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T02:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 7.9,
+      "article_age_hours": 9.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -915,7 +1016,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 8.5,
+      "article_age_hours": 10.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -932,7 +1033,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 9.0,
+      "article_age_hours": 10.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -944,12 +1045,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T00:41:29Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 9.2,
+      "article_age_hours": 11.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -961,12 +1062,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T00:30:02Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 9.4,
+      "article_age_hours": 11.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -978,12 +1079,12 @@
       "source_type": "media",
       "published_at": "2026-10-24T00:05:45Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 9.8,
+      "article_age_hours": 11.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1001,7 +1102,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 9.9,
+      "article_age_hours": 11.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1018,7 +1119,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 10.4,
+      "article_age_hours": 12.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1035,7 +1136,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 10.7,
+      "article_age_hours": 12.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1047,12 +1148,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T22:24:36Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 11.5,
+      "article_age_hours": 13.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1070,7 +1171,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 11.8,
+      "article_age_hours": 13.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1082,12 +1183,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T21:40:02Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 12.2,
+      "article_age_hours": 14.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1104,7 +1205,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 13.0,
+      "article_age_hours": 14.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1121,7 +1222,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 13.1,
+      "article_age_hours": 14.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1133,12 +1234,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T20:18:13Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 13.6,
+      "article_age_hours": 15.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1155,7 +1256,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 13.8,
+      "article_age_hours": 15.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1167,12 +1268,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T20:01:13Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 13.8,
+      "article_age_hours": 15.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1189,7 +1290,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 14.0,
+      "article_age_hours": 15.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1201,12 +1302,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T19:41:06Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 14.2,
+      "article_age_hours": 16.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1223,7 +1324,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 15.0,
+      "article_age_hours": 16.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1235,13 +1336,13 @@
       "source_type": "media",
       "published_at": "2026-10-23T18:48:11Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina",
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 15.1,
+      "article_age_hours": 16.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1253,12 +1354,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T18:43:01Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 15.1,
+      "article_age_hours": 17.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1275,7 +1376,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 15.2,
+      "article_age_hours": 17.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1287,12 +1388,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T18:31:29Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 15.3,
+      "article_age_hours": 17.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1309,7 +1410,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.4,
+      "article_age_hours": 18.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1326,7 +1427,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 16.4,
+      "article_age_hours": 18.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1338,12 +1439,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T17:22:11Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.5,
+      "article_age_hours": 18.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1360,7 +1461,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 16.5,
+      "article_age_hours": 18.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1372,12 +1473,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T17:17:30Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 16.6,
+      "article_age_hours": 18.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1389,13 +1490,13 @@
       "source_type": "media",
       "published_at": "2026-10-23T17:10:15Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente",
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 16.7,
+      "article_age_hours": 18.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1412,7 +1513,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 16.9,
+      "article_age_hours": 18.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1429,7 +1530,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.2,
+      "article_age_hours": 19.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1446,7 +1547,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 17.7,
+      "article_age_hours": 19.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1458,12 +1559,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T15:56:19Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.9,
+      "article_age_hours": 19.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1480,7 +1581,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 18.0,
+      "article_age_hours": 19.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1492,12 +1593,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T15:30:47Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 18.4,
+      "article_age_hours": 20.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1514,7 +1615,7 @@
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 19.0,
+      "article_age_hours": 20.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1526,12 +1627,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T14:35:21Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.3,
+      "article_age_hours": 21.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1548,7 +1649,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.3,
+      "article_age_hours": 21.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1565,7 +1666,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.3,
+      "article_age_hours": 21.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1577,12 +1678,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T14:02:20Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.8,
+      "article_age_hours": 21.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1594,12 +1695,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T13:57:11Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 19.9,
+      "article_age_hours": 21.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1616,7 +1717,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 20.2,
+      "article_age_hours": 22.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1628,12 +1729,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T13:30:06Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 20.4,
+      "article_age_hours": 22.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1645,12 +1746,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T13:29:51Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 20.4,
+      "article_age_hours": 22.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1667,7 +1768,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 20.4,
+      "article_age_hours": 22.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1684,7 +1785,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 20.6,
+      "article_age_hours": 22.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1701,7 +1802,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 20.9,
+      "article_age_hours": 22.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1718,7 +1819,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 20.9,
+      "article_age_hours": 22.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1735,7 +1836,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 21.0,
+      "article_age_hours": 22.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1752,7 +1853,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 21.6,
+      "article_age_hours": 23.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1769,7 +1870,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 21.6,
+      "article_age_hours": 23.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1781,12 +1882,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T11:58:19Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Macro e banche centrali"
       ],
       "relevance": 2,
-      "article_age_hours": 21.9,
+      "article_age_hours": 23.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1798,12 +1899,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T11:50:40Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 22.0,
+      "article_age_hours": 23.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1820,7 +1921,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 22.1,
+      "article_age_hours": 23.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1832,12 +1933,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T11:37:43Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 22.2,
+      "article_age_hours": 24.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1854,7 +1955,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 22.3,
+      "article_age_hours": 24.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1866,12 +1967,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T11:34:27Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 22.3,
+      "article_age_hours": 24.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1888,7 +1989,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 22.4,
+      "article_age_hours": 24.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1905,7 +2006,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 23.5,
+      "article_age_hours": 25.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1922,7 +2023,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 23.9,
+      "article_age_hours": 25.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1939,7 +2040,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 24.2,
+      "article_age_hours": 26.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1956,7 +2057,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 24.3,
+      "article_age_hours": 26.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1973,7 +2074,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 24.7,
+      "article_age_hours": 26.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1990,7 +2091,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 24.7,
+      "article_age_hours": 26.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2007,7 +2108,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 24.8,
+      "article_age_hours": 26.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2024,7 +2125,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 24.9,
+      "article_age_hours": 26.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2041,7 +2142,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 25.1,
+      "article_age_hours": 26.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2058,7 +2159,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 25.2,
+      "article_age_hours": 27.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2075,7 +2176,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 25.2,
+      "article_age_hours": 27.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2092,7 +2193,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 25.3,
+      "article_age_hours": 27.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2109,7 +2210,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 25.5,
+      "article_age_hours": 27.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2126,7 +2227,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 25.7,
+      "article_age_hours": 27.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2143,7 +2244,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 25.9,
+      "article_age_hours": 27.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2160,7 +2261,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 25.9,
+      "article_age_hours": 27.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2177,7 +2278,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 26.4,
+      "article_age_hours": 28.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2189,12 +2290,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T06:47:10Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 27.1,
+      "article_age_hours": 28.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2211,7 +2312,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 27.5,
+      "article_age_hours": 29.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2229,7 +2330,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 27.8,
+      "article_age_hours": 29.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2246,7 +2347,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 28.3,
+      "article_age_hours": 30.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2263,7 +2364,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 28.6,
+      "article_age_hours": 30.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2275,12 +2376,12 @@
       "source_type": "media",
       "published_at": "2026-10-23T04:54:47Z",
       "language": "original",
-      "collected_at": "2026-10-24T09:52:00.054481Z",
+      "collected_at": "2026-10-24T11:40:05.905258Z",
       "topics": [
         "Macro e banche centrali"
       ],
       "relevance": 2,
-      "article_age_hours": 29.0,
+      "article_age_hours": 30.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2297,7 +2398,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 29.7,
+      "article_age_hours": 31.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2314,7 +2415,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 30.6,
+      "article_age_hours": 32.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2331,7 +2432,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 30.9,
+      "article_age_hours": 32.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2348,7 +2449,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 2,
-      "article_age_hours": 30.9,
+      "article_age_hours": 32.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2365,7 +2466,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 31.9,
+      "article_age_hours": 33.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2382,7 +2483,7 @@
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 31.9,
+      "article_age_hours": 33.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2399,7 +2500,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 32.1,
+      "article_age_hours": 33.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2416,7 +2517,7 @@
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 32.5,
+      "article_age_hours": 34.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2433,7 +2534,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 33.9,
+      "article_age_hours": 35.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2450,7 +2551,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 34.6,
+      "article_age_hours": 36.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2467,7 +2568,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 36.0,
+      "article_age_hours": 37.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2484,7 +2585,7 @@
         "Altre notizie"
       ],
       "relevance": 2,
-      "article_age_hours": 36.4,
+      "article_age_hours": 38.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2501,7 +2602,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 36.5,
+      "article_age_hours": 38.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2518,7 +2619,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 36.7,
+      "article_age_hours": 38.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2535,7 +2636,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 37.0,
+      "article_age_hours": 38.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2552,116 +2653,14 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 37.8,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "61cd2ae704f76ca8f5",
-      "title": "Aipac halts candidate endorsements amid US backlash against Israel",
-      "summary": "‘Political candidates’ once reflexive support for Israel has increasingly become a liability’ When the American Israel Public Affairs Committee, the most prominent pro-Israel lobby group in the US, announced on Wednesday that it would stop endorsing candidates or make direct contributions to them, its many critics were quick to hail the development as Aipac’s admission of how toxic its brand had become. The announcement marked a significant reversal that u",
-      "url": "https://www.theguardian.com/world/2026/oct/22/aipac-politics-endorsements-israel",
-      "source": "The Guardian",
-      "source_type": "media",
-      "published_at": "2026-10-22T19:54:40Z",
-      "language": "original",
-      "collected_at": "2026-10-22T20:36:05.139176Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 38.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "62231031b1d84a0d6c",
-      "title": "Israel’s Ben-Gvir shares AI videos mocking Gazans as ‘donkeys’ and sending them to Paris",
-      "summary": "Israel’s far-right minister Itamar Ben-Gvir is using AI-generated videos to mock Palestinians and push political messages ahead of the country’s election, including videos magically transporting Gazans to Paris or calling them \"donkeys\" for choosing to stay. One video has sparked an online spat with France. AI is playing a growing role in the campaign, with parties using deepfakes, bots and AI-generated content, raising concerns about disinformation and th",
-      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261022-israel-s-ben-gvir-shares-ai-videos-mocking-gazans-as-donkeys-and-sending-them-to-paris",
-      "source": "France 24",
-      "source_type": "media",
-      "published_at": "2026-10-22T19:38:27Z",
-      "language": "original",
-      "collected_at": "2026-10-23T04:56:57.760904Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 38.2,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "fdf875b035d1c233a2",
-      "title": "Putin, Russia e Ucraina possono raggiungere un accordo",
-      "summary": "Il capo dello Stato ha osservato che russi e ucraini sono, di fatto, un unico popolo.",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/putin-russia-e-ucraina-possono-raggiungere-un-accordo_aa5c4fd5-7078-4586-8d64-39046d6b58b1.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-22T19:34:31Z",
-      "language": "original",
-      "collected_at": "2026-10-23T19:17:51.425628Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 38.3,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "23e1600b5b856b8234",
-      "title": "Putin, colloqui trilaterali dovrebbero riguardare garanzie sicurezza anche per Mosca",
-      "summary": "'Si dovrebbero discutere pure questioni più ampie relative alla sicurezza europea'",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/putin-colloqui-trilaterali-dovrebbero-riguardare-garanzie-sicurezza-anche-per-mosca_5062c94c-d0c2-4983-abf6-580598a14362.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-22T19:16:28Z",
-      "language": "original",
-      "collected_at": "2026-10-23T19:17:51.425628Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 38.6,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "25515ec40ffb8b9d6b",
-      "title": "Putin, i territori nell'Ucraina orientale sono 'terre storicamente russe'",
-      "summary": "Mosca alza la posta in gioco nei negoziati per risolvere conflitto",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/putin-i-territori-nellucraina-orientale-sono-terre-storicamente-russe_833d371e-c385-453d-a189-f53242c455e9.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-22T19:14:48Z",
-      "language": "original",
-      "collected_at": "2026-10-23T19:17:51.425628Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 38.6,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "e3a4344650699dfa63",
-      "title": "Wsj, 'Trump ha chiamato Musk per rimuovere le restrizioni a Starlink per l'Ucraina'",
-      "summary": "Il quotidiano cita fonti",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/22/wsj-trump-ha-chiamato-musk-per-rimuovere-le-restrizioni-a-starlink-per-lucraina_81c67703-2f24-4ed7-93c7-8452d883959b.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-22T18:21:02Z",
-      "language": "original",
-      "collected_at": "2026-10-23T15:08:02.138690Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 39.5,
+      "article_age_hours": 39.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": [
     {
       "topic": "Altre notizie",
-      "articles": 97,
+      "articles": 95,
       "sources": 9,
       "recent": "2026-10-24T06:00:00Z"
     },
@@ -2673,31 +2672,31 @@
     },
     {
       "topic": "Russia–Ucraina",
-      "articles": 36,
+      "articles": 37,
       "sources": 7,
       "recent": "2026-10-23T14:55:15Z"
     },
     {
       "topic": "Golfo e Mar Rosso",
-      "articles": 15,
+      "articles": 14,
       "sources": 5,
-      "recent": "2026-10-23T16:48:28Z"
-    },
-    {
-      "topic": "Energia",
-      "articles": 15,
-      "sources": 6,
       "recent": "2026-10-23T16:48:28Z"
     },
     {
       "topic": "Cina–Taiwan",
-      "articles": 13,
+      "articles": 14,
       "sources": 5,
-      "recent": "2026-10-24T09:34:40Z"
+      "recent": "2026-10-24T10:33:04Z"
+    },
+    {
+      "topic": "Energia",
+      "articles": 12,
+      "sources": 6,
+      "recent": "2026-10-23T16:48:28Z"
     },
     {
       "topic": "Mercati e difesa",
-      "articles": 10,
+      "articles": 11,
       "sources": 5,
       "recent": "2026-10-23T11:48:04Z"
     },
@@ -2893,19 +2892,19 @@
         {
           "source": "Gold API",
           "value": 3996.899902,
-          "as_of": "2026-10-24T09:51:52Z",
+          "as_of": "2026-10-24T11:39:52Z",
           "url": "https://gold-api.com/"
         },
         {
           "source": "XAUS",
           "value": 3996.899902,
-          "as_of": "2026-10-24T09:51:58.679000Z",
+          "as_of": "2026-10-24T11:40:00.322000Z",
           "url": "https://xaus.com/api/v1/spot"
         }
       ],
       "url": "https://xaus.com/api/v1/spot",
       "quote_quality": "indicative_shared_upstream",
-      "as_of": "2026-10-24T09:51:58.679000Z",
+      "as_of": "2026-10-24T11:40:00.322000Z",
       "verification_note": "Gold API e XAUS possono condividere lo stesso fornitore a monte: accordo non significa doppia verifica.",
       "difference_pct": 0.0
     },
@@ -2983,74 +2982,74 @@
       {
         "name": "ANSA · Mondo",
         "ok": true,
-        "count": 46,
-        "elapsed_ms": 899
+        "count": 45,
+        "elapsed_ms": 1285
       },
       {
         "name": "Al Jazeera",
         "ok": true,
         "count": 25,
-        "elapsed_ms": 141
+        "elapsed_ms": 275
       },
       {
         "name": "BBC Business",
         "ok": true,
         "count": 38,
-        "elapsed_ms": 401
+        "elapsed_ms": 195
       },
       {
         "name": "BBC World",
         "ok": true,
-        "count": 27,
-        "elapsed_ms": 132
+        "count": 28,
+        "elapsed_ms": 180
       },
       {
         "name": "BCE · Comunicati",
         "ok": true,
         "count": 5,
-        "elapsed_ms": 474
+        "elapsed_ms": 520
       },
       {
         "name": "Deutsche Welle",
         "ok": true,
         "count": 0,
-        "elapsed_ms": 317
+        "elapsed_ms": 551
       },
       {
         "name": "Fed · Monetary policy",
         "ok": true,
         "count": 0,
-        "elapsed_ms": 32
+        "elapsed_ms": 110
       },
       {
         "name": "Fed · Press releases",
         "ok": true,
         "count": 0,
-        "elapsed_ms": 35
+        "elapsed_ms": 71
       },
       {
         "name": "France 24",
         "ok": true,
         "count": 24,
-        "elapsed_ms": 130
+        "elapsed_ms": 215
       },
       {
         "name": "NPR",
         "ok": true,
         "count": 10,
-        "elapsed_ms": 268
+        "elapsed_ms": 229
       },
       {
         "name": "Politico Europe",
         "ok": true,
         "count": 10,
-        "elapsed_ms": 63
+        "elapsed_ms": 242
       },
       {
         "name": "The Guardian",
         "ok": true,
         "count": 45,
-        "elapsed_ms": 91
+        "elapsed_ms": 184
       }
     ],
     "articles_48h": 250,
@@ -4949,34 +4948,36 @@
     "providers": {
       "calendar": {
         "name": "calendar",
-        "status": "ok",
-        "checked_at": "2026-10-24T09:52:01.320904Z"
+        "status": "cached",
+        "checked_at": "2026-10-24T11:40:08.020621Z",
+        "last_fetched": "2026-10-24T09:52:01.320904Z"
       },
       "ecb": {
         "name": "ecb",
-        "status": "ok",
-        "checked_at": "2026-10-24T09:52:01.320904Z"
+        "status": "cached",
+        "checked_at": "2026-10-24T11:40:08.020621Z",
+        "last_fetched": "2026-10-24T09:52:01.320904Z"
       },
       "gold_api": {
         "name": "gold_api",
         "status": "ok",
-        "checked_at": "2026-10-24T09:52:01.320904Z"
+        "checked_at": "2026-10-24T11:40:08.020621Z"
       },
       "xaus": {
         "name": "xaus",
         "status": "ok",
-        "checked_at": "2026-10-24T09:52:01.320904Z"
+        "checked_at": "2026-10-24T11:40:08.020621Z"
       },
       "cot": {
         "name": "cot",
         "status": "cached",
-        "checked_at": "2026-10-24T09:52:01.320904Z",
+        "checked_at": "2026-10-24T11:40:08.020621Z",
         "last_fetched": "2026-10-23T19:17:53.220103Z"
       },
       "gold_levels": {
         "name": "gold_levels",
         "status": "cached",
-        "checked_at": "2026-10-24T09:52:01.320904Z",
+        "checked_at": "2026-10-24T11:40:08.020621Z",
         "last_fetched": "2026-10-24T07:21:09.418283Z"
       }
     },
@@ -4991,7 +4992,7 @@
       "FMP_API_KEY": "optional_not_configured",
       "FRED_API_KEY": "optional_not_configured"
     },
-    "timestamp": "2026-10-24T09:52:01.320904Z",
+    "timestamp": "2026-10-24T11:40:08.020621Z",
     "notice": "Futures exchange real-time CME are not supplied; no proxies are labelled futures."
   },
   "sentiments_python": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated_local": "24/10/2026 12:52 EEST",
+  "generated_local": "24/10/2026 14:40 EEST",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -18,6 +18,13 @@
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
+      "title": "Netanyahu orders West Bank operation",
+      "source": "France 24",
+      "published_at": "2026-10-24T10:33:52Z",
+      "url": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
       "title": "Trump says US may launch ‘another little Epic Fury’ attack on Iran",
       "source": "France 24",
       "published_at": "2026-10-23T20:50:51Z",
@@ -29,13 +36,6 @@
       "source": "France 24",
       "published_at": "2026-10-23T18:26:35Z",
       "url": "https://www.france24.com/en/tv-shows/spotlight/20261023-netanyahu-weighs-west-bank-operation-ahead-of-elections-politically-it-will-not-help-anybody",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "How Israeli settlers wearing keffiyehs are attacking West Bank olive groves",
-      "source": "France 24",
-      "published_at": "2026-10-23T17:21:00Z",
-      "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
@@ -80,6 +80,12 @@
         "published_at": "2026-10-23T08:35:17Z"
       },
       {
+        "title": "Netanyahu orders West Bank operation",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
+        "published_at": "2026-10-24T10:33:52Z"
+      },
+      {
         "title": "Trump says US may launch ‘another little Epic Fury’ attack on Iran",
         "source": "France 24",
         "url": "https://www.france24.com/en/americas/20261023-trump-says-us-may-launch-another-little-epic-fury-attack-iran",
@@ -96,12 +102,6 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves",
         "published_at": "2026-10-23T17:21:00Z"
-      },
-      {
-        "title": "US and Israel are warned against launching fresh strikes on Iran",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
-        "published_at": "2026-10-23T17:18:34Z"
       }
     ],
     "Russia–Ucraina": [
@@ -130,10 +130,10 @@
         "published_at": "2026-10-22T15:46:56Z"
       },
       {
-        "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
-        "published_at": "2026-10-22T09:57:47Z"
+        "title": "Ukraine says Starlink connection 'now stable' after network limits",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-24T11:17:35Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -162,45 +162,19 @@
         "published_at": "2026-10-22T13:05:30Z"
       },
       {
-        "title": "Oil prices jump to five-month high as attacks threaten global supply",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
-        "published_at": "2026-10-22T11:28:11Z"
-      }
-    ],
-    "Energia": [
-      {
-        "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-        "published_at": "2026-10-23T16:48:28Z"
-      },
-      {
-        "title": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
+        "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
-        "published_at": "2026-10-23T07:37:12Z"
-      },
-      {
-        "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
-        "published_at": "2026-10-22T15:46:56Z"
-      },
-      {
-        "title": "Oil prices jump to five-month high as attacks threaten global supply",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
-        "published_at": "2026-10-22T11:28:11Z"
-      },
-      {
-        "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
-        "published_at": "2026-10-24T04:48:40Z"
+        "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+        "published_at": "2026-10-24T11:01:05Z"
       }
     ],
     "Cina–Taiwan": [
+      {
+        "title": "Typhoon Champi batters Taiwan",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
+        "published_at": "2026-10-24T10:33:04Z"
+      },
       {
         "title": "Kim Jong-un crosses over newly opened bridge into China",
         "source": "The Guardian",
@@ -224,12 +198,38 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/us-news/2026/oct/23/pentagon-china-hegseth",
         "published_at": "2026-10-24T01:21:26Z"
+      }
+    ],
+    "Energia": [
+      {
+        "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+        "published_at": "2026-10-23T16:48:28Z"
       },
       {
-        "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
+        "title": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
-        "published_at": "2026-10-23T23:10:54Z"
+        "url": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
+        "published_at": "2026-10-23T07:37:12Z"
+      },
+      {
+        "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+        "published_at": "2026-10-22T15:46:56Z"
+      },
+      {
+        "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
+        "published_at": "2026-10-24T04:48:40Z"
+      },
+      {
+        "title": "Oil spill washes up on UAE beaches after tanker strike",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-23T15:30:47Z"
       }
     ],
     "Mercati e difesa": [
@@ -238,6 +238,12 @@
         "source": "BBC Business",
         "url": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-10-23T11:48:04Z"
+      },
+      {
+        "title": "Starlink connection restored at high speed in Ukraine, defense minister says",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/",
+        "published_at": "2026-10-24T10:09:36Z"
       },
       {
         "title": "Ukraine says Starlink and Starshield connection 'stable' again",
@@ -256,12 +262,6 @@
         "source": "BBC Business",
         "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-10-24T00:05:45Z"
-      },
-      {
-        "title": "Why is Israel increasing its presence in the Balkans?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/why-is-israel-increasing-its-presence-in-the-balkans?traffic_source=rss",
-        "published_at": "2026-10-23T22:01:52Z"
       }
     ],
     "Macro e banche centrali": [
@@ -307,11 +307,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD fixing BCE",
-      "value": 1.1193,
+      "name": "EUR/USD (fixing)",
+      "value": 1.1231,
       "unit": "USD per EUR",
-      "date": "2026-10-23",
-      "stale": false
+      "date": "2026-10-16",
+      "stale": true
     },
     {
       "name": "Treasury 10 anni",
@@ -342,7 +342,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD spot",
+      "name": "Oro XAU/USD",
       "value": 3996.899902,
       "unit": "USD/oncia",
       "date": "2026-10-24",
