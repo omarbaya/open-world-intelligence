@@ -168,5 +168,106 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T10:21:10.104457+03:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+        "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche)."
+      ],
+      "correzioni_proposte": [
+        "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Vietare l'inserimento di qualsiasi valore numerico (prezzi, variazioni percentuali) non esplicitamente presente e tracciabile nel dossier fornito."
+      ],
+      "lezione": {
+        "titolo": "L'aspettativa d'inflazione dei consumatori",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "La Banca Centrale Europea pubblica il sondaggio sulle aspettative dei consumatori per misurare la percezione dell'inflazione futura [15967d14b8fae5bebf]. Nel mese di settembre 2026 la mediana dell'attesa a 12 mesi è salita al 3.1% [15967d14b8fae5bebf]. Questo indicatore aiuta a comprendere le pressioni sui prezzi percepite dalle famiglie rispetto al target ufficiale [15967d14b8fae5bebf].",
+        "esempio_oggi": "L'attesa d'inflazione a 12 mesi sale al 3.1% a settembre [15967d14b8fae5bebf].",
+        "domanda": "Cosa smentirebbe la crescita delle aspettative d'inflazione al consumo?",
+        "risposta": "Una discesa ufficiale della mediana rilevata nei dati mensili successivi pubblicati dalla banca centrale [15967d14b8fae5bebf].",
+        "parole": [
+          {
+            "termine": "Inflazione",
+            "spiegazione": "Aumento generale e continuato dei prezzi di beni e servizi."
+          },
+          {
+            "termine": "Mediana",
+            "spiegazione": "Valore centrale di un insieme di dati ordinati."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Assenza di dati storici e previsioni passate da valutare, rendendo impossibili metriche di Brier e analisi approfondite degli errori pregressi.",
+          "regola_proposta": "Raccogliere e registrare sistematicamente le previsioni passate nel registro per consentire la verifica dei risultati e il calcolo degli errori.",
+          "esempio": "Registrazione delle previsioni sui tassi US10Y e VIX con scadenze definite e riscontro puntuale sui dati FRED."
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia/RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi aerei a Kiev e Mosca e l'attacco in Arabia Saudita vanno trattati come fatti riportati da stampa finché non confermati da fonti istituzionali indipendenti multiple [75892ec407466804db, a06e75767baa8b8eb8]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (GOLD), future ES, GC e 6E indicati come n.d. per assenza di collegamenti diretti verificati nel dossier [mercati]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Uso di valori come 'Neutrale' anziché la scala numerica o booleana richiesta dai controlli di validazione Python."
+        },
+        {
+          "problema": "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche).",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico (prezzi, variazioni percentuali) non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Sostituzione automatica operata dal controllo Python su valori percentuali e numerici non verificati tramite le fonti [verification]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
