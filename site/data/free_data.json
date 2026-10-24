@@ -1,132 +1,6 @@
 {
   "calendar": [
     {
-      "id": "estat-4c93fa63386d5db4abe9",
-      "date": "2026-10-23",
-      "name": "Japan Services Activity 2026-08 (preliminary)",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "02:30",
-      "release_at_utc": "2026-10-22T23:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00200546/202610230830",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "estat-66b10f5de274d94d9867",
-      "date": "2026-10-23",
-      "name": "Japan Monthly Labour Survey 2026-08 (final)",
-      "country": "JP",
-      "impact": "medium",
-      "state": "confirmed",
-      "time_athens": "02:30",
-      "release_at_utc": "2026-10-22T23:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00450071/202610230830",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "estat-6c310350c72dcc5d1739",
-      "date": "2026-10-23",
-      "name": "Japan Services Activity 2026-05 (final)",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "02:30",
-      "release_at_utc": "2026-10-22T23:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00200546/202610230830",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "japan-cpi-october-2026",
-      "date": "2026-10-23",
-      "name": "Japan CPI 2026-09",
-      "country": "JP",
-      "impact": "medium",
-      "state": "confirmed",
-      "time_athens": "02:30",
-      "release_at_utc": "2026-10-22T23:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": "% y/y",
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00200573/202610230830",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "estat-4d5b0a77e4ea7105a450",
-      "date": "2026-10-23",
-      "name": "Japan Household Saving and Liabilities 2026-Q2",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "08:00",
-      "release_at_utc": "2026-10-23T05:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00200561/202610231400",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "uk-retail-sales-october-2026",
-      "date": "2026-10-23",
-      "name": "UK Retail Sales October 2026",
-      "country": "GB",
-      "impact": "medium",
-      "state": "released",
-      "time_athens": "09:00",
-      "release_at_utc": "2026-10-23T06:00:00Z",
-      "time_precision": "minute",
-      "actual": "-0.4",
-      "consensus": null,
-      "previous": "0.7",
-      "unit": "% m/m",
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "us-university-of-michigan-consumer-sentiment-october-2026",
-      "date": "2026-10-23",
-      "name": "US University of Michigan Consumer Sentiment October 2026",
-      "country": "US",
-      "impact": "medium",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-10-23T14:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": "index",
-      "source": "University of Michigan",
-      "source_url": "https://fred.stlouisfed.org/release?rid=91",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "estat-a4906fc3b8f9bc324444",
       "date": "2026-10-26",
       "name": "Japan Business Conditions Index 2026-08 (revised)",
@@ -667,6 +541,24 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "bls-4de692c9b937672e33c5",
+      "date": "2026-10-29",
+      "name": "US Consumer Expenditures October 2026",
+      "country": "US",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "16:00",
+      "release_at_utc": "2026-10-29T14:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "eia-f2faa3116410975d650f",
       "date": "2026-10-29",
       "name": "US EIA Weekly Natural Gas Storage Report: October 29, 2026",
@@ -775,6 +667,24 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "estat-2933693998c37d66bbdf",
+      "date": "2026-10-30",
+      "name": "Japan Production Dynamics 2026-09 (preliminary)",
+      "country": "JP",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "01:50",
+      "release_at_utc": "2026-10-29T23:50:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "e-Stat / official Japanese statistical agencies",
+      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202610300850",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "estat-619b9b41091374074c11",
       "date": "2026-10-30",
       "name": "Japan Retail Sales 2026-09 (preliminary)",
@@ -790,6 +700,24 @@
       "unit": null,
       "source": "e-Stat / official Japanese statistical agencies",
       "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550030/202610300850",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "estat-de72ddd7918d31762205",
+      "date": "2026-10-30",
+      "name": "Japan Industrial Shipments and Supply 2026-09",
+      "country": "JP",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "01:50",
+      "release_at_utc": "2026-10-29T23:50:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "e-Stat / official Japanese statistical agencies",
+      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550333/202610300850",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -844,6 +772,42 @@
       "unit": "% q/q",
       "source": "Eurostat",
       "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "eurozone-unemployment-october-2026-30",
+      "date": "2026-10-30",
+      "name": "Eurozone Unemployment October 2026: September 2026",
+      "country": "EU",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": null,
+      "release_at_utc": null,
+      "time_precision": "date",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "% unemployment rate",
+      "source": "Eurostat",
+      "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "census-e5a5d70cb9d53d780866",
+      "date": "2026-11-02",
+      "name": "US Construction Spending November 2026",
+      "country": "US",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "17:00",
+      "release_at_utc": "2026-11-02T15:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/construction/c30/c30index.html",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -973,6 +937,24 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "eurostat-b8b654516eb3c289f848",
+      "date": "2026-11-04",
+      "name": "Eurozone Building Permits November 2026",
+      "country": "EU",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": null,
+      "release_at_utc": null,
+      "time_precision": "date",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Eurostat",
+      "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "eurozone-flash-cpi-november-2026",
       "date": "2026-11-04",
       "name": "Eurozone Flash CPI November 2026",
@@ -988,6 +970,24 @@
       "unit": "% y/y",
       "source": "Eurostat",
       "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "ons-72b9b463652ec287610a",
+      "date": "2026-11-05",
+      "name": "Business insights and impact on the UK economy: 5 November 2026",
+      "country": "GB",
+      "impact": "low",
+      "state": "estimated",
+      "time_athens": "11:30",
+      "release_at_utc": "2026-11-05T09:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Office for National Statistics",
+      "source_url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1804,13 +1804,13 @@
   "gold_api": {
     "source": "Gold API",
     "value": 3996.899902,
-    "as_of": "2026-10-23T23:11:16Z",
+    "as_of": "2026-10-24T01:38:16Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 3996.899902,
-    "as_of": "2026-10-23T23:10:50.561000Z",
+    "as_of": "2026-10-24T01:37:52.381000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,47 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-23T23:11:21.418484Z",
-    "xaus": "2026-10-23T23:11:21.418484Z",
+    "gold_api": "2026-10-24T01:38:37.185636Z",
+    "xaus": "2026-10-24T01:38:37.185636Z",
     "gold_levels": "2026-10-23T19:17:53.220103Z",
-    "ecb": "2026-10-23T19:17:53.220103Z",
-    "calendar": "2026-10-23T19:17:53.220103Z",
+    "ecb": "2026-10-24T01:38:37.185636Z",
+    "calendar": "2026-10-24T01:38:37.185636Z",
     "cot": "2026-10-23T19:17:53.220103Z"
   },
-  "last_refresh": "2026-10-23T23:11:21.418484Z",
+  "last_refresh": "2026-10-24T01:38:37.185636Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-23T23:11:21.418484Z",
-      "last_fetched": "2026-10-23T19:17:53.220103Z"
+      "status": "ok",
+      "checked_at": "2026-10-24T01:38:37.185636Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-23T23:11:21.418484Z",
-      "last_fetched": "2026-10-23T19:17:53.220103Z"
+      "status": "ok",
+      "checked_at": "2026-10-24T01:38:37.185636Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-23T23:11:21.418484Z"
+      "checked_at": "2026-10-24T01:38:37.185636Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-23T23:11:21.418484Z"
+      "checked_at": "2026-10-24T01:38:37.185636Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-23T23:11:21.418484Z",
+      "checked_at": "2026-10-24T01:38:37.185636Z",
       "last_fetched": "2026-10-23T19:17:53.220103Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-10-23T23:11:21.418484Z",
+      "checked_at": "2026-10-24T01:38:37.185636Z",
       "last_fetched": "2026-10-23T19:17:53.220103Z"
     }
   },
