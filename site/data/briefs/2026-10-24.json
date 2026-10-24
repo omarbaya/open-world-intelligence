@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated_local": "24/10/2026 14:40 EEST",
+  "generated_local": "24/10/2026 15:43 EEST",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -133,7 +133,7 @@
         "title": "Ukraine says Starlink connection 'now stable' after network limits",
         "source": "BBC World",
         "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-24T11:17:35Z"
+        "published_at": "2026-10-24T12:12:40Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -307,11 +307,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD (fixing)",
-      "value": 1.1231,
+      "name": "EUR/USD fixing BCE",
+      "value": 1.1193,
       "unit": "USD per EUR",
-      "date": "2026-10-16",
-      "stale": true
+      "date": "2026-10-23",
+      "stale": false
     },
     {
       "name": "Treasury 10 anni",
@@ -342,7 +342,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD",
+      "name": "Oro XAU/USD spot",
       "value": 3996.899902,
       "unit": "USD/oncia",
       "date": "2026-10-24",
