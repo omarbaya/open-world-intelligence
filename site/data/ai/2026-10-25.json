@@ -1,0 +1,1158 @@
+{
+  "version": "3.1-kit",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T12:12:07.585281+02:00",
+  "provider": "Google Gemini API",
+  "model": "gemini-3.5-flash-lite",
+  "status": "ok",
+  "research": {
+    "geopolitica": {
+      "items": [
+        {
+          "id": "5989abae1802697019",
+          "traduzione": "Il presidente Donald Trump ha dichiarato che gli Stati Uniti stanno valutando un possibile attacco contro l'Iran per la giornata di domenica oppure la conclusione di un accordo importante con Teheran.",
+          "fatto": "Il presidente Donald Trump ha dichiarato che gli Stati Uniti stanno valutando un possibile attacco contro l'Iran per la giornata di domenica oppure la conclusione di un accordo importante con Teheran.",
+          "perche_conta": "Segnala il rischio imminente di escalation militare o di una svolta negoziale improvvisa nel Golfo.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "5989abae1802697019"
+          ]
+        },
+        {
+          "id": "32cfec466150f8e1bf",
+          "traduzione": "Il presidente iraniano Masoud Pezeshkian ha accusato Washington per il fallimento del negoziato ad interim, esortando al contempo a un ritorno al tavolo delle trattative.",
+          "fatto": "Il presidente iraniano Masoud Pezeshkian ha accusato Washington per il fallimento del negoziato ad interim, esortando al contempo a un ritorno al tavolo delle trattative.",
+          "perche_conta": "Evidenzia la fragilità delle trattative diplomatiche e l'alto rischio di ripresa delle ostilità nel breve termine.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "32cfec466150f8e1bf"
+          ]
+        },
+        {
+          "id": "033e6621925537e972",
+          "traduzione": "Le forze Houthi hanno lanciato attacchi missilistici contro l'aeroporto di Aden e obiettivi in Arabia Saudita, secondo quanto riportato dal governo yemenita riconosciuto a livello internazionale.",
+          "fatto": "Le forze Houthi hanno lanciato attacchi missilistici contro l'aeroporto di Aden e obiettivi in Arabia Saudita, secondo quanto riportato dal governo yemenita riconosciuto a livello internazionale.",
+          "perche_conta": "Minaccia la stabilità delle infrastrutture energetiche e logistiche regionali nella penisola arabica.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "033e6621925537e972"
+          ]
+        },
+        {
+          "id": "fc70dbf6afa31cda84",
+          "traduzione": "Il presidente egiziano Abdel Fattah el-Sisi ha sottolineato che un eventuale intervento militare in Yemen sarebbe volto unicamente a difendere l'Arabia Saudita.",
+          "fatto": "Il presidente egiziano Abdel Fattah el-Sisi ha sottolineato che un eventuale intervento militare in Yemen sarebbe volto unicamente a difendere l'Arabia Saudita.",
+          "perche_conta": "Un possibile coinvolgimento militare diretto dell'Egitto allargherebbe il perimetro regionale del conflitto yemenita.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "fc70dbf6afa31cda84"
+          ]
+        }
+      ],
+      "quadro": "['Dati macroeconomici specifici e livelli di prezzo energetico (Brent, WTI, TTF) non forniti dal dossier.']"
+    },
+    "macro": {
+      "items": [
+        {
+          "id": "812239d300f22dbc0b",
+          "traduzione": "Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì.",
+          "fatto": "Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì.",
+          "perche_conta": "L'aumento dei prezzi energetici alimenta le pressioni inflazionistiche globali, influenzando le aspettative sui tassi di interesse.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "812239d300f22dbc0b"
+          ]
+        },
+        {
+          "id": "c713b42ae13b946f9a",
+          "traduzione": "Circa 25.000 persone hanno manifestato a Madrid a sostegno del sistema pensionistico statale spagnolo.",
+          "fatto": "Circa 25.000 persone hanno manifestato a Madrid a sostegno del sistema pensionistico statale spagnolo.",
+          "perche_conta": "Le proteste sociali evidenziano le tensioni di bilancio e il costo della vita in Europa in vista delle elezioni.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "c713b42ae13b946f9a"
+          ]
+        }
+      ],
+      "quadro": ""
+    },
+    "difesa": {
+      "items": [
+        {
+          "id": "4f05eff8b4704e6b13",
+          "traduzione": "Il ministro della difesa ucraino Yevhenii Khmara ha dichiarato il ripristino ad alta velocità della connessione Starlink in Ucraina [4f05eff8b4704e6b13, 4825560a366f2c21fa].",
+          "fatto": "Il ministro della difesa ucraino Yevhenii Khmara ha dichiarato il ripristino ad alta velocità della connessione Starlink in Ucraina [4f05eff8b4704e6b13, 4825560a366f2c21fa].",
+          "perche_conta": "La connettività satellitare è cruciale per le operazioni militari della difesa in Ucraina.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "4f05eff8b4704e6b13",
+            "4825560a366f2c21fa"
+          ]
+        },
+        {
+          "id": "ab292e5e6410dc042c",
+          "traduzione": "Il segretario alla difesa statunitense Pete Hegseth ha designato i centri culturali Confucius Institutes come minaccia alla sicurezza nazionale [ab292e5e6410dc042c].",
+          "fatto": "Il segretario alla difesa statunitense Pete Hegseth ha designato i centri culturali Confucius Institutes come minaccia alla sicurezza nazionale [ab292e5e6410dc042c].",
+          "perche_conta": "Segna un inasprimento formale della difesa USA contro le attività di influenza cinese nei campus.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "ab292e5e6410dc042c"
+          ]
+        }
+      ],
+      "quadro": "['Dati di prezzo di chiusura EOD non disponibili nel dossier per i titoli difesa indicati.', 'Le notizie derivano da flussi RSS e testate giornalistiche senza riscontro indipendente formale multiplo.']"
+    }
+  },
+  "verification": {
+    "errori": [
+      {
+        "testo_errato": "il Brent ha superato quota 117 dollari al barile con un incremento del 3.5% [812239d300f22dbc0b]",
+        "correzione": "Il Brent è salito di circa il 3.5% venerdì passando $117 a barile a un certo punto [812239d300f22dbc0b]; tuttavia nella sezione 3 il valore FRED riportato è 115.22 USD/barile.",
+        "fonte": "812239d300f22dbc0b",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "S&P 500 a 7757.17 punti (+0.5783%), VIX a 19.03 punti (+14.0887%), EUR/USD a 1.1193 (-0.1071%) [SP500, VIX, EURUSD]",
+        "correzione": "Gli ID delle fonti per i dati macroeconomici nella sezione 1 non corrispondono a quelli validi del dossier (FRED · SP500, FRED · VIXCLS, BCE).",
+        "fonte": "FRED",
+        "gravita": "bassa"
+      },
+      {
+        "testo_errato": "Mappa delle forze non conforme: Tensioni geopolitiche nel Golfo e Yemen",
+        "correzione": "Righe escluse (ammessi solo -1/0/+1 e Forte/Debole)",
+        "fonte": "validazione Python",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "Numeri non presenti negli input: 115, 3996.90",
+        "correzione": "Sostituiti con n.d. automaticamente",
+        "fonte": "controllo Python",
+        "gravita": "alta"
+      }
+    ],
+    "esito": "Errori trovati"
+  },
+  "brief": {
+    "brief_markdown": "AVVISO: il verificatore ha trovato errori nella bozza; interpretazioni non confermate.\n\n# Briefing Desk OPEN WORLD — 25 Ottobre 2026\n\n## 1. In 60 secondi\n- **Cosa è successo**: Il presidente USA Donald Trump ha dichiarato che gli Stati Uniti valutano un attacco contro l'Iran o un accordo imminente [5989abae1802697019]. Nel frattempo, il Brent ha superato quota 117 dollari al barile con un incremento del 3.5% [812239d300f22dbc0b].\n- **Perché conta**: L'aumento del greggio alimenta le pressioni inflazionistiche globali, mentre le tensioni geopolitiche nel Golfo e in Yemen minacciano la stabilità energetica [812239d300f22dbc0b, 033e6621925537e972].\n- **Condizione mercati**: S&P 500 a 7757.17 punti (+0.5783%), VIX a 19.03 punti (+14.0887%), EUR/USD a 1.1193 (-0.1071%) [SP500, VIX, EURUSD].\n\n## 2. Guerre e crisi\n- **Israele-Iran-Libano**: Tensione stimata a 81, in aumento. Le dichiarazioni di Trump su possibili azioni imminenti e il fallimento dei negoziati riportato da Teheran mantengono alto il rischio di escalation [5989abae1802697019, 32cfec466150f8e1bf].\n- **Yemen-Mar Rosso-Golfo**: Tensione stimata a 70, in aumento. Si registrano attacchi Houthi contro l'aeroporto di Aden e l'Arabia Saudita, con posizioni di cautela espresse dall'Egitto [033e6621925537e972, fc70dbf6afa31cda84].\n- **Russia-Ucraina**: Tendenza stabile nei dati odierni, con segnalazioni di attacchi continui e previsioni di colloqui ad Abu Dhabi [e699d10aaf3c862697].\n\n## 3. Mercati (13 strumenti)\n- **S&P 500 (ES/MES)**: Valore 7757.17 punti, variazione +0.5783% (FRED · SP500, n.d.). Livelli spot ES n.d.\n- **VIX**: Valore 19.03 punti, variazione +14.0887% (FRED · VIXCLS, n.d.).\n- **EUR/USD (6E/M6E)**: Valore 1.1193, variazione -0.1071% (BCE, n.d.).\n- **US10Y**: Valore 4.96%, variazione -3.3138% (FRED · DGS10, n.d.).\n- **US2Y**: Valore 4.65%, variazione -3.3264% (FRED · DGS2, n.d.).\n- **Brent**: Valore 115.22 USD/barile, variazione -3.0298% (FRED · DCOILBRENTEU, n.d.).\n- **WTI**: Valore 107.89 USD/barile, variazione -1.9271% (FRED · DCOILWTICO, n.d.).\n- **Oro (GOLD / GC)**: Valore n.d. USD/oncia (XAUS + Gold API, 2026-10-25T10:12:00.911000Z). Livelli spot GC: h 4050.2, l 3989.1, c 4007.9.\n- **DXY**: n.d. (non collegata).\n\n## 4. Macro e banche centrali\n- Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì [812239d300f22dbc0b].\n- Circa 25.000 persone hanno manifestato a Madrid a sostegno del sistema pensionistico spagnolo (spesa a 14.5 miliardi di euro) [c713b42ae13b946f9a].\n\n## 5. Dalla geopolitica ai mercati\n- **Mappa forze**: Le tensioni nel Golfo [5989abae1802697019] e l'aumento del Brent [812239d300f22dbc0b] spingono i beni rifugio come l'oro.\n- Se le tensioni geopolitiche nel Golfo dovessero degenerare militarmente nel fine settimana, allora l'oro e la volatilità (VIX) potrebbero registrare ulteriori pressioni rialziste.\n\n## 6. Agenda oggi Atene e prossimi 30 giorni\n- Oggi: n.d.\n- 2026-10-26: Japan Business Conditions Index, Germany Ifo Business Climate [estat-a4906fc3b8f9bc324444, germany-ifo-business-climate-october-2026].\n- 2026-10-28: FOMC Rate Decision [fomc-rate-decision-october-2026].\n- 2026-10-29: ECB Rate Decision [ecb-rate-decision-october-2026].\n\n## 7. Difesa\n- Il ministro della difesa ucraino Yevhenii Khmara ha dichiarato il ripristino ad alta velocità della connessione Starlink in Ucraina [4f05eff8b4704e6b13, 4825560a366f2c21fa].\n- Il segretario alla difesa USA Pete Hegseth ha designato i Confucius Institutes come minaccia alla sicurezza nazionale [ab292e5e6410dc042c].\n- Titoli difesa (NPK, IA, DRS, DCO, CW, MOG.A, KTOS): dati di chiusura EOD n.d.\n\n## 8. Scenari 7/30/90\n- **Scenario base (7 giorni)**: Persistenza della volatilità di mercato (VIX a 19.03) e prezzi energetici elevati in attesa delle decisioni FOMC ed BCE [fomc-rate-decision-october-2026, ecb-rate-decision-october-2026]. Invalidazione: accordo diplomatico improvviso nel Golfo [5989abae1802697019].\n- **Scenario favorevole (30 giorni)**: Stabilizzazione dei flussi energetici e allentamento delle tensioni geopolitiche mediorientali. Invalidazione: escalation militare estesa nel Mar Rosso [033e6621925537e972].\n- **Scenario avverso (90 giorni)**: Crisi energetica prolungata con Brent stabilmente sopra i n.d. USD e impatto inflazionistico globale [812239d300f22dbc0b]. Invalidazione: rapida normalizzazione della produzione petrolifera.\n\n## 9. Verifica previsioni\n- Nessuna previsione precedente attiva da verificare in questa sessione.\n\n## 10. Valutazione finale\nIl quadro è dominato dall'incertezza geopolitica in Medio Oriente [5989abae1802697019] e dai livelli elevati dell'energia [812239d300f22dbc0b]. I mercati azionari e obbligazionari restano cauti in vista delle riunioni delle banche centrali [fomc-rate-decision-october-2026, ecb-rate-decision-october-2026].\n\n### Domenica Revisione della settimana\nRevisione non disponibile in questa edizione infrasettimanale/odierna.\n\n### Lezione\nLa notizia geopolitica non verificata richiede cautela interpretativa prima di assumere correlazioni dirette sui prezzi.\n\n### Parole del giorno\n- **Interim deal**: Accordo temporaneo o provvisorio tra parti in negoziato.\n- **VIX**: Indice di volatilità che misura le attese di movimento a 30 giorni sull'S&P 500.\n\n### Fonti\nDossier OPEN WORLD (ID: 5989abae1802697019, 32cfec466150f8e1bf, 033e6621925537e972, fc70dbf6afa31cda84, 812239d300f22dbc0b, c713b42ae13b946f9a, 4f05eff8b4704e6b13, ab292e5e6410dc042c, FRED, BCE, XAUS, Gold API).",
+    "sintesi_60s": [
+      "Valutazione attacco USA contro l'Iran: Il presidente Donald Trump ha dichiarato che gli Stati Uniti stanno valutando un possibile attacco contro l'Iran per la domenica o un accordo importante.",
+      "Prezzo del Brent oltre 117 dollari: Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì."
+    ],
+    "guerre_e_crisi": "- **Israele-Iran-Libano**: Tensione stimata a 81, in aumento. Le dichiarazioni di Trump su possibili azioni imminenti e il fallimento dei negoziati riportato da Teheran mantengono alto il rischio di escalation [5989abae1802697019, 32cfec466150f8e1bf].\n- **Yemen-Mar Rosso-Golfo**: Tensione stimata a 70, in aumento. Si registrano attacchi Houthi contro l'aeroporto di Aden e l'Arabia Saudita, con posizioni di cautela espresse dall'Egitto [033e6621925537e972, fc70dbf6afa31cda84].\n- **Russia-Ucraina**: Tendenza stabile nei dati odierni, con segnalazioni di attacchi continui e previsioni di colloqui ad Abu Dhabi [e699d10aaf3c862697].",
+    "mercati": "- **S&P 500 (ES/MES)**: Valore 7757.17 punti, variazione +0.5783% (FRED · SP500, n.d.). Livelli spot ES n.d.\n- **VIX**: Valore 19.03 punti, variazione +14.0887% (FRED · VIXCLS, n.d.).\n- **EUR/USD (6E/M6E)**: Valore 1.1193, variazione -0.1071% (BCE, n.d.).\n- **US10Y**: Valore 4.96%, variazione -3.3138% (FRED · DGS10, n.d.).\n- **US2Y**: Valore 4.65%, variazione -3.3264% (FRED · DGS2, n.d.).\n- **Brent**: Valore 115.22 USD/barile, variazione -3.0298% (FRED · DCOILBRENTEU, n.d.).\n- **WTI**: Valore 107.89 USD/barile, variazione -1.9271% (FRED · DCOILWTICO, n.d.).\n- **Oro (GOLD / GC)**: Valore n.d. USD/oncia (XAUS + Gold API, 2026-10-25T10:12:00.911000Z). Livelli spot GC: h 4050.2, l 3989.1, c 4007.9.\n- **DXY**: n.d. (non collegata).",
+    "macro_banche_centrali": "- Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì [812239d300f22dbc0b].\n- Circa 25.000 persone hanno manifestato a Madrid a sostegno del sistema pensionistico spagnolo (spesa a 14.5 miliardi di euro) [c713b42ae13b946f9a].",
+    "geopolitica_mercati": "- **Mappa forze**: Le tensioni nel Golfo [5989abae1802697019] e l'aumento del Brent [812239d300f22dbc0b] spingono i beni rifugio come l'oro.\n- Se le tensioni geopolitiche nel Golfo dovessero degenerare militarmente nel fine settimana, allora l'oro e la volatilità (VIX) potrebbero registrare ulteriori pressioni rialziste.",
+    "agenda": "- Oggi: n.d.\n- 2026-10-26: Japan Business Conditions Index, Germany Ifo Business Climate [estat-a4906fc3b8f9bc324444, germany-ifo-business-climate-october-2026].\n- 2026-10-28: FOMC Rate Decision [fomc-rate-decision-october-2026].\n- 2026-10-29: ECB Rate Decision [ecb-rate-decision-october-2026].",
+    "difesa": "- Il ministro della difesa ucraino Yevhenii Khmara ha dichiarato il ripristino ad alta velocità della connessione Starlink in Ucraina [4f05eff8b4704e6b13, 4825560a366f2c21fa].\n- Il segretario alla difesa USA Pete Hegseth ha designato i Confucius Institutes come minaccia alla sicurezza nazionale [ab292e5e6410dc042c].\n- Titoli difesa (NPK, IA, DRS, DCO, CW, MOG.A, KTOS): dati di chiusura EOD n.d.",
+    "scenari_7_30_90": "- **Scenario base (7 giorni)**: Persistenza della volatilità di mercato (VIX a 19.03) e prezzi energetici elevati in attesa delle decisioni FOMC ed BCE [fomc-rate-decision-october-2026, ecb-rate-decision-october-2026]. Invalidazione: accordo diplomatico improvviso nel Golfo [5989abae1802697019].\n- **Scenario favorevole (30 giorni)**: Stabilizzazione dei flussi energetici e allentamento delle tensioni geopolitiche mediorientali. Invalidazione: escalation militare estesa nel Mar Rosso [033e6621925537e972].\n- **Scenario avverso (90 giorni)**: Crisi energetica prolungata con Brent stabilmente sopra i n.d. USD e impatto inflazionistico globale [812239d300f22dbc0b]. Invalidazione: rapida normalizzazione della produzione petrolifera.",
+    "previsioni": "- Nessuna previsione precedente attiva da verificare in questa sessione.",
+    "valutazione_finale": "Il quadro è dominato dall'incertezza geopolitica in Medio Oriente [5989abae1802697019] e dai livelli elevati dell'energia [812239d300f22dbc0b]. I mercati azionari e obbligazionari restano cauti in vista delle riunioni delle banche centrali [fomc-rate-decision-october-2026, ecb-rate-decision-october-2026].\n\n### Domenica Revisione della settimana\nRevisione non disponibile in questa edizione infrasettimanale/odierna.\n\n### Lezione\nLa notizia geopolitica non verificata richiede cautela interpretativa prima di assumere correlazioni dirette sui prezzi.\n\n### Parole del giorno\n- **Interim deal**: Accordo temporaneo o provvisorio tra parti in negoziato.\n- **VIX**: Indice di volatilità che misura le attese di movimento a 30 giorni sull'S&P 500.\n\n### Fonti\nDossier OPEN WORLD (ID: 5989abae1802697019, 32cfec466150f8e1bf, 033e6621925537e972, fc70dbf6afa31cda84, 812239d300f22dbc0b, c713b42ae13b946f9a, 4f05eff8b4704e6b13, ab292e5e6410dc042c, FRED, BCE, XAUS, Gold API).",
+    "lezione": "Il Brent è il principale benchmark internazionale per il prezzo del petrolio. Un suo aumento riflette tensioni geopolitiche e timori di interruzioni nelle forniture globali.",
+    "limiti": "Numeri non verificati sostituiti: 115, 3996.90",
+    "inclinazione": {
+      "ES": {
+        "studio": "Neutrale",
+        "rilevanza": 7,
+        "motivi": "S&P 500 in moderato rialzo ma frenato da tensioni geopolitiche e incertezza tassi FOMC",
+        "rischio": "Aumento della volatilità (VIX a 19.03) e shock energetici",
+        "invalidazione": "Risoluzione diplomatica delle crisi in Medio Oriente"
+      },
+      "GC": {
+        "studio": "Rialzista",
+        "rilevanza": 8,
+        "motivi": "Supportato da tensioni geopolitiche nel Golfo e timori inflazionistici legati al Brent",
+        "rischio": "Rafforzamento inatteso del dollaro o accordi lampo",
+        "invalidazione": "Crollo delle quotazioni petrolifere e distensione geopolitica totale"
+      },
+      "6E": {
+        "studio": "Neutrale",
+        "rilevanza": 6,
+        "motivi": "EUR/USD stabile a 1.1193 in attesa della riunione BCE e dati Ifo tedesco",
+        "rischio": "Pressioni energetiche sull'economia europea e divergenza di tassi",
+        "invalidazione": "Scostamenti macroeconomici rilevanti nei dati flash europei"
+      }
+    },
+    "mappa_forze": []
+  },
+  "learning": {
+    "osservazioni": [
+      "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+      "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+      "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+      "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+      "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+    ],
+    "correzioni_proposte": [
+      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+      "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+      "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+      "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+      "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+    ],
+    "lezione": {
+      "titolo": "L'impatto del prezzo del petrolio sui mercati energetici",
+      "area": "Energia",
+      "livello": "Base",
+      "spiegazione": "Il Brent è il principale benchmark internazionale per il prezzo del petrolio. Un suo aumento riflette tensioni geopolitiche e timori di interruzioni nelle forniture globali.",
+      "esempio_oggi": "Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì [812239d300f22dbc0b].",
+      "domanda": "Cosa smentirebbe l'interpretazione di un mercato petrolifero sotto pressione per via delle tensioni?",
+      "risposta": "Un calo repentino del Brent sotto i livelli precedenti e l'assenza di conflitti nel Golfo.",
+      "parole": [
+        {
+          "termine": "Brent",
+          "spiegazione": "Benchmark internazionale del petrolio grezzo."
+        }
+      ]
+    },
+    "diario": [
+      {
+        "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "esempio": "Le dichiarazioni del presidente USA Donald Trump su un possibile attacco contro l'Iran vanno trattate come dichiarazioni di parte non verificate finché non ricevono conferma istituzionale indipendente [5989abae1802697019]."
+      },
+      {
+        "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "esempio": "La discrepanza tra il prezzo del Brent citato al 3.5% e i dati FRED riportati nella sezione 3 richiede il controllo incrociato obbligatorio [812239d300f22dbc0b]."
+      },
+      {
+        "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "esempio": "Valori di oro (GOLD) e future ES indicati come n.d. per assenza di collegamenti diretti verificati [mercati]."
+      },
+      {
+        "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "esempio": "Uso di valori come 'Neutrale' anziché la scala richiesta dai controlli di validazione Python [inclinazione]."
+      },
+      {
+        "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+        "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+        "esempio": "Se le tensioni nel Golfo dovessero degenerare nel fine settimana, allora l'oro e la volatilità VIX potrebbero registrare pressioni rialziste [5989abae1802697019]."
+      }
+    ],
+    "metriche": {
+      "previsioni_valutate": 0,
+      "brier": null
+    }
+  },
+  "agent_audit": [
+    {
+      "role": "geopolitica",
+      "status": "ok"
+    },
+    {
+      "role": "macro",
+      "status": "ok"
+    },
+    {
+      "role": "difesa",
+      "status": "ok"
+    },
+    {
+      "role": "capo_desk",
+      "status": "ok"
+    },
+    {
+      "role": "verificatore",
+      "status": "ok"
+    },
+    {
+      "role": "apprendimento",
+      "status": "ok"
+    },
+    {
+      "role": "revisore_finale",
+      "status": "ok"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fc70dbf6afa31cda84",
+      "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news-analysis/2026/10/25/why-is-egypt-so-wary-of-getting-involved-in-yemens-conflict?traffic_source=rss",
+      "published_at": "2026-10-25T07:59:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5e15368b14306e8718",
+      "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
+      "published_at": "2026-10-25T06:24:46Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f76d4aa625e5c87c8c",
+      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T05:15:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8278ebe9448119dde0",
+      "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
+      "published_at": "2026-10-25T00:34:43Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5989abae1802697019",
+      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+      "published_at": "2026-10-25T00:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "32cfec466150f8e1bf",
+      "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+      "published_at": "2026-10-24T21:30:11Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "033e6621925537e972",
+      "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+      "published_at": "2026-10-24T21:08:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8e3b1b7e8851268dab",
+      "title": "Thousands take to Tel Aviv's streets for protests against Netanyahu",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261024-thousands-take-to-tel-aviv-streets-for-protests-against-netanyahu",
+      "published_at": "2026-10-24T18:21:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5454844aa5f241c999",
+      "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+      "published_at": "2026-10-24T17:50:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "af128b73c6366a9421",
+      "title": "Israel begins demolitions in West Bank",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank",
+      "published_at": "2026-10-24T17:13:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e699d10aaf3c862697",
+      "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
+      "published_at": "2026-10-24T14:23:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "15b12b5b6c4789f14d",
+      "title": "Israeli forces displace 2,000 Palestinians in Hebron after deadly attack on soldiers",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+      "published_at": "2026-10-24T13:50:12Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b3b589249460c65d7d",
+      "title": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
+      "published_at": "2026-10-24T13:16:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ec73ed1b203e233040",
+      "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+      "published_at": "2026-10-24T13:06:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5361561dda45528a9e",
+      "title": "Is Iran planning attacks on Americans; why is the US on alert?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
+      "published_at": "2026-10-24T12:51:21Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ca2c6e858d7c19134e",
+      "title": "Netanyahu orders West Bank operation",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
+      "published_at": "2026-10-24T10:33:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5a7e626d00c24139ac",
+      "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+      "published_at": "2026-10-23T21:38:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9a1d8b8742859d72ca",
+      "title": "Trump says US may launch ‘another little Epic Fury’ attack on Iran",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/americas/20261023-trump-says-us-may-launch-another-little-epic-fury-attack-iran",
+      "published_at": "2026-10-23T20:50:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c066d321b74d9a5778",
+      "title": "Netanyahu weighs West Bank operation ahead of elections: ‘Politically, it will not help anybody’",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261023-netanyahu-weighs-west-bank-operation-ahead-of-elections-politically-it-will-not-help-anybody",
+      "published_at": "2026-10-23T18:26:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4b8e947c21158b0695",
+      "title": "How Israeli settlers wearing keffiyehs are attacking West Bank olive groves",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves",
+      "published_at": "2026-10-23T17:21:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2b78f715be1020ddce",
+      "title": "US and Israel are warned against launching fresh strikes on Iran",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+      "published_at": "2026-10-23T17:18:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "21acfc6debac5d5c08",
+      "title": "Israel: Could Arab parties play kingmaker in the next Knesset ?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-could-arab-parties-play-kingmaker-in-the-next-knesset",
+      "published_at": "2026-10-23T17:11:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "812239d300f22dbc0b",
+      "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+      "published_at": "2026-10-23T16:48:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6a290c2106a30d0339",
+      "title": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss",
+      "published_at": "2026-10-23T16:29:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "acb760b81304b64007",
+      "title": "West Bank: Extensive military operation 'on the way', Netanyahu says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261023-west-bank-extensive-military-operation-on-the-way-netanyahu-says",
+      "published_at": "2026-10-23T15:56:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ebe364b0b921bc2eac",
+      "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T15:37:07Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1d4ef7284dbf98d46e",
+      "title": "Europe faces threat of organised sabotage, terrorist attacks: Estonian FM Tsahkna",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261023-europe-faces-threat-of-organised-sabotage-terrorist-attacks-estonian-fm-tsahkna",
+      "published_at": "2026-10-23T14:55:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "cd4fcf7aebf7dea6ea",
+      "title": "Ukraine and Russia each exchange 270 prisoners of war",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/ukraine-russia-exchange-270-prisoners-war-zelenskyy-putin-trump/",
+      "published_at": "2026-10-23T13:31:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "30849d990a2f9abf5a",
+      "title": "War in the Middle East: Israel launches West Bank operations",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/war-in-the-middle-east-israel-launches-west-bank-operations",
+      "published_at": "2026-10-23T12:57:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0017bf7fb8a405e76d",
+      "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T11:48:04Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8a06c32e71c1a42196",
+      "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
+      "published_at": "2026-10-23T11:22:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bf9ee31ca8bccef4d4",
+      "title": "Netanyahu orders West Bank closure as attack wounds Israelis before election",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261023-netanyahu-orders-west-bank-closure-as-attack-wounds-israelis-before-election",
+      "published_at": "2026-10-23T10:41:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "57f97c0ee73d0f69fd",
+      "title": "Israeli forces turn Hebron homes into military posts amid lockdown",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
+      "published_at": "2026-10-25T09:27:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "684cf86ebedb2a78fe",
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T09:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "106b60d4664bcf5759",
+      "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6009402/midterm-blue-wave-map-arkansas-democrats-cotton-shoffner-hill-jones",
+      "published_at": "2026-10-25T09:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f12ea8347c8b0c6873",
+      "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/obamas-ohio-michigan-speeches-key-takeaways-on-trump-iran-war-midterms?traffic_source=rss",
+      "published_at": "2026-10-25T08:44:17Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a04df3236376cc1572",
+      "title": "Funzionari iraniani al Nyt, 'lecito colpire diplomatici americani'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/25/funzionari-iraniani-al-nyt-lecito-colpire-diplomatici-americani_5059d944-8181-4cf2-84f8-8bff672ed44a.html",
+      "published_at": "2026-10-25T08:18:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9767286f4d0728551f",
+      "title": "Israel to close occupied West Bank crossings as it locks down Hebron",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+      "published_at": "2026-10-25T07:20:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e903378f4eda6055c2",
+      "title": "Rosebank: Life on the oil field at the centre of a political storm",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T07:15:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9942aa6e914d46f3a8",
+      "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+      "published_at": "2026-10-25T07:15:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "952052bcdda87875bf",
+      "title": "Heating oil costs 'more than double' ahead of winter",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8de1jgrdvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T07:12:21Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "00aca546f8601a1244",
+      "title": "Israeli elections: What are the possible outcomes?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes?traffic_source=rss",
+      "published_at": "2026-10-25T07:10:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "272fa5d22d8ffd37aa",
+      "title": "Elections cannot produce change in Israel",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/25/elections-cannot-produce-change-in-israel?traffic_source=rss",
+      "published_at": "2026-10-25T06:54:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "615c4701fb8c16db8a",
+      "title": "Who Israel elects matters, and not just for Israelis",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/25/who-israel-elects-matters-and-not-just-for-israelis?traffic_source=rss",
+      "published_at": "2026-10-25T06:41:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f9bee9a3c7a255191a",
+      "title": "‘Gaza’s suffering has become campaign fodder’: Palestinians fear the worst from Israel election",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/25/gaza-suffering-campaign-fodder-palestinians-fear-worst-israel-election",
+      "published_at": "2026-10-25T06:00:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1b83a5b05c0a16e04f",
+      "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T05:45:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "45599af26f9b5884ae",
+      "title": "Election posters, mass tourism and property: Israel’s footprint in Cyprus",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/25/election-posters-mass-tourism-and-property-israels-footprint-in-cyprus?traffic_source=rss",
+      "published_at": "2026-10-25T05:33:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "17647bc9c4160117cb",
+      "title": "Bots, deepfakes and surveillance: Israel’s election goes to war online",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss",
+      "published_at": "2026-10-25T05:27:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f90e18fe4c28b84a1e",
+      "title": "Media: 'Un morto e dieci feriti in un attacco ucraino a Belgorod'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/25/media-un-morto-e-dieci-feriti-in-un-attacco-ucraino-a-belgorod_cb30db24-8a32-45b0-b227-400aa396a888.html",
+      "published_at": "2026-10-25T05:09:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1574cfe27edd526456",
+      "title": "Bulgarians vote for president in shadow of Russia’s war on Ukraine",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+      "published_at": "2026-10-25T02:45:43Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f210682ba0512f28f5",
+      "title": "Mass rally against Netanyahu ahead of pivotal Israeli election",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
+      "published_at": "2026-10-25T02:07:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0f5ef8f59555a9e348",
+      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+      "published_at": "2026-10-24T23:08:16Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2c8966ebc0d945cbc2",
+      "title": "The bitter row over military service that could shape Israel's future",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T23:03:21Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ba05cead67c4d382e1",
+      "title": "From Russian cages to Irish sanctuary: The five-year rescue journey of Bu and Tyapa",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx62y9j1zyjvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T23:02:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7f9c9d9259eb3f8c32",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T23:02:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "feeb673b9552b6df1e",
+      "title": "How have Democrats’ policies shifted since the last major US election?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss",
+      "published_at": "2026-10-24T22:28:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e4ceb5490a1631e60c",
+      "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+      "published_at": "2026-10-24T21:25:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "32c0c411f948a81b2d",
+      "title": "Trump, 'Melania è più brava dei professionisti, ha parlato con Putin e Zelensky'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/24/trump-melania-e-piu-brava-dei-professionisti-ha-parlato-con-putin-e-zelensky_37b9ecc1-0c89-4875-bbc9-26f461a2398d.html",
+      "published_at": "2026-10-24T21:13:57Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "be056b9ee7550a2e05",
+      "title": "Trump, 'faremo affari con Russia e Ucraina una volta finita la guerra'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/24/trump-faremo-affari-con-russia-e-ucraina-una-volta-finita-la-guerra_0f62e13f-f3b2-4772-95c1-4697e1b987ef.html",
+      "published_at": "2026-10-24T21:00:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "768242d78f9edff17d",
+      "title": "Severe hunger stalks people in Gaza as bakeries close down",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/severe-hunger-stalks-people-in-gaza-as-bakeries-close-down?traffic_source=rss",
+      "published_at": "2026-10-24T20:52:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a6c68db45ac3def5f2",
+      "title": "Could Israel’s military crackdown influence Tuesday’s election?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+      "published_at": "2026-10-24T20:37:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a14ee34f267623dcec",
+      "title": "Thousands of Israelis rally against Netanyahu gov’t days before election",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss",
+      "published_at": "2026-10-24T19:11:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7acdc4377d2eaf253a",
+      "title": "“Witkoff should step down” says Ukraine Committee Chief",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261024-witkoff-should-step-down-says-ukraine-committee-chief",
+      "published_at": "2026-10-24T18:37:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "68a8dee8c45a8915d3",
+      "title": "Thousands gather at new Albanian antigovernment rally",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally?traffic_source=rss",
+      "published_at": "2026-10-24T18:30:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b8d0b705941d402480",
+      "title": "Violenti scontri nel centro di Tirana fra polizia e manifestanti",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/violenti-scontri-nel-centro-di-tirana-fra-polizia-e-manifestanti_f5ef36e8-9464-4be8-96b5-d535f3e161b6.html",
+      "published_at": "2026-10-24T18:04:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7ec7fba474de264741",
+      "title": "Kim Jong Un crosses new bridge linking North Korea and China",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
+      "published_at": "2026-10-24T18:00:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "53e2f16d2668b19a53",
+      "title": "Migliaia in piazza a Tel Aviv contro Netanyahu prima delle elezioni",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/24/migliaia-in-piazza-a-tel-aviv-contro-netanyahu-prima-delle-elezioni_ea4661b2-4230-4940-8176-971f26244f3d.html",
+      "published_at": "2026-10-24T17:55:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "372780f41d54553859",
+      "title": "Ukraine says Starlink is back to normal after disruptions",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+      "published_at": "2026-10-24T17:54:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8d65ff73ef533e5f5f",
+      "title": "Two rescued after Nairobi building collapse with five still missing",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T17:25:46Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b16dd7cff19bdf0567",
+      "title": "France: Protests continue while police fire tear gas at demonstrators",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
+      "published_at": "2026-10-24T17:10:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c713b42ae13b946f9a",
+      "title": "About 25,000 rally in Madrid in support of Spain’s state pension scheme",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/about-25000-rally-in-madrid-in-support-of-spains-state-pension-scheme?traffic_source=rss",
+      "published_at": "2026-10-24T16:48:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "17ce9780d198755d69",
+      "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T15:56:48Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d4e8d58bb9c0ba6299",
+      "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+      "published_at": "2026-10-24T15:50:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d026a171a0b53ba0ec",
+      "title": "Zakharova: 'Meloni ascolti Al Bano che chiede di riaprire le porte a Mosca'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/zakharova-meloni-ascolti-al-bano-che-chiede-di-riaprire-le-porte-a-mosca_7c07d183-575a-419e-ae76-acd5dea54dd4.html",
+      "published_at": "2026-10-24T15:46:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "95b41faf0817f1fe66",
+      "title": "Why Israeli tourists and investors are unsettling Cypriots",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_why-israeli-investors-are-unsettling-cypriots-241026?traffic_source=rss",
+      "published_at": "2026-10-24T14:56:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0713e80e4e97d55abd",
+      "title": "Full lockdown of occupied West Bank begins",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
+      "published_at": "2026-10-24T14:24:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "32169285d3d237c6d4",
+      "title": "Israel to close all West Bank land crossings on election day",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261024-israel-to-close-all-land-crossings-with-west-bank-on-election-day",
+      "published_at": "2026-10-24T13:52:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "50d82d4cb42d2f09f6",
+      "title": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/24/rybakina-readies-for-title-defence-at-ningbo-open-in-final-with-fernandez?traffic_source=rss",
+      "published_at": "2026-10-24T13:52:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "14518eb9313521627a",
+      "title": "Kim Jong-un crosses newly opened bridge into China",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+      "published_at": "2026-10-24T13:34:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "535a98816a24751b9c",
+      "title": "Netanyahu floats Crypto to bypass sanctions",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+      "published_at": "2026-10-24T13:27:11Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9ab21222d7bb38df47",
+      "title": "Malaysia considers complete ban on Israel-based navigation app Waze",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/malaysia-waze-israel-ban?traffic_source=rss",
+      "published_at": "2026-10-24T12:30:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "96b5c8c3a74a1f90ce",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T12:12:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "59a22e88391ffa07d9",
+      "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+      "published_at": "2026-10-24T11:01:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6d910249113143c5c3",
+      "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+      "published_at": "2026-10-24T11:00:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7ff3c7a058a3eb38fe",
+      "title": "Typhoon Champi batters Taiwan",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
+      "published_at": "2026-10-24T10:33:04Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4f05eff8b4704e6b13",
+      "title": "Starlink connection restored at high speed in Ukraine, defense minister says",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/",
+      "published_at": "2026-10-24T10:09:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d8a57765f4eb5fa0d3",
+      "title": "Farnesina, rimpatriate le cinque italiane fermate in Cisgiordania",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/farnesina-rimpatriate-le-cinque-italiane-fermate-in-cisgiordania_0e2d9a20-ad47-44f4-8cbe-a02aa930f972.html",
+      "published_at": "2026-10-24T10:06:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4825560a366f2c21fa",
+      "title": "Ukraine says Starlink and Starshield connection 'stable' again",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261024-ukraine-says-starlink-and-starshield-connection-stable-again",
+      "published_at": "2026-10-24T09:48:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f8f967e8155064f8aa",
+      "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
+      "published_at": "2026-10-24T09:43:09Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2e79eac844dd3bc2d4",
+      "title": "Why is Israel launching a new military operation in the occupied West Bank?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank?traffic_source=rss",
+      "published_at": "2026-10-24T09:14:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7a8cda65833eae2d3d",
+      "title": "I media: 'Decine di palestinesi arrestati nei blitz dell'Idf in Cisgiordania'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/24/i-media-decine-di-palestinesi-arrestati-nei-blitz-dellidf-in-cisgiordania_efc8cd4a-8403-4739-bcdf-6a0660124edc.html",
+      "published_at": "2026-10-24T07:32:16Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2e58de5ee308ea2571",
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-24T07:17:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d691222383cac022f6",
+      "title": "Displaced West Bank Palestinians face growing hunger after UN cuts food aid",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/24/displaced-west-bank-palestinians-face-growing-hunger-after-un-cuts-food-aid?traffic_source=rss",
+      "published_at": "2026-10-24T07:09:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f5ddd3e737c98263c2",
+      "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
+      "published_at": "2026-10-24T07:07:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f3ec31c07619f0c023",
+      "title": "Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels",
+      "published_at": "2026-10-24T07:04:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "08cce99f077a9fb28f",
+      "title": "Media, 'decine di palestinesi arrestati in blitz dell'Idf in Cisgiordania'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/24/media-decine-di-palestinesi-arrestati-in-blitz-dellidf-in-cisgiordania_ce4443c0-d609-4d2c-b8cb-1b3bce8d1752.html",
+      "published_at": "2026-10-24T06:17:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1bf3110efdeb927d58",
+      "title": "Piero Cipollone: Interview with Milano Finanza",
+      "publisher": "BCE · Comunicati",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+      "published_at": "2026-10-24T06:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9b099a77ca6026a372",
+      "title": "How Benjamin Netanyahu reshaped Israel’s institutions",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions?traffic_source=rss",
+      "published_at": "2026-10-24T05:29:07Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "698237c8e7a19695ee",
+      "title": "Hospital in Yemen’s Taiz warns of collapse in days because of Houthi siege",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/24/hospital-yemen-taiz-warns-collapse-houthi-siege?traffic_source=rss",
+      "published_at": "2026-10-24T05:20:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8d43a91e11e7e0fac7",
+      "title": "Lebanese sceptical Israeli polls will bring change, end occupation of south",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/24/lebanese-skeptical-israeli-polls-will-bring-change-end-occupation-of-south?traffic_source=rss",
+      "published_at": "2026-10-24T05:04:32Z",
+      "attribution": "Non verificato"
+    }
+  ],
+  "indicatori_python": {
+    "global_risk": {
+      "value": null,
+      "coverage": "incompleto"
+    },
+    "market_stress": {
+      "value": 54,
+      "coverage": "4/5",
+      "experimental": false,
+      "method": "PASSO 3: media delle componenti disponibili; soltanto se almeno 3 input verificati e non vecchi",
+      "missing": [
+        "DXY"
+      ]
+    },
+    "war_escalation": {
+      "value": null,
+      "coverage": 0,
+      "note": "Tensioni IA ammesse soltanto con due testate distinte; NON prova di indipendenza",
+      "front_scores": {}
+    },
+    "macro_risk": {
+      "value": null,
+      "note": "n.d. senza confronti macro ufficiali e verificati"
+    },
+    "conviction": {
+      "value": 40,
+      "note": "Misura di completezza, NON probabilità di verità",
+      "missing_quotes": 5
+    }
+  },
+  "source_exclusions": [],
+  "forecast_proposals_unpublished": [
+    {
+      "evento": "Decisione sui tassi FOMC del 28 ottobre 2026",
+      "conta": "Comunicato ufficiale della Federal Reserve sui tassi di interesse",
+      "non_conta": "Speculazioni giornalistiche non ufficiali",
+      "riferimento_valore": null,
+      "riferimento_strumento": "US10Y",
+      "riferimento_fonte": "Federal Reserve",
+      "riferimento_ora": "20:00",
+      "scadenza": "2026-10-28",
+      "criterio": "Pubblicazione dell'atto ufficiale FOMC",
+      "fonte_esito": "Federal Reserve",
+      "probabilita": 90,
+      "source_ids": [
+        "fomc-rate-decision-october-2026"
+      ]
+    },
+    {
+      "evento": "Decisione sui tassi BCE del 29 ottobre 2026",
+      "conta": "Comunicato ufficiale della Banca Centrale Europea",
+      "non_conta": "Voci di corridoio o dichiarazioni anonime",
+      "riferimento_valore": null,
+      "riferimento_strumento": "EURUSD",
+      "riferimento_fonte": "European Central Bank",
+      "riferimento_ora": "14:45",
+      "scadenza": "2026-10-29",
+      "criterio": "Pubblicazione decisione tassi BCE",
+      "fonte_esito": "European Central Bank",
+      "probabilita": 90,
+      "source_ids": [
+        "ecb-rate-decision-october-2026"
+      ]
+    }
+  ],
+  "disclaimer": "Le fonti RSS non sono prova indipendente; indicatori e citazioni mancanti restano n.d. Nessun segnale di trading.",
+  "forecast_validation": {
+    "accepted_ids": [],
+    "rejected": [
+      {
+        "proposal": 1,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      },
+      {
+        "proposal": 2,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      }
+    ]
+  }
+}

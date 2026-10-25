@@ -269,5 +269,102 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T12:12:07.585281+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "L'impatto del prezzo del petrolio sui mercati energetici",
+        "area": "Energia",
+        "livello": "Base",
+        "spiegazione": "Il Brent è il principale benchmark internazionale per il prezzo del petrolio. Un suo aumento riflette tensioni geopolitiche e timori di interruzioni nelle forniture globali.",
+        "esempio_oggi": "Il prezzo del Brent ha superato quota 117 dollari al barile con un incremento di circa il 3.5% venerdì [812239d300f22dbc0b].",
+        "domanda": "Cosa smentirebbe l'interpretazione di un mercato petrolifero sotto pressione per via delle tensioni?",
+        "risposta": "Un calo repentino del Brent sotto i livelli precedenti e l'assenza di conflitti nel Golfo.",
+        "parole": [
+          {
+            "termine": "Brent",
+            "spiegazione": "Benchmark internazionale del petrolio grezzo."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+          "esempio": "Le dichiarazioni del presidente USA Donald Trump su un possibile attacco contro l'Iran vanno trattate come dichiarazioni di parte non verificate finché non ricevono conferma istituzionale indipendente [5989abae1802697019]."
+        },
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "La discrepanza tra il prezzo del Brent citato al 3.5% e i dati FRED riportati nella sezione 3 richiede il controllo incrociato obbligatorio [812239d300f22dbc0b]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (GOLD) e future ES indicati come n.d. per assenza di collegamenti diretti verificati [mercati]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Uso di valori come 'Neutrale' anziché la scala richiesta dai controlli di validazione Python [inclinazione]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se le tensioni nel Golfo dovessero degenerare nel fine settimana, allora l'oro e la volatilità VIX potrebbero registrare pressioni rialziste [5989abae1802697019]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
