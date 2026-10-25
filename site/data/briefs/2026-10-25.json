@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_local": "25/10/2026 18:27 EET",
+  "generated_local": "25/10/2026 21:40 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -11,7 +11,7 @@
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+      "title": "Eight killed in Gaza as Israel targets university campus and other sites",
       "source": "Al Jazeera",
       "published_at": "2026-10-25T15:40:25Z",
       "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
@@ -58,6 +58,18 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb",
         "published_at": "2026-10-24T00:41:29Z"
+      },
+      {
+        "title": "Midterms: Obama campaigns for Democrats, slams Trump",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261025-midterms-obama-campaigns-for-democrats-slams-trump-1",
+        "published_at": "2026-10-25T16:25:12Z"
+      },
+      {
+        "title": "Jordanians mourn victims of deadly church attack",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jordanians-mourn-victims-of-deadly-church-attack?traffic_source=rss",
+        "published_at": "2026-10-25T16:16:48Z"
       }
     ],
     "Medio Oriente": [
@@ -68,7 +80,7 @@
         "published_at": "2026-10-25T16:00:00Z"
       },
       {
-        "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+        "title": "Eight killed in Gaza as Israel targets university campus and other sites",
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
         "published_at": "2026-10-25T15:40:25Z"
@@ -150,10 +162,10 @@
         "published_at": "2026-10-24T17:50:25Z"
       },
       {
-        "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-        "published_at": "2026-10-23T16:48:28Z"
+        "title": "Dopo due settimane di chiusura, riprendono i voli all'aeroporto di Riad",
+        "source": "ANSA · Mondo",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/25/dopo-due-settimane-di-chiusura-riprendono-i-voli-allaeroporto-di-riad_92fd98e4-c69c-482a-92b7-48947e4516f7.html",
+        "published_at": "2026-10-25T17:37:28Z"
       }
     ],
     "Mercati e difesa": [
@@ -234,10 +246,10 @@
         "published_at": "2026-10-24T17:50:25Z"
       },
       {
-        "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-        "published_at": "2026-10-23T16:48:28Z"
+        "title": "Le Pen casts herself as protector of France as troubles swirl",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/marine-le-pen-casts-herself-as-frances-protector-as-country-faces-mounting-troubles/",
+        "published_at": "2026-10-25T18:57:05Z"
       },
       {
         "title": "Oil slick from tanker in Hormuz Strait washes up on UAE beaches",
@@ -283,11 +295,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD (fixing)",
-      "value": 1.1231,
+      "name": "EUR/USD fixing BCE",
+      "value": 1.1193,
       "unit": "USD per EUR",
-      "date": "2026-10-16",
-      "stale": true
+      "date": "2026-10-23",
+      "stale": false
     },
     {
       "name": "Treasury 10 anni",
@@ -316,13 +328,6 @@
       "unit": "USD/barile",
       "date": "2026-10-20",
       "stale": false
-    },
-    {
-      "name": "Oro XAU/USD",
-      "value": 3996.899902,
-      "unit": "USD/oncia",
-      "date": "2026-10-25",
-      "stale": true
     }
   ],
   "method": "Titoli originali classificati con regole trasparenti; non sostituisce l'analisi giornalistica né un analista umano.",
