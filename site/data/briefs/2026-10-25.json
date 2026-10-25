@@ -1,8 +1,15 @@
 {
   "date": "2026-10-25",
-  "generated_local": "25/10/2026 12:12 EET",
+  "generated_local": "25/10/2026 13:42 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
+    {
+      "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+      "source": "Al Jazeera",
+      "published_at": "2026-10-25T10:14:43Z",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
     {
       "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
       "source": "Al Jazeera",
@@ -30,48 +37,9 @@
       "published_at": "2026-10-25T00:34:43Z",
       "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-      "source": "Al Jazeera",
-      "published_at": "2026-10-25T00:00:00Z",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
-    "Medio Oriente": [
-      {
-        "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
-        "published_at": "2026-10-25T06:24:46Z"
-      },
-      {
-        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-25T05:15:52Z"
-      },
-      {
-        "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
-        "published_at": "2026-10-25T00:34:43Z"
-      },
-      {
-        "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-        "published_at": "2026-10-25T00:00:00Z"
-      },
-      {
-        "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
-        "published_at": "2026-10-24T21:30:11Z"
-      }
-    ],
     "Altre notizie": [
       {
         "title": "Piero Cipollone: Interview with Milano Finanza",
@@ -98,6 +66,38 @@
         "published_at": "2026-10-23T14:50:49Z"
       }
     ],
+    "Medio Oriente": [
+      {
+        "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
+        "published_at": "2026-10-25T10:14:43Z"
+      },
+      {
+        "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
+        "published_at": "2026-10-25T06:24:46Z"
+      },
+      {
+        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-25T05:15:52Z"
+      },
+      {
+        "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
+        "published_at": "2026-10-25T00:34:43Z"
+      },
+      {
+        "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+        "published_at": "2026-10-25T00:00:00Z"
+      }
+    ],
     "Russia–Ucraina": [
       {
         "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
@@ -118,16 +118,16 @@
         "published_at": "2026-10-23T13:31:40Z"
       },
       {
-        "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-25T09:00:00Z"
+        "title": "Putin, accusarci per i disordini segno di debolezza e incapacità dei leader europei",
+        "source": "ANSA · Mondo",
+        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/25/putin-accusarci-per-i-disordini-segno-di-debolezza-e-incapacita-dei-leader-europei_78a82cc2-9ec3-4ae0-9749-c61fa5f73afa.html",
+        "published_at": "2026-10-25T11:20:09Z"
       },
       {
-        "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-25T05:45:31Z"
+        "title": "Zelensky, 4 morti e 22 feriti in attacchi nella regione di Dnipro",
+        "source": "ANSA · Mondo",
+        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/25/zelensky-4-morti-e-22-feriti-in-attacchi-nella-regione-di-dnipro_51079a23-6dea-40e3-a3c0-d6c84a14aed7.html",
+        "published_at": "2026-10-25T11:18:50Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -156,10 +156,10 @@
         "published_at": "2026-10-23T16:48:28Z"
       },
       {
-        "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-24T15:56:48Z"
+        "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
+        "published_at": "2026-10-25T10:42:51Z"
       }
     ],
     "Mercati e difesa": [
@@ -283,11 +283,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD fixing BCE",
-      "value": 1.1193,
+      "name": "EUR/USD (fixing)",
+      "value": 1.1231,
       "unit": "USD per EUR",
-      "date": "2026-10-23",
-      "stale": false
+      "date": "2026-10-16",
+      "stale": true
     },
     {
       "name": "Treasury 10 anni",
@@ -318,7 +318,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD spot",
+      "name": "Oro XAU/USD",
       "value": 3996.899902,
       "unit": "USD/oncia",
       "date": "2026-10-25",
