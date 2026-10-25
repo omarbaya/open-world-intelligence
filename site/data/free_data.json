@@ -793,24 +793,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "census-e5a5d70cb9d53d780866",
-      "date": "2026-11-02",
-      "name": "US Construction Spending November 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-11-02T15:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Census Bureau",
-      "source_url": "https://www.census.gov/construction/c30/c30index.html",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "us-ism-manufacturing-pmi-november-2026",
       "date": "2026-11-02",
       "name": "US ISM Manufacturing PMI November 2026",
@@ -937,24 +919,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "eurostat-b8b654516eb3c289f848",
-      "date": "2026-11-04",
-      "name": "Eurozone Building Permits November 2026",
-      "country": "EU",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": null,
-      "release_at_utc": null,
-      "time_precision": "date",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Eurostat",
-      "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "eurozone-flash-cpi-november-2026",
       "date": "2026-11-04",
       "name": "Eurozone Flash CPI November 2026",
@@ -970,24 +934,6 @@
       "unit": "% y/y",
       "source": "Eurostat",
       "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "ons-72b9b463652ec287610a",
-      "date": "2026-11-05",
-      "name": "Business insights and impact on the UK economy: 5 November 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "estimated",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-11-05T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1799,18 +1745,72 @@
       "source": "University of Michigan",
       "source_url": "https://fred.stlouisfed.org/release?rid=91",
       "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "germany-ifo-business-climate-november-2026",
+      "date": "2026-11-24",
+      "name": "Germany Ifo Business Climate November 2026",
+      "country": "DE",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "11:30",
+      "release_at_utc": "2026-11-24T09:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "index",
+      "source": "ifo Institute",
+      "source_url": "https://www.ifo.de/en/ifo-business-climate-index",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "us-consumer-confidence-november-2026",
+      "date": "2026-11-24",
+      "name": "US Consumer Confidence November 2026",
+      "country": "US",
+      "impact": "medium",
+      "state": "estimated",
+      "time_athens": "17:00",
+      "release_at_utc": "2026-11-24T15:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "index",
+      "source": "The Conference Board",
+      "source_url": "https://www.financecalendar.com/event/us-consumer-confidence-november-2026/",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "fed-g17-annual-revision-2026",
+      "date": "2026-11-24",
+      "name": "US Industrial Production November 2026 (annual revision)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "19:00",
+      "release_at_utc": "2026-11-24T17:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "% m/m",
+      "source": "Federal Reserve Board",
+      "source_url": "https://www.federalreserve.gov/releases/g17/",
+      "attribution": "https://www.financecalendar.com"
     }
   ],
   "gold_api": {
     "source": "Gold API",
     "value": 3996.899902,
-    "as_of": "2026-10-24T22:31:24Z",
+    "as_of": "2026-10-25T01:13:37Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 3996.899902,
-    "as_of": "2026-10-24T22:31:01.434000Z",
+    "as_of": "2026-10-25T01:14:02.693000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,46 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-24T22:31:34.502445Z",
-    "xaus": "2026-10-24T22:31:34.502445Z",
+    "gold_api": "2026-10-25T01:14:02.318683Z",
+    "xaus": "2026-10-25T01:14:02.318683Z",
     "gold_levels": "2026-10-24T19:31:25.490694Z",
-    "ecb": "2026-10-24T16:38:18.745526Z",
-    "calendar": "2026-10-24T16:38:18.745526Z",
+    "ecb": "2026-10-25T01:14:02.318683Z",
+    "calendar": "2026-10-25T01:14:02.318683Z",
     "cot": "2026-10-24T22:31:34.502445Z"
   },
-  "last_refresh": "2026-10-24T22:31:34.502445Z",
+  "last_refresh": "2026-10-25T01:14:02.318683Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-24T22:31:34.502445Z",
-      "last_fetched": "2026-10-24T16:38:18.745526Z"
+      "status": "ok",
+      "checked_at": "2026-10-25T01:14:02.318683Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-24T22:31:34.502445Z",
-      "last_fetched": "2026-10-24T16:38:18.745526Z"
+      "status": "ok",
+      "checked_at": "2026-10-25T01:14:02.318683Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-24T22:31:34.502445Z"
+      "checked_at": "2026-10-25T01:14:02.318683Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-24T22:31:34.502445Z"
+      "checked_at": "2026-10-25T01:14:02.318683Z"
     },
     "cot": {
       "name": "cot",
-      "status": "ok",
-      "checked_at": "2026-10-24T22:31:34.502445Z"
+      "status": "cached",
+      "checked_at": "2026-10-25T01:14:02.318683Z",
+      "last_fetched": "2026-10-24T22:31:34.502445Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-10-24T22:31:34.502445Z",
+      "checked_at": "2026-10-25T01:14:02.318683Z",
       "last_fetched": "2026-10-24T19:31:25.490694Z"
     }
   },
