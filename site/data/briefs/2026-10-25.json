@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_local": "25/10/2026 13:42 EET",
+  "generated_local": "25/10/2026 14:04 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -170,12 +170,6 @@
         "published_at": "2026-10-25T05:15:52Z"
       },
       {
-        "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-23T11:48:04Z"
-      },
-      {
         "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
         "source": "NPR",
         "url": "https://www.npr.org/2026/10/25/nx-s1-6009402/midterm-blue-wave-map-arkansas-democrats-cotton-shoffner-hill-jones",
@@ -192,6 +186,12 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
         "published_at": "2026-10-24T17:10:42Z"
+      },
+      {
+        "title": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/24/rybakina-readies-for-title-defence-at-ningbo-open-in-final-with-fernandez?traffic_source=rss",
+        "published_at": "2026-10-24T13:52:08Z"
       }
     ],
     "Cina–Taiwan": [
@@ -283,11 +283,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD (fixing)",
-      "value": 1.1231,
+      "name": "EUR/USD fixing BCE",
+      "value": 1.1193,
       "unit": "USD per EUR",
-      "date": "2026-10-16",
-      "stale": true
+      "date": "2026-10-23",
+      "stale": false
     },
     {
       "name": "Treasury 10 anni",
@@ -318,7 +318,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD",
+      "name": "Oro XAU/USD spot",
       "value": 3996.899902,
       "unit": "USD/oncia",
       "date": "2026-10-25",
