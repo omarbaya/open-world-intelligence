@@ -366,5 +366,102 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T13:35:11.066873+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "Il Prezzo del Gas Europeo",
+        "area": "Energia",
+        "livello": "Base",
+        "spiegazione": "Il prezzo all'ingrosso del gas in Europa ha toccato quota 97 EUR/MWh, segnando i massimi dal 2022. Questo rincaro è alimentato dai timori sulle forniture invernali e dalle tensioni geopolitiche in Medio Oriente. Un costo energetico elevato aumenta la pressione inflattiva e condiziona le banche centrali.",
+        "esempio_oggi": "Il gas europeo ha raggiunto 97 EUR/MWh il 26 ottobre 2026 secondo The Guardian [2a93f2a70ffc1fd9e6].",
+        "domanda": "Cosa smentirebbe l'interpretazione che i prezzi del gas restano elevati per via della crisi in Medio Oriente?",
+        "risposta": "Un rapido accordo diplomatico stabile e un calo verificato dei prezzi energetici sotto la soglia recente smentirebbero questa lettura.",
+        "parole": [
+          {
+            "termine": "EUR/MWh",
+            "spiegazione": "Euro per Megawattora, unità di misura del prezzo dell'energia."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di dichiarazione di parte o non verificato quando manca il riscontro multiplo.",
+          "esempio": "Le intercettazioni di proiettili vicino a La Mecca e Medina vanno trattate come notizie da verificare finché non confermate da fonti istituzionali indipendenti multiple [e54a1311c085cce950]."
+        },
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Sostituzione automatica o scarto di cifre non presenti nei campi ufficiali dei prezzi spot e macro [verification]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (GOLD) e future ES indicati come n.d. per assenza di collegamenti diretti verificati nel dossier [GOLD, ES]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Esclusione di righe con etichette non conformi rilevate dai controlli di validazione Python [inclinazione]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se l'energia resta elevata, allora la pressione inflattiva condizionerà le prossime decisioni delle banche centrali [2a93f2a70ffc1fd9e6]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
