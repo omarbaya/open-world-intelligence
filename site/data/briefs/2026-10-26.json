@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated_local": "26/10/2026 15:37 EET",
+  "generated_local": "26/10/2026 16:19 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -8,6 +8,13 @@
       "source": "Al Jazeera",
       "published_at": "2026-10-26T09:52:58Z",
       "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "title": "Will Netanyahu's security promise win him this election?",
+      "source": "France 24",
+      "published_at": "2026-10-26T13:52:32Z",
+      "url": "https://www.france24.com/en/video/20261026-will-netanyahu-s-security-promise-win-him-this-election",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -30,23 +37,10 @@
       "published_at": "2026-10-26T11:40:25Z",
       "url": "https://www.france24.com/en/tv-shows/focus/20261026-israeli-election-seen-as-a-referendum-for-or-against-netanyahu",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Algeria to send troops to Niger in first foreign deployment in over 50 years",
-      "source": "France 24",
-      "published_at": "2026-10-26T10:10:40Z",
-      "url": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
     "Altre notizie": [
-      {
-        "title": "Trump intensifies anti-Muslim rhetoric against Abdul El-Sayed at Michigan rally – US politics live",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
-        "published_at": "2026-10-26T13:28:48Z"
-      },
       {
         "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
         "source": "BCE · Comunicati",
@@ -70,6 +64,12 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/australia-news/2026/oct/26/labor-mp-paul-edbrooke-bullet-on-car-rat-ntwnfb",
         "published_at": "2026-10-26T02:38:37Z"
+      },
+      {
+        "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-26T14:16:09Z"
       }
     ],
     "Medio Oriente": [
@@ -78,6 +78,12 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
         "published_at": "2026-10-26T09:52:58Z"
+      },
+      {
+        "title": "Will Netanyahu's security promise win him this election?",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261026-will-netanyahu-s-security-promise-win-him-this-election",
+        "published_at": "2026-10-26T13:52:32Z"
       },
       {
         "title": "Israel braces for national elections seen as a referendum on Netanyahu",
@@ -96,12 +102,6 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/tv-shows/focus/20261026-israeli-election-seen-as-a-referendum-for-or-against-netanyahu",
         "published_at": "2026-10-26T11:40:25Z"
-      },
-      {
-        "title": "Algeria to send troops to Niger in first foreign deployment in over 50 years",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years",
-        "published_at": "2026-10-26T10:10:40Z"
       }
     ],
     "Russia–Ucraina": [
@@ -168,38 +168,6 @@
         "published_at": "2026-10-24T21:08:51Z"
       }
     ],
-    "Mercati e difesa": [
-      {
-        "title": "Saudi air defences intercept Houthi barrage near Mecca",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-        "published_at": "2026-10-25T13:49:33Z"
-      },
-      {
-        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-25T05:15:52Z"
-      },
-      {
-        "title": "Anthropic unveils details of planned historic stock market debut",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-26T13:27:43Z"
-      },
-      {
-        "title": "Anthropic unveils details of planned historic stock market debut",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-26T13:27:43Z"
-      },
-      {
-        "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
-        "published_at": "2026-10-26T11:04:55Z"
-      }
-    ],
     "Energia": [
       {
         "title": "Cabinet split emerges over controversial Rosebank oilfield decision",
@@ -220,16 +188,48 @@
         "published_at": "2026-10-24T17:50:25Z"
       },
       {
+        "title": "Endangered turtles and ‘exceptional’ coral at risk from Woodside’s gas drilling in WA, watchdog says",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/27/endangered-turtles-and-exceptional-coral-at-risk-from-woodsides-gas-drilling-in-wa-watchdog-says",
+        "published_at": "2026-10-26T14:00:45Z"
+      },
+      {
         "title": "European gas prices soar to four-year high over winter supply fears",
         "source": "The Guardian",
         "url": "https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east",
         "published_at": "2026-10-26T10:35:24Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Saudi air defences intercept Houthi barrage near Mecca",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+        "published_at": "2026-10-25T13:49:33Z"
       },
       {
-        "title": "‘Zero-energy companionship’: bizarre hobby takes seed among China’s stressed young adults",
+        "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-25T05:15:52Z"
+      },
+      {
+        "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
+        "published_at": "2026-10-26T11:04:55Z"
+      },
+      {
+        "title": "Iran war live: Saudi, Pakistani and Turkish defence officials due in Tehran",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
+        "published_at": "2026-10-26T00:00:00Z"
+      },
+      {
+        "title": "Former Tory candidate suspended over contract killer claims was adviser in Kemi Badenoch’s office",
         "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/26/zero-energy-companionship-bizarre-hobby-takes-seed-among-chinas-stressed-young-adults",
-        "published_at": "2026-10-26T09:47:14Z"
+        "url": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
+        "published_at": "2026-10-25T13:00:03Z"
       }
     ],
     "Cina–Taiwan": [
@@ -331,7 +331,7 @@
     },
     {
       "name": "Oro XAU/USD spot",
-      "value": 4016.5,
+      "value": 4003.899902,
       "unit": "USD/oncia",
       "date": "2026-10-26",
       "stale": true
