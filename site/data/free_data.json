@@ -78,16 +78,16 @@
       "name": "US Treasury 6-Week Bill Auction 2026-10-27 (912797VG9)",
       "country": "US",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "17:30",
       "release_at_utc": "2026-10-27T15:30:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "high rate 3.950%; bid-to-cover 2.83",
       "consensus": null,
       "previous": null,
       "unit": null,
       "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -96,16 +96,16 @@
       "name": "US Treasury 52-Week Bill Auction 2026-10-27 (912797WT0)",
       "country": "US",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "17:30",
       "release_at_utc": "2026-10-27T15:30:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "high rate 4.290%; bid-to-cover 3.15",
       "consensus": null,
       "previous": null,
       "unit": null,
       "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -114,16 +114,16 @@
       "name": "US Treasury 5-Year Note Auction 2026-10-27 (91282CRT0)",
       "country": "US",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "19:00",
       "release_at_utc": "2026-10-27T17:00:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "high yield 4.845%; bid-to-cover 2.33",
       "consensus": null,
       "previous": null,
       "unit": null,
       "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -235,6 +235,24 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "treasury-e711afd02bf14d4df3d9",
+      "date": "2026-10-28",
+      "name": "US Treasury 17-Week Bill Auction 2026-10-28 (912797XB8)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "17:30",
+      "release_at_utc": "2026-10-28T15:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "fomc-rate-decision-october-2026",
       "date": "2026-10-28",
       "name": "FOMC Rate Decision October 2026",
@@ -322,42 +340,6 @@
       "unit": null,
       "source": "e-Stat / official Japanese statistical agencies",
       "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00100405/202610291400",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "ons-1bf8e24ee30f6b50d412",
-      "date": "2026-10-29",
-      "name": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-10-29T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "ons-bb6b250ae1492759e051",
-      "date": "2026-10-29",
-      "name": "Business demography, quarterly, UK: July to September 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-10-29T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -451,24 +433,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "bls-4de692c9b937672e33c5",
-      "date": "2026-10-29",
-      "name": "US Consumer Expenditures October 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "16:00",
-      "release_at_utc": "2026-10-29T14:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Bureau of Labor Statistics",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "eia-f2faa3116410975d650f",
       "date": "2026-10-29",
       "name": "US EIA Weekly Natural Gas Storage Report: October 29, 2026",
@@ -484,6 +448,42 @@
       "unit": null,
       "source": "U.S. Energy Information Administration",
       "source_url": "https://ir.eia.gov/ngs/schedule.html",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "treasury-27a2527447194836397e",
+      "date": "2026-10-29",
+      "name": "US Treasury 4-Week Bill Auction 2026-10-29 (912797VZ7)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "17:30",
+      "release_at_utc": "2026-10-29T15:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "treasury-4f7d20ca62132c57592a",
+      "date": "2026-10-29",
+      "name": "US Treasury 8-Week Bill Auction 2026-10-29 (912797WH6)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "17:30",
+      "release_at_utc": "2026-10-29T15:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4024.699951,
-    "as_of": "2026-10-27T12:43:54Z",
+    "value": 4056.399902,
+    "as_of": "2026-10-27T18:45:24Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4024.699951,
-    "as_of": "2026-10-27T12:43:58.991000Z",
+    "value": 4055.899902,
+    "as_of": "2026-10-27T18:45:00.526000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,49 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-27T12:44:05.368294Z",
-    "xaus": "2026-10-27T12:44:05.368294Z",
+    "gold_api": "2026-10-27T18:45:45.090450Z",
+    "xaus": "2026-10-27T18:45:45.090450Z",
     "gold_levels": "2026-10-27T12:44:05.368294Z",
-    "ecb": "2026-10-27T12:44:05.368294Z",
-    "calendar": "2026-10-27T12:44:05.368294Z",
+    "ecb": "2026-10-27T18:45:45.090450Z",
+    "calendar": "2026-10-27T18:45:45.090450Z",
     "cot": "2026-10-27T11:06:00.709077Z"
   },
-  "last_refresh": "2026-10-27T13:16:02.888208Z",
+  "last_refresh": "2026-10-27T18:45:45.090450Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
-      "last_fetched": "2026-10-27T12:44:05.368294Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T18:45:45.090450Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
-      "last_fetched": "2026-10-27T12:44:05.368294Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T18:45:45.090450Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
-      "last_fetched": "2026-10-27T12:44:05.368294Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T18:45:45.090450Z"
     },
     "xaus": {
       "name": "xaus",
-      "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
-      "last_fetched": "2026-10-27T12:44:05.368294Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T18:45:45.090450Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
+      "checked_at": "2026-10-27T18:45:45.090450Z",
       "last_fetched": "2026-10-27T11:06:00.709077Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-10-27T13:16:02.888208Z",
+      "checked_at": "2026-10-27T18:45:45.090450Z",
       "last_fetched": "2026-10-27T12:44:05.368294Z"
     }
   },
@@ -1917,12 +1913,12 @@
     "type": "fx",
     "source": "BCE · EXR/D.USD.EUR.SP00.A",
     "instrument": "EUR/USD spot reference ECB",
-    "value": 1.1188,
-    "previous": 1.1193,
-    "change": -0.0005,
-    "change_pct": -0.0447,
-    "observation_date": "2026-10-26",
-    "previous_date": "2026-10-23",
+    "value": 1.115,
+    "previous": 1.1188,
+    "change": -0.0038,
+    "change_pct": -0.3396,
+    "observation_date": "2026-10-27",
+    "previous_date": "2026-10-26",
     "stale": false,
     "delayed": true,
     "error": null,
