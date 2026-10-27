@@ -1,96 +1,6 @@
 {
   "calendar": [
     {
-      "id": "estat-a4906fc3b8f9bc324444",
-      "date": "2026-10-26",
-      "name": "Japan Business Conditions Index 2026-08 (revised)",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "07:00",
-      "release_at_utc": "2026-10-26T05:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00100406/202610261400",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "germany-ifo-business-climate-october-2026",
-      "date": "2026-10-26",
-      "name": "Germany Ifo Business Climate October 2026",
-      "country": "DE",
-      "impact": "medium",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-10-26T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": "index",
-      "source": "ifo Institute",
-      "source_url": "https://www.ifo.de/en/ifo-business-climate-index",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "treasury-2b61bf174af9b74f2224",
-      "date": "2026-10-26",
-      "name": "US Treasury 13-Week Bill Auction 2026-10-26 (912797VU8)",
-      "country": "US",
-      "impact": "medium",
-      "state": "released",
-      "time_athens": "17:30",
-      "release_at_utc": "2026-10-26T15:30:00Z",
-      "time_precision": "minute",
-      "actual": "high rate 4.050%; bid-to-cover 3.07",
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "treasury-529ebcca1a08a6768d5d",
-      "date": "2026-10-26",
-      "name": "US Treasury 26-Week Bill Auction 2026-10-26 (912797WW3)",
-      "country": "US",
-      "impact": "medium",
-      "state": "released",
-      "time_athens": "17:30",
-      "release_at_utc": "2026-10-26T15:30:00Z",
-      "time_precision": "minute",
-      "actual": "high rate 4.210%; bid-to-cover 2.63",
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "treasury-7d8a0e3b463276bb630b",
-      "date": "2026-10-26",
-      "name": "US Treasury 2-Year Note Auction 2026-10-26 (91282CRU7)",
-      "country": "US",
-      "impact": "medium",
-      "state": "released",
-      "time_athens": "19:00",
-      "release_at_utc": "2026-10-26T17:00:00Z",
-      "time_precision": "minute",
-      "actual": "high yield 4.708%; bid-to-cover 2.59",
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "census-08c381ba83e771ad3526",
       "date": "2026-10-27",
       "name": "US Durable Goods Orders October 2026",
@@ -253,6 +163,42 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "bls-97ebde961d2d51d10fc8",
+      "date": "2026-10-28",
+      "name": "US Business Employment Dynamics October 2026",
+      "country": "US",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "16:00",
+      "release_at_utc": "2026-10-28T14:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "census-fdf63b216ef403441e57",
+      "date": "2026-10-28",
+      "name": "US Housing Vacancies and Homeownership October 2026",
+      "country": "US",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "16:00",
+      "release_at_utc": "2026-10-28T14:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/housing/hvs/",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "eia-c5a6120349894e05734a",
       "date": "2026-10-28",
       "name": "US EIA Weekly Petroleum Status Report: October 28, 2026",
@@ -379,6 +325,42 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "ons-1bf8e24ee30f6b50d412",
+      "date": "2026-10-29",
+      "name": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
+      "country": "GB",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "11:30",
+      "release_at_utc": "2026-10-29T09:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Office for National Statistics",
+      "source_url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "ons-bb6b250ae1492759e051",
+      "date": "2026-10-29",
+      "name": "Business demography, quarterly, UK: July to September 2026",
+      "country": "GB",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "11:30",
+      "release_at_utc": "2026-10-29T09:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Office for National Statistics",
+      "source_url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "us-gross-domestic-product-october-2026",
       "date": "2026-10-29",
       "name": "US Gross Domestic Product October 2026",
@@ -466,6 +448,24 @@
       "unit": "% y/y",
       "source": "Destatis (Federal Statistical Office of Germany)",
       "source_url": "https://www.destatis.de/EN/Press/Release-Calendar/_node.html",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "bls-4de692c9b937672e33c5",
+      "date": "2026-10-29",
+      "name": "US Consumer Expenditures October 2026",
+      "country": "US",
+      "impact": "low",
+      "state": "confirmed",
+      "time_athens": "16:00",
+      "release_at_utc": "2026-10-29T14:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4015.100098,
-    "as_of": "2026-10-27T00:28:46Z",
+    "value": 4006.800049,
+    "as_of": "2026-10-27T06:19:59Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4015.100098,
-    "as_of": "2026-10-27T00:29:01.339000Z",
+    "value": 4006.800049,
+    "as_of": "2026-10-27T06:19:56.312000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,47 +1864,46 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-27T00:29:15.869391Z",
-    "xaus": "2026-10-27T00:29:15.869391Z",
+    "gold_api": "2026-10-27T06:20:13.710893Z",
+    "xaus": "2026-10-27T06:20:13.710893Z",
     "gold_levels": "2026-10-27T00:29:15.869391Z",
-    "ecb": "2026-10-26T20:32:42.189487Z",
-    "calendar": "2026-10-26T20:32:42.189487Z",
+    "ecb": "2026-10-27T06:20:13.710893Z",
+    "calendar": "2026-10-27T06:20:13.710893Z",
     "cot": "2026-10-26T06:22:59.639340Z"
   },
-  "last_refresh": "2026-10-27T00:29:15.869391Z",
+  "last_refresh": "2026-10-27T06:20:13.710893Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-27T00:29:15.869391Z",
-      "last_fetched": "2026-10-26T20:32:42.189487Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T06:20:13.710893Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-27T00:29:15.869391Z",
-      "last_fetched": "2026-10-26T20:32:42.189487Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T06:20:13.710893Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-27T00:29:15.869391Z"
+      "checked_at": "2026-10-27T06:20:13.710893Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-27T00:29:15.869391Z"
+      "checked_at": "2026-10-27T06:20:13.710893Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-27T00:29:15.869391Z",
+      "checked_at": "2026-10-27T06:20:13.710893Z",
       "last_fetched": "2026-10-26T06:22:59.639340Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "ok",
-      "checked_at": "2026-10-27T00:29:15.869391Z"
+      "status": "cached",
+      "checked_at": "2026-10-27T06:20:13.710893Z",
+      "last_fetched": "2026-10-27T00:29:15.869391Z"
     }
   },
   "ecb": {
