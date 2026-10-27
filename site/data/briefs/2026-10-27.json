@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generated_local": "27/10/2026 14:44 EET",
+  "generated_local": "27/10/2026 15:16 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -18,6 +18,13 @@
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
+      "title": "Israeli election: A referendum on 'Bibi' Netanyahu?",
+      "source": "France 24",
+      "published_at": "2026-10-27T12:52:40Z",
+      "url": "https://www.france24.com/en/tv-shows/press-review/20261027-israeli-election-a-referendum-on-bibi-netanyahu",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
       "title": "Localised Russia-Ukraine ceasefire starts Ukrainian town facing starvation",
       "source": "France 24",
       "published_at": "2026-10-27T12:34:42Z",
@@ -30,13 +37,6 @@
       "published_at": "2026-10-27T11:28:05Z",
       "url": "https://www.france24.com/en/video/20261027-algeria-deploys-army-units-to-niger-to-protect-economic-interests",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Netherlands pulls out of Eurovision again over Israel participation",
-      "source": "BBC World",
-      "published_at": "2026-10-27T11:23:19Z",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
@@ -46,6 +46,12 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
         "published_at": "2026-10-26T09:52:58Z"
+      },
+      {
+        "title": "Israeli election: A referendum on 'Bibi' Netanyahu?",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/press-review/20261027-israeli-election-a-referendum-on-bibi-netanyahu",
+        "published_at": "2026-10-27T12:52:40Z"
       },
       {
         "title": "Netherlands pulls out of Eurovision again over Israel participation",
@@ -64,12 +70,6 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/israelis-vote-in-first-national-election-since-october-7-attack",
         "published_at": "2026-10-27T10:41:42Z"
-      },
-      {
-        "title": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
-        "published_at": "2026-10-27T10:36:01Z"
       }
     ],
     "Altre notizie": [
@@ -130,10 +130,10 @@
         "published_at": "2026-10-26T17:27:34Z"
       },
       {
-        "title": "Finnish and Norwegian leaders hold rare ‘frank and substantive’ call with Putin on Ukraine – Europe live",
+        "title": "Rare call with Putin on Ukraine was ‘substantive’ but ‘significant differences’ remain, say Finnish and Norwegian leaders – Europe live",
         "source": "The Guardian",
         "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
-        "published_at": "2026-10-27T12:29:08Z"
+        "published_at": "2026-10-27T13:03:27Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -168,38 +168,6 @@
         "published_at": "2026-10-25T13:49:33Z"
       }
     ],
-    "Mercati e difesa": [
-      {
-        "title": "Saudi air defences intercept Houthi barrage near Mecca",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-        "published_at": "2026-10-25T13:49:33Z"
-      },
-      {
-        "title": "Finnish and Norwegian leaders hold rare ‘frank and substantive’ call with Putin on Ukraine – Europe live",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
-        "published_at": "2026-10-27T12:29:08Z"
-      },
-      {
-        "title": "Anthropic files for mammoth IPO as revenues and losses mount",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/business/20261027-anthropic-files-for-mammoth-ipo-as-revenues-and-losses-mount",
-        "published_at": "2026-10-27T10:20:34Z"
-      },
-      {
-        "title": "WNBA Finals: Valkyries beat Dream to reach the brink of their first title",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/27/wnba-finals-valkyries-beat-dream-to-reach-the-brink-of-their-first-title?traffic_source=rss",
-        "published_at": "2026-10-27T09:52:36Z"
-      },
-      {
-        "title": "Qatar’s path to defence autonomy",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/27/qatars-path-to-defence-autonomy?traffic_source=rss",
-        "published_at": "2026-10-27T07:55:01Z"
-      }
-    ],
     "Energia": [
       {
         "title": "Algeria to deploy army units to Niger to protect economic interests",
@@ -230,6 +198,38 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/sport/20261027-kylian-mbappe-china-mao-zedong-sponsorship-deal",
         "published_at": "2026-10-27T03:54:02Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Saudi air defences intercept Houthi barrage near Mecca",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+        "published_at": "2026-10-25T13:49:33Z"
+      },
+      {
+        "title": "Rare call with Putin on Ukraine was ‘substantive’ but ‘significant differences’ remain, say Finnish and Norwegian leaders – Europe live",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
+        "published_at": "2026-10-27T13:03:27Z"
+      },
+      {
+        "title": "Anthropic files for mammoth IPO as revenues and losses mount",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/business/20261027-anthropic-files-for-mammoth-ipo-as-revenues-and-losses-mount",
+        "published_at": "2026-10-27T10:20:34Z"
+      },
+      {
+        "title": "WNBA Finals: Valkyries beat Dream to reach the brink of their first title",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/27/wnba-finals-valkyries-beat-dream-to-reach-the-brink-of-their-first-title?traffic_source=rss",
+        "published_at": "2026-10-27T09:52:36Z"
+      },
+      {
+        "title": "Qatar’s path to defence autonomy",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/27/qatars-path-to-defence-autonomy?traffic_source=rss",
+        "published_at": "2026-10-27T07:55:01Z"
       }
     ],
     "Cina–Taiwan": [
@@ -265,12 +265,6 @@
       }
     ],
     "Macro e banche centrali": [
-      {
-        "title": "Finnish and Norwegian leaders hold rare ‘frank and substantive’ call with Putin on Ukraine – Europe live",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
-        "published_at": "2026-10-27T12:29:08Z"
-      },
       {
         "title": "South Korea’s GDP growth beats forecasts amid AI boom",
         "source": "Al Jazeera",
@@ -333,6 +327,13 @@
       "value": 107.89,
       "unit": "USD/barile",
       "date": "2026-10-20",
+      "stale": true
+    },
+    {
+      "name": "Oro XAU/USD spot",
+      "value": 4024.699951,
+      "unit": "USD/oncia",
+      "date": "2026-10-27",
       "stale": true
     }
   ],
