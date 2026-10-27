@@ -463,5 +463,85 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T13:06:01.996234+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito."
+      ],
+      "lezione": {
+        "titolo": "La crescita del PIL trimestrale",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "Il prodotto interno lordo misura il valore totale dei beni e servizi prodotti da un Paese. Secondo i dati pubblicati dalla Banca di Corea, l'economia sudcoreana ha registrato una crescita del PIL del 3,4% tendenziale nel terzo trimestre grazie alla domanda di chip per intelligenza artificiale [8d82fe3228090009d5].",
+        "esempio_oggi": "La Corea del Sud cresce del 3,4% tendenziale nel terzo trimestre [8d82fe3228090009d5].",
+        "domanda": "Cosa smentirebbe la crescita guidata dai semiconduttori?",
+        "risposta": "Una contrazione ufficiale dei dati sulla produzione industriale e delle esportazioni di chip [8d82fe3228090009d5].",
+        "parole": [
+          {
+            "termine": "PIL",
+            "spiegazione": "Valore totale dei beni e servizi prodotti in un Paese [8d82fe3228090009d5]."
+          },
+          {
+            "termine": "Tendenziale",
+            "spiegazione": "Confronto con lo stesso periodo dell'anno precedente [8d82fe3228090009d5]."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "La notizia di un cessate il fuoco locale in Ucraina meridionale [202d63796cf4354d95] deve essere trattata come non verificata finché manca una seconda fonte indipendente."
+        },
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "I valori non verificati inseriti per l'S&P 500 sono stati corretti dal sistema [FRED · SP500]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]

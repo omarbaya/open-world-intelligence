@@ -1223,5 +1223,20 @@
     "date": "2026-10-27",
     "series": "mkt:US2Y",
     "value": 4.69
+  },
+  {
+    "date": "2026-10-27",
+    "series": "gauge:war_escalation",
+    "value": 80
+  },
+  {
+    "date": "2026-10-27",
+    "series": "gauge:conviction",
+    "value": 24
+  },
+  {
+    "date": "2026-10-27",
+    "series": "sent:war",
+    "value": 60
   }
 ]
