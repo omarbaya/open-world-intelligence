@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4006.800049,
-    "as_of": "2026-10-27T06:19:59Z",
+    "value": 4024.699951,
+    "as_of": "2026-10-27T12:43:54Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4013.0,
-    "as_of": "2026-10-27T11:05:59.360000Z",
+    "value": 4024.699951,
+    "as_of": "2026-10-27T12:43:58.991000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1851,11 +1851,11 @@
   "defense": {},
   "gold_levels": {
     "instrument": "XAU/USD spot",
-    "h": 4032.9,
-    "l": 4020.1,
-    "c": 4020.6,
-    "wh": 4032.9,
-    "wl": 4020.1,
+    "h": 4044.0,
+    "l": 3990.9,
+    "c": 4038.4,
+    "wh": 4044.0,
+    "wl": 3990.9,
     "day": "2026-10-26",
     "week_start": "2026-10-26",
     "source": "XAUS daily candles",
@@ -1864,49 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-27T06:20:13.710893Z",
-    "xaus": "2026-10-27T11:06:00.709077Z",
-    "gold_levels": "2026-10-27T00:29:15.869391Z",
-    "ecb": "2026-10-27T06:20:13.710893Z",
-    "calendar": "2026-10-27T06:20:13.710893Z",
+    "gold_api": "2026-10-27T12:44:05.368294Z",
+    "xaus": "2026-10-27T12:44:05.368294Z",
+    "gold_levels": "2026-10-27T12:44:05.368294Z",
+    "ecb": "2026-10-27T12:44:05.368294Z",
+    "calendar": "2026-10-27T12:44:05.368294Z",
     "cot": "2026-10-27T11:06:00.709077Z"
   },
-  "last_refresh": "2026-10-27T11:06:00.709077Z",
+  "last_refresh": "2026-10-27T12:44:05.368294Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-27T11:06:00.709077Z",
-      "last_fetched": "2026-10-27T06:20:13.710893Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T12:44:05.368294Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-27T11:06:00.709077Z",
-      "last_fetched": "2026-10-27T06:20:13.710893Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T12:44:05.368294Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "error",
-      "checked_at": "2026-10-27T11:06:00.709077Z",
-      "reason": "URLError",
-      "cached": true
+      "status": "ok",
+      "checked_at": "2026-10-27T12:44:05.368294Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-27T11:06:00.709077Z"
+      "checked_at": "2026-10-27T12:44:05.368294Z"
     },
     "cot": {
       "name": "cot",
-      "status": "ok",
-      "checked_at": "2026-10-27T11:06:00.709077Z"
+      "status": "cached",
+      "checked_at": "2026-10-27T12:44:05.368294Z",
+      "last_fetched": "2026-10-27T11:06:00.709077Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "cached",
-      "checked_at": "2026-10-27T11:06:00.709077Z",
-      "last_fetched": "2026-10-27T00:29:15.869391Z"
+      "status": "ok",
+      "checked_at": "2026-10-27T12:44:05.368294Z"
     }
   },
   "ecb": {
