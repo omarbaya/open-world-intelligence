@@ -1,8 +1,22 @@
 {
   "date": "2026-10-28",
-  "generated_local": "28/10/2026 18:40 EET",
+  "generated_local": "28/10/2026 23:41 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Fed · Press releases",
+      "published_at": "2026-10-28T18:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Fed · Monetary policy",
+      "published_at": "2026-10-28T18:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
     {
       "title": "Fed set to hold interest rates steady in last decision before midterms",
       "source": "The Guardian",
@@ -23,24 +37,22 @@
       "published_at": "2026-10-27T01:55:40Z",
       "url": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
-      "source": "France 24",
-      "published_at": "2026-10-28T12:20:20Z",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
-      "source": "France 24",
-      "published_at": "2026-10-28T12:17:34Z",
-      "url": "https://www.france24.com/en/video/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
     "Medio Oriente": [
+      {
+        "title": "'Israeli electorate has moved rightward: Many underestimated extent of fracture in Israeli society'",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/israeli-electorate-has-moved-rightward-many-underestimated-extent-of-fracture-in-israeli-society",
+        "published_at": "2026-10-28T19:12:30Z"
+      },
+      {
+        "title": "What are the implications of Israel’s elections?",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
+        "published_at": "2026-10-28T19:03:03Z"
+      },
       {
         "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
         "source": "BBC World",
@@ -58,18 +70,6 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
         "published_at": "2026-10-28T00:43:56Z"
-      },
-      {
-        "title": "Smotrich dances in Israel despite far-right decline",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/smotrich-dances-in-israel-despite-far-right-decline?traffic_source=rss",
-        "published_at": "2026-10-27T23:03:44Z"
-      },
-      {
-        "title": "Israel election: Netanyahu and Eisenkot battle to form government after deadlock",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock",
-        "published_at": "2026-10-27T22:58:53Z"
       }
     ],
     "Altre notizie": [
@@ -84,12 +84,6 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/australia-news/2026/oct/28/australia-democratic-politics-argument-helen-haines-incident-alastair-campbell-ntwnfb",
         "published_at": "2026-10-28T06:24:22Z"
-      },
-      {
-        "title": "Criminal case against alleged Bondi terrorist delayed amid ‘unprecedented’ investigation",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/28/criminal-case-against-alleged-bondi-guman-delayed-amid-unprecedented-investigation-ntwnfb",
-        "published_at": "2026-10-28T01:18:39Z"
       }
     ],
     "Russia–Ucraina": [
@@ -98,6 +92,12 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
         "published_at": "2026-10-27T01:55:40Z"
+      },
+      {
+        "title": "Putin hails Elon Musk’s ‘genius’ amid plans for Russian version of Starlink",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/28/vladimir-putin-elon-musk-genius-russia-starlink",
+        "published_at": "2026-10-28T18:32:38Z"
       },
       {
         "title": "Zelenskyy defends leaders of Finland and Norway over Putin talks",
@@ -116,15 +116,15 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
         "published_at": "2026-10-27T17:43:02Z"
-      },
-      {
-        "title": "Localised Russia-Ukraine ceasefire starts in Ukrainian town facing starvation",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/video/20261027-localised-russia-ukraine-ceasefire-starts-ukrainian-town-facing-starvation",
-        "published_at": "2026-10-27T12:34:42Z"
       }
     ],
     "Energia": [
+      {
+        "title": "Bank of Canada raises interest rates for the first time in three years",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
+        "published_at": "2026-10-28T16:44:44Z"
+      },
       {
         "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
         "source": "BBC World",
@@ -138,22 +138,16 @@
         "published_at": "2026-10-27T11:28:05Z"
       },
       {
-        "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
-        "published_at": "2026-10-26T17:27:34Z"
+        "title": "Trump administration wants to remove regulations on a super planet-heating gas",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/28/nx-s1-5995910/trump-wants-remove-regulations-planet-heating-methane",
+        "published_at": "2026-10-28T21:15:09Z"
       },
       {
-        "title": "Will I get the £100 energy payment and when will I receive it?",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-28T16:30:53Z"
-      },
-      {
-        "title": "Budget 2026 live: £100 energy payment for millions and rise in bank tax as watchdog warns on stalling living standards",
+        "title": "Budget 2026: Healey hikes taxes on banks and landlords to fund £100 handouts to 20m households",
         "source": "The Guardian",
-        "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
-        "published_at": "2026-10-28T16:28:14Z"
+        "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households",
+        "published_at": "2026-10-28T20:09:34Z"
       }
     ],
     "Cina–Taiwan": [
@@ -176,16 +170,48 @@
         "published_at": "2026-10-28T12:17:34Z"
       },
       {
+        "title": "Second fatal train collision this year casts doubt over Spain’s high-speed rail network",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/28/analysis-fatal-collision-doubt-over-spain-high-speed-rail",
+        "published_at": "2026-10-28T16:56:46Z"
+      },
+      {
         "title": "What is the controversy between Real Madrid’s Kylian Mbappe and China?",
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid?traffic_source=rss",
         "published_at": "2026-10-28T15:36:39Z"
+      }
+    ],
+    "Macro e banche centrali": [
+      {
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "Fed · Press releases",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "published_at": "2026-10-28T18:00:00Z"
       },
       {
-        "title": "Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark",
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "Fed · Monetary policy",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "published_at": "2026-10-28T18:00:00Z"
+      },
+      {
+        "title": "Fed set to hold interest rates steady in last decision before midterms",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+        "published_at": "2026-10-28T10:00:03Z"
+      },
+      {
+        "title": "Australian politics live: Greens plan to make the Yarra River swimmable; Hastie dubs inflation a ‘silent tax eating away at wealth’",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
+        "published_at": "2026-10-28T21:24:03Z"
+      },
+      {
+        "title": "Fed leaves interest rates unchanged despite inflation in the US",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/28/real-madrid-apologise-to-chinese-people-for-mbappes-mao-dictator-remark?traffic_source=rss",
-        "published_at": "2026-10-28T12:56:24Z"
+        "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
+        "published_at": "2026-10-28T19:05:44Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -222,6 +248,12 @@
     ],
     "Mercati e difesa": [
       {
+        "title": "Healey tells departments to make 1% cuts to fund defence",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/c65ynl0px107o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-28T19:01:34Z"
+      },
+      {
         "title": "UK vows defense spending boost by 2030 but dodges hard questions",
         "source": "Politico Europe",
         "url": "https://www.politico.eu/article/uk-vows-defense-spending-boost-by-2030-but-dodges-hard-questions-john-healey/",
@@ -244,44 +276,6 @@
         "source": "Politico Europe",
         "url": "https://www.politico.eu/article/wes-streeting-to-visit-berlin-for-defense-talks-with-boris-pistorius/",
         "published_at": "2026-10-28T09:39:37Z"
-      },
-      {
-        "title": "Barcelona handed $670 fine for approaching Atletico’s Alvarez",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/28/barcelona-602-euros-fine-julian-alvarez-transfer-football?traffic_source=rss",
-        "published_at": "2026-10-28T07:14:10Z"
-      }
-    ],
-    "Macro e banche centrali": [
-      {
-        "title": "Fed set to hold interest rates steady in last decision before midterms",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-        "published_at": "2026-10-28T10:00:03Z"
-      },
-      {
-        "title": "Morning news brief",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/28/nx-s1-6012226/morning-news-brief",
-        "published_at": "2026-10-28T08:47:33Z"
-      },
-      {
-        "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
-        "published_at": "2026-10-28T01:03:24Z"
-      },
-      {
-        "title": "UK vows defense spending boost by 2030 but dodges hard questions",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/uk-vows-defense-spending-boost-by-2030-but-dodges-hard-questions-john-healey/",
-        "published_at": "2026-10-28T15:18:40Z"
-      },
-      {
-        "title": "Jim Chalmers is blaming Australia’s accelerating inflation on Trump – but voters aren’t buying it",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/28/jim-chalmers-is-blaming-australias-accelerating-inflation-on-trump-but-voters-arent-buying-it",
-        "published_at": "2026-10-28T05:58:24Z"
       }
     ]
   },
@@ -309,35 +303,35 @@
     },
     {
       "name": "Treasury 10 anni",
-      "value": 5.0,
+      "value": 4.99,
       "unit": "%",
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "stale": false
     },
     {
       "name": "Treasury 2 anni",
-      "value": 4.68,
+      "value": 4.7,
       "unit": "%",
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "stale": false
     },
     {
       "name": "Brent",
-      "value": 115.22,
+      "value": 123.1,
       "unit": "USD/barile",
-      "date": "2026-10-20",
-      "stale": true
+      "date": "2026-10-27",
+      "stale": false
     },
     {
       "name": "WTI",
-      "value": 107.89,
+      "value": 103.37,
       "unit": "USD/barile",
-      "date": "2026-10-20",
-      "stale": true
+      "date": "2026-10-27",
+      "stale": false
     },
     {
       "name": "Oro XAU/USD",
-      "value": 4050.0,
+      "value": 4040.800049,
       "unit": "USD/oncia",
       "date": "2026-10-28",
       "stale": true
