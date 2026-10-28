@@ -1268,5 +1268,35 @@
     "date": "2026-10-28",
     "series": "mkt:US2Y",
     "value": 4.68
+  },
+  {
+    "date": "2026-10-28",
+    "series": "gauge:war_escalation",
+    "value": 80
+  },
+  {
+    "date": "2026-10-28",
+    "series": "gauge:conviction",
+    "value": 24
+  },
+  {
+    "date": "2026-10-28",
+    "series": "lettura:ES",
+    "value": 1
+  },
+  {
+    "date": "2026-10-28",
+    "series": "lettura:GC",
+    "value": 0
+  },
+  {
+    "date": "2026-10-28",
+    "series": "lettura:EURUSD",
+    "value": 0
+  },
+  {
+    "date": "2026-10-28",
+    "series": "sent:war",
+    "value": 60
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "status": "ok",
-  "date": "2026-10-27",
+  "status": "partial",
+  "date": "2026-10-28",
   "model": "gemini-3.5-flash-lite",
   "agent_audit": [
     {
@@ -9,7 +9,8 @@
     },
     {
       "role": "macro",
-      "status": "ok"
+      "status": "error",
+      "message": "macro: output non valido dopo un solo tentativo di riparazione: LLMError"
     },
     {
       "role": "difesa",
@@ -32,5 +33,5 @@
       "status": "ok"
     }
   ],
-  "message": "Briefing IA eseguito e controllato."
+  "message": "Briefing IA con sette ruoli generato."
 }

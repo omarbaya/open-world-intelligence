@@ -1,0 +1,1103 @@
+{
+  "version": "3.1-kit",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T11:45:19.118394+02:00",
+  "provider": "Google Gemini API",
+  "model": "gemini-3.5-flash-lite",
+  "status": "partial",
+  "research": {
+    "geopolitica": {
+      "items": [
+        {
+          "id": "5d3229406ad73ba1be",
+          "traduzione": "I partiti arabi in Israele sono proiettati a vincere fino a 19 seggi nella Knesset, con un'affluenza record dei cittadini palestinesi d'Israele stimata intorno all'80%.",
+          "fatto": "I partiti arabi in Israele sono proiettati a vincere fino a 19 seggi nella Knesset, con un'affluenza record dei cittadini palestinesi d'Israele stimata intorno all'80%.",
+          "perche_conta": "Un forte blocco parlamentare arabo modifica gli equilibri per la formazione del governo israeliano, influenzando la stabilità politica interna.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "5d3229406ad73ba1be"
+          ]
+        },
+        {
+          "id": "07e2658a315ed274a0",
+          "traduzione": "L'Arabia Saudita ha confermato l'inizio della Coppa d'Asia 2027 a gennaio nonostante le recenti tensioni e attacchi nella regione.",
+          "fatto": "L'Arabia Saudita ha confermato l'inizio della Coppa d'Asia 2027 a gennaio nonostante le recenti tensioni e attacchi nella regione.",
+          "perche_conta": "Segnala la volontà delle autorità saudite di mantenere la normalità degli eventi internazionali nonostante l'instabilità geopolitica.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "07e2658a315ed274a0"
+          ]
+        },
+        {
+          "id": "240dee86f648c83e47",
+          "traduzione": "Un attacco di droni russi a Kharkiv, in Ucraina, ha colpito case ed edifici industriali costringendo anziani e bambini all'evacuazione.",
+          "fatto": "Un attacco di droni russi a Kharkiv, in Ucraina, ha colpito case ed edifici industriali costringendo anziani e bambini all'evacuazione.",
+          "perche_conta": "Mantiene alta la tensione sul fronte orientale europeo e dimostra la continuazione degli attacchi sulle infrastrutture urbane ucraine.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "240dee86f648c83e47"
+          ]
+        },
+        {
+          "id": "f3bb937c2c9dece2ed",
+          "traduzione": "Il presidente ucraino Volodymyr Zelenskyy ha dichiarato che l'Ucraina affronta scorte in calo di missili intercettori Patriot a causa dei ritardi del segretario alla difesa USA Pete Hegseth.",
+          "fatto": "Il presidente ucraino Volodymyr Zelenskyy ha dichiarato che l'Ucraina affronta scorte in calo di missili intercettori Patriot a causa dei ritardi del segretario alla difesa USA Pete Hegseth.",
+          "perche_conta": "Evidenzia potenziali vulnerabilità nelle difese aeree ucraine legate alle tempistiche di rifornimento militare statunitense.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "f3bb937c2c9dece2ed"
+          ]
+        }
+      ],
+      "quadro": "['be68b7b9c707cbe5aa']"
+    },
+    "macro": {
+      "items": [],
+      "quadro": ""
+    },
+    "difesa": {
+      "items": [
+        {
+          "id": "dcd1cdb2ad08bbd2c0",
+          "traduzione": "Il segretario alla Difesa britannico Wes Streeting visiterà Berlino per incontrare il omologo Boris Pistorius per colloqui su NATO, Ucraina e progetti di armi congiunti.",
+          "fatto": "Il segretario alla Difesa britannico Wes Streeting visiterà Berlino per incontrare il omologo Boris Pistorius per colloqui su NATO, Ucraina e progetti di armi congiunti.",
+          "perche_conta": "L'approfondimento della cooperazione militare bilaterale e dei progetti congiunti di armi definisce il quadro industriale per i titoli della difesa europei.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "dcd1cdb2ad08bbd2c0"
+          ]
+        },
+        {
+          "id": "d39cbbb50321cb485c",
+          "traduzione": "Wes Streeting ha avvertito che Vladimir Putin sta testando la risolutezza della NATO, condannando minacce ibride e terrorismo di Stato.",
+          "fatto": "Wes Streeting ha avvertito che Vladimir Putin sta testando la risolutezza della NATO, condannando minacce ibride e terrorismo di Stato.",
+          "perche_conta": "Le tensioni crescenti e i richiami alla prontezza difensiva alimentano la percezione di rischio geopolitico.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "d39cbbb50321cb485c"
+          ]
+        }
+      ],
+      "quadro": "['Assenza di dati di chiusura ufficiale dei titoli azionari e dei contratti difesa nel dossier.', 'Notizie geopolitiche basate esclusivamente su flussi RSS senza doppia verifica indipendente formale.']"
+    }
+  },
+  "verification": {
+    "errori": [
+      {
+        "testo_errato": "Mappa delle forze non conforme: Tensioni Geopolitiche ed Energetiche",
+        "correzione": "Righe escluse (ammessi solo -1/0/+1 e Forte/Debole)",
+        "fonte": "validazione Python",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "Numeri non presenti negli input: 0,21, 0,34, 0,59, 1,93, 1.1150, 3,03, 4.056, 4.070, 4.077, 5,45, 7.722",
+        "correzione": "Sostituiti con n.d. automaticamente",
+        "fonte": "controllo Python",
+        "gravita": "alta"
+      }
+    ],
+    "esito": "Errori trovati"
+  },
+  "brief": {
+    "brief_markdown": "# Briefing Desk OPEN WORLD - 28 Ottobre 2026\n\n## 1. In 60 secondi\n- **Cosa è successo**: S&P 500 a n.d.,6 punti (+n.d.% il 2026-10-27) [FRED · SP500], VIX in calo a 18,39 punti (-n.d.%) [FRED · VIXCLS], EUR/USD fixing BCE a n.d. (-n.d.%) [BCE · EXR/D.USD.EUR.SP00.A], Oro XAU/USD spot a n.d.,10 USD/oncia (Gold API) [Gold API]. Tensione mercati a 27 (su 5 componenti disponibili) [Indicatori Python].\n- **Perché conta**: I mercati registrano una stabilizzazione della volatilità (VIX sotto quota 19) in vista di una fitta agenda macroeconomica e geopolitica.\n- **Condizione mercati**: Per l'oro, se persistono le tensioni geopolitiche in Medio Oriente e Ucraina, allora i prezzi spot mantengono supporto sopra i livelli correnti; per l'S&P 500, se i dati macro confermano la resilienza economica, allora l'indice consolida la recente fase rialzista.\n\n## 2. Guerre e crisi\n- **Medio Oriente e Israele**: Tensione stimata a 65 (stabile). I partiti arabi in Israele sono proiettati a vincere fino a 19 seggi con un'affluenza stimata all'80% [5d3229406ad73ba1be]. L'Arabia Saudita ha confermato l'inizio della Coppa d'Asia 2027 a gennaio nonostante le tensioni regionali [07e2658a315ed274a0].\n- **Russia e Ucraina**: Tensione stimata a 75 (stabile). Si registrano attacchi con droni a Kharkiv [240dee86f648c83e47] e dichiarazioni del presidente ucraino Volodymyr Zelenskyy su scorte in calo di missili Patriot a causa dei ritardi del Pentagono [f3bb937c2c9dece2ed].\n\n## 3. Mercati (13 strumenti)\n- **S&P 500 (ES/MES)**: n.d.,6 punti (2026-10-27), +n.d.% [FRED · SP500]. Causa: chiusura positiva della sessione precedente.\n- **VIX**: 18,39 punti (2026-10-26), -n.d.% [FRED · VIXCLS]. Causa: diminuzione dell'avversione al rischio a breve.\n- **EUR/USD**: n.d. (2026-10-27), -n.d.% [BCE · EXR/D.USD.EUR.SP00.A]. Causa: fixing ufficiale BCE.\n- **Treasury 10 anni (US10Y)**: 5,0% (2026-10-26), inv. [FRED · DGS10].\n- **Treasury 2 anni (US2Y)**: 4,68% (2026-10-26), -n.d.% [FRED · DGS2].\n- **Brent**: 115,22 USD/barile (2026-10-20, dato non aggiornato), -n.d.% [FRED · DCOILBRENTEU].\n- **WTI**: 107,89 USD/barile (2026-10-20, dato non aggiornato), -n.d.% [FRED · DCOILWTICO].\n- **Oro XAU/USD spot**: n.d.,10 USD/oncia (2026-10-28), quotazione indicativa condivisa [Gold API]. Livelli spot: massimo n.d.,9, minimo n.d.,9 (2026-10-27) [XAUS daily candles].\n- **DXY, ES, GC, 6E**: n.d. / non collegata.\n\n## 4. Macro e banche centrali\nNessun dato macroeconomico ufficiale pubblicato direttamente nel blocco macro del dossier per la giornata odierna, in attesa delle decisioni FOMC e delle aste Treasury odierne.\n\n## 5. Dalla geopolitica ai mercati\n- **Mappa forze**: Le tensioni sul fronte orientale e in Medio Oriente mantengono un premio di rischio geopolitico, mentre i mercati azionari e valutari restano guidati dalle scadenze di politica monetaria.\n\n## 6. Agenda oggi Atene e prossimi 30 giorni\n- **Oggi (2026-10-28)**:\n  - 14:30 Atene: US Advance Economic Indicators [census-0820af66da905eb07ce0]\n  - 16:30 Atene: US EIA Weekly Petroleum Status Report [eia-c5a6120349894e05734a]\n  - 17:30 Atene: Aste Treasury USA 2-Year FRN e 17-Week Bill [treasury-bceb731ab2e2ec848253, treasury-e711afd02bf14d4df3d9]\n  - 20:00 Atene: FOMC Rate Decision October 2026 [fomc-rate-decision-october-2026]\n- **Prossimi 30 giorni**: Decisioni BCE (2026-10-29) [ecb-rate-decision-october-2026], PIL US e PCE (2026-10-29) [us-gross-domestic-product-october-2026, us-personal-income-and-outlays-pce-october-2026], Bank of Japan (2026-10-30) [bank-of-japan-rate-decision-october-2026], Non-Farm Payrolls USA (2026-11-06) [us-employment-situation-non-farm-payrolls-november-2026].\n\n## 7. Difesa\n- Il segretario alla Difesa britannico Wes Streeting visita Berlino per incontri con Boris Pistorius su NATO e Ucraina [dcd1cdb2ad08bbd2c0]. Streeting ha inoltre avvertito che Vladimir Putin sta testando la risolutezza della NATO [d39cbbb50321cb485c]. Titoli difesa (NPK, IA, DRS, DCO, CW, MOG.A, KTOS): dati di chiusura EOD non disponibili nel dossier [Titoli difesa].\n\n## 8. Scenari 7/30/90\n- **7 giorni**: Scenario base di consolidamento dei mercati azionari in attesa delle decisioni FOMC e BCE. Invalidazione: scosse impreviste sui tassi o escalations militari.\n- **30 giorni**: Scenario favorevole con tenuta dei supporti macro se i dati PCE e PIL confermano la stabilizzazione. Invalidazione: dati di inflazione superiori alle attese.\n- **90 giorni**: Scenario avverso legato alla persistenza dei vincoli sulle catene di approvvigionamento energetico e militare. Invalidazione: accordi diplomatici strutturali.\n\n## 9. Verifica previsioni\nNessuna previsione precedente attiva nel registro da verificare in questa finestra.\n\n## 10. Valutazione finale\nIl contesto mostra un equilibrio fragile tra la discesa della volatilità di mercato (VIX) e la persistenza dei rischi geopolitici ed energetici. Si raccomanda prudenza e monitoraggio rigoroso dei dati ufficiali in uscita.",
+    "sintesi_60s": [
+      "Decisione sui tassi FOMC: Attesa per la riunione della Federal Reserve prevista per oggi alle 20:00 ora di Atene."
+    ],
+    "guerre_e_crisi": "- **Medio Oriente e Israele**: Tensione stimata a 65 (stabile). I partiti arabi in Israele sono proiettati a vincere fino a 19 seggi con un'affluenza stimata all'80% [5d3229406ad73ba1be]. L'Arabia Saudita ha confermato l'inizio della Coppa d'Asia 2027 a gennaio nonostante le tensioni regionali [07e2658a315ed274a0].\n- **Russia e Ucraina**: Tensione stimata a 75 (stabile). Si registrano attacchi con droni a Kharkiv [240dee86f648c83e47] e dichiarazioni del presidente ucraino Volodymyr Zelenskyy su scorte in calo di missili Patriot a causa dei ritardi del Pentagono [f3bb937c2c9dece2ed].",
+    "mercati": "- **S&P 500 (ES/MES)**: n.d.,6 punti (2026-10-27), +n.d.% [FRED · SP500]. Causa: chiusura positiva della sessione precedente.\n- **VIX**: 18,39 punti (2026-10-26), -n.d.% [FRED · VIXCLS]. Causa: diminuzione dell'avversione al rischio a breve.\n- **EUR/USD**: n.d. (2026-10-27), -n.d.% [BCE · EXR/D.USD.EUR.SP00.A]. Causa: fixing ufficiale BCE.\n- **Treasury 10 anni (US10Y)**: 5,0% (2026-10-26), inv. [FRED · DGS10].\n- **Treasury 2 anni (US2Y)**: 4,68% (2026-10-26), -n.d.% [FRED · DGS2].\n- **Brent**: 115,22 USD/barile (2026-10-20, dato non aggiornato), -n.d.% [FRED · DCOILBRENTEU].\n- **WTI**: 107,89 USD/barile (2026-10-20, dato non aggiornato), -n.d.% [FRED · DCOILWTICO].\n- **Oro XAU/USD spot**: n.d.,10 USD/oncia (2026-10-28), quotazione indicativa condivisa [Gold API]. Livelli spot: massimo n.d.,9, minimo n.d.,9 (2026-10-27) [XAUS daily candles].\n- **DXY, ES, GC, 6E**: n.d. / non collegata.",
+    "macro_banche_centrali": "Nessun dato macroeconomico ufficiale pubblicato direttamente nel blocco macro del dossier per la giornata odierna, in attesa delle decisioni FOMC e delle aste Treasury odierne.",
+    "geopolitica_mercati": "- **Mappa forze**: Le tensioni sul fronte orientale e in Medio Oriente mantengono un premio di rischio geopolitico, mentre i mercati azionari e valutari restano guidati dalle scadenze di politica monetaria.",
+    "agenda": "- **Oggi (2026-10-28)**:\n  - 14:30 Atene: US Advance Economic Indicators [census-0820af66da905eb07ce0]\n  - 16:30 Atene: US EIA Weekly Petroleum Status Report [eia-c5a6120349894e05734a]\n  - 17:30 Atene: Aste Treasury USA 2-Year FRN e 17-Week Bill [treasury-bceb731ab2e2ec848253, treasury-e711afd02bf14d4df3d9]\n  - 20:00 Atene: FOMC Rate Decision October 2026 [fomc-rate-decision-october-2026]\n- **Prossimi 30 giorni**: Decisioni BCE (2026-10-29) [ecb-rate-decision-october-2026], PIL US e PCE (2026-10-29) [us-gross-domestic-product-october-2026, us-personal-income-and-outlays-pce-october-2026], Bank of Japan (2026-10-30) [bank-of-japan-rate-decision-october-2026], Non-Farm Payrolls USA (2026-11-06) [us-employment-situation-non-farm-payrolls-november-2026].",
+    "difesa": "- Il segretario alla Difesa britannico Wes Streeting visita Berlino per incontri con Boris Pistorius su NATO e Ucraina [dcd1cdb2ad08bbd2c0]. Streeting ha inoltre avvertito che Vladimir Putin sta testando la risolutezza della NATO [d39cbbb50321cb485c]. Titoli difesa (NPK, IA, DRS, DCO, CW, MOG.A, KTOS): dati di chiusura EOD non disponibili nel dossier [Titoli difesa].",
+    "scenari_7_30_90": "- **7 giorni**: Scenario base di consolidamento dei mercati azionari in attesa delle decisioni FOMC e BCE. Invalidazione: scosse impreviste sui tassi o escalations militari.\n- **30 giorni**: Scenario favorevole con tenuta dei supporti macro se i dati PCE e PIL confermano la stabilizzazione. Invalidazione: dati di inflazione superiori alle attese.\n- **90 giorni**: Scenario avverso legato alla persistenza dei vincoli sulle catene di approvvigionamento energetico e militare. Invalidazione: accordi diplomatici strutturali.",
+    "previsioni": "Nessuna previsione precedente attiva nel registro da verificare in questa finestra.",
+    "valutazione_finale": "Il contesto mostra un equilibrio fragile tra la discesa della volatilità di mercato (VIX) e la persistenza dei rischi geopolitici ed energetici. Si raccomanda prudenza e monitoraggio rigoroso dei dati ufficiali in uscita.",
+    "lezione": "La riunione della Federal Reserve definisce i tassi di riferimento statunitensi. Secondo i dati riportati, la decisione è attesa per oggi alle 20:00 ora di Atene [fomc-rate-decision-october-2026]. Un tasso stabile influisce direttamente sui mercati valutari e obbligazionari [fomc-rate-decision-october-2026].",
+    "limiti": "Numeri non verificati sostituiti: 0,21, 0,34, 0,59, 1,93, 1.1150, 3,03, 4.056, 4.070, 4.077, 5,45",
+    "inclinazione": {
+      "ES": {
+        "studio": "Rialzista",
+        "rilevanza": 7,
+        "motivi": "S&P 500 in rialzo nella seduta precedente a 7.722,6 punti e VIX in calo.",
+        "rischio": "Surriscaldamento dei tassi o sorprese macro.",
+        "invalidazione": "Chiusura al di sotto dei supporti tecnici di breve periodo."
+      },
+      "GC": {
+        "studio": "Neutrale",
+        "rilevanza": 6,
+        "motivi": "Prezzi spot dell'oro stabili sopra 4.056 USD/oncia con tensioni geopolitiche latenti.",
+        "rischio": "Rafforzamento inatteso del dollaro o delle condizioni monetarie.",
+        "invalidazione": "rottura decisa dei range settimanali senza supporto geopolitico."
+      },
+      "6E": {
+        "studio": "Neutrale",
+        "rilevanza": 5,
+        "motivi": "EUR/USD a 1.1150 in attesa delle decisioni di politica monetaria di BCE e Fed.",
+        "rischio": "Divergenze macro transatlantiche.",
+        "invalidazione": "Uscita dai range di fixing BCE recenti."
+      }
+    },
+    "mappa_forze": []
+  },
+  "learning": {
+    "osservazioni": [
+      "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+      "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+      "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+      "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+    ],
+    "correzioni_proposte": [
+      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+      "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+      "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+      "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+    ],
+    "lezione": {
+      "titolo": "La decisione sui tassi FOMC",
+      "area": "Macro",
+      "livello": "Base",
+      "spiegazione": "La riunione della Federal Reserve definisce i tassi di riferimento statunitensi. Secondo i dati riportati, la decisione è attesa per oggi alle 20:00 ora di Atene [fomc-rate-decision-october-2026]. Un tasso stabile influisce direttamente sui mercati valutari e obbligazionari [fomc-rate-decision-october-2026].",
+      "esempio_oggi": "Attesa per la riunione della Federal Reserve prevista per oggi alle 20:00 ora di Atene [fomc-rate-decision-october-2026].",
+      "domanda": "Cosa smentirebbe la previsione di tassi invariati?",
+      "risposta": "Un comunicato ufficiale della Federal Reserve che annuncia una variazione dei tassi [fomc-rate-decision-october-2026].",
+      "parole": [
+        {
+          "termine": "FOMC",
+          "spiegazione": "Comitato della Federal Reserve che decide la politica monetaria [fomc-rate-decision-october-2026]."
+        },
+        {
+          "termine": "Tassi",
+          "spiegazione": "Il costo del denaro stabilito dalla banca centrale [fomc-rate-decision-october-2026]."
+        }
+      ]
+    },
+    "diario": [
+      {
+        "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "esempio": "Gli attacchi con droni a Kharkiv e le dichiarazioni di Volodymyr Zelenskyy vanno trattati come fatti riportati o dichiarazioni di parte [240dee86f648c83e47, f3bb937c2c9dece2ed]."
+      },
+      {
+        "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "esempio": "I valori indicati come n.d. o non presenti nei campi ufficiali dei prezzi spot e macro richiedono il controllo incrociato e l'uso di null [FRED · SP500, Gold API]."
+      },
+      {
+        "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "esempio": "Esclusione di righe con etichette non conformi rilevate dai controlli di validazione Python [validazione Python]."
+      },
+      {
+        "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+        "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+        "esempio": "Se persistono le tensioni in Medio Oriente e Ucraina, allora i prezzi spot dell'oro mantengono supporto sopra i livelli correnti."
+      }
+    ],
+    "metriche": {
+      "previsioni_valutate": 0,
+      "brier": null
+    }
+  },
+  "agent_audit": [
+    {
+      "role": "geopolitica",
+      "status": "ok"
+    },
+    {
+      "role": "macro",
+      "status": "error",
+      "message": "macro: output non valido dopo un solo tentativo di riparazione: LLMError"
+    },
+    {
+      "role": "difesa",
+      "status": "ok"
+    },
+    {
+      "role": "capo_desk",
+      "status": "ok"
+    },
+    {
+      "role": "verificatore",
+      "status": "ok"
+    },
+    {
+      "role": "apprendimento",
+      "status": "ok"
+    },
+    {
+      "role": "revisore_finale",
+      "status": "ok"
+    }
+  ],
+  "sources": [
+    {
+      "id": "be68b7b9c707cbe5aa",
+      "title": "From a seed in China to the ‘backdrop for countless love stories’: a ginkgo’s 167-year journey to Victorian tree of the year",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/backdrop-for-countless-local-love-stories-geelong-gingko-named-victorian-tree-of-the-year",
+      "published_at": "2026-10-28T05:32:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f3bb937c2c9dece2ed",
+      "title": "Trump continues midterm campaign blitz in Mississippi amid outcry over racist, Islamophobic attacks – as it happened",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
+      "published_at": "2026-10-27T01:55:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "07e2658a315ed274a0",
+      "title": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
+      "published_at": "2026-10-26T09:52:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "da213e78a05f695190",
+      "title": "Morning news brief",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6012226/morning-news-brief",
+      "published_at": "2026-10-28T08:47:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "240dee86f648c83e47",
+      "title": "Elderly women and children survive Russian attack on Kharkiv",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/elderly-women-and-children-survive-russian-attack-on-kharkiv?traffic_source=rss",
+      "published_at": "2026-10-28T07:35:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "766594dacd376ec76b",
+      "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
+      "published_at": "2026-10-28T01:03:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5d3229406ad73ba1be",
+      "title": "Arab parties projected to win 18 seats in Israel parliamentary election",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
+      "published_at": "2026-10-28T00:43:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2c60edaad54d0b607b",
+      "title": "Smotrich dances in Israel despite far-right decline",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/smotrich-dances-in-israel-despite-far-right-decline?traffic_source=rss",
+      "published_at": "2026-10-27T23:03:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8ff349c2d24df70ae4",
+      "title": "Israel election: Netanyahu and Eisenkot battle to form government after deadlock",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock",
+      "published_at": "2026-10-27T22:58:53Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fc2112a7de20a820a5",
+      "title": "‘Go home, Ben-Gvir’; Arab Bloc celebrates record turnout in Israel election",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/go-home-ben-gvir-arab-bloc-celebrates-record-turnout-in-israel-election?traffic_source=rss",
+      "published_at": "2026-10-27T22:31:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2094603219c5acd37a",
+      "title": "Bibi's moment of truth: Israel votes in first general election since October 7",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261027-bibi-s-moment-of-truth-israel-votes-in-first-general-election-since-october-7",
+      "published_at": "2026-10-27T21:26:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "675b07197ea41b8aa1",
+      "title": "Eisenkot, 'risultati preliminari indicano chiara sfiducia per governo Netanyahu'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/27/eisenkot-risultati-preliminari-indicano-chiara-sfiducia-per-governo-netanyahu_cf4b18c9-c57e-4d4a-a20e-3ef0aceeb3d2.html",
+      "published_at": "2026-10-27T20:33:07Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ef731ff7fd47d122b7",
+      "title": "Legacy of 7 October looms large as a divided Israel goes to the polls in record numbers",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/27/legacy-of-7-october-looms-large-as-a-divided-israel-goes-to-the-polls-in-record-numbers",
+      "published_at": "2026-10-27T19:47:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f2b7e549b06e964e88",
+      "title": "Netanyahu govt has 'attacked' Israeli judicial system, Supreme Court and democratic institutions",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/netanyahu-govt-has-attacked-israeli-judicial-system-supreme-court-and-democratic-institutions",
+      "published_at": "2026-10-27T19:44:07Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8a17ddee2b89012c20",
+      "title": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+      "published_at": "2026-10-27T17:43:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "075b175bb4b8c2ac14",
+      "title": "Israelis vote in a tense election: What's at stake?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israelis-vote-in-a-tense-election-what-s-at-stake",
+      "published_at": "2026-10-27T16:59:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d66681ca47f2e41657",
+      "title": "Israel elections: voter turnout reaches 55% by 4pm local time",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-elections-voter-turnout-reaches-55-by-4pm-local-time",
+      "published_at": "2026-10-27T16:52:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "41d41ae1b6f4f55135",
+      "title": "Israel votes in decisive election: What happens after polls close?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261027-israel-s-unique-political-system-what-happens-after-polls-close",
+      "published_at": "2026-10-27T14:55:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8f25fca0a7dd4c503f",
+      "title": "Turnout high as Israeli voters deliver verdict on Netanyahu",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/turnout-high-as-israeli-voters-deliver-verdict-on-netanyahu",
+      "published_at": "2026-10-27T14:45:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "904e5e39093ec0fcbc",
+      "title": "Israel: Netanyahu supporters gather as PM votes",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-netanyahu-supporters-gather-as-pm-votes",
+      "published_at": "2026-10-27T14:37:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1f759965c5eef6190a",
+      "title": "Lebanon’s lost olive season: harvesting olives under drones and warplanes",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/27/lebanons-lost-olive-season-harvesting-olives-under-drones-and-warplanes?traffic_source=rss",
+      "published_at": "2026-10-27T13:54:43Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a1abc3f9a2720bfb88",
+      "title": "Israeli election: A referendum on 'Bibi' Netanyahu?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/press-review/20261027-israeli-election-a-referendum-on-bibi-netanyahu",
+      "published_at": "2026-10-27T12:52:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4032d1f0e85ba1d235",
+      "title": "Localised Russia-Ukraine ceasefire starts in Ukrainian town facing starvation",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261027-localised-russia-ukraine-ceasefire-starts-ukrainian-town-facing-starvation",
+      "published_at": "2026-10-27T12:34:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8d2d84939fdb0842fb",
+      "title": "Algeria to deploy army units to Niger to protect economic interests",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261027-algeria-deploys-army-units-to-niger-to-protect-economic-interests",
+      "published_at": "2026-10-27T11:28:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "366ab3f0555d7d341e",
+      "title": "Netherlands pulls out of Eurovision again over Israel participation",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T11:23:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "68760357dae1565df0",
+      "title": "Turnout so far highest in decades as Israelis vote in pivotal election",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T11:11:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4fb390542ca79fa1d1",
+      "title": "Israelis vote in first national election since October 7 attack",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israelis-vote-in-first-national-election-since-october-7-attack",
+      "published_at": "2026-10-27T10:41:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6169c5234f96f8ef1e",
+      "title": "Netanyahu's political survival on the line as Israel heads to the polls",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/netanyahu-s-political-survival-on-the-line-as-israel-heads-to-the-polls",
+      "published_at": "2026-10-27T10:14:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e2166d0123777dfc7f",
+      "title": "Israeli elections: voters turnout reaches '16.7%' four hours after polls open",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israeli-elections-voters-turnout-reaches-16-7-four-hours-after-polls-open",
+      "published_at": "2026-10-27T10:08:12Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "202d63796cf4354d95",
+      "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "published_at": "2026-10-27T05:26:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "192ffabe5dc9fdba4e",
+      "title": "A quick guide to Israel's high-stakes elections",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
+      "published_at": "2026-10-27T04:54:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1366adca9dd8dd3333",
+      "title": "Iran, Saudi, Turkiye and Pakistan agree to more talks amid Houthi attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
+      "published_at": "2026-10-27T04:54:26Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9b437bd1bfcccba6a8",
+      "title": "Israelis vote in tense election seen as a referendum on Netanyahu",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261027-israel-election-2026-netanyahu-october-7",
+      "published_at": "2026-10-27T04:12:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f7d7802640b17d6480",
+      "title": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
+      "published_at": "2026-10-26T19:21:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "46bd0cf2ac4404f02c",
+      "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
+      "published_at": "2026-10-26T17:27:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5c54b3b2fb814f9a71",
+      "title": "Egyptian parliament authorises military aid for Saudi Arabia",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+      "published_at": "2026-10-26T15:41:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e4e69268059151b899",
+      "title": "Will Netanyahu's security promise win him this election?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261026-will-netanyahu-s-security-promise-win-him-this-election",
+      "published_at": "2026-10-26T13:52:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a0b7e6d5617441d41e",
+      "title": "Israel braces for national elections seen as a referendum on Netanyahu",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-braces-for-national-elections-seen-as-a-referendum-on-netanyahu",
+      "published_at": "2026-10-26T12:35:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7386744371127ffeda",
+      "title": "A look at the main issues in Israeli elections seen as a referendum on Netanyahu",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261026-a-look-at-the-main-issues-in-israeli-elections-seen-as-a-referendum-on-netanyahu",
+      "published_at": "2026-10-26T11:59:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4ab3b0f5c79b139dbf",
+      "title": "Israeli election seen as a referendum: For or against Netanyahu?",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/focus/20261026-israeli-election-seen-as-a-referendum-for-or-against-netanyahu",
+      "published_at": "2026-10-26T11:40:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3fe226936dc440e727",
+      "title": "Algeria to send troops to Niger in first foreign deployment in over 50 years",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years",
+      "published_at": "2026-10-26T10:10:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c96a758f7a4c921fdf",
+      "title": "Israel: The economic challenges ahead",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-the-economic-challenges-ahead",
+      "published_at": "2026-10-28T09:43:01Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5b6d1ed557e3abbc54",
+      "title": "Israel election: There's no clear winner",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/israel-election-there-s-no-clear-winner",
+      "published_at": "2026-10-28T09:40:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "dcd1cdb2ad08bbd2c0",
+      "title": "UK’s Streeting to visit Berlin for defense talks with Pistorius",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/wes-streeting-to-visit-berlin-for-defense-talks-with-boris-pistorius/",
+      "published_at": "2026-10-28T09:39:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5aaf7b3f3fd5426212",
+      "title": "Israeli right makes provocative statements as election votes are counted",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/israeli-right-makes-provocative-statements-as-election-votes-are-counted?traffic_source=rss",
+      "published_at": "2026-10-28T09:30:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0d090edbd8a77a420b",
+      "title": "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T09:25:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9f9ddbd1d3df89acce",
+      "title": "Israel election results live: vote count continues as exit polls suggest no clear winner",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+      "published_at": "2026-10-28T09:22:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8c9badb38af7492a3f",
+      "title": "Israel: Netanyahu and Eisenkot both pledge to form government",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261028-israel-netanyahu-and-eisenkot-both-pledge-to-form-government",
+      "published_at": "2026-10-28T09:06:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5521ab994d659d205e",
+      "title": "China says it takes Mbappe’s apology ‘seriously’ after Mao dictator comment",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/28/china-says-it-takes-mbappes-apology-seriously-after-mao-dictator-comment?traffic_source=rss",
+      "published_at": "2026-10-28T08:57:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b68081b35377518b20",
+      "title": "Scrutinato oltre il 72% dei voti in Israele, lo schieramento di Netanyahu ottiene 54 seggi",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/28/scrutinato-oltre-il-72-dei-voti-in-israele-lo-schieramento-di-netanyahu-ottiene-54-seggi_74766689-3c93-4a0a-8778-21bf55ce3a7c.html",
+      "published_at": "2026-10-28T08:51:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a052294f9d322586f6",
+      "title": "Octopus Energy boss on standing charges",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/videos/cqe9lmgdnz45o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T08:36:45Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0df3783ef077ec270f",
+      "title": "Khouri: Strong Israel-Arab bloc result does not mean Israel has changed",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/khouri-strong-israel-arab-bloc-result-does-not-mean-israel-has-changed?traffic_source=rss",
+      "published_at": "2026-10-28T08:35:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "111dac83fdad742448",
+      "title": "Is AIPAC losing its grip on US politics?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/is-aipac-losing-its-grip-on-us-politics?traffic_source=rss",
+      "published_at": "2026-10-28T08:29:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7022cfaa4bba50a8e2",
+      "title": "Israele, al 72,4% dello scrutinio blocco Netanyahu con 54 seggi",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/israele-al-724-dello-scrutinio-blocco-netanyahu-con-54-seggi_8d45bac9-43fe-4387-9a67-2d3444e57e9c.html",
+      "published_at": "2026-10-28T08:25:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "568250dab7c7d50db0",
+      "title": "Russia is selling Africa dependence disguised as partnership",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/28/russia-is-selling-africa-dependence-disguised-as-partnership?traffic_source=rss",
+      "published_at": "2026-10-28T07:25:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9ac70f9e09aa0a9ce5",
+      "title": "Barcelona handed $670 fine for approaching Atletico’s Alvarez",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/28/barcelona-602-euros-fine-julian-alvarez-transfer-football?traffic_source=rss",
+      "published_at": "2026-10-28T07:14:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b7bb4406a25c77eacd",
+      "title": "Elezioni Israele, al 50% dei seggi scrutinati avanti schieramento Netanyahu",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/elezioni-israele-al-50-dei-seggi-scrutinati-avanti-schieramento-netanyahu_76ebeebb-61f3-46cf-8d8c-0f49a37fc04d.html",
+      "published_at": "2026-10-28T07:01:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3fa47bf09db23980db",
+      "title": "Belgrado, 'assale poliziotto davanti ambasciata Israele, ucciso'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/belgrado-assale-poliziotto-davanti-ambasciata-israele-ucciso_69f3d5ff-a817-43d5-b802-9855cc0724ac.html",
+      "published_at": "2026-10-28T07:00:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2d7b36531fd64e0c78",
+      "title": "Arab parties could hold key as Netanyahu and Eisenkot set to fall short of victory",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T06:53:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a1b778b5da3ab64849",
+      "title": "Coalition MP ejected from question time after swearing at PM – as it happened",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb",
+      "published_at": "2026-10-28T06:35:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b1a7afef20a38eac68",
+      "title": "Australia must ‘re-win the argument for democratic politics’ in wake of Haines incident, Alastair Campbell says",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/australia-democratic-politics-argument-helen-haines-incident-alastair-campbell-ntwnfb",
+      "published_at": "2026-10-28T06:24:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d898818b237acb3319",
+      "title": "Trump says he's ending restrictions on climate-warming methane from oil drilling",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
+      "published_at": "2026-10-28T06:15:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fa23179df0c7aae9dd",
+      "title": "Netanyahu outlines achievements, future plans as Likud leads Israeli polls",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/netanyahu-outlines-achievements-future-plans-as-likud-leads-polls?traffic_source=rss",
+      "published_at": "2026-10-28T06:02:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e95bb436d43a261939",
+      "title": "Trump, 'con il mio sostegno Netanyahu passato dal ko alla vittoria'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/trump-con-il-mio-sostegno-netanyahu-passato-dal-ko-alla-vittoria_2937ee3f-cf20-42fb-a223-0364adf2af18.html",
+      "published_at": "2026-10-28T05:59:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3b3fff4305e382438c",
+      "title": "Jim Chalmers is blaming Australia’s accelerating inflation on Trump – but voters aren’t buying it",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/jim-chalmers-is-blaming-australias-accelerating-inflation-on-trump-but-voters-arent-buying-it",
+      "published_at": "2026-10-28T05:58:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "64bd6ae131acbc8e83",
+      "title": "Trump, 'molto presto' un incontro tra Putin e Zelensky",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/28/trump-molto-presto-un-incontro-tra-putin-e-zelensky_3f32aa42-ece4-4934-8ca0-a6b19058b9a9.html",
+      "published_at": "2026-10-28T05:51:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ce0cb985e4fc4384ab",
+      "title": "Israele: a metà dei seggi scrutinati Likud in testa con il 20,81%",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/israele-a-meta-dei-seggi-scrutinati-likud-in-testa-con-il-2081_040d3c06-e1ca-4540-90b4-046b806a111d.html",
+      "published_at": "2026-10-28T05:43:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "06d2c1dde5ead6a7b8",
+      "title": "The Putin call dividing EU leaders",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-putin-call-dividing-eu-leaders/",
+      "published_at": "2026-10-28T05:05:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c12218b909744815b8",
+      "title": "Gulf states working on multipart peace deal to avert renewal of US-Iran war",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+      "published_at": "2026-10-28T05:00:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8b7c7a1c37d3115e1b",
+      "title": "King acknowledges 'suffering of the past' as Caribbean tour begins",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv8ld22z1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T04:32:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "276383e3c46d63a905",
+      "title": "Mbappe faces backlash in China for meme fiasco",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
+      "published_at": "2026-10-28T04:28:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6281deaf3267840c93",
+      "title": "Watch: What happens now after close vote in Israeli election?",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/videos/cm79p5pxqey2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T04:22:59Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "275cbc5f16dfe773e9",
+      "title": "Mahmoud Khalil credits Palestinian activism for reshaping US politics",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/mahmoud-khalil-credits-palestinian-activism-for-reshaping-us-politics?traffic_source=rss",
+      "published_at": "2026-10-28T04:13:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3515b11a7189020129",
+      "title": "Major Israeli TV networks revise polling projections – as it happened",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+      "published_at": "2026-10-28T04:08:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2e3a5708ee832abe59",
+      "title": "Israele: ad un quarto dei seggi scrutinati Likud in testa con il 23,36%",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/israele-ad-un-quarto-dei-seggi-scrutinati-likud-in-testa-con-il-2336_812db4cb-f6d2-4a8f-80aa-2a91a2e4f5a6.html",
+      "published_at": "2026-10-28T02:31:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "faecb5eb1321f41387",
+      "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+      "published_at": "2026-10-28T01:45:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "04162fd33f26b9af22",
+      "title": "Netanyahu, 'attesa, ma è chiaro che Likud partito più grande'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/netanyahu-attesa-ma-e-chiaro-che-likud-partito-piu-grande_a0017d27-b922-4b68-badf-bf2875fc194a.html",
+      "published_at": "2026-10-28T01:29:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8f27688101a70e4ca8",
+      "title": "Criminal case against alleged Bondi terrorist delayed amid ‘unprecedented’ investigation",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/criminal-case-against-alleged-bondi-guman-delayed-amid-unprecedented-investigation-ntwnfb",
+      "published_at": "2026-10-28T01:18:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b2498655a027eee0f9",
+      "title": "Netanyahu, Eisenkot camps clash over Israel election projections",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss",
+      "published_at": "2026-10-28T00:43:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1940f101ce0468e788",
+      "title": "Israel’s Eisenkot says country voted for change",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israels-eisenkot-says-country-voted-for-change?traffic_source=rss",
+      "published_at": "2026-10-28T00:30:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f74bc185a766c7f23b",
+      "title": "Rise of Palestinian parties in Knesset will redraw Israel’s political landscape",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/27/palestinian-parties-knesset-election-exit-polls-redraw-israel-political-landscape",
+      "published_at": "2026-10-27T23:57:50Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e094456955a41b59b3",
+      "title": "Gaza’s women filmmakers turn pain into cinema as new academy launches",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/gazas-women-filmmakers-turn-pain-into-cinema-as-new-academy-launches?traffic_source=rss",
+      "published_at": "2026-10-27T23:35:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bf8be99a25db8196a0",
+      "title": "A bad day for Ben-Gvir as he addresses his supporters",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/a-bad-day-for-ben-gvir-as-he-addresses-his-supporters?traffic_source=rss",
+      "published_at": "2026-10-27T23:16:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "41153e4364db0049b2",
+      "title": "China's families are now supporting more old people than kids",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T23:16:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "21586a29c7f98fa3c0",
+      "title": "China's families are now supporting more old people than kids",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T23:16:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1019b2963d766415d5",
+      "title": "King Charles confronts calls for slavery apology during Caribbean tour",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/americas/20261027-king-charles-slavery-apology-caribbean-tour",
+      "published_at": "2026-10-27T23:14:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0b2dd94d6fe6bdf841",
+      "title": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
+      "published_at": "2026-10-27T23:07:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b9f83862bc49672b88",
+      "title": "Israel election results: No clear winner projected, what’s next?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/no-clear-mandate-projected-in-israel-election-whats-next?traffic_source=rss",
+      "published_at": "2026-10-27T23:06:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "defcfad211d2f5a4ec",
+      "title": "Arab towns in Israel celebrate historic Knesset gains with fireworks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/arab-towns-in-israel-celebrate-historic-knesset-gains-with-fireworks?traffic_source=rss",
+      "published_at": "2026-10-27T22:56:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "87692aa1f478f15ab3",
+      "title": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+      "published_at": "2026-10-27T22:29:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8f8527f0e8136ba274",
+      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T22:11:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "26311828d48569eb14",
+      "title": "Israel: First exit polls show no clear winner, Arab parties make gains",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261027-israel-first-exit-polls-show-no-clear-winner-arab-parties-make-gains",
+      "published_at": "2026-10-27T21:41:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d4b5e02d92cba7f15f",
+      "title": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
+      "published_at": "2026-10-27T21:28:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ccbc6c13ded0eab6fd",
+      "title": "Forever Wars: Why can’t America stop?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/lets-focus/2026/10/27/forever-wars-why-cant-america-stop?traffic_source=rss",
+      "published_at": "2026-10-27T21:21:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "75b4327015138c8582",
+      "title": "Will players in the Gulf establish a new security framework?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/27/will-players-in-the-gulf-establish-a-new-security-framework?traffic_source=rss",
+      "published_at": "2026-10-27T21:14:12Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fe6f59569996ce891e",
+      "title": "Dream postponed: Hebron groom caught in Israeli military lockdown",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/27/dream-postponed-hebron-groom-caught-in-israeli-military-lockdown?traffic_source=rss",
+      "published_at": "2026-10-27T21:12:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "03e09fa1fc50abebf2",
+      "title": "Israel election too close to call as exit polls give Netanyahu bloc slightly fewer seats",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/27/israel-election-too-close-to-call-as-exit-polls-give-netanyahu-bloc-slightly-fewer-seats",
+      "published_at": "2026-10-27T20:56:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a7150b3bc582fe3b51",
+      "title": "Israel's voter turnout soars as Netanyahu faces a tight election",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+      "published_at": "2026-10-27T20:45:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f6ee2b1f1553f25f3a",
+      "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T20:42:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a5f6c9438c59a1d79d",
+      "title": "Netanyahu rallies Likud voters with megaphone in shopping mall",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/netanyahu-rallies-likud-voters-with-megaphone-in-shopping-mall?traffic_source=rss",
+      "published_at": "2026-10-27T20:38:17Z",
+      "attribution": "Non verificato"
+    }
+  ],
+  "indicatori_python": {
+    "global_risk": {
+      "value": null,
+      "coverage": "incompleto"
+    },
+    "market_stress": {
+      "value": 27,
+      "coverage": "3/5",
+      "experimental": false,
+      "method": "PASSO 3: media delle componenti disponibili; soltanto se almeno 3 input verificati e non vecchi",
+      "missing": [
+        "Brent",
+        "DXY"
+      ]
+    },
+    "war_escalation": {
+      "value": 80,
+      "coverage": 2,
+      "note": "Tensioni IA ammesse soltanto con due testate distinte; NON prova di indipendenza",
+      "front_scores": {
+        "israele_medio_oriente": 65,
+        "russia_ucraina": 75
+      }
+    },
+    "macro_risk": {
+      "value": null,
+      "note": "n.d. senza confronti macro ufficiali e verificati"
+    },
+    "conviction": {
+      "value": 24,
+      "note": "Misura di completezza, NON probabilità di verità",
+      "missing_quotes": 7
+    }
+  },
+  "source_exclusions": [],
+  "forecast_proposals_unpublished": [
+    {
+      "evento": "Il tasso di riferimento FOMC rimarrà invariato nel range attuale nella riunione del 2026-10-28.",
+      "conta": "Comunicato ufficiale della Federal Reserve.",
+      "non_conta": "Speculazioni e dichiarazioni non ufficiali di singoli membri.",
+      "riferimento_valore": null,
+      "riferimento_strumento": "FOMC Rate Decision",
+      "riferimento_fonte": "Federal Reserve",
+      "riferimento_ora": "20:00",
+      "scadenza": "2026-10-28T20:30:00Z",
+      "criterio": "Verifica del comunicato ufficiale FOMC.",
+      "fonte_esito": "Federal Reserve",
+      "probabilita": 80,
+      "source_ids": [
+        "fomc-rate-decision-october-2026"
+      ]
+    }
+  ],
+  "disclaimer": "Le fonti RSS non sono prova indipendente; indicatori e citazioni mancanti restano n.d. Nessun segnale di trading.",
+  "forecast_validation": {
+    "accepted_ids": [],
+    "rejected": [
+      {
+        "proposal": 1,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      }
+    ]
+  }
+}

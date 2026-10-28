@@ -543,5 +543,100 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T11:45:19.118394+02:00",
+    "status": "partial",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "error",
+        "message": "macro: output non valido dopo un solo tentativo di riparazione: LLMError"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "La decisione sui tassi FOMC",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "La riunione della Federal Reserve definisce i tassi di riferimento statunitensi. Secondo i dati riportati, la decisione è attesa per oggi alle 20:00 ora di Atene [fomc-rate-decision-october-2026]. Un tasso stabile influisce direttamente sui mercati valutari e obbligazionari [fomc-rate-decision-october-2026].",
+        "esempio_oggi": "Attesa per la riunione della Federal Reserve prevista per oggi alle 20:00 ora di Atene [fomc-rate-decision-october-2026].",
+        "domanda": "Cosa smentirebbe la previsione di tassi invariati?",
+        "risposta": "Un comunicato ufficiale della Federal Reserve che annuncia una variazione dei tassi [fomc-rate-decision-october-2026].",
+        "parole": [
+          {
+            "termine": "FOMC",
+            "spiegazione": "Comitato della Federal Reserve che decide la politica monetaria [fomc-rate-decision-october-2026]."
+          },
+          {
+            "termine": "Tassi",
+            "spiegazione": "Il costo del denaro stabilito dalla banca centrale [fomc-rate-decision-october-2026]."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi con droni a Kharkiv e le dichiarazioni di Volodymyr Zelenskyy vanno trattati come fatti riportati o dichiarazioni di parte [240dee86f648c83e47, f3bb937c2c9dece2ed]."
+        },
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "I valori indicati come n.d. o non presenti nei campi ufficiali dei prezzi spot e macro richiedono il controllo incrociato e l'uso di null [FRED · SP500, Gold API]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Esclusione di righe con etichette non conformi rilevate dai controlli di validazione Python [validazione Python]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se persistono le tensioni in Medio Oriente e Ucraina, allora i prezzi spot dell'oro mantengono supporto sopra i livelli correnti."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
