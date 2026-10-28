@@ -96,16 +96,16 @@
       "name": "US Treasury 2-Year FRN Auction 2026-10-28 (91282CRS2)",
       "country": "US",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "17:30",
       "release_at_utc": "2026-10-28T15:30:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "high discount margin 0.038; bid-to-cover 3.05",
       "consensus": null,
       "previous": null,
       "unit": null,
       "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -114,16 +114,16 @@
       "name": "US Treasury 17-Week Bill Auction 2026-10-28 (912797XB8)",
       "country": "US",
       "impact": "medium",
-      "state": "confirmed",
+      "state": "released",
       "time_athens": "17:30",
       "release_at_utc": "2026-10-28T15:30:00Z",
       "time_precision": "minute",
-      "actual": null,
+      "actual": "high rate 4.140%; bid-to-cover 3.08",
       "consensus": null,
       "previous": null,
       "unit": null,
       "source": "U.S. Department of the Treasury",
-      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4050.0,
-    "as_of": "2026-10-28T13:34:58Z",
+    "value": 4040.800049,
+    "as_of": "2026-10-28T16:40:28Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4049.0,
-    "as_of": "2026-10-28T13:34:20.590000Z",
+    "value": 4040.800049,
+    "as_of": "2026-10-28T16:40:39.503000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1851,10 +1851,10 @@
   "defense": {},
   "gold_levels": {
     "instrument": "XAU/USD spot",
-    "h": 4077.9,
-    "l": 4070.9,
-    "c": 4070.9,
-    "wh": 4077.9,
+    "h": 4079.4,
+    "l": 4001.6,
+    "c": 4074.6,
+    "wh": 4079.4,
     "wl": 3990.9,
     "day": "2026-10-27",
     "week_start": "2026-10-26",
@@ -1864,48 +1864,44 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-28T13:35:14.081466Z",
-    "xaus": "2026-10-28T13:35:14.081466Z",
-    "gold_levels": "2026-10-28T02:19:54.582097Z",
-    "ecb": "2026-10-28T09:45:17.170084Z",
-    "calendar": "2026-10-28T09:45:17.170084Z",
-    "cot": "2026-10-27T11:06:00.709077Z"
+    "gold_api": "2026-10-28T16:40:39.954076Z",
+    "xaus": "2026-10-28T16:40:39.954076Z",
+    "gold_levels": "2026-10-28T16:40:39.954076Z",
+    "ecb": "2026-10-28T16:40:39.954076Z",
+    "calendar": "2026-10-28T16:40:39.954076Z",
+    "cot": "2026-10-28T16:40:39.954076Z"
   },
-  "last_refresh": "2026-10-28T13:35:14.081466Z",
+  "last_refresh": "2026-10-28T16:40:39.954076Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-28T13:35:14.081466Z",
-      "last_fetched": "2026-10-28T09:45:17.170084Z"
+      "status": "ok",
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-28T13:35:14.081466Z",
-      "last_fetched": "2026-10-28T09:45:17.170084Z"
+      "status": "ok",
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-28T13:35:14.081466Z"
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-28T13:35:14.081466Z"
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     },
     "cot": {
       "name": "cot",
-      "status": "cached",
-      "checked_at": "2026-10-28T13:35:14.081466Z",
-      "last_fetched": "2026-10-27T11:06:00.709077Z"
+      "status": "ok",
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "cached",
-      "checked_at": "2026-10-28T13:35:14.081466Z",
-      "last_fetched": "2026-10-28T02:19:54.582097Z"
+      "status": "ok",
+      "checked_at": "2026-10-28T16:40:39.954076Z"
     }
   },
   "ecb": {
@@ -1915,12 +1911,12 @@
     "type": "fx",
     "source": "BCE · EXR/D.USD.EUR.SP00.A",
     "instrument": "EUR/USD spot reference ECB",
-    "value": 1.115,
-    "previous": 1.1188,
-    "change": -0.0038,
-    "change_pct": -0.3396,
-    "observation_date": "2026-10-27",
-    "previous_date": "2026-10-26",
+    "value": 1.1133,
+    "previous": 1.115,
+    "change": -0.0017,
+    "change_pct": -0.1525,
+    "observation_date": "2026-10-28",
+    "previous_date": "2026-10-27",
     "stale": false,
     "delayed": true,
     "error": null,
