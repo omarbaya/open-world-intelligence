@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generated_local": "29/10/2026 13:49 EET",
+  "generated_local": "29/10/2026 15:46 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -40,6 +40,14 @@
     }
   ],
   "topics": {
+    "Altre notizie": [
+      {
+        "title": "Monetary policy decisions",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+        "published_at": "2026-10-29T13:15:00Z"
+      }
+    ],
     "Medio Oriente": [
       {
         "title": "Israel’s election rhetoric: What candidates said, and how they performed",
@@ -72,15 +80,19 @@
         "published_at": "2026-10-28T10:17:54Z"
       }
     ],
-    "Altre notizie": [
-      {
-        "title": "Trump and Obama trade barbs on campaign trail in final days before midterm election – US politics live",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-        "published_at": "2026-10-29T11:28:32Z"
-      }
-    ],
     "Russia–Ucraina": [
+      {
+        "title": "Russian drone attack on Ukrainian train station kills at least 13, officials say",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T12:38:40Z"
+      },
+      {
+        "title": "At least 13 killed in 'horrific' Russian drone strike at Ukraine train station",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/europe/20261029-at-least-13-killed-in-horrific-russian-drone-strike-at-ukraine-train-station",
+        "published_at": "2026-10-29T11:36:35Z"
+      },
       {
         "title": "How AI drones are influencing the course of the Ukraine war",
         "source": "NPR",
@@ -98,18 +110,6 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/world/2026/oct/28/vladimir-putin-elon-musk-genius-russia-starlink",
         "published_at": "2026-10-28T18:32:38Z"
-      },
-      {
-        "title": "Zelenskyy defends leaders of Finland and Norway over Putin talks",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/volodymyr-zelenskyy-defend-finland-norway-alexander-stubb-jonas-gahr-store-vladimir-putin-russia-ukraine/",
-        "published_at": "2026-10-28T11:51:33Z"
-      },
-      {
-        "title": "Elderly women and children survive Russian attack on Kharkiv",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/elderly-women-and-children-survive-russian-attack-on-kharkiv?traffic_source=rss",
-        "published_at": "2026-10-28T07:35:20Z"
       }
     ],
     "Macro e banche centrali": [
@@ -164,16 +164,48 @@
         "published_at": "2026-10-28T10:18:40Z"
       },
       {
+        "title": "Island Energy: No plans to remove gas standing charge",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cwy7l1375d74o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T13:39:54Z"
+      },
+      {
         "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
         "source": "The Guardian",
         "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
         "published_at": "2026-10-29T10:31:55Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Israel election results live: president warns against ‘tarnishing an entire community’ in defence of Palestinian vote",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+        "published_at": "2026-10-29T13:13:16Z"
       },
       {
-        "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
-        "published_at": "2026-10-29T09:10:22Z"
+        "title": "Why is Russia sending fighter jets and air defences to Ethiopia?",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/29/why-is-russia-sending-fighter-jets-and-air-defences-to-ethiopia?traffic_source=rss",
+        "published_at": "2026-10-29T12:32:49Z"
+      },
+      {
+        "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T12:27:31Z"
+      },
+      {
+        "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T11:25:16Z"
+      },
+      {
+        "title": "Budget 2026: We answer your questions",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/",
+        "published_at": "2026-10-29T08:26:44Z"
       }
     ],
     "Cina–Taiwan": [
@@ -196,51 +228,31 @@
         "published_at": "2026-10-28T12:17:34Z"
       },
       {
+        "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T12:49:17Z"
+      },
+      {
         "title": "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/sports/2026/10/29/kylian-mbappe-real-madrid-and-la-liga-face-long-redemption-road-in-china?traffic_source=rss",
         "published_at": "2026-10-29T10:30:25Z"
-      },
-      {
-        "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
-        "published_at": "2026-10-29T08:14:34Z"
-      }
-    ],
-    "Mercati e difesa": [
-      {
-        "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-29T09:51:06Z"
-      },
-      {
-        "title": "Budget 2026: We answer your questions",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/",
-        "published_at": "2026-10-29T08:26:44Z"
-      },
-      {
-        "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-29T08:23:31Z"
-      },
-      {
-        "title": "Defence backed claim that social media footage of public servants could invite bullying",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/29/defence-official-senate-estimates-social-media-public-servants-bullying-ntwnfb",
-        "published_at": "2026-10-29T05:35:38Z"
-      },
-      {
-        "title": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
-        "published_at": "2026-10-29T05:04:35Z"
       }
     ],
     "Golfo e Mar Rosso": [
+      {
+        "title": "Fighting rages near Yemen’s Taiz as UN urges humanitarian access",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/29/fighting-rages-near-yemens-taiz-as-un-urges-humanitarian-access?traffic_source=rss",
+        "published_at": "2026-10-29T12:46:29Z"
+      },
+      {
+        "title": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss",
+        "published_at": "2026-10-29T11:41:44Z"
+      },
       {
         "title": "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
         "source": "Al Jazeera",
@@ -271,17 +283,17 @@
     },
     {
       "name": "VIX",
-      "value": 17.52,
+      "value": 16.91,
       "unit": "punti",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "stale": false
     },
     {
-      "name": "EUR/USD fixing BCE",
-      "value": 1.1133,
+      "name": "EUR/USD (fixing)",
+      "value": 1.1199,
       "unit": "USD per EUR",
-      "date": "2026-10-28",
-      "stale": false
+      "date": "2026-10-23",
+      "stale": true
     },
     {
       "name": "Treasury 10 anni",
@@ -310,6 +322,13 @@
       "unit": "USD/barile",
       "date": "2026-10-27",
       "stale": false
+    },
+    {
+      "name": "Oro XAU/USD",
+      "value": 4029.0,
+      "unit": "USD/oncia",
+      "date": "2026-10-29",
+      "stale": true
     }
   ],
   "method": "Titoli originali classificati con regole trasparenti; non sostituisce l'analisi giornalistica né un analista umano.",
