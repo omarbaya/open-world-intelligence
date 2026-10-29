@@ -1,8 +1,15 @@
 {
   "date": "2026-10-29",
-  "generated_local": "29/10/2026 10:34 EET",
+  "generated_local": "29/10/2026 13:49 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
+    {
+      "title": "ECB President Lagarde to step down on 7 February 2027",
+      "source": "BCE · Comunicati",
+      "published_at": "2026-10-29T10:00:00Z",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "source": "Fed · Press releases",
@@ -30,17 +37,16 @@
       "published_at": "2026-10-28T05:32:13Z",
       "url": "https://www.theguardian.com/australia-news/2026/oct/28/backdrop-for-countless-local-love-stories-geelong-gingko-named-victorian-tree-of-the-year",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
-      "source": "The Guardian",
-      "published_at": "2026-10-29T06:00:26Z",
-      "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
     "Medio Oriente": [
+      {
+        "title": "Israel’s election rhetoric: What candidates said, and how they performed",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
+        "published_at": "2026-10-29T11:27:22Z"
+      },
       {
         "title": "Israeli settlers savagely attack journalists in occupied West Bank",
         "source": "Al Jazeera",
@@ -64,16 +70,23 @@
         "source": "BBC World",
         "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-10-28T10:17:54Z"
-      },
-      {
-        "title": "Morning news brief",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/28/nx-s1-6012226/morning-news-brief",
-        "published_at": "2026-10-28T08:47:33Z"
       }
     ],
-    "Altre notizie": [],
+    "Altre notizie": [
+      {
+        "title": "Trump and Obama trade barbs on campaign trail in final days before midterm election – US politics live",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+        "published_at": "2026-10-29T11:28:32Z"
+      }
+    ],
     "Russia–Ucraina": [
+      {
+        "title": "How AI drones are influencing the course of the Ukraine war",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/29/g-s1-147496/ukraine-ai-drones-war-russia",
+        "published_at": "2026-10-29T09:02:00Z"
+      },
       {
         "title": "Russia says more than 600 drones launched towards Moscow overnight",
         "source": "Al Jazeera",
@@ -97,111 +110,15 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/elderly-women-and-children-survive-russian-attack-on-kharkiv?traffic_source=rss",
         "published_at": "2026-10-28T07:35:20Z"
-      },
-      {
-        "title": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
-        "published_at": "2026-10-27T17:43:02Z"
-      }
-    ],
-    "Energia": [
-      {
-        "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
-        "published_at": "2026-10-29T06:00:26Z"
-      },
-      {
-        "title": "Bank of Canada raises interest rates for the first time in three years",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
-        "published_at": "2026-10-28T16:44:44Z"
-      },
-      {
-        "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-28T10:18:40Z"
-      },
-      {
-        "title": "Algeria to deploy army units to Niger to protect economic interests",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/video/20261027-algeria-deploys-army-units-to-niger-to-protect-economic-interests",
-        "published_at": "2026-10-27T11:28:05Z"
-      },
-      {
-        "title": "Shell profits double to $10.8bn as Iran war pushes up profit margin on oil",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
-        "published_at": "2026-10-29T08:00:37Z"
-      }
-    ],
-    "Cina–Taiwan": [
-      {
-        "title": "From a seed in China to the ‘backdrop for countless love stories’: a ginkgo’s 167-year journey to Victorian tree of the year",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/28/backdrop-for-countless-local-love-stories-geelong-gingko-named-victorian-tree-of-the-year",
-        "published_at": "2026-10-28T05:32:13Z"
-      },
-      {
-        "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/spotlight/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
-        "published_at": "2026-10-28T12:20:20Z"
-      },
-      {
-        "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/video/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
-        "published_at": "2026-10-28T12:17:34Z"
-      },
-      {
-        "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
-        "published_at": "2026-10-29T08:14:34Z"
-      },
-      {
-        "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
-        "published_at": "2026-10-29T08:03:00Z"
-      }
-    ],
-    "Mercati e difesa": [
-      {
-        "title": "Budget 2026: We answer your questions",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/",
-        "published_at": "2026-10-29T08:26:44Z"
-      },
-      {
-        "title": "Defence backed claim that social media footage of public servants could invite bullying",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/29/defence-official-senate-estimates-social-media-public-servants-bullying-ntwnfb",
-        "published_at": "2026-10-29T05:35:38Z"
-      },
-      {
-        "title": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
-        "published_at": "2026-10-29T05:04:35Z"
-      },
-      {
-        "title": "Hackers expose the identities of more than 40,000 DHS employees",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
-        "published_at": "2026-10-29T03:28:50Z"
-      },
-      {
-        "title": "Non-profit group leaks data of more than 40,000 homeland security workers",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/oct/28/homeland-security-data-leak",
-        "published_at": "2026-10-29T01:25:35Z"
       }
     ],
     "Macro e banche centrali": [
+      {
+        "title": "ECB President Lagarde to step down on 7 February 2027",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+        "published_at": "2026-10-29T10:00:00Z"
+      },
       {
         "title": "Federal Reserve issues FOMC statement",
         "source": "Fed · Press releases",
@@ -225,15 +142,111 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
         "published_at": "2026-10-28T19:05:44Z"
+      }
+    ],
+    "Energia": [
+      {
+        "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
+        "published_at": "2026-10-29T06:00:26Z"
       },
       {
-        "title": "Fed holds interest rates steady even as inflation remains stubborn",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
-        "published_at": "2026-10-28T18:04:42Z"
+        "title": "Bank of Canada raises interest rates for the first time in three years",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
+        "published_at": "2026-10-28T16:44:44Z"
+      },
+      {
+        "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-28T10:18:40Z"
+      },
+      {
+        "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
+        "published_at": "2026-10-29T10:31:55Z"
+      },
+      {
+        "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
+        "published_at": "2026-10-29T09:10:22Z"
+      }
+    ],
+    "Cina–Taiwan": [
+      {
+        "title": "From a seed in China to the ‘backdrop for countless love stories’: a ginkgo’s 167-year journey to Victorian tree of the year",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/backdrop-for-countless-local-love-stories-geelong-gingko-named-victorian-tree-of-the-year",
+        "published_at": "2026-10-28T05:32:13Z"
+      },
+      {
+        "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
+        "published_at": "2026-10-28T12:20:20Z"
+      },
+      {
+        "title": "Mbappé's China faux pas: When the sports world collides with the complexities of geopolitics",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261028-mbapp%C3%A9-s-china-faux-pas-when-the-sports-world-collides-with-the-complexities-of-geopolitics",
+        "published_at": "2026-10-28T12:17:34Z"
+      },
+      {
+        "title": "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/29/kylian-mbappe-real-madrid-and-la-liga-face-long-redemption-road-in-china?traffic_source=rss",
+        "published_at": "2026-10-29T10:30:25Z"
+      },
+      {
+        "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
+        "published_at": "2026-10-29T08:14:34Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T09:51:06Z"
+      },
+      {
+        "title": "Budget 2026: We answer your questions",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/",
+        "published_at": "2026-10-29T08:26:44Z"
+      },
+      {
+        "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T08:23:31Z"
+      },
+      {
+        "title": "Defence backed claim that social media footage of public servants could invite bullying",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/29/defence-official-senate-estimates-social-media-public-servants-bullying-ntwnfb",
+        "published_at": "2026-10-29T05:35:38Z"
+      },
+      {
+        "title": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
+        "published_at": "2026-10-29T05:04:35Z"
       }
     ],
     "Golfo e Mar Rosso": [
+      {
+        "title": "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/29/south-korea-captain-la-star-son-heung-min-backed-by-coach-amid-rift-rumour?traffic_source=rss",
+        "published_at": "2026-10-29T11:22:16Z"
+      },
       {
         "title": "Arabia Saudita, intercettato e distrutto un missile lanciato dagli Houthi",
         "source": "ANSA · Mondo",
@@ -245,24 +258,6 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
         "published_at": "2026-10-29T00:00:00Z"
-      },
-      {
-        "title": "Tajani, mi auguro che chi andrà al governo in Israele lavori per la pace",
-        "source": "ANSA · Mondo",
-        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/tajani-mi-auguro-che-chi-andra-al-governo-in-israele-lavori-per-la-pace_1727e28e-fc6e-4dfc-8c5a-02f65360fcbb.html",
-        "published_at": "2026-10-28T11:29:18Z"
-      },
-      {
-        "title": "Tajani, mi auguro che chi andrà al governo in Israele lavori per la pace",
-        "source": "ANSA · Mondo",
-        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/28/tajani-mi-auguro-che-chi-andra-al-governo-in-israele-lavori-per-la-pace_cacb78ad-5f59-4f33-aa17-dcce27be853e.html",
-        "published_at": "2026-10-28T11:29:17Z"
-      },
-      {
-        "title": "Piogge torrenziali e inondazioni nel Sinai, almeno un morto e un disperso",
-        "source": "ANSA · Mondo",
-        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/piogge-torrenziali-e-inondazioni-nel-sinai-almeno-un-morto-e-un-disperso_60d6d9d0-b7bc-4f18-9658-fa51c0997e55.html",
-        "published_at": "2026-10-28T10:20:23Z"
       }
     ]
   },
@@ -282,11 +277,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD (fixing)",
-      "value": 1.1199,
+      "name": "EUR/USD fixing BCE",
+      "value": 1.1133,
       "unit": "USD per EUR",
-      "date": "2026-10-23",
-      "stale": true
+      "date": "2026-10-28",
+      "stale": false
     },
     {
       "name": "Treasury 10 anni",

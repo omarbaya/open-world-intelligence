@@ -1,11 +1,28 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-10-29T08:34:05.359850Z",
+  "generated_at": "2026-10-29T11:49:28.950621Z",
   "timezone": "Europe/Athens",
-  "last_news_success": "2026-10-29T08:34:05.359850Z",
+  "last_news_success": "2026-10-29T11:49:28.950621Z",
   "last_market_fetch": "2026-10-29T08:34:05.359850Z",
   "news_unavailable": false,
   "articles": [
+    {
+      "id": "aea511197ad39b3bba",
+      "title": "ECB President Lagarde to step down on 7 February 2027",
+      "summary": "",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "source": "BCE · Comunicati",
+      "source_type": "primary",
+      "published_at": "2026-10-29T10:00:00Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 4,
+      "article_age_hours": 1.8,
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
     {
       "id": "f289e52612b56982e9",
       "title": "Federal Reserve issues FOMC statement",
@@ -15,12 +32,12 @@
       "source_type": "primary",
       "published_at": "2026-10-28T18:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Macro e banche centrali"
       ],
       "relevance": 4,
-      "article_age_hours": 14.6,
+      "article_age_hours": 17.8,
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
@@ -32,12 +49,12 @@
       "source_type": "primary",
       "published_at": "2026-10-28T18:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Macro e banche centrali"
       ],
       "relevance": 4,
-      "article_age_hours": 14.6,
+      "article_age_hours": 17.8,
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
@@ -54,7 +71,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 4,
-      "article_age_hours": 22.6,
+      "article_age_hours": 25.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -71,7 +88,41 @@
         "Cina–Taiwan"
       ],
       "relevance": 4,
-      "article_age_hours": 27.0,
+      "article_age_hours": 30.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "75357304419d2ba827",
+      "title": "Israel’s election rhetoric: What candidates said, and how they performed",
+      "summary": "From Netanyahu to Ben-Gvir, campaign boasts and attacks on Arab parties have been met with a deadlocked result.",
+      "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:27:22Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 3,
+      "article_age_hours": 0.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "3b015eaf3f35584c10",
+      "title": "How AI drones are influencing the course of the Ukraine war",
+      "summary": "Artificial intelligence is making drones faster and more capable. Russia and Ukraine both use AI-powered drones, and Ukrainian President Volodymyr Zelenskyy has warned that AI could lead decisions on the battlefield as soon as next year.",
+      "url": "https://www.npr.org/2026/10/29/g-s1-147496/ukraine-ai-drones-war-russia",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-29T09:02:00Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 3,
+      "article_age_hours": 2.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -88,7 +139,7 @@
         "Energia"
       ],
       "relevance": 3,
-      "article_age_hours": 2.6,
+      "article_age_hours": 5.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -105,7 +156,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 3.2,
+      "article_age_hours": 6.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -122,7 +173,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 5.8,
+      "article_age_hours": 9.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -139,7 +190,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 13.4,
+      "article_age_hours": 16.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -156,7 +207,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 3,
-      "article_age_hours": 13.5,
+      "article_age_hours": 16.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -173,7 +224,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 13.5,
+      "article_age_hours": 16.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -190,7 +241,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 14.0,
+      "article_age_hours": 17.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -207,7 +258,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 3,
-      "article_age_hours": 14.5,
+      "article_age_hours": 17.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -225,7 +276,7 @@
         "Energia"
       ],
       "relevance": 3,
-      "article_age_hours": 15.8,
+      "article_age_hours": 19.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -242,7 +293,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 3,
-      "article_age_hours": 20.2,
+      "article_age_hours": 23.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -259,7 +310,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 3,
-      "article_age_hours": 20.3,
+      "article_age_hours": 23.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -276,7 +327,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 20.7,
+      "article_age_hours": 24.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -288,12 +339,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T10:18:40Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
       "relevance": 3,
-      "article_age_hours": 22.3,
+      "article_age_hours": 25.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -305,12 +356,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T10:17:54Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 22.3,
+      "article_age_hours": 25.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -328,7 +379,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 23.8,
+      "article_age_hours": 27.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -345,7 +396,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 25.0,
+      "article_age_hours": 28.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -362,7 +413,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 3,
-      "article_age_hours": 31.5,
+      "article_age_hours": 34.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -379,7 +430,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 31.8,
+      "article_age_hours": 35.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -396,7 +447,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 33.5,
+      "article_age_hours": 36.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -413,7 +464,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 33.6,
+      "article_age_hours": 36.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -430,7 +481,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 34.0,
+      "article_age_hours": 37.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -447,7 +498,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 35.1,
+      "article_age_hours": 38.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -464,7 +515,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 36.0,
+      "article_age_hours": 39.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -481,7 +532,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 36.8,
+      "article_age_hours": 40.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -498,7 +549,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 36.8,
+      "article_age_hours": 40.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -515,7 +566,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 38.9,
+      "article_age_hours": 42.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -532,7 +583,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 39.6,
+      "article_age_hours": 42.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -549,7 +600,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 39.7,
+      "article_age_hours": 42.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -566,7 +617,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 41.6,
+      "article_age_hours": 44.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -583,7 +634,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 41.8,
+      "article_age_hours": 45.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -600,7 +651,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 41.9,
+      "article_age_hours": 45.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -617,7 +668,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 42.7,
+      "article_age_hours": 45.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -634,7 +685,7 @@
         "Medio Oriente"
       ],
       "relevance": 3,
-      "article_age_hours": 43.7,
+      "article_age_hours": 46.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -651,109 +702,434 @@
         "Russia–Ucraina"
       ],
       "relevance": 3,
-      "article_age_hours": 44.0,
+      "article_age_hours": 47.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "8d2d84939fdb0842fb",
-      "title": "Algeria to deploy army units to Niger to protect economic interests",
-      "summary": "Algeria will send army units to Niger to ​protect energy and economic interests, according to a statement from the presidency on Monday (October 26). Algeria's Parliament held an emergency vote on Sunday on what would be Algeria's first such foreign mission since 1973.",
-      "url": "https://www.france24.com/en/video/20261027-algeria-deploys-army-units-to-niger-to-protect-economic-interests",
+      "id": "1fcd09e8de650855bb",
+      "title": "Israel election results live: Netanyahu accused of ‘ugly delegitimisation campaign’ after his claims about Arab parties",
+      "summary": "Israeli police dismiss Likud’s claim election ‘stolen’ by parties representing Palestinians as count of absentee ballots continues Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party and Benjamin Netanyahu’s main rival, has warned political opponents against exploiting allegations of foreign interference in Israel’s election to delay ",
+      "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:35:05Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6fd933ec003f3df18d",
+      "title": "GDP report to give insight before Election Day. And, Israel's election is deadlocked",
+      "summary": "Economists expect the GDP report to show economic growth, but say that growth is \"fragile.\" And, after 90% of the votes in Israel have been counted, no clear winner has emerged.",
+      "url": "https://www.npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit",
+      "source": "NPR",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:34:30Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente",
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e219fffe5aa8eabe80",
+      "title": "Trump and Obama trade barbs on campaign trail in final days before midterm election – US politics live",
+      "summary": "Former president says ‘these are not serious people’ in Georgia rally as Trump defended his White House decor in Ohio rally ‘They mobilized a whole government response to that joke’: Obama laughs off Trump attacks Sign up for the Breaking News US email A federal judge declined to order California election officials to segregate and not count ballots from people the Trump administration claimed were non-citizens, rebuffing a legally thin request from the ju",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:28:32Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Altre notizie"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "69101f3e0b3f6d8bd0",
+      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "summary": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:22:18Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "53722ba512e0e4b170",
+      "title": "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
+      "summary": "Robert Moreno names captain Son Heung-min in South Korea's squad for Saudi Arabia and Qatar games despite rift rumours.",
+      "url": "https://www.aljazeera.com/sports/2026/10/29/south-korea-captain-la-star-son-heung-min-backed-by-coach-amid-rift-rumour?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:22:16Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Golfo e Mar Rosso"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "2921d6f2d67a26e770",
+      "title": "Pentagon says Iran war has cost US taxpayers $47bn: What that means",
+      "summary": "With five days to go before the US midterms, analysts say the war could affect how people vote.",
+      "url": "https://www.aljazeera.com/news/2026/10/29/pentagon-says-iran-war-has-cost-us-taxpayers-47bn-what-that-means?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:12:43Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a039b8afe278fce994",
+      "title": "Can the UK afford more help with the cost of living?",
+      "summary": "Labour party aims to help households and sustain growth as inflation and debt costs limit its options.",
+      "url": "https://www.aljazeera.com/video/counting-the-cost/2026/10/29/can-the-uk-afford-more-help-with-the-cost-of-living?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T11:04:05Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.8,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "a8ccd44b1041aa1615",
+      "title": "Europe’s central bank chief Christine Lagarde to step down nine months early",
+      "summary": "Departure of Lagarde, seen as candidate to take over World Economic Forum, comes as eurozone struggles with weak growth and inflation Christine Lagarde, the eurozone’s top central banker, is stepping down nine months early, ending months of speculation about her future. The European Central Bank (ECB) announced on Thursday morning that Lagarde would step down as its president on 7 February 2027; her term was scheduled to run until the end of October next y",
+      "url": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:56:12Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "c7bbc537f44340b8b4",
+      "title": "France reclaims title as Europe's champion of tax and social charges",
+      "summary": "New data shows that France has the EU's highest tax burden at 46 percent of GDP, while its national debt continues to grow. Amid new street protests over lack of education funding and falling purchasing power, the government is proposing a meagre hike in the minimum wage. Also in this edition: US tech giants see their shares diverge as the AI boom pushes massive capital expenditures.",
+      "url": "https://www.france24.com/en/tv-shows/business/20261029-france-reclaims-title-as-europe-s-champion-of-tax-and-social-charges",
       "source": "France 24",
       "source_type": "media",
-      "published_at": "2026-10-27T11:28:05Z",
+      "published_at": "2026-10-29T10:54:59Z",
       "language": "original",
-      "collected_at": "2026-10-27T13:16:01.434225Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 0.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "127486ec808cd4dae3",
+      "title": "'There's clearly a marketplace for Russian in Africa - but it's not about institution building'",
+      "summary": "Oliver Farry is pleased to welcome Alex Vines, Africa Program Director at the European Council on Foreign Relations. He takes us through Russia's African paradox involving diplomatic Influence, security dependence and the politics of multipolarity. Moscow is gaining diplomatic traction across the continent even as its security partnerships, information operations and recruitment practices raise troubling questions about sovereignty, accountability and the ",
+      "url": "https://www.france24.com/en/video/20261029-there-s-clearly-a-marketplace-for-russian-in-africa-but-it-s-not-about-institution-building",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:43:25Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.1,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "18eb33844952d11888",
+      "title": "Israel’s election committee urges probe into alleged Qatari interference",
+      "summary": "Israel’s Central Elections Committee has called on the Shin Bet chief to investigate allegations of foreign interference in the Knesset elections, including suspected funding and bribery linked to Qatar. FRANCE 24’s Noga Tarnopolsky reports from Jerusalem.",
+      "url": "https://www.france24.com/en/video/20261029-israel-s-election-committee-urges-probe-into-alleged-qatari-interference",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:38:04Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.2,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "ab9b1f9df19a173b1a",
+      "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
+      "summary": "Chief financial officer says he hopes budget measure is temporary as sector provides loans that fuel growth Business live – latest updates A senior Lloyds Banking Group executive has criticised the chancellor for linking bank tax increases to energy bill support for UK households, as he warned the government against extending the higher levy beyond March 2028. Lloyds’s chief financial officer, William Chalmers, acknowledged that the economic environment wa",
+      "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:31:55Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
-      "relevance": 3,
-      "article_age_hours": 45.1,
+      "relevance": 2,
+      "article_age_hours": 1.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "366ab3f0555d7d341e",
-      "title": "Netherlands pulls out of Eurovision again over Israel participation",
-      "summary": "A Dutch broadcaster reverses a decision to take part, citing \"sensitivities\" over Israel's participation.",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
+      "id": "7367ae07f7b1a3dbec",
+      "title": "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
+      "summary": "French star at the centre of controversy after a video appeared to show him making fun of former Chinese leader Mao.",
+      "url": "https://www.aljazeera.com/sports/2026/10/29/kylian-mbappe-real-madrid-and-la-liga-face-long-redemption-road-in-china?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:30:25Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Cina–Taiwan"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6f0b2a7cf8825834e4",
+      "title": "After years under fire, a rare quiet settles over Ukrainian city as truce holds",
+      "summary": "A planned six-day ceasefire brokered by US first lady Melania Trump and tied to a humanitarian aid mission in a Russian-occupied town has brought rare quiet to the Ukrainian-held city of Kherson across the water. A local pause in fighting started at 3am Tuesday to allow medicine, food and water to be taken to Oleshky before evacuation corridors are opened later in the week.",
+      "url": "https://www.france24.com/en/video/20261029-after-years-under-fire-a-rare-quiet-settles-over-ukrainian-city-as-truce-holds",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:26:57Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6669ed796959910295",
+      "title": "ECB President Christine Lagarde to step down in February 2027, nine months before term ends",
+      "summary": "European Central Bank President Christine Lagarde will step down on February 7, 2027, nearly nine months before her term expires, the ECB said Thursday. Her successor will be appointed by the European Council under EU treaty rules.",
+      "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
+      "source": "France 24",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:21:52Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "5fbe205e202a37a3de",
+      "title": "Christine Lagarde quittera ses fonctions de présidente de la BCE en février",
+      "summary": "Cette décision permet au président français Emmanuel Macron d'avoir son mot à dire dans le choix de son successeur avant les élections de l'année prochaine.",
+      "url": "https://www.politico.eu/article/christine-lagarde-quittera-ses-fonctions-de-presidente-de-la-bce-en-fevrier/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:19:16Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "6aa027ac7a9d92d007",
+      "title": "Christine Lagarde to step down as ECB president in February",
+      "summary": "The moves gives French leader Emmanuel Macron a say in choosing her successor before the election next year.",
+      "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february/",
+      "source": "Politico Europe",
+      "source_type": "media",
+      "published_at": "2026-10-29T10:17:34Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Macro e banche centrali"
+      ],
+      "relevance": 2,
+      "article_age_hours": 1.5,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "0d97eee3f4372335db",
+      "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
+      "summary": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "source_type": "media",
-      "published_at": "2026-10-27T11:23:19Z",
+      "published_at": "2026-10-29T09:51:06Z",
       "language": "original",
-      "collected_at": "2026-10-28T02:19:52.999478Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
-        "Medio Oriente"
+        "Mercati e difesa"
       ],
-      "relevance": 3,
-      "article_age_hours": 45.2,
+      "relevance": 2,
+      "article_age_hours": 2.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "68760357dae1565df0",
-      "title": "Turnout so far highest in decades as Israelis vote in pivotal election",
-      "summary": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
-      "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+      "id": "a64bb6a641c2ea43b2",
+      "title": "Polizia Israele, quattro arresti per presunta corruzione elettorale",
+      "summary": "Media,lista araba Ra'am identifica arrestati 'attivisti della fazione' e respinge accuse",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/29/polizia-israele-quattro-arresti-per-presunta-corruzione-elettorale_cb62fcd8-0827-45f6-84b6-1da4061eae2a.html",
+      "source": "ANSA · Mondo",
+      "source_type": "media",
+      "published_at": "2026-10-29T09:48:08Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.0,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "781ed0a92733965fbf",
+      "title": "Israeli settler take-over",
+      "summary": "How Israeli settlers use outposts and violence to seize Palestinian land in the occupied West Bank.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israeli-settler-take-over?traffic_source=rss",
+      "source": "Al Jazeera",
+      "source_type": "media",
+      "published_at": "2026-10-29T09:31:37Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Medio Oriente"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.3,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "e12bce7c0c301dc54d",
+      "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
+      "summary": "Healey’s attempt to provide ‘breathing space’ gives rich almost as much as poor, says Resolution Foundation Business live – latest updates Budget 2026: what it means for your wallet, your mortgage and your pay John Healey delivered a “scattergun” budget that did little to boost living standards and left Britain facing “a painful second half” of the parliament, a leading economic thinktank has warned. The Resolution Foundation said on Thursday that measures",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
+      "source": "The Guardian",
+      "source_type": "media",
+      "published_at": "2026-10-29T09:10:22Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Energia"
+      ],
+      "relevance": 2,
+      "article_age_hours": 2.7,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "386b893cdf56ac44be",
+      "title": "How could Israel break election deadlock? Here are four scenarios",
+      "summary": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "source_type": "media",
-      "published_at": "2026-10-27T11:11:33Z",
+      "published_at": "2026-10-29T09:06:48Z",
       "language": "original",
-      "collected_at": "2026-10-27T13:16:01.434225Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
-      "relevance": 3,
-      "article_age_hours": 45.4,
+      "relevance": 2,
+      "article_age_hours": 2.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "4fb390542ca79fa1d1",
-      "title": "Israelis vote in first national election since October 7 attack",
-      "summary": "Israelis are voting in a pivotal election Tuesday (October 27) as their country wrestles with unresolved wars, continues to reel from Hamas' 2023 attack and is deeply divided over the character of the state and the right person to lead it. FRANCE 24's Clovis Casali tells us more from the ground. He spoke with voters.",
-      "url": "https://www.france24.com/en/israelis-vote-in-first-national-election-since-october-7-attack",
-      "source": "France 24",
+      "id": "411bff5dbd99cee328",
+      "title": "North Koreans being recruited into forced labour in Russia, report says",
+      "summary": "Russian broker network recruiting North Korean labourers using student visas, Global Rights Compliance report says.",
+      "url": "https://www.aljazeera.com/economy/2026/10/29/north-koreans-being-recruited-into-forced-labour-in-russia-report-says?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_type": "media",
-      "published_at": "2026-10-27T10:41:42Z",
+      "published_at": "2026-10-29T08:58:57Z",
       "language": "original",
-      "collected_at": "2026-10-27T13:16:01.434225Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
-        "Medio Oriente"
+        "Russia–Ucraina"
       ],
-      "relevance": 3,
-      "article_age_hours": 45.9,
+      "relevance": 2,
+      "article_age_hours": 2.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "6169c5234f96f8ef1e",
-      "title": "Netanyahu's political survival on the line as Israel heads to the polls",
-      "summary": "Prime Minister Benjamin Netanyahu faces a fight for political survival in Israel's election on Tuesday (October 27), with voters weighing his leadership after the 2023 Hamas-led attacks, wars in Gaza and with Iran, and Israel's deepening international isolation. FRANCE24's Douglas Herbert gives us his analysis.",
-      "url": "https://www.france24.com/en/netanyahu-s-political-survival-on-the-line-as-israel-heads-to-the-polls",
-      "source": "France 24",
+      "id": "8370c86c6e9e869e28",
+      "title": "Obama and Trump spar at rallies in Georgia and Ohio: Key takeaways",
+      "summary": "Obama and Trump traded barbs over the Iran war, tariffs and the White House ballroom ahead of the US midterm elections.",
+      "url": "https://www.aljazeera.com/news/2026/10/29/obama-and-trump-rally-in-georgia-and-ohio-key-takeaways?traffic_source=rss",
+      "source": "Al Jazeera",
       "source_type": "media",
-      "published_at": "2026-10-27T10:14:33Z",
+      "published_at": "2026-10-29T08:51:30Z",
       "language": "original",
-      "collected_at": "2026-10-27T13:16:01.434225Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
-      "relevance": 3,
-      "article_age_hours": 46.3,
+      "relevance": 2,
+      "article_age_hours": 3.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "id": "e2166d0123777dfc7f",
-      "title": "Israeli elections: voters turnout reaches '16.7%' four hours after polls open",
-      "summary": "A deeply divided Israel headed to the polls on Tuesday (October 27) for the first time since the October 7, 2023 Hamas attack, with voters delivering their verdict on veteran Prime Minister Benjamin Netanyahu and the country's rightward drift. FRANCE 24's Noga Tornapolski tells us more.",
-      "url": "https://www.france24.com/en/israeli-elections-voters-turnout-reaches-16-7-four-hours-after-polls-open",
-      "source": "France 24",
+      "id": "f1bd5dcf242c22dff9",
+      "title": "Morning news brief",
+      "summary": "Trump and Obama campaign at rallies ahead of Election Day, two reports will give latest insights on GDP and inflation ahead of midterms, Israel's election is deadlocked.",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6012227/morning-news-brief",
+      "source": "NPR",
       "source_type": "media",
-      "published_at": "2026-10-27T10:08:12Z",
+      "published_at": "2026-10-29T08:47:41Z",
       "language": "original",
-      "collected_at": "2026-10-27T13:16:01.434225Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
+        "Macro e banche centrali",
         "Medio Oriente"
       ],
-      "relevance": 3,
-      "article_age_hours": 46.4,
+      "relevance": 2,
+      "article_age_hours": 3.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -765,12 +1141,30 @@
       "source_type": "media",
       "published_at": "2026-10-29T08:26:44Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 0.1,
+      "article_age_hours": 3.4,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "0a5fc9fc0973cfbd6b",
+      "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+      "summary": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
+      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-29T08:23:31Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Russia–Ucraina",
+        "Mercati e difesa"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -782,13 +1176,13 @@
       "source_type": "media",
       "published_at": "2026-10-29T08:14:34Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Russia–Ucraina",
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 0.3,
+      "article_age_hours": 3.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -800,47 +1194,30 @@
       "source_type": "media",
       "published_at": "2026-10-29T08:03:00Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 0.5,
+      "article_age_hours": 3.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "9b66a2a6d7ae43ce5f",
-      "title": "Shell profits double to $10.8bn as Iran war pushes up profit margin on oil",
-      "summary": "Energy firm to return $5bn to shareholders as climate campaigners criticise high profits Shell has doubled its profits in the last quarter after the Middle East conflict drove up the price of oil and gas and created shortages in the global market. Shell reported on Thursday morning that it made an adjusted profit of $10.8bn (£8.1bn) in the July-September quarter, up from $5.432bn in the third quarter of 2025. The results beat analyst expectations for a ris",
+      "title": "Shell profits double to $10.8bn as Iran war pushes up margin on oil",
+      "summary": "Energy firm to return $5bn to shareholders as climate campaigners criticise high profits Business live – latest updates Shell has doubled its profits in the last quarter after the Middle East conflict drove up the price of oil and gas and created shortages in the global market. Shell reported on Thursday morning that it made an adjusted profit of $10.8bn (£8.1bn) in the July-September quarter, up from $5.432bn in the third quarter of 2025. The results beat",
       "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
       "source": "The Guardian",
       "source_type": "media",
       "published_at": "2026-10-29T08:00:37Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia",
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 0.6,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "1fcd09e8de650855bb",
-      "title": "Israel election results live: count of absentee ballots under way as coalition talks set to begin",
-      "summary": "With the final count unlikely to shift results significantly, experts say Gadi Eisenkot’s hopes of unseating Benjamin Netanyahu rest on his willingness to work with Palestinian parties Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Israeli police have dismissed claims by Benjamin Netanyahu’s Likud party that the election was “stolen” by parties representing Palestinian c",
-      "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
-      "source": "The Guardian",
-      "source_type": "media",
-      "published_at": "2026-10-29T07:55:16Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 0.6,
+      "article_age_hours": 3.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -857,24 +1234,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 0.7,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "71518d7a75d501cce5",
-      "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
-      "summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
-      "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_type": "media",
-      "published_at": "2026-10-29T07:54:33Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Cina–Taiwan"
-      ],
-      "relevance": 2,
-      "article_age_hours": 0.7,
+      "article_age_hours": 3.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -886,12 +1246,29 @@
       "source_type": "media",
       "published_at": "2026-10-29T07:54:33Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 0.7,
+      "article_age_hours": 3.9,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "71518d7a75d501cce5",
+      "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+      "summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
+      "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-29T07:54:33Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Cina–Taiwan"
+      ],
+      "relevance": 2,
+      "article_age_hours": 3.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -908,7 +1285,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 0.9,
+      "article_age_hours": 4.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -920,12 +1297,12 @@
       "source_type": "media",
       "published_at": "2026-10-29T06:01:45Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 2.5,
+      "article_age_hours": 5.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -942,7 +1319,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 2.5,
+      "article_age_hours": 5.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -959,7 +1336,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 3.0,
+      "article_age_hours": 6.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -976,7 +1353,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 3.0,
+      "article_age_hours": 6.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -988,29 +1365,29 @@
       "source_type": "media",
       "published_at": "2026-10-29T05:04:35Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 3.5,
+      "article_age_hours": 6.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "id": "6635db88b808c80f2c",
-      "title": "Live: Israelis await final election results, with no majority in sight",
-      "summary": "With more than 90% of the ballots counted on Thursday, Israeli Prime Minister Benjamin Netanyahu's bloc has gained 53 seats, with the opposition at 67, including 48 for Gadi Eisenkot's centrist bloc and 19 for the Arab-majority parties. The Israeli president called on the parties on Wednesday to \"do everything\" to form a government coalition and avoid a return to the polls. Follow our liveblog for the latest updates.",
+      "title": "Live: Israelis await final vote count as allegations of foreign interference emerge",
+      "summary": "Israel’s Central Elections Committee on Thursday called on the Shin Bet chief to investigate allegations of foreign interference in the elections, including suspected funding linked to Qatar. With more than 90% of the ballots counted, Prime Minister Benjamin Netanyahu's bloc has gained 53 seats, with the opposition at 67, including 48 for Gadi Eisenkot's centrist bloc and 19 for the Arab-majority parties. Follow our liveblog for the latest updates.",
       "url": "https://www.france24.com/en/middle-east/20261029-live-israeli-elections-are-coming-to-a-close-with-no-majority-to-be-seen",
       "source": "France 24",
       "source_type": "media",
       "published_at": "2026-10-29T03:36:46Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 5.0,
+      "article_age_hours": 8.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1027,7 +1404,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 5.1,
+      "article_age_hours": 8.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1045,7 +1422,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 5.4,
+      "article_age_hours": 8.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1057,12 +1434,12 @@
       "source_type": "media",
       "published_at": "2026-10-29T02:19:15Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 6.2,
+      "article_age_hours": 9.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1079,7 +1456,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 7.1,
+      "article_age_hours": 10.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1096,7 +1473,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 8.0,
+      "article_age_hours": 11.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1108,12 +1485,12 @@
       "source_type": "media",
       "published_at": "2026-10-29T00:24:12Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 8.2,
+      "article_age_hours": 11.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1130,7 +1507,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 8.5,
+      "article_age_hours": 11.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1148,7 +1525,7 @@
         "Golfo e Mar Rosso"
       ],
       "relevance": 2,
-      "article_age_hours": 8.6,
+      "article_age_hours": 11.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1166,7 +1543,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 9.8,
+      "article_age_hours": 13.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1183,7 +1560,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 10.5,
+      "article_age_hours": 13.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1201,7 +1578,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 10.8,
+      "article_age_hours": 14.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1218,7 +1595,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 11.1,
+      "article_age_hours": 14.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1235,7 +1612,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 11.3,
+      "article_age_hours": 14.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1247,12 +1624,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T21:00:00Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 11.6,
+      "article_age_hours": 14.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1269,7 +1646,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 11.7,
+      "article_age_hours": 14.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1281,12 +1658,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T20:44:10Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 11.8,
+      "article_age_hours": 15.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1303,24 +1680,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 12.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "69101f3e0b3f6d8bd0",
-      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_type": "media",
-      "published_at": "2026-10-28T20:24:39Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 12.2,
+      "article_age_hours": 15.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1332,12 +1692,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T20:18:57Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 12.3,
+      "article_age_hours": 15.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1354,7 +1714,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 12.4,
+      "article_age_hours": 15.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1366,12 +1726,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T20:08:45Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 12.4,
+      "article_age_hours": 15.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1383,12 +1743,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T19:58:27Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 12.6,
+      "article_age_hours": 15.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1405,7 +1765,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 12.6,
+      "article_age_hours": 15.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1422,7 +1782,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 12.7,
+      "article_age_hours": 15.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1434,12 +1794,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T19:51:01Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 12.7,
+      "article_age_hours": 16.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1456,7 +1816,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 12.9,
+      "article_age_hours": 16.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1473,7 +1833,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 12.9,
+      "article_age_hours": 16.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1490,7 +1850,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 13.0,
+      "article_age_hours": 16.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1502,29 +1862,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T19:29:24Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 13.1,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "0da7f56b23eac1c1c1",
-      "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-      "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
-      "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_type": "media",
-      "published_at": "2026-10-28T19:15:58Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 13.3,
+      "article_age_hours": 16.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1536,12 +1879,29 @@
       "source_type": "media",
       "published_at": "2026-10-28T19:15:58Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 13.3,
+      "article_age_hours": 16.6,
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "id": "0da7f56b23eac1c1c1",
+      "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+      "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
+      "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "source_type": "media",
+      "published_at": "2026-10-28T19:15:58Z",
+      "language": "original",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
+      "topics": [
+        "Russia–Ucraina"
+      ],
+      "relevance": 2,
+      "article_age_hours": 16.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1558,7 +1918,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 13.3,
+      "article_age_hours": 16.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1575,7 +1935,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 13.5,
+      "article_age_hours": 16.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1592,7 +1952,7 @@
         "Mercati e difesa"
       ],
       "relevance": 2,
-      "article_age_hours": 13.5,
+      "article_age_hours": 16.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1604,12 +1964,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T18:58:21Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 13.6,
+      "article_age_hours": 16.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1621,12 +1981,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T18:54:10Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 13.7,
+      "article_age_hours": 16.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1638,12 +1998,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T18:45:09Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 13.8,
+      "article_age_hours": 17.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1660,7 +2020,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 14.0,
+      "article_age_hours": 17.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1677,7 +2037,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 14.2,
+      "article_age_hours": 17.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1694,7 +2054,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 14.3,
+      "article_age_hours": 17.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1711,7 +2071,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 14.7,
+      "article_age_hours": 17.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1723,12 +2083,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T17:47:37Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 14.8,
+      "article_age_hours": 18.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1745,7 +2105,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 2,
-      "article_age_hours": 15.4,
+      "article_age_hours": 18.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1762,7 +2122,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 15.6,
+      "article_age_hours": 18.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1779,7 +2139,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 15.6,
+      "article_age_hours": 18.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1796,7 +2156,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 15.7,
+      "article_age_hours": 18.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1808,12 +2168,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T16:43:35Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 15.8,
+      "article_age_hours": 19.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1830,7 +2190,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 16.0,
+      "article_age_hours": 19.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1842,12 +2202,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T16:27:27Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.1,
+      "article_age_hours": 19.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1864,7 +2224,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 16.4,
+      "article_age_hours": 19.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1881,7 +2241,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.5,
+      "article_age_hours": 19.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1898,7 +2258,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.5,
+      "article_age_hours": 19.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1910,12 +2270,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T16:01:41Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 16.5,
+      "article_age_hours": 19.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1932,7 +2292,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 17.0,
+      "article_age_hours": 20.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1949,7 +2309,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.0,
+      "article_age_hours": 20.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1967,7 +2327,7 @@
         "Macro e banche centrali"
       ],
       "relevance": 2,
-      "article_age_hours": 17.3,
+      "article_age_hours": 20.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -1984,7 +2344,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.4,
+      "article_age_hours": 20.6,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2001,7 +2361,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.4,
+      "article_age_hours": 20.7,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2018,24 +2378,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 17.7,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "386b893cdf56ac44be",
-      "title": "How could Israel break election deadlock? Here are four scenarios",
-      "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_type": "media",
-      "published_at": "2026-10-28T14:30:31Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 18.1,
+      "article_age_hours": 21.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2052,7 +2395,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 18.1,
+      "article_age_hours": 21.3,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2064,12 +2407,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T14:26:24Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 18.1,
+      "article_age_hours": 21.4,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2086,7 +2429,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 18.5,
+      "article_age_hours": 21.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2103,7 +2446,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 18.8,
+      "article_age_hours": 22.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2120,7 +2463,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 18.9,
+      "article_age_hours": 22.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2137,7 +2480,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 18.9,
+      "article_age_hours": 22.2,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2154,7 +2497,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.3,
+      "article_age_hours": 22.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2171,7 +2514,7 @@
         "Energia"
       ],
       "relevance": 2,
-      "article_age_hours": 19.3,
+      "article_age_hours": 22.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2183,12 +2526,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T13:00:40Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.6,
+      "article_age_hours": 22.8,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2205,7 +2548,7 @@
         "Cina–Taiwan"
       ],
       "relevance": 2,
-      "article_age_hours": 19.6,
+      "article_age_hours": 22.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2217,12 +2560,12 @@
       "source_type": "media",
       "published_at": "2026-10-28T12:52:10Z",
       "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
+      "collected_at": "2026-10-29T11:49:28.950621Z",
       "topics": [
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.7,
+      "article_age_hours": 23.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2239,7 +2582,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 19.7,
+      "article_age_hours": 23.0,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2256,7 +2599,7 @@
         "Russia–Ucraina"
       ],
       "relevance": 2,
-      "article_age_hours": 19.9,
+      "article_age_hours": 23.1,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2273,7 +2616,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 20.2,
+      "article_age_hours": 23.5,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2290,7 +2633,7 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 20.6,
+      "article_age_hours": 23.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -2307,403 +2650,76 @@
         "Medio Oriente"
       ],
       "relevance": 2,
-      "article_age_hours": 20.6,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "85ec47865e40ec76a2",
-      "title": "Il regista iraniano Panahi condannato a cinque anni in un nuovo processo",
-      "summary": "Lo ha reso noto il suo avvocato",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/il-regista-iraniano-panahi-condannato-a-cinque-anni-in-un-nuovo-processo_be84391c-e496-4ed7-b5ec-2c9ed80c4273.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:49:48Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 20.7,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "5f18dd30f792ff514b",
-      "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
-      "summary": "Gaza's impending winter is likely to lead to further devastation for Palestinians.",
-      "url": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:36:04Z",
-      "language": "original",
-      "collected_at": "2026-10-28T16:40:38.015306Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "0bfd9cd55b6ea029e4",
-      "title": "Both blocs claim upper hand in crucial Israeli election | First Thing",
-      "summary": "Benjamin Netanyahu vows to form new coalition while opposition bloc leader says result shows prime minister should step down. Plus, a scathing review of Elon Musk’s AI-generated version of The Odyssey Good morning. Israel could be in for weeks of political haggling after exit polls and partial official results showed neither Benjamin Netanyahu’s coalition nor the opposition bloc led by the former general Gadi Eisenkot had won enough seats to form a governm",
-      "url": "https://www.theguardian.com/us-news/2026/oct/28/first-thing-israeli-election-elon-musk-ai-odyssey",
-      "source": "The Guardian",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:33:27Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "54bda58631ae3e9601",
-      "title": "Russia-Africa Summit: What is on the agenda, and why does it matter?",
-      "summary": "Moscow aims to strengthen economic and security ties with African leaders during the two-day gathering.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/russia-africa-summit-what-is-on-the-agenda-and-why-does-it-matter?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:33:26Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "89e16f85f97d5fca41",
-      "title": "High voter turnout among Palestinian citizens of Israel threatens Netanyahu",
-      "summary": "A historic turnout among Palestinian citizens of Israel positions Arab parties as kingmakers against the far right.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/high-voter-turnout-from-palestinian-citizens-of-israel-threatens-netanyahu?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:33:13Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "d8133d435436dafed9",
-      "title": "Israeli election: As votes are counted, no clear winner emerges",
-      "summary": "Anxious Israelis watched election results take shape Wednesday after the highest turnout in over a quarter-century, as no clear winner emerged and weeks of negotiating could lie ahead for Prime Minister Benjamin Netanyahu and an array of opposition parties trying to unseat him. France 24 correspondent in Jerusalem Noga Tarnopolsky reports the latest.",
-      "url": "https://www.france24.com/en/video/20261028-israeli-election-as-votes-are-counted-no-clear-winner-emerges",
-      "source": "France 24",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:32:07Z",
-      "language": "original",
-      "collected_at": "2026-10-28T16:40:38.015306Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "60832093f1e7fde6e5",
-      "title": "Con 77% dei voti scrutinati, si rafforza Blocco di Eisenkot con 49 seggi",
-      "summary": "La coalizione di Netanyahu mantiene 54 seggi",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/con-77-dei-voti-scrutinati-si-rafforza-blocco-di-eisenkot-con-49-seggi_465f4023-a993-4e19-8b10-2124f7a21ac3.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:31:33Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "9715d12bc2eccb21f6",
-      "title": "Tajani, mi auguro che chi andrà al governo in Israele lavori per la pace",
-      "summary": "\"Per trovare accordo su Hormuz, garantire sicurezza e stato palestinese\"",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/tajani-mi-auguro-che-chi-andra-al-governo-in-israele-lavori-per-la-pace_1727e28e-fc6e-4dfc-8c5a-02f65360fcbb.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:29:18Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente",
-        "Golfo e Mar Rosso"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.1,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "ee5c92342efa66e1b6",
-      "title": "Tajani, mi auguro che chi andrà al governo in Israele lavori per la pace",
-      "summary": "\"Per trovare accordo su Hormuz, garantire sicurezza e stato palestinese\"",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/28/tajani-mi-auguro-che-chi-andra-al-governo-in-israele-lavori-per-la-pace_cacb78ad-5f59-4f33-aa17-dcce27be853e.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:29:17Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente",
-        "Golfo e Mar Rosso"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.1,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "f1193e8b09847df809",
-      "title": "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone",
-      "summary": "Israeli voters turned out in record numbers, and the results remain too close to call. And, more than 10,000 people have been infected with Ebola since the outbreak was first declared in May.",
-      "url": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
-      "source": "NPR",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:28:55Z",
-      "language": "original",
-      "collected_at": "2026-10-29T01:50:06.175869Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.1,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "b68081b35377518b20",
-      "title": "Scrutinato oltre il 77% dei voti in Israele, si rafforza il blocco di Eisenkot con 49 seggi",
-      "summary": "Il premier Netanyahu: 'La coalizione ha una maggioranza, ampio governo di destra nazionale'",
-      "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/28/scrutinato-oltre-il-72-dei-voti-in-israele-lo-schieramento-di-netanyahu-ottiene-54-seggi_74766689-3c93-4a0a-8778-21bf55ce3a7c.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:19:21Z",
-      "language": "original",
-      "collected_at": "2026-10-28T11:41:24.719667Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.2,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "4430f1c05fdb8bc21b",
-      "title": "Palestinian activist Mahmoud Khalil returns to Columbia after US detention",
-      "summary": "Pro-Palestinian activist Mahmoud Khalil returned to Columbia University for the first time since his US detention.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/palestinian-activist-mahmoud-khalil-returns-to-columbia-after-us-detention?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T11:00:37Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.6,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "9b7b8aa2cc568a7ebd",
-      "title": "Ukraine: Ceasefire holds for its first 30 hours in occupied Oleshky",
-      "summary": "A local ceasefire in the Russian-occupied southern Ukrainian city of Oleshky held through its first day and night, despite continued fighting between Moscow and Kyiv elsewhere. The truce, which began on Tuesday in the devastated city, is expected to remain in place until Sunday. Emerald Maxwell reports.",
-      "url": "https://www.france24.com/en/video/20261028-ukraine-ceasefire-holds-for-its-first-30-hours-in-occupied-oleshky",
-      "source": "France 24",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:46:51Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.8,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "c91b1ce40cc72e2ccf",
-      "title": "Burnham’s government unveils its first UK budget: What to expect",
-      "summary": "UK chancellor to present an autumn budget amid rising living costs and energy bills.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/burnhams-government-unveils-its-first-uk-budget-what-to-expect?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:42:52Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Energia"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.9,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "e981f9dbb50421ea46",
-      "title": "Israeli forces continue West Bank raids as Hebron lockdown enters sixth day",
-      "summary": "UN agency expresses 'grave concern' in Hebron and warns of echoes of 2025 'Iron Wall' operation.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/israeli-forces-continue-west-bank-raids-as-hebron-lockdown-enters-sixth-day?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:41:07Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.9,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "78adc8aacdcba18a65",
-      "title": "‘Russia is already part of who I am’: African students in Moscow",
-      "summary": "As the Russia-Africa Summit gets under way, students in the capital say education is helping to build ties.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/russia-is-already-part-of-who-i-am-african-students-in-moscow?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:40:52Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 21.9,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "2d7b36531fd64e0c78",
-      "title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
-      "summary": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
-      "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:35:13Z",
-      "language": "original",
-      "collected_at": "2026-10-28T16:40:38.015306Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 22.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "3aebb2fc8e4188dab9",
-      "title": "Norway and Finland hold rare phone call with Putin: What that means",
-      "summary": "The two Nordic leaders are attempting to influence US-brokered talks in Abu Dhabi to end the war in Ukraine.",
-      "url": "https://www.aljazeera.com/news/2026/10/28/norway-and-finland-hold-rare-phone-call-with-putin-what-that-means?traffic_source=rss",
-      "source": "Al Jazeera",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:31:22Z",
-      "language": "original",
-      "collected_at": "2026-10-28T13:35:12.257431Z",
-      "topics": [
-        "Russia–Ucraina"
-      ],
-      "relevance": 2,
-      "article_age_hours": 22.0,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "0486ff94c880909800",
-      "title": "Capo Lista Unita araba, 'chi vuole alternativa a Netanyahu dovrà parlare con noi'",
-      "summary": "'O si continua con l'esclusione, oppure si instaura autentica partnership ebraico-araba'",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/capo-lista-unita-araba-chi-vuole-alternativa-a-netanyahu-dovra-parlare_dd3cdc8f-24fb-4e4d-b677-8baa561a018d.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:28:56Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Medio Oriente"
-      ],
-      "relevance": 2,
-      "article_age_hours": 22.1,
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "id": "53cf91305be78ec41e",
-      "title": "Piogge torrenziali e inondazioni nel Sinai, almeno un morto e un disperso",
-      "summary": "Strade chiuse nel sud, dichiarato stato di emergenza. Colpita anche la costa del Mar Rosso",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/28/piogge-torrenziali-e-inondazioni-nel-sinai-almeno-un-morto-e-un-disperso_60d6d9d0-b7bc-4f18-9658-fa51c0997e55.html",
-      "source": "ANSA · Mondo",
-      "source_type": "media",
-      "published_at": "2026-10-28T10:20:23Z",
-      "language": "original",
-      "collected_at": "2026-10-29T08:34:05.359850Z",
-      "topics": [
-        "Golfo e Mar Rosso"
-      ],
-      "relevance": 2,
-      "article_age_hours": 22.2,
+      "article_age_hours": 23.9,
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": [
     {
       "topic": "Medio Oriente",
-      "articles": 99,
+      "articles": 90,
       "sources": 8,
-      "recent": "2026-10-29T02:43:29Z"
+      "recent": "2026-10-29T11:27:22Z"
     },
     {
       "topic": "Altre notizie",
-      "articles": 74,
+      "articles": 76,
       "sources": 8,
-      "recent": "2026-10-29T08:14:40Z"
+      "recent": "2026-10-29T11:28:32Z"
     },
     {
       "topic": "Russia–Ucraina",
-      "articles": 33,
-      "sources": 7,
-      "recent": "2026-10-29T05:22:21Z"
+      "articles": 34,
+      "sources": 8,
+      "recent": "2026-10-29T09:02:00Z"
+    },
+    {
+      "topic": "Macro e banche centrali",
+      "articles": 19,
+      "sources": 8,
+      "recent": "2026-10-29T10:00:00Z"
     },
     {
       "topic": "Energia",
-      "articles": 19,
+      "articles": 18,
       "sources": 7,
       "recent": "2026-10-29T06:00:26Z"
     },
     {
       "topic": "Cina–Taiwan",
-      "articles": 12,
+      "articles": 11,
       "sources": 5,
       "recent": "2026-10-28T05:32:13Z"
     },
     {
       "topic": "Mercati e difesa",
-      "articles": 11,
-      "sources": 6,
-      "recent": "2026-10-29T08:26:44Z"
-    },
-    {
-      "topic": "Macro e banche centrali",
       "articles": 10,
       "sources": 6,
-      "recent": "2026-10-28T18:00:00Z"
+      "recent": "2026-10-29T09:51:06Z"
     },
     {
       "topic": "Golfo e Mar Rosso",
-      "articles": 7,
+      "articles": 6,
       "sources": 2,
-      "recent": "2026-10-29T02:19:15Z"
+      "recent": "2026-10-29T11:22:16Z"
     }
   ],
   "clusters": [
+    {
+      "headline": "ECB President Lagarde to step down on 7 February 2027",
+      "sources": [
+        "BCE · Comunicati",
+        "France 24",
+        "Politico Europe"
+      ],
+      "source_count": 3,
+      "articles": [
+        "aea511197ad39b3bba",
+        "6669ed796959910295",
+        "6aa027ac7a9d92d007"
+      ],
+      "status": "titoli simili su più fonti; fatti non verificati"
+    },
     {
       "headline": "Federal Reserve issues FOMC statement",
       "sources": [
@@ -2718,19 +2734,6 @@
       "status": "titoli simili su più fonti; fatti non verificati"
     },
     {
-      "headline": "Budget 2026: We answer your questions",
-      "sources": [
-        "Politico Europe",
-        "The Guardian"
-      ],
-      "source_count": 2,
-      "articles": [
-        "be382d175643a68a4c",
-        "4921e7f170e38f7d07"
-      ],
-      "status": "titoli simili su più fonti; fatti non verificati"
-    },
-    {
       "headline": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
       "sources": [
         "BBC Business",
@@ -2740,8 +2743,8 @@
       "source_count": 3,
       "articles": [
         "d3c3aee21f96906a95",
-        "71518d7a75d501cce5",
-        "982403d8bdf1d781f6"
+        "982403d8bdf1d781f6",
+        "71518d7a75d501cce5"
       ],
       "status": "titoli simili su più fonti; fatti non verificati"
     },
@@ -2766,34 +2769,21 @@
       ],
       "source_count": 2,
       "articles": [
-        "0da7f56b23eac1c1c1",
-        "ca70e6df5dd50fba20"
+        "ca70e6df5dd50fba20",
+        "0da7f56b23eac1c1c1"
       ],
       "status": "titoli simili su più fonti; fatti non verificati"
     },
     {
-      "headline": "Spain begins mourning period after deadly train crash",
-      "sources": [
-        "France 24",
-        "The Guardian"
-      ],
-      "source_count": 2,
-      "articles": [
-        "be34cc6794d07045eb",
-        "1aba6dee94e4b4f017"
-      ],
-      "status": "titoli simili su più fonti; fatti non verificati"
-    },
-    {
-      "headline": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+      "headline": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
       "sources": [
         "BBC Business",
         "BBC World"
       ],
       "source_count": 2,
       "articles": [
-        "1367990b4f3cef72bc",
-        "7bf8bdc9161d2cd0ef"
+        "7bf8bdc9161d2cd0ef",
+        "1367990b4f3cef72bc"
       ],
       "status": "titoli simili su più fonti; fatti non verificati"
     }
@@ -2926,34 +2916,37 @@
       "id": "GOLD",
       "name": "Oro XAU/USD spot",
       "unit": "USD/oncia",
-      "source": "n.d.",
+      "source": "XAUS + Gold API",
       "type": "commodity",
       "instrument": "XAU/USD spot, non future COMEX GC",
-      "value": null,
+      "value": 4029.0,
       "previous": null,
       "change": null,
       "change_pct": null,
-      "observation_date": null,
+      "observation_date": "2026-10-29",
       "previous_date": null,
       "stale": true,
       "delayed": false,
-      "error": "Meno di due fonti spot aggiornate, prezzo non verificato",
+      "error": null,
       "quotes": [
         {
           "source": "Gold API",
-          "value": 4068.600098,
-          "as_of": "2026-10-28T21:40:58Z",
+          "value": 4029.0,
+          "as_of": "2026-10-29T11:49:08Z",
           "url": "https://gold-api.com/"
         },
         {
           "source": "XAUS",
-          "value": 4031.899902,
-          "as_of": "2026-10-29T08:33:41.230000Z",
+          "value": 4029.0,
+          "as_of": "2026-10-29T11:49:14.230000Z",
           "url": "https://xaus.com/api/v1/spot"
         }
       ],
-      "url": "https://gold-api.com/",
-      "quote_quality": "unavailable"
+      "url": "https://xaus.com/api/v1/spot",
+      "quote_quality": "indicative_shared_upstream",
+      "as_of": "2026-10-29T11:49:14.230000Z",
+      "verification_note": "Gold API e XAUS possono condividere lo stesso fornitore a monte: accordo non significa doppia verifica.",
+      "difference_pct": 0.0
     },
     {
       "id": "DXY",
@@ -3029,74 +3022,74 @@
       {
         "name": "ANSA · Mondo",
         "ok": true,
-        "count": 51,
-        "elapsed_ms": 1191
+        "count": 49,
+        "elapsed_ms": 1269
       },
       {
         "name": "Al Jazeera",
         "ok": true,
         "count": 25,
-        "elapsed_ms": 249
+        "elapsed_ms": 226
       },
       {
         "name": "BBC Business",
         "ok": true,
-        "count": 24,
-        "elapsed_ms": 327
+        "count": 25,
+        "elapsed_ms": 478
       },
       {
         "name": "BBC World",
         "ok": true,
-        "count": 30,
-        "elapsed_ms": 160
+        "count": 27,
+        "elapsed_ms": 481
       },
       {
         "name": "BCE · Comunicati",
         "ok": true,
-        "count": 3,
-        "elapsed_ms": 684
+        "count": 4,
+        "elapsed_ms": 658
       },
       {
         "name": "Deutsche Welle",
         "ok": true,
         "count": 0,
-        "elapsed_ms": 604
+        "elapsed_ms": 129
       },
       {
         "name": "Fed · Monetary policy",
         "ok": true,
         "count": 1,
-        "elapsed_ms": 84
+        "elapsed_ms": 72
       },
       {
         "name": "Fed · Press releases",
         "ok": true,
         "count": 1,
-        "elapsed_ms": 69
+        "elapsed_ms": 63
       },
       {
         "name": "France 24",
         "ok": true,
         "count": 24,
-        "elapsed_ms": 177
+        "elapsed_ms": 194
       },
       {
         "name": "NPR",
         "ok": true,
         "count": 10,
-        "elapsed_ms": 262
+        "elapsed_ms": 298
       },
       {
         "name": "Politico Europe",
         "ok": true,
         "count": 10,
-        "elapsed_ms": 365
+        "elapsed_ms": 250
       },
       {
         "name": "The Guardian",
         "ok": true,
         "count": 42,
-        "elapsed_ms": 228
+        "elapsed_ms": 358
       }
     ],
     "articles_48h": 250,
@@ -3133,7 +3126,7 @@
   },
   "warnings": [
     "Oro live, DXY e futures non collegati: non sostituiti con dati simulati.",
-    "Oro spot non verificato da due feed temporalmente comparabili: n.d."
+    "Oro XAU/USD indicativo da feed potenzialmente correlati: non usato nei calcoli di rischio."
   ],
   "daily_brief": "briefs/2026-10-29.json",
   "calendar": [
@@ -4996,44 +4989,43 @@
     "providers": {
       "calendar": {
         "name": "calendar",
-        "status": "ok",
-        "checked_at": "2026-10-29T08:34:07.383011Z"
+        "status": "cached",
+        "checked_at": "2026-10-29T11:49:30.711642Z",
+        "last_fetched": "2026-10-29T08:34:07.383011Z"
       },
       "ecb": {
         "name": "ecb",
-        "status": "ok",
-        "checked_at": "2026-10-29T08:34:07.383011Z"
+        "status": "cached",
+        "checked_at": "2026-10-29T11:49:30.711642Z",
+        "last_fetched": "2026-10-29T08:34:07.383011Z"
       },
       "gold_api": {
         "name": "gold_api",
-        "status": "error",
-        "checked_at": "2026-10-29T08:34:07.383011Z",
-        "reason": "URLError",
-        "cached": true
+        "status": "ok",
+        "checked_at": "2026-10-29T11:49:30.711642Z"
       },
       "xaus": {
         "name": "xaus",
         "status": "ok",
-        "checked_at": "2026-10-29T08:34:07.383011Z"
+        "checked_at": "2026-10-29T11:49:30.711642Z"
       },
       "cot": {
         "name": "cot",
         "status": "cached",
-        "checked_at": "2026-10-29T08:34:07.383011Z",
+        "checked_at": "2026-10-29T11:49:30.711642Z",
         "last_fetched": "2026-10-28T16:40:39.954076Z"
       },
       "gold_levels": {
         "name": "gold_levels",
-        "status": "ok",
-        "checked_at": "2026-10-29T08:34:07.383011Z"
+        "status": "cached",
+        "checked_at": "2026-10-29T11:49:30.711642Z",
+        "last_fetched": "2026-10-29T08:34:07.383011Z"
       }
     },
     "attribution": {
       "Finance Calendar": "https://www.financecalendar.com"
     },
-    "market_conflicts": {
-      "GOLD": "Meno di due fonti spot aggiornate, prezzo non verificato"
-    },
+    "market_conflicts": {},
     "key_status": {
       "FINANCECALENDAR_API_KEY": "optional_not_configured",
       "METALS_DEV_API_KEY": "optional_not_configured",
@@ -5041,7 +5033,7 @@
       "FMP_API_KEY": "optional_not_configured",
       "FRED_API_KEY": "optional_not_configured"
     },
-    "timestamp": "2026-10-29T08:34:07.383011Z",
+    "timestamp": "2026-10-29T11:49:30.711642Z",
     "notice": "Futures exchange real-time CME are not supplied; no proxies are labelled futures."
   },
   "sentiments_python": {
