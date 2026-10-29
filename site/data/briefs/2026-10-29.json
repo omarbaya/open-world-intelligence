@@ -1,20 +1,27 @@
 {
   "date": "2026-10-29",
-  "generated_local": "29/10/2026 18:11 EET",
+  "generated_local": "29/10/2026 23:10 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
+    {
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "source": "Fed · Press releases",
+      "published_at": "2026-10-29T20:30:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "source": "BBC Business",
+      "published_at": "2026-10-29T17:15:05Z",
+      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
     {
       "title": "ECB President Lagarde to step down on 7 February 2027",
       "source": "BCE · Comunicati",
       "published_at": "2026-10-29T10:00:00Z",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-      "verification": "fonte primaria: dichiarazione ufficiale"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "source": "Fed · Monetary policy",
-      "published_at": "2026-10-28T18:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
@@ -25,18 +32,11 @@
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
-      "title": "Fed set to hold interest rates steady in last decision before midterms",
-      "source": "The Guardian",
-      "published_at": "2026-10-28T10:00:03Z",
-      "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "From a seed in China to the ‘backdrop for countless love stories’: a ginkgo’s 167-year journey to Victorian tree of the year",
-      "source": "The Guardian",
-      "published_at": "2026-10-28T05:32:13Z",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/28/backdrop-for-countless-local-love-stories-geelong-gingko-named-victorian-tree-of-the-year",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Fed · Monetary policy",
+      "published_at": "2026-10-28T18:00:00Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "verification": "fonte primaria: dichiarazione ufficiale"
     }
   ],
   "topics": {
@@ -66,13 +66,19 @@
         "published_at": "2026-10-29T14:00:47Z"
       },
       {
-        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
         "source": "BCE · Comunicati",
         "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
         "published_at": "2026-10-29T14:00:00Z"
       }
     ],
     "Medio Oriente": [
+      {
+        "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss",
+        "published_at": "2026-10-29T19:06:00Z"
+      },
       {
         "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
         "source": "Al Jazeera",
@@ -96,15 +102,15 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/israeli-electorate-has-moved-rightward-many-underestimated-extent-of-fracture-in-israeli-society",
         "published_at": "2026-10-28T19:12:30Z"
-      },
-      {
-        "title": "What are the implications of Israel’s elections?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
-        "published_at": "2026-10-28T19:03:03Z"
       }
     ],
     "Russia–Ucraina": [
+      {
+        "title": "At least 14 people killed in attack on Ukraine train station",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/aje-onl-nf_russian-drone-strike-at-dnipro-train-platform-291026?traffic_source=rss",
+        "published_at": "2026-10-29T18:03:21Z"
+      },
       {
         "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
         "source": "BBC World",
@@ -128,15 +134,21 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
         "published_at": "2026-10-29T05:22:21Z"
-      },
-      {
-        "title": "Putin hails Elon Musk’s ‘genius’ amid plans for Russian version of Starlink",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/28/vladimir-putin-elon-musk-genius-russia-starlink",
-        "published_at": "2026-10-28T18:32:38Z"
       }
     ],
     "Macro e banche centrali": [
+      {
+        "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+        "source": "Fed · Press releases",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+        "published_at": "2026-10-29T20:30:00Z"
+      },
+      {
+        "title": "US interest rates held steady and economy grows - what it means for you",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T17:15:05Z"
+      },
       {
         "title": "ECB President Lagarde to step down on 7 February 2027",
         "source": "BCE · Comunicati",
@@ -145,35 +157,23 @@
       },
       {
         "title": "Federal Reserve issues FOMC statement",
-        "source": "Fed · Monetary policy",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-        "published_at": "2026-10-28T18:00:00Z"
-      },
-      {
-        "title": "Federal Reserve issues FOMC statement",
         "source": "Fed · Press releases",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
         "published_at": "2026-10-28T18:00:00Z"
       },
       {
-        "title": "Fed set to hold interest rates steady in last decision before midterms",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-        "published_at": "2026-10-28T10:00:03Z"
-      },
-      {
-        "title": "Fed leaves interest rates unchanged despite inflation in the US",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
-        "published_at": "2026-10-28T19:05:44Z"
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "Fed · Monetary policy",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "published_at": "2026-10-28T18:00:00Z"
       }
     ],
     "Energia": [
       {
-        "title": "Democrats lead Texas and Michigan Senate races, poll shows; turmoil in Alaska amid campaign investigation – live",
+        "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – live",
         "source": "The Guardian",
         "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-        "published_at": "2026-10-29T15:41:29Z"
+        "published_at": "2026-10-29T20:54:07Z"
       },
       {
         "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
@@ -194,10 +194,10 @@
         "published_at": "2026-10-28T10:18:40Z"
       },
       {
-        "title": "Your pay, energy bills and savings: How the Budget affects you",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-29T15:11:35Z"
+        "title": "Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+        "published_at": "2026-10-29T19:04:17Z"
       }
     ],
     "Cina–Taiwan": [
@@ -220,16 +220,16 @@
         "published_at": "2026-10-28T12:17:34Z"
       },
       {
+        "title": "France football chief backs Real Madrid’s Mbappe after China apology",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/29/france-football-chief-speaks-up-for-real-madrids-mbappe-in-china-apology?traffic_source=rss",
+        "published_at": "2026-10-29T16:43:37Z"
+      },
+      {
         "title": "US and Japan agree to establish a Japanese facility for joint missile production",
         "source": "NPR",
         "url": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
         "published_at": "2026-10-29T15:58:27Z"
-      },
-      {
-        "title": "China elevates a military general to the Politburo and seeks to strengthen party discipline",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
-        "published_at": "2026-10-29T15:53:46Z"
       }
     ],
     "Mercati e difesa": [
@@ -313,24 +313,24 @@
       "stale": false
     },
     {
-      "name": "EUR/USD fixing BCE",
-      "value": 1.1133,
+      "name": "EUR/USD (fixing)",
+      "value": 1.1199,
       "unit": "USD per EUR",
+      "date": "2026-10-23",
+      "stale": true
+    },
+    {
+      "name": "Treasury 10 anni",
+      "value": 5.05,
+      "unit": "%",
       "date": "2026-10-28",
       "stale": false
     },
     {
-      "name": "Treasury 10 anni",
-      "value": 4.99,
-      "unit": "%",
-      "date": "2026-10-27",
-      "stale": false
-    },
-    {
       "name": "Treasury 2 anni",
-      "value": 4.7,
+      "value": 4.67,
       "unit": "%",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "stale": false
     },
     {
@@ -348,8 +348,8 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD spot",
-      "value": 4027.100098,
+      "name": "Oro XAU/USD",
+      "value": 4016.699951,
       "unit": "USD/oncia",
       "date": "2026-10-29",
       "stale": true
