@@ -1803,14 +1803,14 @@
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 4027.100098,
-    "as_of": "2026-10-29T13:46:08Z",
+    "value": 4016.699951,
+    "as_of": "2026-10-29T16:11:39Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4027.100098,
-    "as_of": "2026-10-29T13:46:24.141000Z",
+    "value": 4016.899902,
+    "as_of": "2026-10-29T16:10:47.170000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,47 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-29T13:46:30.147558Z",
-    "xaus": "2026-10-29T13:46:30.147558Z",
+    "gold_api": "2026-10-29T16:11:38.041685Z",
+    "xaus": "2026-10-29T16:11:38.041685Z",
     "gold_levels": "2026-10-29T08:34:07.383011Z",
-    "ecb": "2026-10-29T08:34:07.383011Z",
-    "calendar": "2026-10-29T08:34:07.383011Z",
+    "ecb": "2026-10-29T16:11:38.041685Z",
+    "calendar": "2026-10-29T16:11:38.041685Z",
     "cot": "2026-10-28T16:40:39.954076Z"
   },
-  "last_refresh": "2026-10-29T13:46:30.147558Z",
+  "last_refresh": "2026-10-29T16:11:38.041685Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-29T13:46:30.147558Z",
-      "last_fetched": "2026-10-29T08:34:07.383011Z"
+      "status": "ok",
+      "checked_at": "2026-10-29T16:11:38.041685Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-29T13:46:30.147558Z",
-      "last_fetched": "2026-10-29T08:34:07.383011Z"
+      "status": "ok",
+      "checked_at": "2026-10-29T16:11:38.041685Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-29T13:46:30.147558Z"
+      "checked_at": "2026-10-29T16:11:38.041685Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-29T13:46:30.147558Z"
+      "checked_at": "2026-10-29T16:11:38.041685Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-29T13:46:30.147558Z",
+      "checked_at": "2026-10-29T16:11:38.041685Z",
       "last_fetched": "2026-10-28T16:40:39.954076Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-10-29T13:46:30.147558Z",
+      "checked_at": "2026-10-29T16:11:38.041685Z",
       "last_fetched": "2026-10-29T08:34:07.383011Z"
     }
   },
@@ -1915,12 +1913,12 @@
     "type": "fx",
     "source": "BCE · EXR/D.USD.EUR.SP00.A",
     "instrument": "EUR/USD spot reference ECB",
-    "value": 1.1133,
-    "previous": 1.115,
-    "change": -0.0017,
-    "change_pct": -0.1525,
-    "observation_date": "2026-10-28",
-    "previous_date": "2026-10-27",
+    "value": 1.113,
+    "previous": 1.1133,
+    "change": -0.0003,
+    "change_pct": -0.0269,
+    "observation_date": "2026-10-29",
+    "previous_date": "2026-10-28",
     "stale": false,
     "delayed": true,
     "error": null,
