@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generated_local": "30/10/2026 09:12 EET",
+  "generated_local": "30/10/2026 13:41 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -8,6 +8,13 @@
       "source": "Fed · Press releases",
       "published_at": "2026-10-29T20:30:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
+    {
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "source": "BCE · Comunicati",
+      "published_at": "2026-10-30T09:00:00Z",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
       "verification": "fonte primaria: dichiarazione ufficiale"
     },
     {
@@ -30,16 +37,41 @@
       "published_at": "2026-10-28T18:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "verification": "fonte primaria: dichiarazione ufficiale"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "source": "Fed · Monetary policy",
-      "published_at": "2026-10-28T18:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "verification": "fonte primaria: dichiarazione ufficiale"
     }
   ],
   "topics": {
+    "Medio Oriente": [
+      {
+        "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
+        "published_at": "2026-10-30T11:20:26Z"
+      },
+      {
+        "title": "Israel elections: Netanyahu attacks Arab parties as they emerge as potential kingmakers",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261030-israel-elections-netanyahu-attacks-arab-parties-as-they-emerge-as-potential-kingmakers",
+        "published_at": "2026-10-30T10:10:41Z"
+      },
+      {
+        "title": "‘My life is buried here’: Iranian man whose 12 family members were killed",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/my-life-is-buried-here-iranian-man-whose-12-family-members-were-killed?traffic_source=rss",
+        "published_at": "2026-10-30T07:51:08Z"
+      },
+      {
+        "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
+        "published_at": "2026-10-30T02:40:26Z"
+      },
+      {
+        "title": "Antisemitism envoy proposes ‘external ombudsman’ to monitor ABC and SBS coverage of Israel and Middle East",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/media/2026/oct/30/jillian-segal-antisemitism-envoy-plan-report-priorities-ntwnfb",
+        "published_at": "2026-10-30T00:37:36Z"
+      }
+    ],
     "Altre notizie": [
       {
         "title": "Monetary policy decisions",
@@ -72,39 +104,19 @@
         "published_at": "2026-10-29T14:00:00Z"
       }
     ],
-    "Medio Oriente": [
-      {
-        "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
-        "published_at": "2026-10-30T02:40:26Z"
-      },
-      {
-        "title": "Antisemitism envoy proposes ‘external ombudsman’ to monitor ABC and SBS coverage of Israel and Middle East",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/media/2026/oct/30/jillian-segal-antisemitism-envoy-plan-report-priorities-ntwnfb",
-        "published_at": "2026-10-30T00:37:36Z"
-      },
-      {
-        "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-        "published_at": "2026-10-30T00:11:20Z"
-      },
-      {
-        "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss",
-        "published_at": "2026-10-29T19:06:00Z"
-      },
-      {
-        "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening?traffic_source=rss",
-        "published_at": "2026-10-29T15:12:36Z"
-      }
-    ],
     "Russia–Ucraina": [
+      {
+        "title": "Russian oil refinery suffers major drone attack",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/russian-oil-refinery-suffers-major-drone-attack-samara/",
+        "published_at": "2026-10-30T09:34:19Z"
+      },
+      {
+        "title": "Russian oil refinery struck as Ukraine renews drone attacks",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+        "published_at": "2026-10-30T09:14:16Z"
+      },
       {
         "title": "At least 14 people killed in attack on Ukraine train station",
         "source": "Al Jazeera",
@@ -122,18 +134,38 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/europe/20261029-at-least-13-killed-in-horrific-russian-drone-strike-at-ukraine-train-station",
         "published_at": "2026-10-29T11:36:35Z"
+      }
+    ],
+    "Energia": [
+      {
+        "title": "Russian oil refinery suffers major drone attack",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/russian-oil-refinery-suffers-major-drone-attack-samara/",
+        "published_at": "2026-10-30T09:34:19Z"
       },
       {
-        "title": "How AI drones are influencing the course of the Ukraine war",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/29/g-s1-147496/ukraine-ai-drones-war-russia",
-        "published_at": "2026-10-29T09:02:00Z"
-      },
-      {
-        "title": "Russia says more than 600 drones launched towards Moscow overnight",
+        "title": "Russian oil refinery struck as Ukraine renews drone attacks",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
-        "published_at": "2026-10-29T05:22:21Z"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+        "published_at": "2026-10-30T09:14:16Z"
+      },
+      {
+        "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – as it happened",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+        "published_at": "2026-10-30T01:59:25Z"
+      },
+      {
+        "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
+        "published_at": "2026-10-30T00:11:20Z"
+      },
+      {
+        "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
+        "published_at": "2026-10-29T06:00:26Z"
       }
     ],
     "Macro e banche centrali": [
@@ -142,6 +174,12 @@
         "source": "Fed · Press releases",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
         "published_at": "2026-10-29T20:30:00Z"
+      },
+      {
+        "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+        "published_at": "2026-10-30T09:00:00Z"
       },
       {
         "title": "US interest rates held steady and economy grows - what it means for you",
@@ -160,44 +198,6 @@
         "source": "Fed · Press releases",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
         "published_at": "2026-10-28T18:00:00Z"
-      },
-      {
-        "title": "Federal Reserve issues FOMC statement",
-        "source": "Fed · Monetary policy",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-        "published_at": "2026-10-28T18:00:00Z"
-      }
-    ],
-    "Energia": [
-      {
-        "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – as it happened",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-        "published_at": "2026-10-30T01:59:25Z"
-      },
-      {
-        "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-        "published_at": "2026-10-30T00:11:20Z"
-      },
-      {
-        "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
-        "published_at": "2026-10-29T06:00:26Z"
-      },
-      {
-        "title": "Bank of Canada raises interest rates for the first time in three years",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
-        "published_at": "2026-10-28T16:44:44Z"
-      },
-      {
-        "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-28T10:18:40Z"
       }
     ],
     "Cina–Taiwan": [
@@ -214,6 +214,12 @@
         "published_at": "2026-10-28T12:17:34Z"
       },
       {
+        "title": "Beijing Queer film festival cancelled after harassment from authorities",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/beijing-queer-film-festival-cancelled-after-police-harassment",
+        "published_at": "2026-10-30T11:04:12Z"
+      },
+      {
         "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
         "source": "BBC World",
         "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
@@ -224,44 +230,38 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
         "published_at": "2026-10-30T02:56:46Z"
-      },
-      {
-        "title": "Canada and Europe share challenge of diversifying without antagonizing US and China",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/eu-canada-summit-montreal-shared-challenges/",
-        "published_at": "2026-10-30T01:51:56Z"
       }
     ],
     "Mercati e difesa": [
+      {
+        "title": "Streeting denies 'kicking can down the road' in defence spending row",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-30T11:23:38Z"
+      },
+      {
+        "title": "Foreign firms that win defence contracts will have to invest in UK under new policy – UK politics live",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates",
+        "published_at": "2026-10-30T11:21:38Z"
+      },
+      {
+        "title": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/economy-minister-roland-lescure-warns-france-could-hit-the-wall-as-new-figures-show-gdp-contraction/",
+        "published_at": "2026-10-30T10:19:54Z"
+      },
+      {
+        "title": "Healey’s budget cuts mean Britain is likely to miss green heating targets",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
+        "published_at": "2026-10-30T10:00:50Z"
+      },
       {
         "title": "Inside America’s midterm election battle",
         "source": "Politico Europe",
         "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-americas-midterm-election-battle/",
         "published_at": "2026-10-30T03:30:00Z"
-      },
-      {
-        "title": "Iran war live: Saudi coalition downs Houthi drone in Mecca region",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss",
-        "published_at": "2026-10-30T00:00:00Z"
-      },
-      {
-        "title": "Hegseth reportedly fires high-ranking army strategist over alleged leaks",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/oct/29/hegseth-fires-general-leak-inquiry-pentagon",
-        "published_at": "2026-10-29T22:01:56Z"
-      },
-      {
-        "title": "Why is Russia sending fighter jets and air defences to Ethiopia?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/29/why-is-russia-sending-fighter-jets-and-air-defences-to-ethiopia?traffic_source=rss",
-        "published_at": "2026-10-29T12:32:49Z"
-      },
-      {
-        "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-29T11:25:16Z"
       }
     ],
     "Golfo e Mar Rosso": [
@@ -272,28 +272,28 @@
         "published_at": "2026-10-30T00:11:20Z"
       },
       {
+        "title": "Dakar Rally 2027 to be held in Portugal, Morocco as Saudi hosting revoked",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/10/30/dakar-rally-2027-to-be-held-in-portugal-morocco-as-saudi-hosting-revoked?traffic_source=rss",
+        "published_at": "2026-10-30T10:21:13Z"
+      },
+      {
+        "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/saudi-arabia-reports-interception-of-houthi-drone-targeting-mecca?traffic_source=rss",
+        "published_at": "2026-10-30T09:42:42Z"
+      },
+      {
+        "title": "Houthis sending Taiz ‘back to the stone age’, governor of besieged Yemen city says",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
+        "published_at": "2026-10-30T09:00:50Z"
+      },
+      {
         "title": "Iran war live: Saudi coalition downs Houthi drone in Mecca region",
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss",
         "published_at": "2026-10-30T00:00:00Z"
-      },
-      {
-        "title": "Fighting rages near Yemen’s Taiz as UN urges humanitarian access",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/29/fighting-rages-near-yemens-taiz-as-un-urges-humanitarian-access?traffic_source=rss",
-        "published_at": "2026-10-29T12:46:29Z"
-      },
-      {
-        "title": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss",
-        "published_at": "2026-10-29T11:41:44Z"
-      },
-      {
-        "title": "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/29/south-korea-captain-la-star-son-heung-min-backed-by-coach-amid-rift-rumour?traffic_source=rss",
-        "published_at": "2026-10-29T11:22:16Z"
       }
     ]
   },
@@ -349,7 +349,7 @@
     },
     {
       "name": "Oro XAU/USD",
-      "value": 4002.399902,
+      "value": 3984.899902,
       "unit": "USD/oncia",
       "date": "2026-10-30",
       "stale": true
