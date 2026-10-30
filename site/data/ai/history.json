@@ -732,5 +732,106 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T09:12:14.375901+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche).",
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "Cos'è il fixing dei tassi e come funziona",
+        "area": "Strumenti",
+        "livello": "Base",
+        "spiegazione": "Il fixing rappresenta il valore ufficiale di riferimento di un tasso o di un'attività finanziaria stabilito da un'autorità o da una banca centrale. Serve a dare trasparenza e un punto di riferimento comune agli operatori del mercato. Per esempio, la Federal Reserve fissa il target range per i tassi al 3-3/4 e 4% il 28 ottobre 2026 [f289e52612b56982e9].",
+        "esempio_oggi": "Nella riunione del 28 ottobre 2026, la Federal Reserve ha mantenuto il target range dei tassi di interesse al 3-3/4 e 4% [f289e52612b56982e9].",
+        "domanda": "Cosa smentirebbe l'interpretazione che i tassi di riferimento ufficiali siano rimasti invariati?",
+        "risposta": "Un comunicato ufficiale della banca centrale che annuncia una variazione dei tassi di interesse [f289e52612b56982e9].",
+        "parole": [
+          {
+            "termine": "Fixing",
+            "spiegazione": "Riferimento ufficiale di prezzo o tasso calcolato da un'autorità o banca centrale."
+          },
+          {
+            "termine": "Target range",
+            "spiegazione": "Intervallo obiettivo stabilito da una banca centrale per i tassi di riferimento."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a -1, 0, +1 oppure alle diciture standard Forte/Debole, escludendo stringhe discorsive.",
+          "esempio": "Uso di valori come 'Neutrale' anziché la scala numerica o booleana richiesta dai controlli di validazione Python [inclinazione]."
+        },
+        {
+          "problema": "Presenza di numeri non presenti nei dati di input originari del dossier (allucinazioni numeriche).",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Sostituzione automatica operata dal controllo Python su valori percentuali e numerici non verificati tramite le fonti [verification]."
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi Houthi in Arabia Saudita vanno trattati come notizie non verificate finché manca una seconda fonte indipendente [481e3f8a0b0d753cc0]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (GOLD) indicati come n.d. per assenza di collegamenti diretti verificati nel dossier [GOLD]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se i timori energetici aumentano, allora i beni rifugio come l'oro possono registrare flussi in entrata [481e3f8a0b0d753cc0]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
