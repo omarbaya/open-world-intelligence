@@ -1,8 +1,15 @@
 {
   "date": "2026-10-30",
-  "generated_local": "30/10/2026 16:14 EET",
+  "generated_local": "30/10/2026 21:29 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "source": "BCE · Comunicati",
+      "published_at": "2026-10-30T14:00:00Z",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+      "verification": "fonte primaria: dichiarazione ufficiale"
+    },
     {
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "source": "Fed · Press releases",
@@ -30,13 +37,6 @@
       "published_at": "2026-10-29T10:00:00Z",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
       "verification": "fonte primaria: dichiarazione ufficiale"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "source": "Fed · Monetary policy",
-      "published_at": "2026-10-28T18:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "verification": "fonte primaria: dichiarazione ufficiale"
     }
   ],
   "topics": {
@@ -46,6 +46,18 @@
         "source": "BCE · Comunicati",
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
         "published_at": "2026-10-29T13:15:00Z"
+      },
+      {
+        "title": "Philip R. Lane: AI adoption in Europe",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+        "published_at": "2026-10-30T16:10:00Z"
+      },
+      {
+        "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion",
+        "published_at": "2026-10-30T15:34:46Z"
       },
       {
         "title": "Erin Patterson to die in prison after losing appeal against mushroom murder convictions",
@@ -58,21 +70,27 @@
         "source": "BCE · Comunicati",
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
         "published_at": "2026-10-29T15:50:00Z"
-      },
-      {
-        "title": "Study of 100,000 Australians seeks causes of mental health disorders and early onset cancer",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/30/study-of-100000-australians-seeks-causes-of-mental-health-disorders-and-early-onset-cancer",
-        "published_at": "2026-10-29T14:00:48Z"
-      },
-      {
-        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-        "source": "BCE · Comunicati",
-        "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-        "published_at": "2026-10-29T14:00:00Z"
       }
     ],
     "Medio Oriente": [
+      {
+        "title": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
+        "published_at": "2026-10-30T18:35:44Z"
+      },
+      {
+        "title": "MAGA: Why Trump's movement is fracturing?",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261030-maga-why-trump-s-movement-is-fracturing",
+        "published_at": "2026-10-30T18:01:38Z"
+      },
+      {
+        "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins",
+        "published_at": "2026-10-30T16:49:00Z"
+      },
       {
         "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
         "source": "The Guardian",
@@ -84,27 +102,15 @@
         "source": "NPR",
         "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
         "published_at": "2026-10-30T11:20:26Z"
-      },
-      {
-        "title": "Israel elections: Netanyahu attacks Arab parties as they emerge as potential kingmakers",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/video/20261030-israel-elections-netanyahu-attacks-arab-parties-as-they-emerge-as-potential-kingmakers",
-        "published_at": "2026-10-30T10:10:41Z"
-      },
-      {
-        "title": "‘My life is buried here’: Iranian man whose 12 family members were killed",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/my-life-is-buried-here-iranian-man-whose-12-family-members-were-killed?traffic_source=rss",
-        "published_at": "2026-10-30T07:51:08Z"
-      },
-      {
-        "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
-        "published_at": "2026-10-30T02:40:26Z"
       }
     ],
     "Russia–Ucraina": [
+      {
+        "title": "Russian society being ‘systematically crushed’ says Novaya Gazeta as newspaper announces closure",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/novaya-gazeta-russia-independent-newspaper-to-close",
+        "published_at": "2026-10-30T15:52:51Z"
+      },
       {
         "title": "Russia back in ice hockey world championships after sport court ruling",
         "source": "Al Jazeera",
@@ -128,47 +134,15 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
         "published_at": "2026-10-30T07:28:16Z"
-      },
-      {
-        "title": "At least 14 people killed in attack on Ukraine train station",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/aje-onl-nf_russian-drone-strike-at-dnipro-train-platform-291026?traffic_source=rss",
-        "published_at": "2026-10-29T18:03:21Z"
-      }
-    ],
-    "Macro e banche centrali": [
-      {
-        "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-        "source": "Fed · Press releases",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-        "published_at": "2026-10-29T20:30:00Z"
-      },
-      {
-        "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
-        "source": "BCE · Comunicati",
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
-        "published_at": "2026-10-30T09:00:00Z"
-      },
-      {
-        "title": "US interest rates held steady and economy grows - what it means for you",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-29T17:15:05Z"
-      },
-      {
-        "title": "ECB President Lagarde to step down on 7 February 2027",
-        "source": "BCE · Comunicati",
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-        "published_at": "2026-10-29T10:00:00Z"
-      },
-      {
-        "title": "Federal Reserve issues FOMC statement",
-        "source": "Fed · Monetary policy",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-        "published_at": "2026-10-28T18:00:00Z"
       }
     ],
     "Energia": [
+      {
+        "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins",
+        "published_at": "2026-10-30T16:49:00Z"
+      },
       {
         "title": "Public sector an ‘afterthought’ to North Sea oil jobs, says Unison leader",
         "source": "The Guardian",
@@ -192,12 +166,102 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
         "published_at": "2026-10-30T01:59:25Z"
+      }
+    ],
+    "Macro e banche centrali": [
+      {
+        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+        "published_at": "2026-10-30T14:00:00Z"
+      },
+      {
+        "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+        "source": "Fed · Press releases",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+        "published_at": "2026-10-29T20:30:00Z"
+      },
+      {
+        "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+        "published_at": "2026-10-30T09:00:00Z"
+      },
+      {
+        "title": "US interest rates held steady and economy grows - what it means for you",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T17:15:05Z"
+      },
+      {
+        "title": "ECB President Lagarde to step down on 7 February 2027",
+        "source": "BCE · Comunicati",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+        "published_at": "2026-10-29T10:00:00Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+        "published_at": "2026-10-30T18:27:51Z"
+      },
+      {
+        "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins",
+        "published_at": "2026-10-30T16:49:00Z"
+      },
+      {
+        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+        "published_at": "2026-10-30T12:49:56Z"
+      },
+      {
+        "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-30T17:47:01Z"
+      },
+      {
+        "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-30T17:47:01Z"
+      }
+    ],
+    "Golfo e Mar Rosso": [
+      {
+        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+        "published_at": "2026-10-30T12:49:56Z"
       },
       {
         "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
         "published_at": "2026-10-30T00:11:20Z"
+      },
+      {
+        "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
+        "published_at": "2026-10-30T18:33:29Z"
+      },
+      {
+        "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
+        "published_at": "2026-10-30T15:26:00Z"
+      },
+      {
+        "title": "Black Sea shipping under growing threats as drones hit container ships",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+        "published_at": "2026-10-30T14:27:51Z"
       }
     ],
     "Cina–Taiwan": [
@@ -231,93 +295,29 @@
         "url": "https://www.politico.eu/article/eu-canada-summit-montreal-shared-challenges/",
         "published_at": "2026-10-30T01:51:56Z"
       }
-    ],
-    "Golfo e Mar Rosso": [
-      {
-        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-        "published_at": "2026-10-30T12:49:56Z"
-      },
-      {
-        "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-        "published_at": "2026-10-30T00:11:20Z"
-      },
-      {
-        "title": "Dakar Rally 2027 to be held in Portugal, Morocco as Saudi hosting revoked",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/10/30/dakar-rally-2027-to-be-held-in-portugal-morocco-as-saudi-hosting-revoked?traffic_source=rss",
-        "published_at": "2026-10-30T10:21:13Z"
-      },
-      {
-        "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/saudi-arabia-reports-interception-of-houthi-drone-targeting-mecca?traffic_source=rss",
-        "published_at": "2026-10-30T09:42:42Z"
-      },
-      {
-        "title": "Houthis sending Taiz ‘back to the stone age’, governor of besieged Yemen city says",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
-        "published_at": "2026-10-30T09:00:50Z"
-      }
-    ],
-    "Mercati e difesa": [
-      {
-        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-        "published_at": "2026-10-30T12:49:56Z"
-      },
-      {
-        "title": "Streeting denies 'kicking can down the road' in defence spending row",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-30T11:23:38Z"
-      },
-      {
-        "title": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/economy-minister-roland-lescure-warns-france-could-hit-the-wall-as-new-figures-show-gdp-contraction/",
-        "published_at": "2026-10-30T10:19:54Z"
-      },
-      {
-        "title": "Healey’s budget cuts mean Britain is likely to miss green heating targets",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
-        "published_at": "2026-10-30T10:00:50Z"
-      },
-      {
-        "title": "Inside America’s midterm election battle",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-americas-midterm-election-battle/",
-        "published_at": "2026-10-30T03:30:00Z"
-      }
     ]
   },
   "markets": [
     {
       "name": "S&P 500",
-      "value": 7743.98,
+      "value": 7720.39,
       "unit": "punti",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "stale": false
     },
     {
       "name": "VIX",
-      "value": 16.91,
+      "value": 17.2,
       "unit": "punti",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "stale": false
     },
     {
-      "name": "EUR/USD fixing BCE",
-      "value": 1.113,
+      "name": "EUR/USD (fixing)",
+      "value": 1.1199,
       "unit": "USD per EUR",
-      "date": "2026-10-29",
-      "stale": false
+      "date": "2026-10-23",
+      "stale": true
     },
     {
       "name": "Treasury 10 anni",
@@ -348,7 +348,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD spot",
+      "name": "Oro XAU/USD",
       "value": 3938.0,
       "unit": "USD/oncia",
       "date": "2026-10-30",
