@@ -1378,5 +1378,45 @@
     "date": "2026-10-29",
     "series": "sent:war",
     "value": 60
+  },
+  {
+    "date": "2026-10-30",
+    "series": "gauge:market_stress",
+    "value": 36
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:SP500",
+    "value": 7743.98
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:VIX",
+    "value": 16.91
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:EURUSD",
+    "value": 1.113
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:US10Y",
+    "value": 5.05
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:US2Y",
+    "value": 4.67
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:BRENT",
+    "value": 123.1
+  },
+  {
+    "date": "2026-10-30",
+    "series": "mkt:WTI",
+    "value": 103.37
   }
 ]
