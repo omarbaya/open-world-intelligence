@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generated_local": "30/10/2026 15:41 EET",
+  "generated_local": "30/10/2026 16:14 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "title": "Federal Reserve issues FOMC statement",
-      "source": "Fed · Press releases",
+      "source": "Fed · Monetary policy",
       "published_at": "2026-10-28T18:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "verification": "fonte primaria: dichiarazione ufficiale"
@@ -163,7 +163,7 @@
       },
       {
         "title": "Federal Reserve issues FOMC statement",
-        "source": "Fed · Press releases",
+        "source": "Fed · Monetary policy",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
         "published_at": "2026-10-28T18:00:00Z"
       }
@@ -232,38 +232,6 @@
         "published_at": "2026-10-30T01:51:56Z"
       }
     ],
-    "Mercati e difesa": [
-      {
-        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-        "published_at": "2026-10-30T12:49:56Z"
-      },
-      {
-        "title": "Streeting denies 'kicking can down the road' in defence spending row",
-        "source": "BBC Business",
-        "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-30T11:23:38Z"
-      },
-      {
-        "title": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/economy-minister-roland-lescure-warns-france-could-hit-the-wall-as-new-figures-show-gdp-contraction/",
-        "published_at": "2026-10-30T10:19:54Z"
-      },
-      {
-        "title": "Healey’s budget cuts mean Britain is likely to miss green heating targets",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
-        "published_at": "2026-10-30T10:00:50Z"
-      },
-      {
-        "title": "Inside America’s midterm election battle",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-americas-midterm-election-battle/",
-        "published_at": "2026-10-30T03:30:00Z"
-      }
-    ],
     "Golfo e Mar Rosso": [
       {
         "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
@@ -294,6 +262,38 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege",
         "published_at": "2026-10-30T09:00:50Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+        "published_at": "2026-10-30T12:49:56Z"
+      },
+      {
+        "title": "Streeting denies 'kicking can down the road' in defence spending row",
+        "source": "BBC Business",
+        "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-30T11:23:38Z"
+      },
+      {
+        "title": "Economy minister warns France could ‘hit the wall’ as new figures show GDP contraction",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/economy-minister-roland-lescure-warns-france-could-hit-the-wall-as-new-figures-show-gdp-contraction/",
+        "published_at": "2026-10-30T10:19:54Z"
+      },
+      {
+        "title": "Healey’s budget cuts mean Britain is likely to miss green heating targets",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
+        "published_at": "2026-10-30T10:00:50Z"
+      },
+      {
+        "title": "Inside America’s midterm election battle",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-americas-midterm-election-battle/",
+        "published_at": "2026-10-30T03:30:00Z"
       }
     ]
   },
@@ -349,7 +349,7 @@
     },
     {
       "name": "Oro XAU/USD spot",
-      "value": 3976.800049,
+      "value": 3938.0,
       "unit": "USD/oncia",
       "date": "2026-10-30",
       "stale": true
