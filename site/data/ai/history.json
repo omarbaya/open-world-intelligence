@@ -833,5 +833,102 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T13:16:10.460759+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "Capire l'inflazione HICP",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "L'Indice Armonizzato dei Prezzi al Consumo misura l'inflazione standard nell'Unione Europea. La BCE ha pubblicato stime per il 2026 al 3,0% [5325526ab247545918].",
+        "esempio_oggi": "Nel quarto trimestre 2026 la BCE indica stime HICP al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918].",
+        "domanda": "Cosa smentirebbe la previsione di un'inflazione HICP al 3,0% nel 2026?",
+        "risposta": "Un dato ufficiale Eurostat inferiore o uguale al 2,5% [5325526ab247545918].",
+        "parole": [
+          {
+            "termine": "HICP",
+            "spiegazione": "Indice Armonizzato dei Prezzi al Consumo."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Sostituzione automatica operata dal controllo Python su valori percentuali e numerici non verificati tramite le fonti [verification]."
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi con droni e le dichiarazioni di parte vanno trattati come fatti riportati finché non confermati da fonti istituzionali indipendenti multiple [a17cb32fd4ed613d3e]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "Valori di oro (XAU/USD) e future ES, GC e 6E indicati come n.d. per assenza di collegamenti diretti verificati [mercati]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi.",
+          "esempio": "Esclusione di righe con etichette non conformi rilevate dai controlli di validazione Python [inclinazione]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se l'inflazione eurozona e i dati ISM USA mostreranno ulteriore resilienza, allora la volatilità sui tassi e sui cambi potrebbe intensificarsi [brief_markdown]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
