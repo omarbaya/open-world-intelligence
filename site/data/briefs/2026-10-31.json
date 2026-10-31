@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "generated_local": "31/10/2026 13:16 EET",
+  "generated_local": "31/10/2026 14:38 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
@@ -68,6 +68,12 @@
     ],
     "Medio Oriente": [
       {
+        "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+        "published_at": "2026-10-31T12:13:42Z"
+      },
+      {
         "title": "Trump vs MAGA: Why his movement is splitting",
         "source": "France 24",
         "url": "https://www.france24.com/en/video/20261031-trump-vs-maga-why-his-movement-is-splitting",
@@ -90,12 +96,6 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/video/20261030-maga-why-trump-s-movement-is-fracturing",
         "published_at": "2026-10-30T18:01:38Z"
-      },
-      {
-        "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins",
-        "published_at": "2026-10-30T16:49:00Z"
       }
     ],
     "Russia–Ucraina": [
@@ -307,11 +307,11 @@
       "stale": false
     },
     {
-      "name": "EUR/USD (fixing)",
-      "value": 1.1199,
+      "name": "EUR/USD fixing BCE",
+      "value": 1.1172,
       "unit": "USD per EUR",
-      "date": "2026-10-23",
-      "stale": true
+      "date": "2026-10-30",
+      "stale": false
     },
     {
       "name": "Treasury 10 anni",
@@ -342,7 +342,7 @@
       "stale": false
     },
     {
-      "name": "Oro XAU/USD",
+      "name": "Oro XAU/USD spot",
       "value": 3876.399902,
       "unit": "USD/oncia",
       "date": "2026-10-31",
