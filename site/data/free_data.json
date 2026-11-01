@@ -37,6 +37,42 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
+      "id": "treasury-180f6bc2ee300e9df521",
+      "date": "2026-11-02",
+      "name": "US Treasury 26-Week Bill Auction 2026-11-02 (912797WX1)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "18:30",
+      "release_at_utc": "2026-11-02T16:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "treasury-2c083241e741273b0b17",
+      "date": "2026-11-02",
+      "name": "US Treasury 13-Week Bill Auction 2026-11-02 (912797VV6)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "18:30",
+      "release_at_utc": "2026-11-02T16:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
       "id": "census-3014803af4b6b751f73b",
       "date": "2026-11-03",
       "name": "US Factory Orders November 2026",
@@ -70,6 +106,24 @@
       "unit": "million openings",
       "source": "Bureau of Labor Statistics",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "treasury-8340364487f63082d454",
+      "date": "2026-11-03",
+      "name": "US Treasury 6-Week Bill Auction 2026-11-03 (912797VH7)",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "18:30",
+      "release_at_utc": "2026-11-03T16:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Department of the Treasury",
+      "source_url": "https://www.treasurydirect.gov/TA_WS/securities/announced?format=json",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1099,24 +1153,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "census-9c882e4e198f15ce786d",
-      "date": "2026-11-17",
-      "name": "US Business Inventories November 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-11-17T15:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Census Bureau",
-      "source_url": "https://www.census.gov/mtis/",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "ons-a6f3fb8cfbceef8f5c83",
       "date": "2026-11-18",
       "name": "Producer price inflation, UK: October 2026",
@@ -1153,24 +1189,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "ons-e2f346837d2b81b0f6df",
-      "date": "2026-11-18",
-      "name": "Private rent and house prices, UK: November 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-11-18T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/privaterentandhousepricesuknovember2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "us-new-residential-construction-housing-starts-november-2026",
       "date": "2026-11-18",
       "name": "US New Residential Construction (Housing Starts) November 2026",
@@ -1186,24 +1204,6 @@
       "unit": "thousand units, annualised",
       "source": "U.S. Census Bureau",
       "source_url": "https://www.census.gov/construction/nrc",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "bls-7e19222a5ad750d6901a",
-      "date": "2026-11-18",
-      "name": "US BLS Employer-Reported Workplace Injuries and Illnesses (Annual) November 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-11-18T15:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Bureau of Labor Statistics",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1804,13 +1804,13 @@
   "gold_api": {
     "source": "Gold API",
     "value": 3876.399902,
-    "as_of": "2026-11-01T12:04:04Z",
+    "as_of": "2026-11-01T13:49:34Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 3876.399902,
-    "as_of": "2026-11-01T12:03:51.956000Z",
+    "as_of": "2026-11-01T13:48:57.881000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,47 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-11-01T12:04:26.211627Z",
-    "xaus": "2026-11-01T12:04:26.211627Z",
-    "gold_levels": "2026-11-01T01:14:51.983488Z",
-    "ecb": "2026-11-01T07:38:19.163655Z",
-    "calendar": "2026-11-01T07:38:19.163655Z",
+    "gold_api": "2026-11-01T13:49:48.345836Z",
+    "xaus": "2026-11-01T13:49:48.345836Z",
+    "gold_levels": "2026-11-01T13:49:48.345836Z",
+    "ecb": "2026-11-01T13:49:48.345836Z",
+    "calendar": "2026-11-01T13:49:48.345836Z",
     "cot": "2026-11-01T12:04:26.211627Z"
   },
-  "last_refresh": "2026-11-01T12:04:26.211627Z",
+  "last_refresh": "2026-11-01T13:49:48.345836Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-11-01T12:04:26.211627Z",
-      "last_fetched": "2026-11-01T07:38:19.163655Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T13:49:48.345836Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-11-01T12:04:26.211627Z",
-      "last_fetched": "2026-11-01T07:38:19.163655Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T13:49:48.345836Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-11-01T12:04:26.211627Z"
+      "checked_at": "2026-11-01T13:49:48.345836Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-11-01T12:04:26.211627Z"
+      "checked_at": "2026-11-01T13:49:48.345836Z"
     },
     "cot": {
       "name": "cot",
-      "status": "ok",
-      "checked_at": "2026-11-01T12:04:26.211627Z"
+      "status": "cached",
+      "checked_at": "2026-11-01T13:49:48.345836Z",
+      "last_fetched": "2026-11-01T12:04:26.211627Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "cached",
-      "checked_at": "2026-11-01T12:04:26.211627Z",
-      "last_fetched": "2026-11-01T01:14:51.983488Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T13:49:48.345836Z"
     }
   },
   "ecb": {
