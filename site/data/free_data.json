@@ -1279,42 +1279,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "ons-e63867e5fa6c535945d0",
-      "date": "2026-11-19",
-      "name": "Economic activity and social change in the UK, real-time indicators: 19 November 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-11-19T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators19november2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "ons-ea2f1e9b2e56f56b0af3",
-      "date": "2026-11-19",
-      "name": "Business insights and impact on the UK economy: 19 November 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-11-19T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy19november2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "us-initial-jobless-claims-november-19-2026",
       "date": "2026-11-19",
       "name": "US Initial Jobless Claims: November 19, 2026",
@@ -1333,24 +1297,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "census-85799f0369afd3331967",
-      "date": "2026-11-19",
-      "name": "US Services Revenue November 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-11-19T15:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "U.S. Census Bureau",
-      "source_url": "https://www.census.gov/services/index.html",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "eia-b763502d8b949cb815d6",
       "date": "2026-11-19",
       "name": "US EIA Weekly Natural Gas Storage Report: November 19, 2026",
@@ -1366,24 +1312,6 @@
       "unit": null,
       "source": "U.S. Energy Information Administration",
       "source_url": "https://ir.eia.gov/ngs/schedule.html",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "eurostat-18bb3bb03aae7d7af565",
-      "date": "2026-11-19",
-      "name": "Eurozone Construction Production November 2026",
-      "country": "EU",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": null,
-      "release_at_utc": null,
-      "time_precision": "date",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Eurostat",
-      "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1438,24 +1366,6 @@
       "unit": "% m/m",
       "source": "Office for National Statistics",
       "source_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "bls-60a97e452b3933dd4bf8",
-      "date": "2026-11-20",
-      "name": "US State Employment and Unemployment November 2026",
-      "country": "US",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "17:00",
-      "release_at_utc": "2026-11-20T15:00:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Bureau of Labor Statistics",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1799,18 +1709,108 @@
       "source": "e-Stat / official Japanese statistical agencies",
       "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550300/202611300850",
       "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "estat-1752c422f1b93aeeca70",
+      "date": "2026-12-01",
+      "name": "Japan Jobs-to-Applicants Ratio 2026-10",
+      "country": "JP",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "01:30",
+      "release_at_utc": "2026-11-30T23:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "e-Stat / official Japanese statistical agencies",
+      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00450222/202612010830",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "estat-c13ed6b07d0a8821e0d0",
+      "date": "2026-12-01",
+      "name": "Japan Labour Force Survey 2026-10",
+      "country": "JP",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "01:30",
+      "release_at_utc": "2026-11-30T23:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "e-Stat / official Japanese statistical agencies",
+      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00200531/202612010830",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "us-ism-manufacturing-pmi-december-2026",
+      "date": "2026-12-01",
+      "name": "US ISM Manufacturing PMI December 2026",
+      "country": "US",
+      "impact": "high",
+      "state": "estimated",
+      "time_athens": "17:00",
+      "release_at_utc": "2026-12-01T15:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "index",
+      "source": "Institute for Supply Management",
+      "source_url": "https://www.financecalendar.com/event/us-ism-manufacturing-pmi-december-2026/",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "us-jolts-job-openings-december-2026",
+      "date": "2026-12-01",
+      "name": "US JOLTS Job Openings December 2026",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "17:00",
+      "release_at_utc": "2026-12-01T15:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "million openings",
+      "source": "Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "eurozone-flash-cpi-december-2026",
+      "date": "2026-12-01",
+      "name": "Eurozone Flash CPI December 2026",
+      "country": "EU",
+      "impact": "high",
+      "state": "confirmed",
+      "time_athens": null,
+      "release_at_utc": null,
+      "time_precision": "date",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "% y/y",
+      "source": "Eurostat",
+      "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
+      "attribution": "https://www.financecalendar.com"
     }
   ],
   "gold_api": {
     "source": "Gold API",
     "value": 3876.399902,
-    "as_of": "2026-10-31T21:39:30Z",
+    "as_of": "2026-11-01T01:14:31Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 3876.399902,
-    "as_of": "2026-10-31T21:39:35.274000Z",
+    "as_of": "2026-11-01T01:14:37.636000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,48 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-10-31T21:39:48.844529Z",
-    "xaus": "2026-10-31T21:39:48.844529Z",
-    "gold_levels": "2026-10-31T12:38:57.942128Z",
-    "ecb": "2026-10-31T17:47:32.578694Z",
-    "calendar": "2026-10-31T17:47:32.578694Z",
+    "gold_api": "2026-11-01T01:14:51.983488Z",
+    "xaus": "2026-11-01T01:14:51.983488Z",
+    "gold_levels": "2026-11-01T01:14:51.983488Z",
+    "ecb": "2026-11-01T01:14:51.983488Z",
+    "calendar": "2026-11-01T01:14:51.983488Z",
     "cot": "2026-10-31T05:50:20.774668Z"
   },
-  "last_refresh": "2026-10-31T21:39:48.844529Z",
+  "last_refresh": "2026-11-01T01:14:51.983488Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-10-31T21:39:48.844529Z",
-      "last_fetched": "2026-10-31T17:47:32.578694Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T01:14:51.983488Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-10-31T21:39:48.844529Z",
-      "last_fetched": "2026-10-31T17:47:32.578694Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T01:14:51.983488Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-10-31T21:39:48.844529Z"
+      "checked_at": "2026-11-01T01:14:51.983488Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-10-31T21:39:48.844529Z"
+      "checked_at": "2026-11-01T01:14:51.983488Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-10-31T21:39:48.844529Z",
+      "checked_at": "2026-11-01T01:14:51.983488Z",
       "last_fetched": "2026-10-31T05:50:20.774668Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "cached",
-      "checked_at": "2026-10-31T21:39:48.844529Z",
-      "last_fetched": "2026-10-31T12:38:57.942128Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T01:14:51.983488Z"
     }
   },
   "ecb": {
