@@ -1,7 +1,7 @@
 {
   "version": "3.1-kit",
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T13:16:10.460759+02:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T09:38:22.242858+02:00",
   "provider": "Google Gemini API",
   "model": "gemini-3.5-flash-lite",
   "status": "ok",
@@ -9,47 +9,70 @@
     "geopolitica": {
       "items": [
         {
-          "id": "86ab9d7e053210cc7b",
-          "traduzione": "Il presidente ucraino Volodymyr Zelenskyy ha lodato gli Stati Uniti per l'accordo da 2,1 miliardi di dollari sui missili Patriot, avvertendo però che la consegna di 500 missili PAC-3 potrebbe richiedere anni.",
-          "fatto": "Il presidente ucraino Volodymyr Zelenskyy ha lodato gli Stati Uniti per l'accordo da 2,1 miliardi di dollari sui missili Patriot, avvertendo però che la consegna di 500 missili PAC-3 potrebbe richiedere anni.",
-          "perche_conta": "Evidenzia che le scorte attuali di missili di difesa aerea sono limitate di fronte agli attacchi missilistici russi. Per oro XAU/USD, EUR/USD e S&P 500: se il conflitto si protrae senza coperture immediate, allora aumenta la pressione sui titoli della difesa e la volatilità macro.",
+          "id": "8c8926a040d3079da0",
+          "traduzione": "Il presidente turco Erdogan ha esortato Russia e Ucraina a interrompere gli attacchi contro le navi civili nel Mar Nero durante un incontro a Istanbul con il presidente ucraino Zelenskyy, concordando di lavorare a un nuovo corridoio per il grano.",
+          "fatto": "Il presidente turco Erdogan ha esortato Russia e Ucraina a interrompere gli attacchi contro le navi civili nel Mar Nero durante un incontro a Istanbul con il presidente ucraino Zelenskyy, concordando di lavorare a un nuovo corridoio per il grano.",
+          "perche_conta": "Un eventuale accordo per la sicurezza nel Mar Nero ridurrebbe i rischi sulle rotte di esportazione di grano ed energia.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
-            "86ab9d7e053210cc7b"
+            "8c8926a040d3079da0"
+          ]
+        },
+        {
+          "id": "2b279ce08b7823d4cc",
+          "traduzione": "Il ministero della Salute di Gaza e fonti ospedaliere hanno confermato la morte di almeno quattro palestinesi in seguito a diversi attacchi israeliani, tra cui il bombardamento del campo profughi di Nuseirat.",
+          "fatto": "Il ministero della Salute di Gaza e fonti ospedaliere hanno confermato la morte di almeno quattro palestinesi in seguito a diversi attacchi israeliani, tra cui il bombardamento del campo profughi di Nuseirat.",
+          "perche_conta": "La persistenza degli scontri impedisce la stabilizzazione dell'area mediorientale.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "2b279ce08b7823d4cc"
+          ]
+        },
+        {
+          "id": "30907cecb538ad7862",
+          "traduzione": "Il ministro degli Esteri iraniano Abbas Araghchi ha definito un passo positivo l'apertura al dialogo degli Stati Uniti, confermando la presenza di una delegazione in Qatar per consultazioni.",
+          "fatto": "Il ministro degli Esteri iraniano Abbas Araghchi ha definito un passo positivo l'apertura al dialogo degli Stati Uniti, confermando la presenza di una delegazione in Qatar per consultazioni.",
+          "perche_conta": "L'apertura di canali diplomatici in Qatar riduce temporaneamente i timori di un'immediata escalation militare nel Golfo.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "30907cecb538ad7862"
+          ]
+        },
+        {
+          "id": "79fde7eab6e6fcd22b",
+          "traduzione": "La guida suprema iraniana Mojtaba Khamenei ha ordinato alle forze armate di mantenere la massima deterrenza con una risposta immediata e senza restrizioni geografiche in caso di attacco.",
+          "fatto": "La guida suprema iraniana Mojtaba Khamenei ha ordinato alle forze armate di mantenere la massima deterrenza con una risposta immediata e senza restrizioni geografiche in caso di attacco.",
+          "perche_conta": "Segnala il mantenimento di una postura di alta tensione militare da parte di Teheran.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "79fde7eab6e6fcd22b"
+          ]
+        },
+        {
+          "id": "86ab9d7e053210cc7b",
+          "traduzione": "Il presidente ucraino Zelenskyy ha elogiato la decisione degli Stati Uniti di approvare la vendita di 500 missili Patriot PAC-3 per un valore stimato di 2,1 miliardi di dollari, avvertendo tuttavia che le consegne potrebbero richiedere anni.",
+          "fatto": "Il presidente ucraino Zelenskyy ha elogiato la decisione degli Stati Uniti di approvare la vendita di 500 missili Patriot PAC-3 per un valore stimato di 2,1 miliardi di dollari, avvertendo tuttavia che le consegne potrebbero richiedere anni.",
+          "perche_conta": "Rafforza le capacità di difesa aerea a lungo termine dell'Ucraina contro i missili balistici russi.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "86ab9d7e053210cc7b",
+            "dceb6baf1a90d9a385"
           ]
         },
         {
           "id": "2abf94d0a72e6c71be",
-          "traduzione": "La riunione dei ministri degli esteri del G20 negli Stati Uniti si è conclusa senza accordo su diversi temi di sicurezza globale, con i ministri europei che hanno evitato il russo Sergei Lavrov.",
-          "fatto": "La riunione dei ministri degli esteri del G20 negli Stati Uniti si è conclusa senza accordo su diversi temi di sicurezza globale, con i ministri europei che hanno evitato il russo Sergei Lavrov.",
-          "perche_conta": "Segnala la persistente spaccatura diplomatica internazionale. Per S&P 500 e EUR/USD: se la frattura geopolitica si aggrava, allora i beni rifugio e l'incertezza valutaria potrebbero registrare contraccolpi.",
+          "traduzione": "I ministri degli Esteri del G20 si sono divisi sulla presenza della Russia, con i ministri europei che hanno evitato il confronto con Sergei Lavrov, mentre il segretario di Stato USA Marco Rubio ha firmato accordi di cooperazione artica con Giappone e Corea del Sud.",
+          "fatto": "I ministri degli Esteri del G20 si sono divisi sulla presenza della Russia, con i ministri europei che hanno evitato il confronto con Sergei Lavrov, mentre il segretario di Stato USA Marco Rubio ha firmato accordi di cooperazione artica con Giappone e Corea del Sud.",
+          "perche_conta": "Evidenzia la persistente spaccatura geopolitica multilaterale tra i paesi occidentali e la Russia.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
             "2abf94d0a72e6c71be"
-          ]
-        },
-        {
-          "id": "494a4a401eeca89d8b",
-          "traduzione": "Le forze israeliane hanno demolito le case di due palestinesi accusati di aver ucciso due soldati israeliani a Hebron, durante l'ottavo giorno di assedio alla città.",
-          "fatto": "Le forze israeliane hanno demolito le case di due palestinesi accusati di aver ucciso due soldati israeliani a Hebron, durante l'ottavo giorno di assedio alla città.",
-          "perche_conta": "Testimonia l'intensificarsi delle operazioni militari in Cisgiordania. Per oro XAU/USD e titoli difesa: se l'instabilità regionale mediorientale si estende, allora la domanda di beni rifugio e titoli della difesa potrebbe ricevere supporto.",
-          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
-          "certezza": "Non verificato",
-          "source_ids": [
-            "494a4a401eeca89d8b"
-          ]
-        },
-        {
-          "id": "d18a8c4269de3798d9",
-          "traduzione": "Il Tribunale Arbitrale dello Sport (CAS) ha ribaltato le decisioni della IIHF, stabilendo che la Russia deve essere riammessa ai campionati mondiali di hockey su ghiaccio.",
-          "fatto": "Il Tribunale Arbitrale dello Sport (CAS) ha ribaltato le decisioni della IIHF, stabilendo che la Russia deve essere riammessa ai campionati mondiali di hockey su ghiaccio.",
-          "perche_conta": "Segnala una prima inversione nelle sanzioni sportive internazionali contro Mosca. Per i mercati: nessun impatto diretto immediato sui prezzi finanziari.",
-          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
-          "certezza": "Non verificato",
-          "source_ids": [
-            "d18a8c4269de3798d9"
           ]
         }
       ],
@@ -58,21 +81,10 @@
     "macro": {
       "items": [
         {
-          "id": "356938745bcfa9e34d",
-          "traduzione": "La Federal Reserve ha mantenuto i tassi d'interesse invariati al 3,75% - 4% in una decisione comunicata a ottobre 2026. Lo ha dichiarato il presidente della Fed Kevin Warsh.",
-          "fatto": "La Federal Reserve ha mantenuto i tassi d'interesse invariati al 3,75% - 4% in una decisione comunicata a ottobre 2026. Lo ha dichiarato il presidente della Fed Kevin Warsh.",
-          "perche_conta": "Mantenere i tassi stabili segnala la volontà della banca centrale di valutare gli effetti delle strette monetarie passate mentre l'economia mostra resilienza e inflazione sopra il target.",
-          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
-          "certezza": "Non verificato",
-          "source_ids": [
-            "356938745bcfa9e34d"
-          ]
-        },
-        {
           "id": "5325526ab247545918",
-          "traduzione": "La Banca Centrale Europea ha pubblicato i risultati del sondaggio dei professionisti della previsione per il quarto trimestre 2026, indicando aspettative di inflazione HICP riviste al 3,0% per il 2026 e al 2,6% per il 2027.",
-          "fatto": "La Banca Centrale Europea ha pubblicato i risultati del sondaggio dei professionisti della previsione per il quarto trimestre 2026, indicando aspettative di inflazione HICP riviste al 3,0% per il 2026 e al 2,6% per il 2027.",
-          "perche_conta": "Rivedere al rialzo le attese d'inflazione a breve per via dei prezzi energetici evidenzia pressioni persistenti che la BCE monitora per le future decisioni sui tassi.",
+          "traduzione": "La BCE ha pubblicato i risultati del Survey of Professional Forecasters del quarto trimestre 2026, indicando aspettative di inflazione HICP riviste al 3,0% per il 2026 e al 2,6% per il 2027.",
+          "fatto": "La BCE ha pubblicato i risultati del Survey of Professional Forecasters del quarto trimestre 2026, indicando aspettative di inflazione HICP riviste al 3,0% per il 2026 e al 2,6% per il 2027.",
+          "perche_conta": "L'aumento delle attese di inflazione a breve termine riflette gli shock energetici, condizionando le valutazioni di politica monetaria della BCE.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
@@ -81,9 +93,9 @@
         },
         {
           "id": "5f3cb4a89315543d75",
-          "traduzione": "La BCE ha comunicato che la presidente Christine Lagarde lascerà il suo incarico il 7 febbraio 2027, come informato al Consiglio direttivo e al Consiglio europeo.",
-          "fatto": "La BCE ha comunicato che la presidente Christine Lagarde lascerà il suo incarico il 7 febbraio 2027, come informato al Consiglio direttivo e al Consiglio europeo.",
-          "perche_conta": "L'annuncio della fine anticipata o programmata del mandato della presidenza della BCE apre una fase di transizione istituzionale ai vertici della politica monetaria europea.",
+          "traduzione": "La BCE ha comunicato che la presidente Christine Lagarde lascerà l'incarico il 7 febbraio 2027.",
+          "fatto": "La BCE ha comunicato che la presidente Christine Lagarde lascerà l'incarico il 7 febbraio 2027.",
+          "perche_conta": "L'annuncio anticipa la futura successione alla guida della BCE, introducendo un elemento di transizione istituzionale.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
@@ -92,13 +104,24 @@
         },
         {
           "id": "a17cb32fd4ed613d3e",
-          "traduzione": "Autorità russe hanno dichiarato di aver intercettato oltre 1.000 droni ucraini in diverse regioni durante la notte, mentre un'ulteriore raffineria di petrolio nella regione di Samara è stata colpita.",
-          "fatto": "Autorità russe hanno dichiarato di aver intercettato oltre 1.000 droni ucraini in diverse regioni durante la notte, mentre un'ulteriore raffineria di petrolio nella regione di Samara è stata colpita.",
-          "perche_conta": "Gli attacchi continui contro le infrastrutture energetiche russe alimentano i timori di interruzioni nell'offerta globale di greggio e prodotti raffinati.",
+          "traduzione": "Un'raffineria di petrolio nella regione russa di Samara è stata colpita da attacchi con droni, mentre le autorità russe dichiarano di aver intercettato oltre 1.000 droni.",
+          "fatto": "Un'raffineria di petrolio nella regione russa di Samara è stata colpita da attacchi con droni, mentre le autorità russe dichiarano di aver intercettato oltre 1.000 droni.",
+          "perche_conta": "Gli attacchi alle infrastrutture energetiche russe alimentano i timori di interruzioni delle forniture globali di greggio e prodotti raffinati.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
             "a17cb32fd4ed613d3e"
+          ]
+        },
+        {
+          "id": "30105a91b2fb9e6d5c",
+          "traduzione": "Il cancelliere John Healey ha annunciato un pagamento di 100 sterline per l'energia e la futura rimozione dei costi fissi del gas nel Regno Unito.",
+          "fatto": "Il cancelliere John Healey ha annunciato un pagamento di 100 sterline per l'energia e la futura rimozione dei costi fissi del gas nel Regno Unito.",
+          "perche_conta": "Il pacchetto di sostegno mira a mitigare il costo della vita e la pressione delle bollette energetiche invernali sulle famiglie.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "30105a91b2fb9e6d5c"
           ]
         }
       ],
@@ -107,30 +130,58 @@
     "difesa": {
       "items": [
         {
+          "id": "5c997076daafaffbde",
+          "traduzione": "Il ministro della Difesa britannico Wes Streeting ha dichiarato di aver iniziato a fare scorte di cibo e acqua a causa di minacce crescenti, mentre il cancelliere John Healey punta a una spesa per la difesa del 3% del PIL entro il 2030.",
+          "fatto": "Il ministro della Difesa britannico Wes Streeting ha dichiarato di aver iniziato a fare scorte di cibo e acqua a causa di minacce crescenti, mentre il cancelliere John Healey punta a una spesa per la difesa del 3% del PIL entro il 2030.",
+          "perche_conta": "Segnala un'escalation percepita nella pianificazione d'emergenza governativa e obiettivi di spesa militare più alti nel Regno Unito. Se la spesa militare aumenta, allora i titoli della difesa potrebbero beneficiare di prospettive di contratti statali più ampi.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "5c997076daafaffbde"
+          ]
+        },
+        {
           "id": "13ae0e867baadab7bb",
-          "traduzione": "Il 30 ottobre 2026 lo IISS ha pubblicato uno studio secondo cui gli stati del Golfo devono ripensare le difese da mille miliardi a causa dell'eccessiva dipendenza dal supporto americano e dai costosi sistemi di fascia alta [13ae0e867baadab7bb].",
-          "fatto": "Il 30 ottobre 2026 lo IISS ha pubblicato uno studio secondo cui gli stati del Golfo devono ripensare le difese da mille miliardi a causa dell'eccessiva dipendenza dal supporto americano e dai costosi sistemi di fascia alta [13ae0e867baadab7bb].",
-          "perche_conta": "Segnala possibili revisioni future nei contratti di fornitura militare estera per i titoli della difesa.",
+          "traduzione": "Uno studio dell'IISS afferma che gli stati del Golfo devono ripensare le difese da mille miliardi a causa dei danni economici e del valore discutibile delle basi americane contro gli attacchi iraniani.",
+          "fatto": "Uno studio dell'IISS afferma che gli stati del Golfo devono ripensare le difese da mille miliardi a causa dei danni economici e del valore discutibile delle basi americane contro gli attacchi iraniani.",
+          "perche_conta": "Evidenzia una possibile revisione strategica degli acquisti militari nella regione mediorientale. Se la spesa si sposta verso sistemi alternativi, allora la composizione della domanda per i colossi della difesa globale potrebbe modificarsi.",
           "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
           "certezza": "Non verificato",
           "source_ids": [
             "13ae0e867baadab7bb"
           ]
+        },
+        {
+          "id": "8778dedcfe3842b31c",
+          "traduzione": "Il ministro degli Esteri siriano Asaad al-Shaibani ha dichiarato che il governo sta valutando l'ingresso nel patto di difesa della Mecca con Arabia Saudita, Turchia e Pakistan.",
+          "fatto": "Il ministro degli Esteri siriano Asaad al-Shaibani ha dichiarato che il governo sta valutando l'ingresso nel patto di difesa della Mecca con Arabia Saudita, Turchia e Pakistan.",
+          "perche_conta": "Indica possibili riallineamenti nelle alleanze militari regionali in Medio Oriente. Se l'alleanza si allarga, allora gli equilibri geopolitici e la cooperazione negli armamenti nell'area subiscono variazioni.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "8778dedcfe3842b31c"
+          ]
         }
       ],
-      "quadro": "['Assenza di dati ufficiali di chiusura di Borsa per i titoli difesa nel dossier.', 'Notizie geopolitiche basate esclusivamente su flussi RSS senza riscontro istituzionale diretto.']"
+      "quadro": "['Mancanza di dati ufficiali di chiusura di borsa per i titoli specificati nel dossier.', 'Le notizie relative alla difesa provengono da flussi RSS o dichiarazioni senza riscontro formale primario nel dossier.']"
     }
   },
   "verification": {
     "errori": [
       {
-        "testo_errato": "Mappa delle forze non conforme: Tensioni geopolitiche Russia-Ucraina e Medio Oriente, Politica monetaria Fed e BCE",
+        "testo_errato": "Brent a n.d. USD/barile",
+        "correzione": "Il Brent è quotato a 113 USD/barile secondo i dati NPR del dossier [dab918270a06aac497]",
+        "fonte": "dab918270a06aac497",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "Mappa delle forze non conforme: Politica monetaria BCE e attese inflazione, Tensioni geopolitiche e difesa",
         "correzione": "Righe escluse (ammessi solo -1/0/+1 e Forte/Debole)",
         "fonte": "validazione Python",
         "gravita": "media"
       },
       {
-        "testo_errato": "Numeri non presenti negli input: 0,30, 0,38, 1,72, 1,78, 123,10, 17,20, 3,92, 3.876, 7.720",
+        "testo_errato": "Numeri non presenti negli input: 0,28, 0,38, 1,11172, 1,28, 1,39, 1,72, 1,79, 123,10, 17,20, 3,92, 3.876, 40, 7.743, 98",
         "correzione": "Sostituiti con n.d. automaticamente",
         "fonte": "controllo Python",
         "gravita": "alta"
@@ -139,103 +190,93 @@
     "esito": "Errori trovati"
   },
   "brief": {
-    "brief_markdown": "# Briefing Desk OPEN WORLD - 31 Ottobre 2026\n\n## 1. In 60 secondi\n- Cosa: La Federal Reserve ha mantenuto i tassi invariati al 3,75%-4% [356938745bcfa9e34d]. La BCE ha pubblicato stime d'inflazione HICP al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918]. Il presidente ucraino Zelenskyy ha lodato l'accordo USA da 2,1 miliardi per i missili Patriot, avvertendo che la consegna richiederà anni [86ab9d7e053210cc7b]. Autorità russe hanno intercettato oltre 1.000 droni ucraini, colpendo una raffineria a Samara [a17cb32fd4ed613d3e].\n- Perché: La persistenza dell'inflazione e le tensioni energetiche mantengono alta la vigilanza delle banche centrali, mentre il prolungamento dei conflitti alimenta i rischi geopolitici e sulle catene di fornitura.\n- Condizione mercati: Se l'inflazione eurozona e i dati ISM USA mostreranno ulteriore resilienza, allora la volatilità sui tassi e sui cambi potrebbe intensificarsi.\n\n## 2. Guerre e crisi\n- Russia-Ucraina: Tensione a 75 (Stabile). Continuano gli attacchi con droni e missili sulle infrastrutture energetiche russe e le discussioni sulle forniture di sistemi di difesa aerea Patriot [86ab9d7e053210cc7b, a17cb32fd4ed613d3e].\n- Israele-Palestina: Tensione a 70 (In aumento). Intensificazione delle demolizioni e operazioni militari prolungate a Hebron con migliaia di sfollati [494a4a401eeca89d8b].\n\n## 3. Mercati\n- S&P 500 (SP500): n.d.,39 punti (il 2026-10-29), variazione -n.d.% [FRED · SP500].\n- VIX: n.d. punti (il 2026-10-29), variazione +n.d.% [FRED · VIXCLS].\n- EUR/USD: 1,1172 (il 2026-10-30), variazione +n.d.% [BCE · EXR/D.USD.EUR.SP00.A].\n- Treasury 10 anni (US10Y): 4,98% (il 2026-10-29) [FRED · DGS10].\n- Treasury 2 anni (US2Y): 4,61% (il 2026-10-29) [FRED · DGS2].\n- Brent: n.d. USD/barile (il 2026-10-27), variazione -n.d.% [FRED · DCOILBRENTEU].\n- WTI: 103,37 USD/barile (il 2026-10-27), variazione -n.d.% [FRED · DCOILWTICO].\n- Oro XAU/USD spot: n.d.,40 USD/oncia (il 2026-10-31) [Gold API, XAUS].\n- Future ES, GC, 6E: n.d. (fonti dirette non collegate).\n\n## 4. Macro e banche centrali\n- La Federal Reserve ha confermato i tassi al 3,75%-4% (Kevin Warsh) [356938745bcfa9e34d].\n- La BCE ha rivisto le aspettative d'inflazione HICP al 3,0% (2026) e 2,6% (2027) [5325526ab247545918].\n- Christine Lagarde lascerà la presidenza della BCE il 7 febbraio 2027 [5f3cb4a89315543d75].\n\n## 5. Dalla geopolitica ai mercati\n- Mappa forze: Le tensioni in Medio Oriente e Ucraina mantengono alta la pressione sui beni rifugio e sull'energia.\n- Osservato: Oro stabile sui livelli elevati; petrolio in calo ma sensibile agli attacchi alle raffinerie russe.\n\n## 6. Agenda oggi Atene e prossimi 30 giorni\n- 2026-11-02: US ISM Manufacturing PMI [us-ism-manufacturing-pmi-november-2026].\n- 2026-11-04: Eurozone Flash CPI e US ISM Services PMI [eurozone-flash-cpi-november-2026, us-ism-services-pmi-november-2026].\n- 2026-11-05: Bank of England MPC Rate Decision [bank-of-england-mpc-rate-decision-november-2026].\n- 2026-11-06: US Non-Farm Payrolls [us-employment-situation-non-farm-payrolls-november-2026].\n- 2026-11-10: US CPI Report [us-cpi-report-november-2026].\n\n## 7. Difesa\n- Lo IISS ha pubblicato uno studio secondo cui gli stati del Golfo devono ripensare le difese a causa della forte dipendenza dal supporto americano [13ae0e867baadab7bb]. Nessun dato di chiusura borsa disponibile per i titoli difesa [NPK, IA, DRS, DCO, CW, MOG.A, KTOS].\n\n## 8. Scenari 7/30/90\n- Orizzonte 7 giorni: Scenario base di consolidamento dei mercati azionari in attesa dei dati PMI e occupazionali USA. Invalidazione: shock energetico improvviso.\n- Orizzonte 30 giorni: Scenario favorevole di stabilizzazione inflazionistica se i dati confermano il rallentamento dei prezzi. Invalidazione: escalation nei conflitti mediorientale o ucraino.\n- Orizzonte 90 giorni: Scenario avverso di tassi alti prolungati per via di pressioni salariali ed energetiche. Invalidazione: inversione di rotta esplicita delle banche centrali.\n\n## 9. Verifica previsioni\n- Nessuna previsione precedente in scadenza nel dossier corrente.\n\n## 10. Valutazione finale\n- Il quadro evidenzia un mercato guidato da dati macro resilienti e tensioni geopolitiche strutturali, con copertura informativa incompleta su alcuni listini derivati.\n\n### Domenica Revisione della settimana\n- n.d.\n\n### Lezione\n- La distinzione rigorosa tra flussi RSS non verificati e dati primari ufficiali protegge l'analisi da falsi segnali.\n\n### Parole del giorno\n- HICP: Indice Armonizzato dei Prezzi al Consumo, misura standard dell'inflazione nell'Unione Europea.",
+    "brief_markdown": "AVVISO: il verificatore ha trovato errori nella bozza; interpretazioni non confermate.\n\n# Briefing Desk OPEN WORLD - 1 Novembre 2026\n\n## 1 In 60 secondi\n- **Cosa:** I ministri degli Esteri del G20 si sono divisi sulla presenza della Russia, mentre il presidente turco Erdogan ha discusso di sicurezza nel Mar Nero e corridoi del grano con l'ucraino Zelenskyy [8c8926a040d3079da0, 2abf94d0a72e6c71be]. La BCE ha pubblicato il sondaggio previsionale con inflazione HICP rivista al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918]. La presidente Christine Lagarde lascerà l'incarico il 7 febbraio 2027 [5f3cb4a89315543d75].\n- **Perché conta:** Le tensioni geopolitiche globali restano elevate, mentre le aspettative d'inflazione a breve termine aumentano a causa degli shock energetici.\n- **Condizione mercati:** Se l'inflazione HICP resta elevata, allora la BCE potrebbe mantenere una linea prudente. Se i rischi geopolitici aumentano, allora beni rifugio come l'oro potrebbero registrare supporto.\n\n## 2 Guerre e crisi\n- **Fronte Russia-Ucraina:** Continuano i colloqui diplomatici bilaterali in Turchia sul Mar Nero e le forniture di difesa dagli Stati Uniti, a fronte di attacchi persistenti (tensione 75, tendenza Stabile) [86ab9d7e053210cc7b, 8c8926a040d3079da0, 2abf94d0a72e6c71be].\n- **Fronte Israele-Iran-Medio Oriente:** Persistono le minacce di attacchi incrociati e la dichiarazione di deterrenza dell'Iran, bilanciate da contatti diplomatici indiretti tramite mediatori qatarioti (tensione 80, tendenza Stabile) [b7bd70f776ab2a2adf, 2b279ce08b7823d4cc, 30907cecb538ad7862, 79fde7eab6e6fcd22b].\n\n## 3 Mercati\n- **S&P 500 (SP500):** Valore n.d.,n.d. punti, variazione +n.d.% rispetto alla seduta precedente (osservazione 2026-10-28) [FRED · SP500]. Causa: dinamiche di mercato generali.\n- **VIX:** Valore n.d. punti, variazione +n.d.% (osservazione 2026-10-29) [FRED · VIXCLS].\n- **EUR/USD:** Fixing BCE a n.d. USD per EUR, variazione +n.d.% (osservazione 2026-10-30) [BCE · EXR/D.USD.EUR.SP00.A].\n- **Treasury 10 anni (US10Y):** Tasso al 4,98%, variazione -n.d.% (osservazione 2026-10-29) [FRED · DGS10].\n- **Treasury 2 anni (US2Y):** Tasso al 4,61%, variazione -n.d.% (osservazione 2026-10-29) [FRED · DGS2].\n- **Brent:** Valore n.d. USD/barile, variazione -n.d.% (osservazione 2026-10-27) [FRED · DCOILBRENTEU].\n- **WTI:** Valore 103,37 USD/barile, variazione -n.d.% (osservazione 2026-10-27) [FRED · DCOILWTICO].\n- **Oro (Gold spot XAU/USD):** Valore n.d.,n.d. USD/oncia (as of 2026-11-01T07:38:03Z) [Gold API, XAUS].\n- **ES, GC, 6E (Futures):** n.d. nel dossier.\n\n## 4 Macro e banche centrali\n- La BCE ha pubblicato i risultati del Survey of Professional Forecasters del quarto trimestre 2026: inflazione HICP attesa al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918].\n- Christine Lagarde lascerà la presidenza della BCE il 7 febbraio 2027 [5f3cb4a89315543d75].\n- Il cancelliere britannico John Healey ha annunciato un pagamento di £100 per l'energia e la futura rimozione dei costi fissi del gas nel Regno Unito [30105a91b2fb9e6d5c].\n\n## 5 Dalla geopolitica ai mercati\n- **Osservato:** Tensioni elevate in Medio Oriente e nel conflitto russo-ucraino coesistono con prezzi del petrolio in calo (Brent a n.d. USD/barile) [FRED · DCOILBRENTEU].\n- **Possibile:** Se i colloqui sul Mar Nero riducono i rischi sulle rotte energetiche e cerealicole, allora la pressione sui prezzi delle materie prime potrebbe attenuarsi.\n\n## 6 Agenda oggi Atene e prossimi 30 giorni\n- **2026-11-02:** US Construction Spending e US ISM Manufacturing PMI [census-e5a5d70cb9d53d780866, us-ism-manufacturing-pmi-november-2026].\n- **2026-11-04:** Eurozone Flash CPI e US ADP Employment Report [eurozone-flash-cpi-november-2026, us-adp-employment-report-november-2026].\n- **2026-11-05:** Bank of England MPC Rate Decision [bank-of-england-mpc-rate-decision-november-2026].\n- **2026-11-06:** US Non-Farm Payrolls [us-employment-situation-non-farm-payrolls-november-2026].\n- **2026-11-10:** US CPI Report [us-cpi-report-november-2026].\n- **2026-11-12:** UK GDP (Q3) [ons-237ed3cfe34a08590b4a].\n\n## 7 Difesa\n- Il ministro della Difesa britannico Wes Streeting ha avviato scorte di cibo e acqua, mentre John Healey punta a una spesa militare del 3% del PIL entro il 2030 [5c997076daafaffbde]. Un rapporto IISS suggerisce che gli stati del Golfo debbano rivedere le proprie difese [13ae0e867baadab7bb]. La Siria valuta l'ingresso nel patto di difesa della Mecca [8778dedcfe3842b31c].\n\n## 8 Scenari 7/30/90\n- **Scenario Base (7-30 giorni):** Continuazione della transizione istituzionale BCE e tensioni geopolitiche stabili.\n- **Scenario Favorevole:** Avanzamento dei negoziati diplomatici nel Mar Nero e nel Golfo con riduzione dei premi di rischio energetico.\n- **Scenario Avverso:** Escalation militare improvvisa in Medio Oriente o interruzioni delle forniture energetiche russe.\n\n## 9 Verifica previsioni\n- Nessuna previsione precedente attiva nel registro.\n\n## 10 Valutazione finale\n- Il quadro informativo presenta dati macro ufficiali BCE e FRED, affiancati da notizie geopolitiche non verificate in via indipendente multipla. L'operatività richiede prudenza e monitoraggio dei rilasci macroeconomici programmati.\n\n## Domenica: Revisione della settimana\n- Settimana caratterizzata da dati ufficiali BCE sull'inflazione attesa e tassi Treasury in calo.\n\n## Lezione\n- Distinguere sempre tra comunicati di parte e notizie verificate da fonti primarie multiple.\n\n## Parole del giorno\n- **HICP:** Indice armonizzato dei prezzi al consumo utilizzato dalla BCE.\n- **Survey of Professional Forecasters:** Indagine previsionale trimestrale condotta dalla BCE presso esperti economici.\n\n## Fonti\n- 8c8926a040d3079da0, 2b279ce08b7823d4cc, 30907cecb538ad7862, 79fde7eab6e6fcd22b, 86ab9d7e053210cc7b, 2abf94d0a72e6c71be, 5325526ab247545918, 5f3cb4a89315543d75, 30105a91b2fb9e6d5c, 5c997076daafaffbde, 13ae0e867baadab7bb, 8778dedcfe3842b31c, FRED, BCE, Gold API, XAUS.",
     "sintesi_60s": [
-      "Tassi Fed invariati: La Federal Reserve ha mantenuto i tassi d'interesse al 3,75%-4% (Kevin Warsh) [356938745bcfa9e34d].",
-      "Inflazione BCE: La BCE indica aspettative di inflazione HICP al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918].",
-      "Accordo Patriot USA-Ucraina: Approvato accordo da 2,1 miliardi per missili Patriot, con consegne pluriennali [86ab9d7e053210cc7b]."
+      "Survey of Professional Forecasters BCE: La BCE ha pubblicato i risultati del Survey of Professional Forecasters del quarto trimestre 2026, indicando aspettative di inflazione HICP riviste al 3,0% per il 2026 e al 2,6% per il 2027.",
+      "Successione alla presidenza BCE: La BCE ha comunicato che la presidente Christine Lagarde lascerà l'incarico il 7 febbraio 2027.",
+      "Incontro Erdogan-Zelenskyy: Il presidente turco Erdogan ha esortato Russia e Ucraina a interrompere gli attacchi contro le navi civili nel Mar Nero durante un incontro a Istanbul con il presidente ucraino Zelenskyy."
     ],
-    "guerre_e_crisi": "- Russia-Ucraina: Tensione a 75 (Stabile). Continuano gli attacchi con droni e missili sulle infrastrutture energetiche russe e le discussioni sulle forniture di sistemi di difesa aerea Patriot [86ab9d7e053210cc7b, a17cb32fd4ed613d3e].\n- Israele-Palestina: Tensione a 70 (In aumento). Intensificazione delle demolizioni e operazioni militari prolungate a Hebron con migliaia di sfollati [494a4a401eeca89d8b].",
-    "mercati": "- S&P 500 (SP500): n.d.,39 punti (il 2026-10-29), variazione -n.d.% [FRED · SP500].\n- VIX: n.d. punti (il 2026-10-29), variazione +n.d.% [FRED · VIXCLS].\n- EUR/USD: 1,1172 (il 2026-10-30), variazione +n.d.% [BCE · EXR/D.USD.EUR.SP00.A].\n- Treasury 10 anni (US10Y): 4,98% (il 2026-10-29) [FRED · DGS10].\n- Treasury 2 anni (US2Y): 4,61% (il 2026-10-29) [FRED · DGS2].\n- Brent: n.d. USD/barile (il 2026-10-27), variazione -n.d.% [FRED · DCOILBRENTEU].\n- WTI: 103,37 USD/barile (il 2026-10-27), variazione -n.d.% [FRED · DCOILWTICO].\n- Oro XAU/USD spot: n.d.,40 USD/oncia (il 2026-10-31) [Gold API, XAUS].\n- Future ES, GC, 6E: n.d. (fonti dirette non collegate).",
-    "macro_banche_centrali": "- La Federal Reserve ha confermato i tassi al 3,75%-4% (Kevin Warsh) [356938745bcfa9e34d].\n- La BCE ha rivisto le aspettative d'inflazione HICP al 3,0% (2026) e 2,6% (2027) [5325526ab247545918].\n- Christine Lagarde lascerà la presidenza della BCE il 7 febbraio 2027 [5f3cb4a89315543d75].",
-    "geopolitica_mercati": "- Mappa forze: Le tensioni in Medio Oriente e Ucraina mantengono alta la pressione sui beni rifugio e sull'energia.\n- Osservato: Oro stabile sui livelli elevati; petrolio in calo ma sensibile agli attacchi alle raffinerie russe.",
-    "agenda": "- 2026-11-02: US ISM Manufacturing PMI [us-ism-manufacturing-pmi-november-2026].\n- 2026-11-04: Eurozone Flash CPI e US ISM Services PMI [eurozone-flash-cpi-november-2026, us-ism-services-pmi-november-2026].\n- 2026-11-05: Bank of England MPC Rate Decision [bank-of-england-mpc-rate-decision-november-2026].\n- 2026-11-06: US Non-Farm Payrolls [us-employment-situation-non-farm-payrolls-november-2026].\n- 2026-11-10: US CPI Report [us-cpi-report-november-2026].",
-    "difesa": "- Lo IISS ha pubblicato uno studio secondo cui gli stati del Golfo devono ripensare le difese a causa della forte dipendenza dal supporto americano [13ae0e867baadab7bb]. Nessun dato di chiusura borsa disponibile per i titoli difesa [NPK, IA, DRS, DCO, CW, MOG.A, KTOS].",
-    "scenari_7_30_90": "- Orizzonte 7 giorni: Scenario base di consolidamento dei mercati azionari in attesa dei dati PMI e occupazionali USA. Invalidazione: shock energetico improvviso.\n- Orizzonte 30 giorni: Scenario favorevole di stabilizzazione inflazionistica se i dati confermano il rallentamento dei prezzi. Invalidazione: escalation nei conflitti mediorientale o ucraino.\n- Orizzonte 90 giorni: Scenario avverso di tassi alti prolungati per via di pressioni salariali ed energetiche. Invalidazione: inversione di rotta esplicita delle banche centrali.",
-    "previsioni": "- Nessuna previsione precedente in scadenza nel dossier corrente.",
-    "valutazione_finale": "- Il quadro evidenzia un mercato guidato da dati macro resilienti e tensioni geopolitiche strutturali, con copertura informativa incompleta su alcuni listini derivati.\n\n### Domenica Revisione della settimana\n- n.d.\n\n### Lezione\n- La distinzione rigorosa tra flussi RSS non verificati e dati primari ufficiali protegge l'analisi da falsi segnali.\n\n### Parole del giorno\n- HICP: Indice Armonizzato dei Prezzi al Consumo, misura standard dell'inflazione nell'Unione Europea.",
-    "lezione": "L'Indice Armonizzato dei Prezzi al Consumo misura l'inflazione standard nell'Unione Europea. La BCE ha pubblicato stime per il 2026 al 3,0% [5325526ab247545918].",
-    "limiti": "Numeri non verificati sostituiti: 0,30, 0,38, 1,72, 1,78, 123,10, 17,20, 3,92, 3.876, 7.720",
+    "guerre_e_crisi": "n.d.",
+    "mercati": "n.d.",
+    "macro_banche_centrali": "n.d.",
+    "geopolitica_mercati": "n.d.",
+    "agenda": "n.d.",
+    "difesa": "n.d.",
+    "scenari_7_30_90": "n.d.",
+    "previsioni": "n.d.",
+    "valutazione_finale": "n.d.",
+    "lezione": "La Banca Centrale Europea misura le attese sull'inflazione tramite apposite indagini periodiche rivolte agli esperti economici. Secondo il sondaggio pubblicato il 30 ottobre 2026, l'inflazione HICP è attesa al 3,0% per il 2026 [5325526ab247545918]. Questo indicatore aiuta a comprendere l'andamento futuro dei prezzi al consumo nell'area dell'euro.",
+    "limiti": "Numeri non verificati sostituiti: 0,28, 0,38, 1,11172, 1,28, 1,39, 1,72, 1,79, 123,10, 17,20, 3,92",
     "inclinazione": {
-      "GC": {
-        "studio": "Rialzista",
-        "rilevanza": 8,
-        "motivi": "Domanda di beni rifugio sostenuta da tensioni geopolitiche e inflazione persistente [494a4a401eeca89d8b, 5325526ab247545918].",
-        "rischio": "Rafforzamento inatteso del dollaro o rialzo dei rendimenti reali.",
-        "invalidazione": "Rientro rapido delle crisi geopolitiche e calo deciso dell'inflazione."
+      "ES": {
+        "studio": "Neutrale",
+        "rilevanza": 5,
+        "motivi": "Mancanza di dati di chiusura future recenti nel dossier.",
+        "rischio": "Volatilità macroeconomica e geopolitica.",
+        "invalidazione": "Dati di mercato difformi dalle attese."
       },
-      "EUR": {
+      "GC": {
         "studio": "Neutrale",
         "rilevanza": 6,
-        "motivi": "Inflazione europea attesa al 3,0% nel 2026 e tassi BCE in monitoraggio [5325526ab247545918].",
-        "rischio": "Differenziali di tasso sfavorevoli rispetto agli USA.",
-        "invalidazione": "Dati macro USA peggiori delle attese con indebolimento del dollaro."
+        "motivi": "Prezzo spot dell'oro a 3.876,40 USD/oncia a fronte di tensioni geopolitiche stabili ma elevate.",
+        "rischio": "Variazioni dei tassi reali e delle attese d'inflazione.",
+        "invalidazione": "Risentimento dei mercati verso asset privi di rischio."
       },
-      "SP": {
+      "6E": {
         "studio": "Neutrale",
-        "rilevanza": 7,
-        "motivi": "Resilienza economica ma tassi Fed fermi al 3,75%-4% [356938745bcfa9e34d].",
-        "rischio": "Pressioni sui margini aziendali e costi energetici elevati.",
-        "invalidazione": "Dati sull'occupazione e PMI molto inferiori alle attese."
+        "rilevanza": 5,
+        "motivi": "EUR/USD a 1,11172 (fixing BCE) senza dati di future specifici aggiornati.",
+        "rischio": "Differenziali di politica monetaria tra BCE e Federal Reserve.",
+        "invalidazione": "Rilasci macroeconomici divergenti."
       }
     },
     "mappa_forze": []
   },
   "learning": {
     "osservazioni": [
-      "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
-      "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+      "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
       "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
-      "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
-      "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale."
     ],
     "correzioni_proposte": [
       "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
-      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
       "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
-      "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi.",
-      "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo."
     ],
     "lezione": {
-      "titolo": "Capire l'inflazione HICP",
+      "titolo": "La previsione dell'inflazione BCE",
       "area": "Macro",
       "livello": "Base",
-      "spiegazione": "L'Indice Armonizzato dei Prezzi al Consumo misura l'inflazione standard nell'Unione Europea. La BCE ha pubblicato stime per il 2026 al 3,0% [5325526ab247545918].",
-      "esempio_oggi": "Nel quarto trimestre 2026 la BCE indica stime HICP al 3,0% per il 2026 e 2,6% per il 2027 [5325526ab247545918].",
-      "domanda": "Cosa smentirebbe la previsione di un'inflazione HICP al 3,0% nel 2026?",
-      "risposta": "Un dato ufficiale Eurostat inferiore o uguale al 2,5% [5325526ab247545918].",
+      "spiegazione": "La Banca Centrale Europea misura le attese sull'inflazione tramite apposite indagini periodiche rivolte agli esperti economici. Secondo il sondaggio pubblicato il 30 ottobre 2026, l'inflazione HICP è attesa al 3,0% per il 2026 [5325526ab247545918]. Questo indicatore aiuta a comprendere l'andamento futuro dei prezzi al consumo nell'area dell'euro.",
+      "esempio_oggi": "Nel quarto trimestre 2026, la BCE ha indicato l'inflazione HICP al 3,0% per il 2026 [5325526ab247545918].",
+      "domanda": "Cosa smentirebbe un aumento duraturo dei prezzi energetici?",
+      "risposta": "Dati ufficiali definitivi inferiori alle attese pubblicati da Eurostat.",
       "parole": [
         {
           "termine": "HICP",
-          "spiegazione": "Indice Armonizzato dei Prezzi al Consumo."
+          "spiegazione": "Indice armonizzato dei prezzi al consumo utilizzato dalla BCE."
+        },
+        {
+          "termine": "Survey of Professional Forecasters",
+          "spiegazione": "Indagine previsionale trimestrale condotta dalla BCE presso esperti economici."
         }
       ]
     },
     "diario": [
       {
-        "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "problema": "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
         "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
-        "esempio": "Sostituzione automatica operata dal controllo Python su valori percentuali e numerici non verificati tramite le fonti [verification]."
-      },
-      {
-        "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
-        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
-        "esempio": "Gli attacchi con droni e le dichiarazioni di parte vanno trattati come fatti riportati finché non confermati da fonti istituzionali indipendenti multiple [a17cb32fd4ed613d3e]."
+        "esempio": "Il controllo di validazione Python ha rilevato cifre come 1,11172 o 3.876 non riscontrate nei campi di input e convertite automaticamente in n.d. [verification]"
       },
       {
         "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
         "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
-        "esempio": "Valori di oro (XAU/USD) e future ES, GC e 6E indicati come n.d. per assenza di collegamenti diretti verificati [mercati]."
+        "esempio": "I futures ES, GC e 6E sono indicati come n.d. nel dossier, richiedendo la marcatura a null nei campi corrispondenti [mercati]"
       },
       {
-        "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
-        "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi.",
-        "esempio": "Esclusione di righe con etichette non conformi rilevate dai controlli di validazione Python [inclinazione]."
-      },
-      {
-        "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
-        "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
-        "esempio": "Se l'inflazione eurozona e i dati ISM USA mostreranno ulteriore resilienza, allora la volatilità sui tassi e sui cambi potrebbe intensificarsi [brief_markdown]."
+        "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "esempio": "I colloqui diplomatici e gli incontri bilaterali in Turchia vanno trattati come fatti riportati o dichiarazioni di parte finché manca una seconda fonte indipendente [8c8926a040d3079da0]"
       }
     ],
     "metriche": {
@@ -283,11 +324,11 @@
       "attribution": "Non verificato"
     },
     {
-      "id": "43035f4137b062e1c8",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "publisher": "Fed · Press releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "published_at": "2026-10-29T20:30:00Z",
+      "id": "b7bd70f776ab2a2adf",
+      "title": "Iran's Khamenei warns US and Israel against new attacks",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+      "published_at": "2026-10-31T17:00:36Z",
       "attribution": "Non verificato"
     },
     {
@@ -307,11 +348,43 @@
       "attribution": "Non verificato"
     },
     {
-      "id": "356938745bcfa9e34d",
-      "title": "US interest rates held steady and economy grows - what it means for you",
-      "publisher": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T17:15:05Z",
+      "id": "1ffb614816a1ca7dcd",
+      "title": "Mixed economic forecast weighs heavy ahead of midterms",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms",
+      "published_at": "2026-10-31T21:14:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8c8926a040d3079da0",
+      "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+      "published_at": "2026-10-31T20:09:18Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2b279ce08b7823d4cc",
+      "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
+      "published_at": "2026-10-31T17:49:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "30907cecb538ad7862",
+      "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+      "published_at": "2026-10-31T14:31:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "79fde7eab6e6fcd22b",
+      "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+      "published_at": "2026-10-31T12:13:42Z",
       "attribution": "Non verificato"
     },
     {
@@ -467,99 +540,331 @@
       "attribution": "Non verificato"
     },
     {
-      "id": "b08ba06b7ee2b756c2",
-      "title": "Ukraine war live: Russian strikes leave 200,000 without power as aid convoy reaches stricken Oleshky",
+      "id": "30105a91b2fb9e6d5c",
+      "title": "Energy bills help 'doesn't go far enough'",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvpnj7l7yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T07:15:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "369f1d49137e8141be",
+      "title": "A Gulf non-aggression pact could be the path forward",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/11/1/a-gulf-non-aggression-pact-could-be-the-path-forward?traffic_source=rss",
+      "published_at": "2026-11-01T07:03:56Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5fbe7c57a062705701",
+      "title": "UN demands investigation after staffer’s death in Houthi custody in Yemen",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
+      "published_at": "2026-11-01T04:49:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "3b47661af5290d291f",
+      "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
+      "published_at": "2026-11-01T03:37:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2b582c3e250a42e9ee",
+      "title": "What we know about latest efforts to end US war on Iran",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
+      "published_at": "2026-11-01T03:24:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "615aece0cca3eea452",
+      "title": "India’s largest dam planned to counter China faces Indigenous revolt",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/indias-largest-dam-planned-to-counter-china-faces-indigenous-revolt?traffic_source=rss",
+      "published_at": "2026-11-01T03:19:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "33151a2e3a8f8349f5",
+      "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
+      "published_at": "2026-11-01T02:05:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "15b8fc4830816dd1f7",
+      "title": "Trump: 'Non abbiamo fretta sull'Iran, abbiamo uno o due siti di cui occuparci'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/01/trump-non-abbiamo-fretta-sulliran-abbiamo-uno-o-due-siti-di-cui_ae010ee2-bd06-4f80-8ac8-24cf1ebc3e3e.html",
+      "published_at": "2026-11-01T00:22:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5d497ba98b60b246fd",
+      "title": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+      "published_at": "2026-11-01T00:00:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "58811a17b4c1ec170e",
+      "title": "Testimonies from Oleshky",
       "publisher": "France 24",
-      "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
-      "published_at": "2026-10-30T07:28:16Z",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261031-testimonies-from-oleshky",
+      "published_at": "2026-10-31T23:54:21Z",
       "attribution": "Non verificato"
     },
     {
-      "id": "f99f0189e2013fdf0a",
-      "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
+      "id": "da2411f2fb89671613",
+      "title": "Palestine Action supporters arrested outside US embassy in London",
       "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
-      "published_at": "2026-10-30T02:40:26Z",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+      "published_at": "2026-10-31T22:10:53Z",
       "attribution": "Non verificato"
     },
     {
-      "id": "e219fffe5aa8eabe80",
-      "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – as it happened",
-      "publisher": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-      "published_at": "2026-10-30T01:59:25Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "d0a997e884c703602a",
-      "title": "Antisemitism envoy proposes ‘external ombudsman’ to monitor ABC and SBS coverage of Israel and Middle East",
-      "publisher": "The Guardian",
-      "url": "https://www.theguardian.com/media/2026/oct/30/jillian-segal-antisemitism-envoy-plan-report-priorities-ntwnfb",
-      "published_at": "2026-10-30T00:37:36Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "481e3f8a0b0d753cc0",
-      "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+      "id": "9c5f8e1b498b75b728",
+      "title": "Israel’s allegations of Qatari election interference rejected",
       "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-      "published_at": "2026-10-30T00:11:20Z",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+      "published_at": "2026-10-31T20:24:58Z",
       "attribution": "Non verificato"
     },
     {
-      "id": "e52bd6d462f9a82acb",
-      "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss",
-      "published_at": "2026-10-29T19:06:00Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "3c81df638c65a1b7ce",
-      "title": "At least 14 people killed in attack on Ukraine train station",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/aje-onl-nf_russian-drone-strike-at-dnipro-train-platform-291026?traffic_source=rss",
-      "published_at": "2026-10-29T18:03:21Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "b0f98ab2fb881d5718",
-      "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening?traffic_source=rss",
-      "published_at": "2026-10-29T15:12:36Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "33cd4a7b3cd5934edf",
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "id": "a3dff3a9edaadc1383",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
       "publisher": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T14:17:35Z",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T19:22:26Z",
       "attribution": "Non verificato"
     },
     {
-      "id": "f0491ea9dee88ebc5f",
-      "title": "Monetary policy decisions",
-      "publisher": "BCE · Comunicati",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-      "published_at": "2026-10-29T13:15:00Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "4a9b518f204f05f8d7",
-      "title": "At least 13 killed in 'horrific' Russian drone strike at Ukraine train station",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/europe/20261029-at-least-13-killed-in-horrific-russian-drone-strike-at-ukraine-train-station",
-      "published_at": "2026-10-29T11:36:35Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "75357304419d2ba827",
-      "title": "Israel’s election rhetoric: What candidates said, and how they performed",
+      "id": "b3478858734e9ba439",
+      "title": "Palestinians ‘Stealing their own olives’",
       "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
-      "published_at": "2026-10-29T11:27:22Z",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/palestinians-stealing-their-own?traffic_source=rss",
+      "published_at": "2026-10-31T19:18:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5c9085b9dff2f94913",
+      "title": "Oleshky evacuees reunite with families after truce allows crossing back into Ukraine",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine",
+      "published_at": "2026-10-31T19:17:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e7f84973ddbc4003dc",
+      "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+      "published_at": "2026-10-31T18:48:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "90737fcfe0868c2558",
+      "title": "Key takeaways from this week's political meeting in Beijing",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways",
+      "published_at": "2026-10-31T18:42:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "38e29f990729014cb7",
+      "title": "Evacuees of Russian-occupied Oleshky reunited with families",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
+      "published_at": "2026-10-31T18:32:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "dd63b57d353d2d5488",
+      "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+      "published_at": "2026-10-31T18:28:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "317a7de345d6fb91c8",
+      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T17:53:35Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9042e59bca43c60e85",
+      "title": "Jerusalem Daily: Who will form Israel’s next government?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
+      "published_at": "2026-10-31T17:29:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "26242b75fad4540eeb",
+      "title": "Rubio, non so se Putin sarà a Miami, con Lavrov discusso possibile incontro ad Apec",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/31/rubio-non-so-se-putin-sara-a-miami-con-lavrov-discusso-possibile-incontro_3b3129c5-5c76-4c6f-9232-d71221bcfc5b.html",
+      "published_at": "2026-10-31T16:57:04Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b28f213d68d9ada532",
+      "title": "Rubio, non so se Putin sarà a Miami, con Lavrov discusso possibile incontro ad Apec",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/31/rubio-non-so-se-putin-sara-a-miami-con-lavrov-discusso-possibile-incontro_5ae456d1-266a-45c4-a3c9-24a76524228b.html",
+      "published_at": "2026-10-31T16:57:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4701432799ebaf29b3",
+      "title": "Emotional reunions with loved ones for Oleshky evacuees",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T16:55:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "49f37be907587e1523",
+      "title": "Rubio, Trump non ha ancora deciso su un nuovo attacco all'Iran",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/31/rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-alliran_16f348c1-89d2-448a-8ae0-8a69badaa5b3.html",
+      "published_at": "2026-10-31T16:54:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b4a4fd0a9929cb4286",
+      "title": "Rubio, Trump non ha ancora deciso su un nuovo attacco all'Iran",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/10/31/rubio-trump-non-ha-ancora-deciso-su-un-nuovo-attacco-alliran_66c4a9a0-0d83-4f6d-9db7-7c7570419025.html",
+      "published_at": "2026-10-31T16:54:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6d97bf2b695377d8de",
+      "title": "Putin’s potential G20 comeback risks normalizing Russian war crimes, says Kallas",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/kaja-kallas-vladimir-putin-g20-return-risks-normalizing-russian-war-crimes/",
+      "published_at": "2026-10-31T16:41:12Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a7a0b271e1ba69d055",
+      "title": "Zelensky, 'rientrati in Ucraina i residenti evacuati da Oleshky'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/31/zelensky-rientrati-in-ucraina-i-residenti-evacuati-da-oleshky_66d44356-c05d-4e6f-8f18-8fe55661236b.html",
+      "published_at": "2026-10-31T15:16:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "901d034685d00ffdb2",
+      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T15:16:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fb0a03740422452c92",
+      "title": "Violente proteste a Tirana, sassi e molotov contro la polizia",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/31/violente-proteste-a-tirana-sassi-e-molotov-contro-la-polizia_699d7fbd-81e6-48c0-a74e-e6f06c4ef787.html",
+      "published_at": "2026-10-31T15:14:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8778dedcfe3842b31c",
+      "title": "Syria considering entry into Mecca defence pact, says foreign minister",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
+      "published_at": "2026-10-31T14:20:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d338eaddc7104a05d6",
+      "title": "Kiev, 'quella di Oleshky la più lunga tregua tra russi e ucraini dal 2022'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/31/kiev-quella-di-oleshky-la-piu-lunga-tregua-tra-russi-e-ucraini-dal_04dac3ac-26a7-49bb-8bab-92f87405e90c.html",
+      "published_at": "2026-10-31T13:58:06Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d1b9201d66b6e550d0",
+      "title": "Israel voted for Israel: Why Gaza wasn’t on the ballot",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
+      "published_at": "2026-10-31T13:35:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d3d373615ef8079ecf",
+      "title": "UK police should not have let US force take over airbase trial, MoD documents show",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/31/uk-police-should-not-have-let-us-force-take-over-airbase-trial-mod-documents-show",
+      "published_at": "2026-10-31T13:30:43Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "45148712acc029f2e3",
+      "title": "On the Norway-Russia border, the Sámi people face a growing divide",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
+      "published_at": "2026-10-31T12:58:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "66e57ae027d98b53a7",
+      "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
+      "published_at": "2026-10-31T12:45:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fd67855584eb2728b2",
+      "title": "New Yemen fighting displaces 290,000, says UN, with pregnant women at risk",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
+      "published_at": "2026-10-31T12:45:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "737d549ce3ecbdaa67",
+      "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+      "published_at": "2026-10-31T12:22:45Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e29d29049d5d986939",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T12:21:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bd3b7604f5a6736bb6",
+      "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
+      "published_at": "2026-10-31T10:53:55Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b3958daee529bf4e89",
+      "title": "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/31/swiss-commentary-on-israeli-olympic-bobsleigh-team-termed-discriminatory?traffic_source=rss",
+      "published_at": "2026-10-31T10:49:19Z",
       "attribution": "Non verificato"
     },
     {
@@ -747,14 +1052,6 @@
       "attribution": "Non verificato"
     },
     {
-      "id": "e29d29049d5d986939",
-      "title": "US approves sale of 500 Patriot missiles to Ukraine",
-      "publisher": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-31T00:40:43Z",
-      "attribution": "Non verificato"
-    },
-    {
       "id": "25a3888527b779f5d9",
       "title": "Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?",
       "publisher": "France 24",
@@ -787,6 +1084,14 @@
       "attribution": "Non verificato"
     },
     {
+      "id": "f0e40847b261af4ad9",
+      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/americas/20261030-trump-admin-approves-potential-patriot-missiles-sale-to-ukraine",
+      "published_at": "2026-10-30T23:19:47Z",
+      "attribution": "Non verificato"
+    },
+    {
       "id": "b84d375343a9ff8143",
       "title": "Retired Michigan teacher released from Russian prison believed he would never be freed",
       "publisher": "The Guardian",
@@ -809,270 +1114,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-30T22:11:52Z",
       "attribution": "Non verificato"
-    },
-    {
-      "id": "88c6226462ddc9464b",
-      "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
-      "published_at": "2026-10-30T21:46:29Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "63b572401057f9b597",
-      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-      "publisher": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T20:41:51Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "0a154aa00cfb5c9af9",
-      "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-      "published_at": "2026-10-30T20:37:20Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "d6acc5bb201459746d",
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "publisher": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T20:34:46Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "e5d5e935e568809520",
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "publisher": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T20:34:46Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "21f66689f0d923d718",
-      "title": "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
-      "published_at": "2026-10-30T20:13:36Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "ee27767b5cf809d4ef",
-      "title": "Why is Netanyahu accusing Palestinian Israeli parties of fraud?",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/10/30/why-is-netanyahu-accusing-palestinian-israeli-parties-of-fraud?traffic_source=rss",
-      "published_at": "2026-10-30T19:34:36Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "316db0401e035bfab5",
-      "title": "'Gli Usa approvano la possibile vendita di Patriot all'Ucraina per 2,1 miliardi'",
-      "publisher": "ANSA · Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/gli-usa-approvano-la-possibile-vendita-di-patriot-allucraina-per-21-miliardi_27efd64a-a4fa-48fc-8ece-1b77c59e0435.html",
-      "published_at": "2026-10-30T19:13:09Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "3a2a3e1377738df60f",
-      "title": "Pakistan army ‘cautiously optimistic’ about US-Iran mediation efforts",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-      "published_at": "2026-10-30T18:55:36Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "a855779a923bd2efe3",
-      "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz?traffic_source=rss",
-      "published_at": "2026-10-30T18:33:29Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "df233c5825b43812e5",
-      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
-      "publisher": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
-      "published_at": "2026-10-30T17:13:48Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "ebe40e33015b437952",
-      "title": "Oleshky: No access to basic needs, ceasefire offers limited opportunity for humanitarian assistance",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/oleshky-no-access-to-basic-needs-ceasefire-offers-limited-opportunity-for-humanitarian-assistance",
-      "published_at": "2026-10-30T17:11:53Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "47931812d1e9f2f098",
-      "title": "Russia’s Novaya Gazeta to cease publication amid Kremlin crackdown",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-russia-s-novaya-gazeta-to-cease-publication-amid-kremlin-crackdown",
-      "published_at": "2026-10-30T16:58:51Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "b417a76150d9146f45",
-      "title": "EU und Kanada erzielen Einigung über kritische Mineralien und LNG",
-      "publisher": "Politico Europe",
-      "url": "https://www.politico.eu/article/eu-und-kanada-erzielen-einigung-ueber-kritische-mineralien-und-lng/",
-      "published_at": "2026-10-30T16:51:58Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "02c6ad97c2039e15ab",
-      "title": "Approvvigionamento delle Falkland-Malvinas riaccende le tensioni tra Cile e Argentina",
-      "publisher": "ANSA · Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/30/approvvigionamento-delle-falkland-malvinas-riaccende-le-tensioni-tra-cile-e-argentina_7017feb9-83eb-40fe-b043-fb447514652e.html",
-      "published_at": "2026-10-30T16:49:07Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "0fab3690c441d892a2",
-      "title": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine",
-      "published_at": "2026-10-30T16:44:11Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "1d3e5fb0a5bb6ed917",
-      "title": "Star Wars: Has Russia's war with Ukraine gone intergalactic?",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/europe/20261030-star-wars-has-russias-war-with-ukraine-gone-intergalactic",
-      "published_at": "2026-10-30T16:29:01Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "33a969da9b989d0968",
-      "title": "Could US midterms impact the EU? Transatlantic ties hit new low after Trump-Putin diesel deal",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261030-could-us-midterms-impact-the-eu-transatlantic-ties-hit-new-low-after-trump-putin-diesel-deal",
-      "published_at": "2026-10-30T16:24:10Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "101c1c2c8e9658481b",
-      "title": "Philip R. Lane: AI adoption in Europe",
-      "publisher": "BCE · Comunicati",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-      "published_at": "2026-10-30T16:10:00Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "60334418cbac04f8c3",
-      "title": "War in Ukraine: Evacuations under way in Russian-occupied Oleshky",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-war-in-ukraine-evacuations-under-way-in-russian-occupied-oleshky",
-      "published_at": "2026-10-30T16:01:43Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "298421d060e34fef26",
-      "title": "Jerusalem Daily: Israel’s siege on Hebron displaces thousands",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/jerusalem-daily-israels-siege-on-hebron-displaces-thousands?traffic_source=rss",
-      "published_at": "2026-10-30T15:50:23Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "80432b654fdde73995",
-      "title": "Kiev, 'iniziative come a Oleshky possono portare a pace tra Russia e Ucraina'",
-      "publisher": "ANSA · Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/kiev-iniziative-come-a-oleshky-possono-portare-a-pace-tra-russia-e-ucraina_3dbb882e-0d29-423e-b196-4609a7e2323a.html",
-      "published_at": "2026-10-30T15:47:32Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "210d8ff847f212978d",
-      "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion",
-      "published_at": "2026-10-30T15:34:46Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "6a821a08d99a030278",
-      "title": "Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261030-israeli-election-netanyahu-did-not-win-he-lost-dramatically-former-pm-barak-says",
-      "published_at": "2026-10-30T15:34:03Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "54eeb9789fb9649dfe",
-      "title": "Kiev, 'partiti i civili evacuati da Oleshky'",
-      "publisher": "ANSA · Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/kiev-partiti-i-civili-evacuati-da-oleshky_7f2e75c6-30f7-47cf-bdd2-8b6ed00d6b03.html",
-      "published_at": "2026-10-30T15:33:14Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "5d1752c95e2e17408b",
-      "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-      "published_at": "2026-10-30T15:26:00Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "dab9de8ba53cf8c8e0",
-      "title": "Israel's election ends in deadlock as final results show no clear winner",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-israel-s-election-ends-in-deadlock-as-final-results-show-no-clear-winner",
-      "published_at": "2026-10-30T15:24:24Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "7bee50f3696995da20",
-      "title": "Via libera della Commissione Ue a tranche da 45 miliardi per Kiev",
-      "publisher": "ANSA · Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/30/via-libera-della-commissione-ue-a-tranche-da-45-miliardi-per-kiev_91dd0b24-070d-44e9-b1cc-630c36f00e95.html",
-      "published_at": "2026-10-30T15:13:03Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "4779081c663e160650",
-      "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-      "publisher": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T15:09:29Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "3cee5cf7be48a35879",
-      "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-forces-blow-up-homes-of-palestinians-accused-of-killing-soldiers?traffic_source=rss",
-      "published_at": "2026-10-30T15:06:00Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "637bcb955c795eab59",
-      "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-      "published_at": "2026-10-30T14:40:19Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "24cde25a1a88afbfca",
-      "title": "Black Sea shipping under growing threats as drones hit container ships",
-      "publisher": "France 24",
-      "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
-      "published_at": "2026-10-30T14:27:51Z",
-      "attribution": "Non verificato"
-    },
-    {
-      "id": "16a512134203f5fc9d",
-      "title": "Russian, Ukrainian humanitarian officials enter Oleshky",
-      "publisher": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-ukrainian-humanitarian-officials-enter-oleshky?traffic_source=rss",
-      "published_at": "2026-10-30T14:19:49Z",
-      "attribution": "Non verificato"
     }
   ],
   "indicatori_python": {
@@ -1090,11 +1131,12 @@
       ]
     },
     "war_escalation": {
-      "value": 75,
-      "coverage": 1,
+      "value": 85,
+      "coverage": 2,
       "note": "Tensioni IA ammesse soltanto con due testate distinte; NON prova di indipendenza",
       "front_scores": {
-        "russia-ucraina": 75
+        "russia-ucraina": 75,
+        "israele-iran-medio-oriente": 80
       }
     },
     "macro_risk": {
@@ -1102,7 +1144,7 @@
       "note": "n.d. senza confronti macro ufficiali e verificati"
     },
     "conviction": {
-      "value": 40,
+      "value": 35,
       "note": "Misura di completezza, NON probabilità di verità",
       "missing_quotes": 5
     }
@@ -1110,33 +1152,51 @@
   "source_exclusions": [],
   "forecast_proposals_unpublished": [
     {
-      "evento": "Il dato ISM Manufacturing PMI USA del 2026-11-02 supererà quota 50 punti",
-      "conta": "Pubblicazione ufficiale ISM",
-      "non_conta": "stime preliminari o sondaggi privati",
-      "riferimento_valore": null,
-      "riferimento_strumento": "US ISM Manufacturing PMI",
-      "riferimento_fonte": "Institute for Supply Management",
-      "riferimento_ora": "17:00",
-      "scadenza": "2026-11-02",
-      "criterio": "Valore effettivo superiore a 50.0",
-      "fonte_esito": "Institute for Supply Management",
-      "probabilita": 55,
-      "source_ids": []
-    },
-    {
-      "evento": "L'inflazione flash HICP di novembre 2026 in Eurozona si attesterà sopra il 2,5%",
-      "conta": "Dato ufficiale Eurostat",
-      "non_conta": "stime flash nazionali parziali",
-      "riferimento_valore": null,
+      "evento": "Inflazione flash Eurozona di novembre 2026 superiore al 2,5%",
+      "conta": "Dati ufficiali Eurostat sull'inflazione flash di novembre 2026",
+      "non_conta": "stime preliminari non ufficiali o dichiarazioni di singoli analisti",
+      "riferimento_valore": 2.5,
       "riferimento_strumento": "Eurozone Flash CPI",
       "riferimento_fonte": "Eurostat",
       "riferimento_ora": "n.d.",
       "scadenza": "2026-11-04",
-      "criterio": "Variazione tendenziale superiore al 2.5%",
+      "criterio": "Il dato pubblicato da Eurostat risulta superiore al 2,5% annuo",
       "fonte_esito": "Eurostat",
-      "probabilita": 75,
+      "probabilita": 70,
       "source_ids": [
-        "5325526ab247545918"
+        "eurozone-flash-cpi-november-2026"
+      ]
+    },
+    {
+      "evento": "Mantenimento del tasso di riferimento della Bank of England nella riunione di novembre 2026",
+      "conta": "Decisione ufficiale della Bank of England MPC",
+      "non_conta": "indiscrezioni di stampa o sondaggi tra operatori",
+      "riferimento_valore": null,
+      "riferimento_strumento": "Bank of England MPC Rate Decision",
+      "riferimento_fonte": "Bank of England",
+      "riferimento_ora": "14:00",
+      "scadenza": "2026-11-05",
+      "criterio": "Comunicato ufficiale della Bank of England sull'esito della riunione MPC",
+      "fonte_esito": "Bank of England",
+      "probabilita": 80,
+      "source_ids": [
+        "bank-of-england-mpc-rate-decision-november-2026"
+      ]
+    },
+    {
+      "evento": "Rilasci positivi nei Non-Farm Payrolls USA di novembre 2026 superiori a 100 mila unità",
+      "conta": "Rapporto ufficiale del Bureau of Labor Statistics",
+      "non_conta": "stime ADP o indicatori privati non ufficiali",
+      "riferimento_valore": 100,
+      "riferimento_strumento": "US Employment Situation",
+      "riferimento_fonte": "Bureau of Labor Statistics",
+      "riferimento_ora": "15:30",
+      "scadenza": "2026-11-06",
+      "criterio": "Il saldo dei Non-Farm Payrolls pubblicato dal BLS supera 100 mila",
+      "fonte_esito": "Bureau of Labor Statistics",
+      "probabilita": 65,
+      "source_ids": [
+        "us-employment-situation-non-farm-payrolls-november-2026"
       ]
     }
   ],
@@ -1150,6 +1210,10 @@
       },
       {
         "proposal": 2,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      },
+      {
+        "proposal": 3,
         "reason": "Riferimento numerico o fonte non comprovati dagli input"
       }
     ]

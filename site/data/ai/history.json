@@ -930,5 +930,92 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T09:38:22.242858+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale."
+      ],
+      "correzioni_proposte": [
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo."
+      ],
+      "lezione": {
+        "titolo": "La previsione dell'inflazione BCE",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "La Banca Centrale Europea misura le attese sull'inflazione tramite apposite indagini periodiche rivolte agli esperti economici. Secondo il sondaggio pubblicato il 30 ottobre 2026, l'inflazione HICP è attesa al 3,0% per il 2026 [5325526ab247545918]. Questo indicatore aiuta a comprendere l'andamento futuro dei prezzi al consumo nell'area dell'euro.",
+        "esempio_oggi": "Nel quarto trimestre 2026, la BCE ha indicato l'inflazione HICP al 3,0% per il 2026 [5325526ab247545918].",
+        "domanda": "Cosa smentirebbe un aumento duraturo dei prezzi energetici?",
+        "risposta": "Dati ufficiali definitivi inferiori alle attese pubblicati da Eurostat.",
+        "parole": [
+          {
+            "termine": "HICP",
+            "spiegazione": "Indice armonizzato dei prezzi al consumo utilizzato dalla BCE."
+          },
+          {
+            "termine": "Survey of Professional Forecasters",
+            "spiegazione": "Indagine previsionale trimestrale condotta dalla BCE presso esperti economici."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Il controllo di validazione Python ha rilevato cifre come 1,11172 o 3.876 non riscontrate nei campi di input e convertite automaticamente in n.d. [verification]"
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "I futures ES, GC e 6E sono indicati come n.d. nel dossier, richiedendo la marcatura a null nei campi corrispondenti [mercati]"
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "I colloqui diplomatici e gli incontri bilaterali in Turchia vanno trattati come fatti riportati o dichiarazioni di parte finché manca una seconda fonte indipendente [8c8926a040d3079da0]"
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
