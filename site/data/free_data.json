@@ -973,24 +973,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "estat-3fb8c7c268b2d49c73e9",
-      "date": "2026-11-16",
-      "name": "Japan Production Dynamics 2026-09 (final)",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "06:30",
-      "release_at_utc": "2026-11-16T04:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202611161330",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "estat-e929ef3d90d7086bf5af",
       "date": "2026-11-16",
       "name": "Japan Industrial Production 2026-09 (final)",
@@ -1027,24 +1009,6 @@
       "attribution": "https://www.financecalendar.com"
     },
     {
-      "id": "estat-6f7a9ea0b27bee06a05b",
-      "date": "2026-11-17",
-      "name": "Japan Tertiary Industry Activity 2026-09",
-      "country": "JP",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "06:30",
-      "release_at_utc": "2026-11-17T04:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "e-Stat / official Japanese statistical agencies",
-      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00550360/202611171330",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
       "id": "ons-b213f8d34a3ee7de7eff",
       "date": "2026-11-17",
       "name": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2026",
@@ -1078,24 +1042,6 @@
       "unit": "% unemployment rate",
       "source": "Office for National Statistics",
       "source_url": "https://www.ons.gov.uk/releases/uklabourmarketnovember2026",
-      "attribution": "https://www.financecalendar.com"
-    },
-    {
-      "id": "ons-68065f350a8d1665bcd5",
-      "date": "2026-11-17",
-      "name": "Productivity flash estimate and overview, UK: July to September 2026 and April to June 2026",
-      "country": "GB",
-      "impact": "low",
-      "state": "confirmed",
-      "time_athens": "11:30",
-      "release_at_utc": "2026-11-17T09:30:00Z",
-      "time_precision": "minute",
-      "actual": null,
-      "consensus": null,
-      "previous": null,
-      "unit": null,
-      "source": "Office for National Statistics",
-      "source_url": "https://www.ons.gov.uk/releases/productivityflashestimateandoverviewukjulytoseptember2026andapriltojune2026",
       "attribution": "https://www.financecalendar.com"
     },
     {
@@ -1799,18 +1745,72 @@
       "source": "Eurostat",
       "source_url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators/release-calendar",
       "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "estat-bb3007dbed7bb21d47cc",
+      "date": "2026-12-02",
+      "name": "Japan Consumer Confidence 2026-11",
+      "country": "JP",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "07:00",
+      "release_at_utc": "2026-12-02T05:00:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "e-Stat / official Japanese statistical agencies",
+      "source_url": "https://www.e-stat.go.jp/release-calendar/detail/00100405/202612021400",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "us-adp-employment-report-december-2026",
+      "date": "2026-12-02",
+      "name": "US ADP Employment Report December 2026",
+      "country": "US",
+      "impact": "medium",
+      "state": "estimated",
+      "time_athens": "15:15",
+      "release_at_utc": "2026-12-02T13:15:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": "jobs",
+      "source": "ADP Research Institute",
+      "source_url": "https://www.financecalendar.com/event/us-adp-employment-report-december-2026/",
+      "attribution": "https://www.financecalendar.com"
+    },
+    {
+      "id": "eia-4e81cf30b530df3ac9e6",
+      "date": "2026-12-02",
+      "name": "US EIA Weekly Petroleum Status Report: December 2, 2026",
+      "country": "US",
+      "impact": "medium",
+      "state": "confirmed",
+      "time_athens": "17:30",
+      "release_at_utc": "2026-12-02T15:30:00Z",
+      "time_precision": "minute",
+      "actual": null,
+      "consensus": null,
+      "previous": null,
+      "unit": null,
+      "source": "U.S. Energy Information Administration",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+      "attribution": "https://www.financecalendar.com"
     }
   ],
   "gold_api": {
     "source": "Gold API",
-    "value": 3876.399902,
-    "as_of": "2026-11-01T19:45:06Z",
+    "value": 3900.0,
+    "as_of": "2026-11-01T23:38:51Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
-    "value": 3876.399902,
-    "as_of": "2026-11-01T19:44:41.726000Z",
+    "value": 3897.899902,
+    "as_of": "2026-11-01T23:38:20.550000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,47 +1864,45 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-11-01T19:45:35.057569Z",
-    "xaus": "2026-11-01T19:45:35.057569Z",
+    "gold_api": "2026-11-01T23:38:56.113210Z",
+    "xaus": "2026-11-01T23:38:56.113210Z",
     "gold_levels": "2026-11-01T13:49:48.345836Z",
-    "ecb": "2026-11-01T13:49:48.345836Z",
-    "calendar": "2026-11-01T13:49:48.345836Z",
+    "ecb": "2026-11-01T23:38:56.113210Z",
+    "calendar": "2026-11-01T23:38:56.113210Z",
     "cot": "2026-11-01T12:04:26.211627Z"
   },
-  "last_refresh": "2026-11-01T19:45:35.057569Z",
+  "last_refresh": "2026-11-01T23:38:56.113210Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
-      "status": "cached",
-      "checked_at": "2026-11-01T19:45:35.057569Z",
-      "last_fetched": "2026-11-01T13:49:48.345836Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T23:38:56.113210Z"
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-11-01T19:45:35.057569Z",
-      "last_fetched": "2026-11-01T13:49:48.345836Z"
+      "status": "ok",
+      "checked_at": "2026-11-01T23:38:56.113210Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-11-01T19:45:35.057569Z"
+      "checked_at": "2026-11-01T23:38:56.113210Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-11-01T19:45:35.057569Z"
+      "checked_at": "2026-11-01T23:38:56.113210Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-11-01T19:45:35.057569Z",
+      "checked_at": "2026-11-01T23:38:56.113210Z",
       "last_fetched": "2026-11-01T12:04:26.211627Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-11-01T19:45:35.057569Z",
+      "checked_at": "2026-11-01T23:38:56.113210Z",
       "last_fetched": "2026-11-01T13:49:48.345836Z"
     }
   },
