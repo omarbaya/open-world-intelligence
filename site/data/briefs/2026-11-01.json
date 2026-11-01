@@ -1,14 +1,14 @@
 {
   "date": "2026-11-01",
-  "generated_local": "01/11/2026 15:49 EET",
+  "generated_local": "01/11/2026 17:14 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "source": "BCE · Comunicati",
-      "published_at": "2026-10-30T14:00:00Z",
-      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-      "verification": "fonte primaria: dichiarazione ufficiale"
+      "title": "Home values fall for seventh consecutive month as interest rates dent demand",
+      "source": "The Guardian",
+      "published_at": "2026-11-01T14:00:18Z",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
       "title": "Iran's Khamenei warns US and Israel against new attacks",
@@ -25,22 +25,28 @@
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
-      "source": "The Guardian",
-      "published_at": "2026-11-01T12:00:12Z",
-      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "title": "Israeli attacks on Gaza kill at least nine people",
+      "source": "Al Jazeera",
+      "published_at": "2026-11-01T14:10:59Z",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
-      "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+      "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
       "source": "Al Jazeera",
-      "published_at": "2026-11-01T11:14:27Z",
-      "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss",
+      "published_at": "2026-11-01T13:36:16Z",
+      "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     }
   ],
   "topics": {
     "Altre notizie": [
+      {
+        "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
+        "published_at": "2026-11-01T14:00:13Z"
+      },
       {
         "title": "Philip R. Lane: AI adoption in Europe",
         "source": "BCE · Comunicati",
@@ -54,22 +60,16 @@
         "published_at": "2026-10-30T15:34:46Z"
       },
       {
+        "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+        "published_at": "2026-11-01T14:00:13Z"
+      },
+      {
         "title": "High street ‘slot farms’ could avoid budget tax rise through bingo hall loophole",
         "source": "The Guardian",
         "url": "https://www.theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole",
         "published_at": "2026-11-01T12:04:59Z"
-      },
-      {
-        "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions?traffic_source=rss",
-        "published_at": "2026-11-01T10:57:45Z"
-      },
-      {
-        "title": "Youth Olympic Games kick off in Dakar",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/youth-olympic-games-kick-off-in-dakar",
-        "published_at": "2026-11-01T09:49:04Z"
       }
     ],
     "Medio Oriente": [
@@ -78,6 +78,18 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
         "published_at": "2026-10-31T17:00:36Z"
+      },
+      {
+        "title": "Israeli attacks on Gaza kill at least nine people",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
+        "published_at": "2026-11-01T14:10:59Z"
+      },
+      {
+        "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
+        "published_at": "2026-11-01T13:36:16Z"
       },
       {
         "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
@@ -90,18 +102,6 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/trump-at-halloween-party-as-himself-says-hes-in-no-hurry-with-iran?traffic_source=rss",
         "published_at": "2026-11-01T08:24:50Z"
-      },
-      {
-        "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
-        "published_at": "2026-10-31T17:49:23Z"
-      },
-      {
-        "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
-        "published_at": "2026-10-31T14:31:37Z"
       }
     ],
     "Russia–Ucraina": [
@@ -232,38 +232,6 @@
         "published_at": "2026-10-31T15:16:20Z"
       }
     ],
-    "Macro e banche centrali": [
-      {
-        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-        "source": "BCE · Comunicati",
-        "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-        "published_at": "2026-10-30T14:00:00Z"
-      },
-      {
-        "title": "Mixed economic forecast weighs heavy ahead of midterms",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms",
-        "published_at": "2026-10-31T21:14:35Z"
-      },
-      {
-        "title": "Palestinians in Lebanon suffering worsened by high energy prices, inflation",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/features/2026/11/1/palestinians-in-lebanon-suffering-worsened-by-high-energy-prices-inflation?traffic_source=rss",
-        "published_at": "2026-11-01T13:25:27Z"
-      },
-      {
-        "title": "Putin’s potential G20 comeback risks normalizing Russian war crimes, says Kallas",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/kaja-kallas-vladimir-putin-g20-return-risks-normalizing-russian-war-crimes/",
-        "published_at": "2026-10-31T16:41:12Z"
-      },
-      {
-        "title": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
-        "published_at": "2026-10-31T02:24:10Z"
-      }
-    ],
     "Cina–Taiwan": [
       {
         "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
@@ -294,6 +262,38 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss",
         "published_at": "2026-10-31T05:37:51Z"
+      }
+    ],
+    "Macro e banche centrali": [
+      {
+        "title": "Home values fall for seventh consecutive month as interest rates dent demand",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+        "published_at": "2026-11-01T14:00:18Z"
+      },
+      {
+        "title": "Mixed economic forecast weighs heavy ahead of midterms",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms",
+        "published_at": "2026-10-31T21:14:35Z"
+      },
+      {
+        "title": "Palestinians in Lebanon suffering worsened by high energy prices, inflation",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/features/2026/11/1/palestinians-in-lebanon-suffering-worsened-by-high-energy-prices-inflation?traffic_source=rss",
+        "published_at": "2026-11-01T13:25:27Z"
+      },
+      {
+        "title": "Putin’s potential G20 comeback risks normalizing Russian war crimes, says Kallas",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/kaja-kallas-vladimir-putin-g20-return-risks-normalizing-russian-war-crimes/",
+        "published_at": "2026-10-31T16:41:12Z"
+      },
+      {
+        "title": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
+        "published_at": "2026-10-31T02:24:10Z"
       }
     ]
   },
