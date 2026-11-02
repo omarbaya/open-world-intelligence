@@ -1871,40 +1871,43 @@
     "calendar": "2026-11-01T23:38:56.113210Z",
     "cot": "2026-11-02T16:09:58.049148Z"
   },
-  "last_refresh": "2026-11-02T16:09:58.049148Z",
+  "last_refresh": "2026-11-02T16:36:42.300874Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
       "status": "error",
-      "checked_at": "2026-11-02T16:09:58.049148Z",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
       "reason": "http_401",
       "cached": true
     },
     "ecb": {
       "name": "ecb",
       "status": "cached",
-      "checked_at": "2026-11-02T16:09:58.049148Z",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
       "last_fetched": "2026-11-02T13:53:28.063662Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "ok",
-      "checked_at": "2026-11-02T16:09:58.049148Z"
+      "status": "cached",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
+      "last_fetched": "2026-11-02T16:09:58.049148Z"
     },
     "xaus": {
       "name": "xaus",
-      "status": "ok",
-      "checked_at": "2026-11-02T16:09:58.049148Z"
+      "status": "cached",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
+      "last_fetched": "2026-11-02T16:09:58.049148Z"
     },
     "cot": {
       "name": "cot",
-      "status": "ok",
-      "checked_at": "2026-11-02T16:09:58.049148Z"
+      "status": "cached",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
+      "last_fetched": "2026-11-02T16:09:58.049148Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-11-02T16:09:58.049148Z",
+      "checked_at": "2026-11-02T16:36:42.300874Z",
       "last_fetched": "2026-11-02T06:13:54.029760Z"
     }
   },
