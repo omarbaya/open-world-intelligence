@@ -1643,5 +1643,20 @@
     "date": "2026-11-02",
     "series": "mkt:WTI",
     "value": 103.37
+  },
+  {
+    "date": "2026-11-02",
+    "series": "gauge:war_escalation",
+    "value": 80
+  },
+  {
+    "date": "2026-11-02",
+    "series": "gauge:conviction",
+    "value": 29
+  },
+  {
+    "date": "2026-11-02",
+    "series": "sent:war",
+    "value": 60
   }
 ]
