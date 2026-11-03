@@ -1,12 +1,19 @@
 {
   "date": "2026-11-03",
-  "generated_local": "03/11/2026 08:53 EET",
+  "generated_local": "03/11/2026 15:02 EET",
   "headline": "Rassegna automatica da fonti aperte · nessuna sintesi AI inventata",
   "top": [
     {
-      "title": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
+      "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+      "source": "France 24",
+      "published_at": "2026-11-03T10:58:38Z",
+      "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
+    },
+    {
+      "title": "RBA interest rates: Bullock says ‘pain now’ will prevent worse later as Reserve Bank hikes rates for fifth time",
       "source": "The Guardian",
-      "published_at": "2026-11-03T06:14:08Z",
+      "published_at": "2026-11-03T07:36:42Z",
       "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
@@ -15,13 +22,6 @@
       "source": "France 24",
       "published_at": "2026-11-03T01:18:44Z",
       "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
-      "verification": "notizia riportata dalla testata; non verificata indipendentemente"
-    },
-    {
-      "title": "Russian bombing of Ukrainian aid centre kills at least 26, Kyiv says",
-      "source": "The Guardian",
-      "published_at": "2026-11-03T01:13:52Z",
-      "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
       "verification": "notizia riportata dalla testata; non verificata indipendentemente"
     },
     {
@@ -68,10 +68,22 @@
     ],
     "Medio Oriente": [
       {
-        "title": "US strikes Iran ahead of midterm elections",
+        "title": "US strikes Iranian island ahead of midterm elections",
         "source": "BBC World",
         "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-11-03T03:39:08Z"
+        "published_at": "2026-11-03T11:33:33Z"
+      },
+      {
+        "title": "Unclear what comes next as US strikes Iranian island in the Strait of Hormuz",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261103-unclear-what-comes-next-as-us-strikes-iranian-island-in-the-strait-of-hormuz",
+        "published_at": "2026-11-03T10:47:37Z"
+      },
+      {
+        "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest?traffic_source=rss",
+        "published_at": "2026-11-03T10:40:34Z"
       },
       {
         "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
@@ -84,32 +96,20 @@
         "source": "France 24",
         "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
         "published_at": "2026-11-02T17:42:22Z"
-      },
-      {
-        "title": "NSW council refuses to show world-renowned Gaza artwork over ‘unacceptable’ safety risk",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/03/shoalhaven-council-refuses-to-show-wall-of-tears-gaza-artwork-safety-risk-ntwnfb",
-        "published_at": "2026-11-02T14:00:44Z"
-      },
-      {
-        "title": "Jordan’s King Abdullah promises to confront ‘terrorists’ after Karak attack",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/2/jordans-king-abdullah-promises-to-confront-terrorists-after-karak-attack?traffic_source=rss",
-        "published_at": "2026-11-02T12:36:23Z"
       }
     ],
     "Russia–Ucraina": [
+      {
+        "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+        "published_at": "2026-11-03T10:58:38Z"
+      },
       {
         "title": "Russian strikes kill at least 26 in Ukraine after war's longest ceasefire ends",
         "source": "France 24",
         "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
         "published_at": "2026-11-03T01:18:44Z"
-      },
-      {
-        "title": "Russian bombing of Ukrainian aid centre kills at least 26, Kyiv says",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-        "published_at": "2026-11-03T01:13:52Z"
       },
       {
         "title": "Emergency alerts hacking 'designed to undermine trust in government', expert says",
@@ -132,37 +132,43 @@
     ],
     "Golfo e Mar Rosso": [
       {
+        "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
+        "published_at": "2026-11-03T12:10:47Z"
+      },
+      {
+        "title": "Unclear what comes next as US strikes Iranian island in the Strait of Hormuz",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261103-unclear-what-comes-next-as-us-strikes-iranian-island-in-the-strait-of-hormuz",
+        "published_at": "2026-11-03T10:47:37Z"
+      },
+      {
+        "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter",
+        "published_at": "2026-11-03T10:13:19Z"
+      },
+      {
+        "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T07:15:17Z"
+      },
+      {
         "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
         "source": "NPR",
         "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
         "published_at": "2026-11-02T12:19:54Z"
-      },
-      {
-        "title": "Morning news brief",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/11/02/nx-s1-6023084/morning-news-brief",
-        "published_at": "2026-11-02T09:42:20Z"
-      },
-      {
-        "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
-        "published_at": "2026-11-01T22:19:13Z"
-      },
-      {
-        "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-        "published_at": "2026-11-03T06:29:19Z"
-      },
-      {
-        "title": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
-        "published_at": "2026-11-03T02:25:02Z"
       }
     ],
     "Energia": [
+      {
+        "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter",
+        "published_at": "2026-11-03T10:13:19Z"
+      },
       {
         "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
         "source": "Al Jazeera",
@@ -186,21 +192,73 @@
         "source": "ANSA · Mondo",
         "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/02/trump-prezzi-del-petrolio-crollano-un-accordo-con-liran-puo-avvenire_d8544b65-3e10-4f2b-ab98-9ad890d84451.html",
         "published_at": "2026-11-02T21:15:40Z"
+      }
+    ],
+    "Macro e banche centrali": [
+      {
+        "title": "RBA interest rates: Bullock says ‘pain now’ will prevent worse later as Reserve Bank hikes rates for fifth time",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
+        "published_at": "2026-11-03T07:36:42Z"
       },
       {
-        "title": "US petrol prices dip ahead of midterms as voters eye costs",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/11/2/us-petrol-prices-dip-ahead-of-midterms-as-voters-eye-costs?traffic_source=rss",
-        "published_at": "2026-11-02T18:32:30Z"
+        "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
+        "published_at": "2026-11-02T06:57:29Z"
+      },
+      {
+        "title": "House prices fall for seventh consecutive month as interest rates dent demand",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+        "published_at": "2026-11-01T14:00:18Z"
+      },
+      {
+        "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates",
+        "published_at": "2026-11-02T06:00:34Z"
+      },
+      {
+        "title": "Eurozone countries to nominate Lagarde replacement by Nov. 6",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/eurozone-countries-to-nominate-lagarde-replacement-by-nov-6/",
+        "published_at": "2026-11-03T08:42:59Z"
+      }
+    ],
+    "Mercati e difesa": [
+      {
+        "title": "Trump to remove Rwanda and South Africa from US trade deal",
+        "source": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T10:26:26Z"
+      },
+      {
+        "title": "New York child dies from measles in state’s first fatal case in 30 years",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years",
+        "published_at": "2026-11-03T05:48:26Z"
+      },
+      {
+        "title": "Washington state resident dies from ‘severe illness’ after contracting bird flu",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/nov/02/bird-flu-death-washington",
+        "published_at": "2026-11-02T21:59:02Z"
+      },
+      {
+        "title": "Russell Brand is not a ‘psychopath who rapes people and thinks it’s normal’, court told",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/02/russell-brand-defence-barrister-court-trial",
+        "published_at": "2026-11-02T19:57:56Z"
+      },
+      {
+        "title": "Streeting: Burnham is better than Blair at talking to the public",
+        "source": "Politico Europe",
+        "url": "https://www.politico.eu/article/wes-streeting-andy-burnham-better-tony-blair-talk-public-brexit/",
+        "published_at": "2026-11-02T19:34:16Z"
       }
     ],
     "Cina–Taiwan": [
-      {
-        "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-        "published_at": "2026-11-01T12:00:12Z"
-      },
       {
         "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
         "source": "Al Jazeera",
@@ -224,70 +282,12 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/oman-and-china-sign-deals-to-boost-trade-and-investment?traffic_source=rss",
         "published_at": "2026-11-02T12:18:07Z"
-      }
-    ],
-    "Mercati e difesa": [
-      {
-        "title": "New York child dies from measles in state’s first fatal case in 30 years",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years",
-        "published_at": "2026-11-03T05:48:26Z"
       },
       {
-        "title": "Trump to remove Rwanda and South Africa from US trade deal",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-11-03T03:00:36Z"
-      },
-      {
-        "title": "Washington state resident dies from ‘severe illness’ after contracting bird flu",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/nov/02/bird-flu-death-washington",
-        "published_at": "2026-11-02T21:59:02Z"
-      },
-      {
-        "title": "Russell Brand is not a ‘psychopath who rapes people and thinks it’s normal’, court told",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/uk-news/2026/nov/02/russell-brand-defence-barrister-court-trial",
-        "published_at": "2026-11-02T19:57:56Z"
-      },
-      {
-        "title": "Streeting: Burnham is better than Blair at talking to the public",
-        "source": "Politico Europe",
-        "url": "https://www.politico.eu/article/wes-streeting-andy-burnham-better-tony-blair-talk-public-brexit/",
-        "published_at": "2026-11-02T19:34:16Z"
-      }
-    ],
-    "Macro e banche centrali": [
-      {
-        "title": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
-        "published_at": "2026-11-03T06:14:08Z"
-      },
-      {
-        "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
-        "published_at": "2026-11-02T06:57:29Z"
-      },
-      {
-        "title": "House prices fall for seventh consecutive month as interest rates dent demand",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
-        "published_at": "2026-11-01T14:00:18Z"
-      },
-      {
-        "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates",
-        "published_at": "2026-11-02T06:00:34Z"
-      },
-      {
-        "title": "Israeli soldiers arrest Al Jazeera journalist in Hebron raids",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/israeli-soldiers-arrest-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
-        "published_at": "2026-11-03T03:53:09Z"
+        "title": "Football: China refuses to air Real Madrid game after Mbappé comment",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20261102-football-china-refuses-to-air-real-madrid-game-after-mbapp%C3%A9-comment",
+        "published_at": "2026-11-02T11:09:07Z"
       }
     ]
   },
@@ -343,9 +343,9 @@
     },
     {
       "name": "Oro XAU/USD",
-      "value": 3947.0,
+      "value": 3916.800049,
       "unit": "USD/oncia",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "stale": true
     }
   ],
