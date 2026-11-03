@@ -1693,5 +1693,30 @@
     "date": "2026-11-03",
     "series": "mkt:US2Y",
     "value": 4.56
+  },
+  {
+    "date": "2026-11-03",
+    "series": "gauge:war_escalation",
+    "value": 75
+  },
+  {
+    "date": "2026-11-03",
+    "series": "gauge:conviction",
+    "value": 39
+  },
+  {
+    "date": "2026-11-03",
+    "series": "lettura:ES",
+    "value": -1
+  },
+  {
+    "date": "2026-11-03",
+    "series": "lettura:EURUSD",
+    "value": 0
+  },
+  {
+    "date": "2026-11-03",
+    "series": "sent:war",
+    "value": 50
   }
 ]
