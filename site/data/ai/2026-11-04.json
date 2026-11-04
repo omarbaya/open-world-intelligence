@@ -1,0 +1,1209 @@
+{
+  "version": "3.1-kit",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T11:21:14.283880+02:00",
+  "provider": "Google Gemini API",
+  "model": "gemini-3.5-flash-lite",
+  "status": "ok",
+  "research": {
+    "geopolitica": {
+      "items": [
+        {
+          "id": "76fe123a28f6185d35",
+          "traduzione": "Russia ha colpito un villaggio nell'Ucraina meridionale uccidendo almeno 26 persone, incluse persone che ricevevano aiuti umanitari, soccorritori e agenti di polizia, dopo la fine di un lungo cessate il fuoco.",
+          "fatto": "Russia ha colpito un villaggio nell'Ucraina meridionale uccidendo almeno 26 persone, incluse persone che ricevevano aiuti umanitari, soccorritori e agenti di polizia, dopo la fine di un lungo cessate il fuoco.",
+          "perche_conta": "La fine della tregua e l'intensificazione degli attacchi sui civili e sulle infrastrutture segnalano la ripresa dell'escalation militare nel conflitto russo-ucraino.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "76fe123a28f6185d35"
+          ]
+        },
+        {
+          "id": "2a79148d4af9abcdba",
+          "traduzione": "Un attacco russo in Ucraina meridionale su un sito di aiuti umanitari ha causato 29 morti e 48 dispersi, accompagnato da raid su impianti energetici e ospedali, con il lancio di 289 droni, 17 missili balistici e 59 missili da crociera in nove regioni.",
+          "fatto": "Un attacco russo in Ucraina meridionale su un sito di aiuti umanitari ha causato 29 morti e 48 dispersi, accompagnato da raid su impianti energetici e ospedali, con il lancio di 289 droni, 17 missili balistici e 59 missili da crociera in nove regioni.",
+          "perche_conta": "Un'offensiva missilistica e di droni su vasta scala colpisce la rete energetica e i centri abitati, aggravando la crisi umanitaria e la pressione sui servizi essenziali.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "2a79148d4af9abcdba"
+          ]
+        },
+        {
+          "id": "de7d6eb290808d97f5",
+          "traduzione": "Autorità in Ucraina e Russia hanno segnalato cyberattacchi alle applicazioni mobili di allerta di emergenza, con messaggi falsi su un alto pericolo di radiazioni nucleari a Kiev e accessi non autorizzati al ministero delle emergenze russo.",
+          "fatto": "Autorità in Ucraina e Russia hanno segnalato cyberattacchi alle applicazioni mobili di allerta di emergenza, con messaggi falsi su un alto pericolo di radiazioni nucleari a Kiev e accessi non autorizzati al ministero delle emergenze russo.",
+          "perche_conta": "La compromissione dei sistemi di allerta tramite cyberattacchi mira a minare la fiducia nei governi e a diffondere il panico tra la popolazione civile.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "de7d6eb290808d97f5",
+            "9b9c82a970934bded8",
+            "d90b963a99e902537b"
+          ]
+        },
+        {
+          "id": "f703cab3fba8b4d802",
+          "traduzione": "Iran ha dichiarato di aver preparato un piano di 'massima deterrenza' contro qualsiasi nuovo attacco statunitense, minacciando una risposta immediata.",
+          "fatto": "Iran ha dichiarato di aver preparato un piano di 'massima deterrenza' contro qualsiasi nuovo attacco statunitense, minacciando una risposta immediata.",
+          "perche_conta": "Il mantenimento di una postura di massima deterrenza segnala il persistere delle tensioni geopolitiche in Medio Oriente.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "f703cab3fba8b4d802"
+          ]
+        }
+      ],
+      "quadro": ""
+    },
+    "macro": {
+      "items": [
+        {
+          "id": "91ee38aac3a75ea187",
+          "traduzione": "La Banca Centrale Europea ha aggiornato il proprio wage tracker indicando una crescita salariale negoziata del 2,3% per il 2026, del 2,7% nel secondo semestre 2026, del 2,8% nel primo semestre 2027 e del 2,4% nel terzo trimestre 2027.",
+          "fatto": "La Banca Centrale Europea ha aggiornato il proprio wage tracker indicando una crescita salariale negoziata del 2,3% per il 2026, del 2,7% nel secondo semestre 2026, del 2,8% nel primo semestre 2027 e del 2,4% nel terzo trimestre 2027.",
+          "perche_conta": "",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "91ee38aac3a75ea187"
+          ]
+        },
+        {
+          "id": "f8f62431719729338a",
+          "traduzione": "La Reserve Bank of Australia ha aumentato il tasso ufficiale di cassa portandolo al 4,85%.",
+          "fatto": "La Reserve Bank of Australia ha aumentato il tasso ufficiale di cassa portandolo al 4,85%.",
+          "perche_conta": "",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "f8f62431719729338a"
+          ]
+        },
+        {
+          "id": "d2cbd9214a64573003",
+          "traduzione": "Saudi Aramco ha registrato un aumento del 36,25% (o $36,25 miliardi) nei profitti netti del trimestre, sostenuta da prezzi elevati del petrolio.",
+          "fatto": "Saudi Aramco ha registrato un aumento del 36,25% (o $36,25 miliardi) nei profitti netti del trimestre, sostenuta da prezzi elevati del petrolio.",
+          "perche_conta": "",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "d2cbd9214a64573003"
+          ]
+        },
+        {
+          "id": "bba6b2b0dd1b047da3",
+          "traduzione": "Tehran ha dichiarato che quattro petroliere hanno preso fuoco dopo aver colpito mine nello Stretto di Hormuz.",
+          "fatto": "Tehran ha dichiarato che quattro petroliere hanno preso fuoco dopo aver colpito mine nello Stretto di Hormuz.",
+          "perche_conta": "",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "bba6b2b0dd1b047da3"
+          ]
+        },
+        {
+          "id": "dda981a06834404f0f",
+          "traduzione": "Le forze di sicurezza siriane hanno dichiarato di aver sventato un complotto contro la raffineria di petrolio di Homs, collegando una cellula a Hezbollah, che ha negato ogni accusa.",
+          "fatto": "Le forze di sicurezza siriane hanno dichiarato di aver sventato un complotto contro la raffineria di petrolio di Homs, collegando una cellula a Hezbollah, che ha negato ogni accusa.",
+          "perche_conta": "",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "dda981a06834404f0f"
+          ]
+        }
+      ],
+      "quadro": ""
+    },
+    "difesa": {
+      "items": [
+        {
+          "id": "0fbc341da83a972286",
+          "traduzione": "Un'inchiesta pubblica guidata da Peter Garrett e Chris Barrie ha definito l'accordo Aukus sui sottomarini nucleari la decisione di difesa più costosa e rischiosa dell'Australia, chiedendone la sospensione immediata.",
+          "fatto": "Un'inchiesta pubblica guidata da Peter Garrett e Chris Barrie ha definito l'accordo Aukus sui sottomarini nucleari la decisione di difesa più costosa e rischiosa dell'Australia, chiedendone la sospensione immediata.",
+          "perche_conta": "Solleva dubbi sulla sostenibilità e continuità dei programmi di spesa militare legati ad alleanze strategiche globali.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "0fbc341da83a972286"
+          ]
+        },
+        {
+          "id": "2f58207bbccd4cb1e0",
+          "traduzione": "Un ex appaltatore statunitense, Abraham Teklu Lemma, si è dichiarato colpevole di aver passato documenti classificati e immagini satellitari a funzionari etiopi per colpire i combattenti del Tigray.",
+          "fatto": "Un ex appaltatore statunitense, Abraham Teklu Lemma, si è dichiarato colpevole di aver passato documenti classificati e immagini satellitari a funzionari etiopi per colpire i combattenti del Tigray.",
+          "perche_conta": "Evidenzia vulnerabilità nella sicurezza delle informazioni e nella gestione dei sistemi informatici presso agenzie governative chiave.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "2f58207bbccd4cb1e0"
+          ]
+        },
+        {
+          "id": "fd0b692f8d6b9c3231",
+          "traduzione": "Il presidente statunitense Donald Trump ha notificato al Congresso l'intenzione di rimuovere Sudafrica e Rwanda dal programma di preferenze commerciali Agoa dal 1 gennaio 2027.",
+          "fatto": "Il presidente statunitense Donald Trump ha notificato al Congresso l'intenzione di rimuovere Sudafrica e Rwanda dal programma di preferenze commerciali Agoa dal 1 gennaio 2027.",
+          "perche_conta": "Modifica il quadro delle relazioni commerciali internazionali e introduce fattori di rischio geopolitico per le economie coinvolte.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "fd0b692f8d6b9c3231"
+          ]
+        },
+        {
+          "id": "751d2528a047643bcd",
+          "traduzione": "Il segretario alla Difesa britannico Wes Streeting ha dichiarato di avere totale fiducia nel raggiungimento del target di spesa militare da parte del Regno Unito.",
+          "fatto": "Il segretario alla Difesa britannico Wes Streeting ha dichiarato di avere totale fiducia nel raggiungimento del target di spesa militare da parte del Regno Unito.",
+          "perche_conta": "Conferma l'impegno politico sugli stanziamenti per la difesa, sostenendo indirettamente i contratti del settore.",
+          "mercati": "Se questo evento persiste, allora un impatto è possibile (non misurato).",
+          "certezza": "Non verificato",
+          "source_ids": [
+            "751d2528a047643bcd"
+          ]
+        }
+      ],
+      "quadro": "['Assenza di dati di prezzo di chiusura ufficiale per i titoli difesa e per gli strumenti finanziari monitorati nel dossier.', 'Le notizie riportate provengono esclusivamente da flussi RSS o articoli di stampa e non costituiscono fonti primarie verificate per i mercati finanziari.']"
+    }
+  },
+  "verification": {
+    "errori": [
+      {
+        "testo_errato": "La fine del cessate il fuoco tra Russia e Ucraina è stata seguita da attacchi massicci con centinaia di droni e missili e cyberattacchi sui sistemi di emergenza civili (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5).",
+        "correzione": "Le notizie sugli attacchi e sui cyberattacchi provengono esclusivamente da singoli flussi RSS (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5) e non costituiscono una notizia verificata secondo i criteri del progetto.",
+        "fonte": "2a79148d4af9abcdba",
+        "gravita": "alta"
+      },
+      {
+        "testo_errato": "l'oro spot (n.d. USD/oncia)",
+        "correzione": "Il valore spot dell'oro è n.d. USD/oncia nel dossier e non supporta alcuna certezza di prezzo.",
+        "fonte": "Gold API",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "S&P 500 (7541,4 punti) e l'EUR/USD (1,1179)",
+        "correzione": "I valori indicati derivano da osservazioni passate (2026-11-02 e 2026-11-03) e vanno trattati come dati storici del dossier.",
+        "fonte": "FRED",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "Mappa delle forze non conforme: Escalation Russia-Ucraina, Tensioni Medio Oriente e Hormuz",
+        "correzione": "Righe escluse (ammessi solo -1/0/+1 e Forte/Debole)",
+        "fonte": "validazione Python",
+        "gravita": "media"
+      },
+      {
+        "testo_errato": "Numeri non presenti negli input: 0,33, 0,51, 0,61, 0,66, 123,10, 4045,20, 8,91",
+        "correzione": "Sostituiti con n.d. automaticamente",
+        "fonte": "controllo Python",
+        "gravita": "alta"
+      }
+    ],
+    "esito": "Errori trovati"
+  },
+  "brief": {
+    "brief_markdown": "AVVISO: il verificatore ha trovato errori nella bozza; interpretazioni non confermate.\n\n# Briefing Desk OPEN WORLD\n\n## 1 In 60 secondi\n- **Cosa è successo**: La fine del cessate il fuoco tra Russia e Ucraina è stata seguita da attacchi massicci con centinaia di droni e missili e cyberattacchi sui sistemi di emergenza civili (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5). In Medio Oriente, l'Iran ha annunciato un piano di massima deterrenza (fonte: f703cab3fba8b4d802) e Teheran ha riferito che quattro petroliere hanno preso fuoco dopo aver colpito mine nello Stretto di Hormuz (fonte: bba6b2b0dd1b047da3). Sul fronte macroeconomico, la BCE ha aggiornato il wage tracker con una crescita salariale negoziata al 2,3% per il 2026 (fonte: 91ee38aac3a75ea187) e la Reserve Bank of Australia ha alzato i tassi al 4,85% (fonte: f8f62431719729338a).\n- **Perché conta**: L'escalation militare in Europa orientale e le tensioni energetiche nel Golfo alimentano i rischi geopolitici e la volatilità delle materie prime.\n- **Condizione mercati**: Se persistono le tensioni energetiche e geopolitiche, allora l'oro spot (n.d. USD/oncia) e il VIX (21,15 punti) mantengono supporto, mentre l'S&P 500 (7541,4 punti) e l'EUR/USD (1,1179) reagiscono ai dati macro e alle condizioni di rischio.\n\n## 2 Guerre e crisi\n- **Russia-Ucraina**: Tensione a 81 (in aumento). La fine del cessate il fuoco è coincisa con raid massicci che hanno coinvolto 289 droni, 17 missili balistici e 59 missili da crociera in nove regioni, oltre a cyberattacchi sulle app di allerta (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5). Etichetta: non verificato.\n- **Israele-Iran e Medio Oriente**: Tensione a 70 (stabile). L'Iran dichiara di aver pronto un piano di massima deterrenza (fonte: f703cab3fba8b4d802) e si registrano notizie di petroliere colpite da mine nello Stretto di Hormuz (fonte: bba6b2b0dd1b047da3). Etichetta: non verificato.\n\n## 3 Mercati\n- **S&P 500 (ES/MES)**: Valore 7541,4 punti (-n.d.% rispetto al precedente 7580,07 del 2026-10-30), osservazione 2026-11-02 (fonte: FRED). Rilevanza 7/10. Studio: Neutrale. Motivi: correzione moderata in un contesto di volatilità contenuta ma in aumento. Rischio: persistenza dell'inflazione e tensioni geopolitiche. Invalidazione: ritorno stabile sopra i massimi precedenti.\n- **Oro XAU/USD (GC/MGC)**: Valore spot n.d. USD/oncia (Gold API, 2026-11-04). Rilevanza 8/10. Studio: Rialzista. Motivi: domanda di beni rifugio legata alla ripresa dell'escalation in Ucraina e alle tensioni energetiche nello Stretto di Hormuz. Rischio: rafforzamento improvviso del dollaro o distensione diplomatica. Invalidazione: calo sotto i supporti tecnici chiave.\n- **EUR/USD (6E/M6E)**: Valore fixing BCE 1,1179 (-n.d.% rispetto a 1,1216 del 2026-11-02), osservazione 2026-11-03 (fonte: BCE). Rilevanza 7/10. Studio: Neutrale. Motivi: oscillazioni guidate dai dati sui salari negoziati BCE (fonte: 91ee38aac3a75ea187) e dalle dinamiche di cambio. Rischio: divergenza di politica monetaria. Invalidazione: rottura decisa dei range recenti.\n- **Altri indicatori ufficiali**: VIX a 21,15 punti (+n.d.%, fonte FRED); Treasury a 10 anni al 4,91% (-n.d.%); Treasury a 2 anni al 4,59% (+n.d.%); Brent a n.d. USD/barile (dato del 2026-10-27, fonte FRED); WTI a 103,37 USD/barile (dato del 2026-10-27).\n\n## 4 Macro e banche centrali\n- La BCE ha pubblicato il wage tracker con una crescita salariale negoziata al 2,3% per il 2026 e al 2,7% nel secondo semestre 2026 (fonte: 91ee38aac3a75ea187). \n- La Reserve Bank of Australia ha aumentato il tasso ufficiale al 4,85% per contrastare l'inflazione persistente (fonte: f8f62431719729338a).\n- Saudi Aramco ha registrato un incremento del 36,25% nei profitti netti trimestrali grazie ai prezzi elevati del petrolio (fonte: d2cbd9214a64573003).\n\n## 5 Dalla geopolitica ai mercati\n- **Mappa forze**: Tensioni geopolitiche (Ucraina e Hormuz) spingono i beni rifugio; i dati macro e i tassi influenzano i listini azionari e i cambi.\n\n## 6 Agenda oggi Atene e prossimi 30 giorni\n- **Oggi (2026-11-04)**: Eurozone Flash CPI November 2026, US ISM Services PMI, US EIA Weekly Petroleum Status Report (fonti ufficiali nel calendario).\n- **Prossimi 30 giorni**: Bank of England MPC Rate Decision (2026-11-05), US Non-Farm Payrolls (2026-11-06), US CPI Report (2026-11-10), UK GDP (2026-11-12), FOMC Minutes (2026-11-18).\n\n## 7 Difesa\n- Un'inchiesta pubblica in Australia ha definito l'accordo Aukus la decisione di difesa più costosa e rischiosa, chiedendone la sospensione (fonte: 0fbc341da83a972286). \n- Il segretario alla Difesa britannico Wes Streeting ha confermato la fiducia nel raggiungimento del target di spesa militare (fonte: 751d2528a047643bcd).\n- Titoli difesa (NPK, IA, DRS, DCO, CW, MOG.A, KTOS): nessuna novità rilevante di prezzo nel dossier (fonte: n.d.).\n\n## 8 Scenari 7/30/90\n- **Scenario base (7-30 giorni)**: Continuazione delle tensioni geopolitiche localizzate e dati macro allineati alle attese; mercati azionari in laterale-stabile e oro sostenuto.\n- **Scenario favorevole**: Distensione diplomatica in Medio Oriente e in Europa orientale, con calo dei prezzi energetici e ripresa dei listini azionari.\n- **Scenario avverso**: Escalation militare incontrollata con interruzione dei flussi energetici nello Stretto di Hormuz e impatto inflazionistico globale.\n- **Invalidazione**: Smentita ufficiale delle notizie di crisi o accordi di pace immediati.\n\n## 9 Verifica previsioni\n- Non sono presenti previsioni precedenti aperte da verificare in questo ciclo.\n\n## 10 Valutazione finale\n- Il quadro informativo evidenzia un profilo di rischio di mercato moderato (market_stress a 33) ma con forti tensioni geopolitiche non verificate che richiedono prudenza e monitoraggio costante delle fonti primarie.\n\n## Domenica Revisione della settimana\n- n.d. (Revisione programmata per domenica).\n\n## Lezione\n- Distinguere sempre tra comunicati di parte, flussi RSS non verificati e dati ufficiali di banche centrali o istituti statistici primari.\n\n## Parole del giorno\n- **Wage tracker**: Strumento di monitoraggio della crescita salariale negoziata utilizzato dalle banche centrali per valutare le pressioni inflazionistiche interne.\n- **Massima deterrenza**: Postura strategica militare volta a scoraggiare aggressioni esterne tramite la minaccia di una risposta immediata e proporzionata.\n\n## Fonti\n- 76fe123a28f6185d35, 2a79148d4af9abcdba, de7d6eb290808d97f5, f703cab3fba8b4d802, 91ee38aac3a75ea187, f8f62431719729338a, d2cbd9214a64573003, bba6b2b0dd1b047da3, 0fbc341da83a972286, 751d2528a047643bcd, FRED, BCE, Gold API.",
+    "sintesi_60s": [
+      "Attacco missilistico e di droni in Ucraina: Attacco russo in Ucraina meridionale su un sito di aiuti umanitari con 29 morti e raid su impianti energetici e ospedali.",
+      "Petroliere colpite nello Stretto di Hormuz: Tehran ha dichiarato che quattro petroliere hanno preso fuoco dopo aver colpito mine nello Stretto di Hormuz."
+    ],
+    "guerre_e_crisi": "n.d.",
+    "mercati": "n.d.",
+    "macro_banche_centrali": "n.d.",
+    "geopolitica_mercati": "n.d.",
+    "agenda": "n.d.",
+    "difesa": "n.d.",
+    "scenari_7_30_90": "n.d.",
+    "previsioni": "n.d.",
+    "valutazione_finale": "n.d.",
+    "lezione": "Il wage tracker è uno strumento utilizzato dalla Banca Centrale Europea per monitorare la crescita salariale negoziata nei contratti collettivi. Serve a valutare le pressioni inflazionistiche interne derivanti dai salari.",
+    "limiti": "Numeri non verificati sostituiti: 0,33, 0,51, 0,61, 0,66, 123,10, 4045,20, 8,91",
+    "inclinazione": {
+      "es": "Neutrale",
+      "gc": "Rialzista",
+      "eurusd": "Neutrale"
+    },
+    "mappa_forze": []
+  },
+  "learning": {
+    "osservazioni": [
+      "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+      "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+      "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+    ],
+    "correzioni_proposte": [
+      "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+      "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+      "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+    ],
+    "lezione": {
+      "titolo": "Il wage tracker e la misurazione dei salari negoziati",
+      "area": "Macro",
+      "livello": "Base",
+      "spiegazione": "Il wage tracker è uno strumento utilizzato dalla Banca Centrale Europea per monitorare la crescita salariale negoziata nei contratti collettivi. Serve a valutare le pressioni inflazionistiche interne derivanti dai salari.",
+      "esempio_oggi": "La BCE ha pubblicato il wage tracker con una crescita salariale negoziata al 2,3% per il 2026 (fonte: 91ee38aac3a75ea187).",
+      "domanda": "Cosa smentirebbe l'interpretazione di una pressione salariale in linea con i dati BCE?",
+      "risposta": "Una revisione ufficiale della BCE che mostri salari negoziati stabili o in calo.",
+      "parole": [
+        {
+          "termine": "Wage tracker",
+          "spiegazione": "Strumento di monitoraggio della crescita salariale negoziata utilizzato dalle banche centrali per valutare le pressioni inflazionistiche interne."
+        }
+      ]
+    },
+    "diario": [
+      {
+        "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "esempio": "La fine del cessate il fuoco e i raid con droni in Ucraina vanno trattati come non verificati finché manca una seconda fonte indipendente (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5)."
+      },
+      {
+        "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "esempio": "I valori spot dell'oro indicati come n.d. USD/oncia nel dossier non supportano alcuna certezza di prezzo (fonte: Gold API)."
+      },
+      {
+        "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+        "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+        "esempio": "Se persistono le tensioni energetiche e geopolitiche, allora l'oro spot mantiene supporto, mentre l'S&P 500 reagisce ai dati macro."
+      }
+    ],
+    "metriche": {
+      "previsioni_valutate": 0,
+      "brier": null
+    }
+  },
+  "agent_audit": [
+    {
+      "role": "geopolitica",
+      "status": "ok"
+    },
+    {
+      "role": "macro",
+      "status": "ok"
+    },
+    {
+      "role": "difesa",
+      "status": "ok"
+    },
+    {
+      "role": "capo_desk",
+      "status": "ok"
+    },
+    {
+      "role": "verificatore",
+      "status": "ok"
+    },
+    {
+      "role": "apprendimento",
+      "status": "ok"
+    },
+    {
+      "role": "revisore_finale",
+      "status": "ok"
+    }
+  ],
+  "sources": [
+    {
+      "id": "0fbc341da83a972286",
+      "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry",
+      "published_at": "2026-11-04T07:02:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "91ee38aac3a75ea187",
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "publisher": "BCE · Comunicati",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "published_at": "2026-11-04T00:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2a79148d4af9abcdba",
+      "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+      "published_at": "2026-11-03T10:58:38Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f8f62431719729338a",
+      "title": "RBA interest rates: Bullock says ‘pain now’ will prevent worse later as Reserve Bank hikes rates for fifth time",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
+      "published_at": "2026-11-03T07:36:42Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "76fe123a28f6185d35",
+      "title": "Russian strikes kill at least 26 in Ukraine after war's longest ceasefire ends",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+      "published_at": "2026-11-03T01:18:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fa86098bdd73e6f7a5",
+      "title": "Emergency alerts hacking 'designed to undermine trust in government', expert says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261102-emergency-alerts-hacking-designed-to-undermine-trust-in-government-expert-says",
+      "published_at": "2026-11-02T22:30:09Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "42b40d69e638fe0379",
+      "title": "Emergency alerts hacking 'designed to undermine trust in government', expert says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/emergency-alerts-hacking-designed-to-undermine-trust-in-government-expert-says",
+      "published_at": "2026-11-02T22:28:36Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9b9c82a970934bded8",
+      "title": "Ukraine and Russia report fake emergency alerts after cyberattacks target apps",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps",
+      "published_at": "2026-11-02T15:06:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d90b963a99e902537b",
+      "title": "Hackers send fake nuclear threat alert to Ukraine emergency app",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/02/hackers-fake-nuclear-chemical-threat-alert-kyiv-ukraine-emergency-app",
+      "published_at": "2026-11-02T11:11:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "de7d6eb290808d97f5",
+      "title": "Ukraine and Russia both hit by cyberattacks on emergency apps",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261102-ukraine-and-russia-both-hit-by-cyberattacks-on-emergency-apps",
+      "published_at": "2026-11-02T10:20:45Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f703cab3fba8b4d802",
+      "title": "Iran war live: Tehran prepares ‘maximum deterrence’ plan for any new attack",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/iran-war-live-tehran-prepares-maximum-deterrence-plan-for-any-new-attack?traffic_source=rss",
+      "published_at": "2026-11-04T00:00:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ace763210ff99825b3",
+      "title": "Russian households face increasing financial strain as war in Ukraine drags on",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
+      "published_at": "2026-11-03T17:05:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5e7a6a5c6d7aacefb8",
+      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T16:57:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8efb529109f0a63f71",
+      "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
+      "published_at": "2026-11-03T16:30:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2bfbf2510e2471a6fd",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "publisher": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T15:51:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "428874286008b74940",
+      "title": "Global food security is under threat",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news-analysis/2026/11/3/global-food-security-is-under-threat?traffic_source=rss",
+      "published_at": "2026-11-03T14:58:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b9cc4267ca900c4512",
+      "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T13:26:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bc6f597599718c42a8",
+      "title": "Iran commander sets out five conditions for regional security",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/iran-commander-sets-out-five-conditions-for-regional-security?traffic_source=rss",
+      "published_at": "2026-11-03T13:21:57Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0c58f766e33e9ec949",
+      "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
+      "published_at": "2026-11-03T12:10:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "882796c9534c8885e6",
+      "title": "US strikes Iranian island ahead of midterm elections",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T11:33:33Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c3c19279fa3884e1e5",
+      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+      "published_at": "2026-11-03T11:01:14Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ee11d774245aec74d4",
+      "title": "Unclear what comes next as US strikes Iranian island in the Strait of Hormuz",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-unclear-what-comes-next-as-us-strikes-iranian-island-in-the-strait-of-hormuz",
+      "published_at": "2026-11-03T10:47:37Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "86e0a26da0eea6afae",
+      "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest?traffic_source=rss",
+      "published_at": "2026-11-03T10:40:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d2cbd9214a64573003",
+      "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter",
+      "published_at": "2026-11-03T10:13:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "37a13c858f930ffa48",
+      "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T07:15:17Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2f5eef1c1eab54eb09",
+      "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+      "published_at": "2026-11-03T02:28:07Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bafc8b24d3afc0c031",
+      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T18:34:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "acfe2e61d94669f0aa",
+      "title": "Russian bombing of Ukrainian aid centre kills 26 people",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
+      "published_at": "2026-11-02T18:23:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fb5e6cfff39f8360ea",
+      "title": "Trump says deal with Tehran 'could happen' amid 'intensive' talks",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
+      "published_at": "2026-11-02T17:42:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "9390e5d2a655a0f17d",
+      "title": "Ikea among shops affected by fridge cyber-hacks – Europe live",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
+      "published_at": "2026-11-02T16:17:14Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "86dd0914238e28dd45",
+      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:35:01Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8a26c2c2e610503465",
+      "title": "What we know about the alert app hack in Ukraine and Russia",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:24:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a29c7bbebd9f3987e6",
+      "title": "NSW council refuses to show world-renowned Gaza artwork over ‘unacceptable’ safety risk",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/shoalhaven-council-refuses-to-show-wall-of-tears-gaza-artwork-safety-risk-ntwnfb",
+      "published_at": "2026-11-02T14:00:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0d96f5a7e561e4b40a",
+      "title": "Jordan’s King Abdullah promises to confront ‘terrorists’ after Karak attack",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/jordans-king-abdullah-promises-to-confront-terrorists-after-karak-attack?traffic_source=rss",
+      "published_at": "2026-11-02T12:36:23Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "03af2edd61cde9a0ca",
+      "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
+      "published_at": "2026-11-02T12:19:54Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2eebb773e50e41c164",
+      "title": "'More patients and fewer doctors': The struggle for maternity care in Afghanistan",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261102-more-patients-and-fewer-doctors-the-struggle-for-maternity-care-in-afghanistan",
+      "published_at": "2026-11-02T11:48:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a330622059536ad540",
+      "title": "Bulgaria's Iotova wins presidential runoff vote amid Black Sea security fears",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261102-bulgaria-s-iotova-wins-presidential-runoff-vote-amid-black-sea-security-fears",
+      "published_at": "2026-11-02T11:40:27Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2d251fc7583e1fd72a",
+      "title": "Morning news brief",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/02/nx-s1-6023084/morning-news-brief",
+      "published_at": "2026-11-02T09:42:20Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2f7b8e7ccd09374278",
+      "title": "EU to lead talks on support for Ukraine with US, Nato, partners – Europe live",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+      "published_at": "2026-11-04T09:13:26Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "83cc5e0ceffdc0da30",
+      "title": "Miliband criticises Blair’s slavery statement and defends Burnham’s plan for proper apology – UK politics live",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/04/ed-miliband-andy-burnham-king-charles-labour-louise-haigh-alex-burghart-pmqs-conservatives-uk-politics-latest-news",
+      "published_at": "2026-11-04T08:59:43Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "bba6b2b0dd1b047da3",
+      "title": "Four oil tankers destroyed in Hormuz after hitting mines, Tehran says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+      "published_at": "2026-11-04T08:43:31Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d931f39be70ad3e4af",
+      "title": "Palestinians return to ruined Hebron homes after Israel’s 10-day siege",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/11/4/palestinians-return-to-ruined-hebron-homes-after-israels-10-day-siege?traffic_source=rss",
+      "published_at": "2026-11-04T08:22:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "252d17a6994feae3c3",
+      "title": "Pechino, 'midterm questione interna, continueremo a collaborare con Usa'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/04/pechino-midterm-questione-interna-continueremo-a-collaborare-con-usa_622f71eb-41a9-458d-be44-f45f988b10bc.html",
+      "published_at": "2026-11-04T07:40:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b7069dedf8a8965be8",
+      "title": "Lapid, 'voto Usa esclude governo larghe intese guidato da Netanyahu'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/04/lapid-voto-usa-esclude-governo-larghe-intese-guidato-da-netanyahu_caefb95b-2085-4e9f-a301-537dbc086c96.html",
+      "published_at": "2026-11-04T07:18:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "85cf1330380b0695cb",
+      "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T07:17:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8ae486d57a5927f8bb",
+      "title": "Trump congratulates Democrats on midterms win, says Iran war played role",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/americas/20261104-trump-congratulates-democrats-on-midterms-win-says-iran-war-played-role",
+      "published_at": "2026-11-04T07:13:41Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "eb92c415a55b3a51c8",
+      "title": "First 10 Australian songs inducted into the National Songbook after ‘very robust’ judging",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/music/2026/nov/04/first-10-australian-songs-inducted-into-national-songbook",
+      "published_at": "2026-11-04T07:00:28Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a08a30df542a193247",
+      "title": "Lula’s victory is a stress test for the Global South",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/11/4/lulas-victory-is-a-stress-test-for-the-global-south?traffic_source=rss",
+      "published_at": "2026-11-04T06:12:59Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4fc0698edc96427df6",
+      "title": "David Jones expected to fall into administration after failed 11th hour talks with biggest landlord",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/04/david-jones-expected-to-fall-into-administration-rent",
+      "published_at": "2026-11-04T06:08:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2f58207bbccd4cb1e0",
+      "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T06:07:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "65b7d552e64cfdffba",
+      "title": "UK apologises to Ukrainian child refugees who were told to study Russian",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/education/2026/nov/04/ukrainian-gcse-uk-apologises-child-refugees",
+      "published_at": "2026-11-04T05:00:25Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1323d8131b880802b8",
+      "title": "US: \"Even in places where the Democrats haven't won, the swing towards them has been significant\"",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261104-us-even-in-places-where-the-democrats-haven-t-won-the-swing-towards-them-has-been-significant",
+      "published_at": "2026-11-04T03:48:11Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fa7ccf0556dc54c432",
+      "title": "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T03:46:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1a4aa0bb90aff85fa2",
+      "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war",
+      "published_at": "2026-11-04T01:31:46Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "58d05c5e7a37917b21",
+      "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+      "published_at": "2026-11-04T00:35:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d8607e85b1243b30d2",
+      "title": "Trump, nessun piano immediato per attaccare l'Iran",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/04/trump-nessun-piano-immediato-per-attaccare-liran_d6dab7ef-5200-4bc2-8114-9fa9ec26ffa9.html",
+      "published_at": "2026-11-03T23:50:29Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "68f1a67b303178782b",
+      "title": "EU tells Ukraine to speed up reforms, sets out more cautious path for accession",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/",
+      "published_at": "2026-11-03T23:26:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "066222d8c2473f1538",
+      "title": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+      "published_at": "2026-11-03T22:25:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "47200cc0f0fb3fbfe5",
+      "title": "Eisenkot accusa Netanyahu di 'pogrom contro la democrazia'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/03/eisenkot-accusa-netanyahu-di-pogrom-contro-la-democrazia_fb05474e-90d5-45cf-8c7e-a71733ea8c13.html",
+      "published_at": "2026-11-03T21:51:09Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "15a223f14eb279a40c",
+      "title": "President Zelenskyy says US elections will impact war in Ukraine",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/president-zelenskyy-says-us-elections-will-impact-war-in-ukraine?traffic_source=rss",
+      "published_at": "2026-11-03T21:43:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "89a4f412217f4e5fc2",
+      "title": "Netanyahu’s eight-seat problem",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/netanyahus-eight-seat-problem?traffic_source=rss",
+      "published_at": "2026-11-03T21:19:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f3d264e8676fbff873",
+      "title": "Palestinian families return home after Israeli siege of Hebron",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/palestinian-families-return-home-after-israeli-siege-of-hebron?traffic_source=rss",
+      "published_at": "2026-11-03T21:15:17Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1bd730744eb3b58825",
+      "title": "Kyiv protest raises suspicions of possible Russian orchestration",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/kyiv-protest-raises-suspicions-of-possible-russian-orchestration?traffic_source=rss",
+      "published_at": "2026-11-03T20:54:44Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "6f75a1803d7bd0f00b",
+      "title": "Nyt, 'Usa hanno piano per colpire l'Iran subito dopo il voto'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/03/nyt-usa-hanno-piano-per-colpire-liran-subito-dopo-il-voto_fa118783-ff94-47a5-8b96-ad2b2587abea.html",
+      "published_at": "2026-11-03T20:09:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "4e99dd3dc2672a7297",
+      "title": "Yemen gov’t accuses IRGC, Hezbollah of sending 21 experts to back Houthis",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+      "published_at": "2026-11-03T19:09:09Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "418e174eea7e77e603",
+      "title": ">ANSA-REPORTAGE/ Gli americani in fila a New York, 'basta restare a guardare'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/03/ansa-reportage-gli-americani-in-fila-a-new-york-basta-restare-a-guardare_844c10c7-773b-47cf-b603-4ab123748498.html",
+      "published_at": "2026-11-03T18:47:32Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "d8d51c7f6e442ae13a",
+      "title": "Palestinian Americans turn to US flags to protect West Bank homes",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/palestinian-americans-turn-to-us-flags-to-protect-west-bank-homes?traffic_source=rss",
+      "published_at": "2026-11-03T18:38:50Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "65e4d1336544859d1b",
+      "title": "Nyt, 'Per intelligence Israele l'Iran vuole usare armi chimiche, Usa spaccati'",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/03/nyt-per-intelligence-israele-liran-vuole-usare-armi-chimiche-usa_877e0f29-e3c0-4eec-8dbf-ae25d6dd9015.html",
+      "published_at": "2026-11-03T18:09:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "edc4ca1f23edd39d65",
+      "title": "Moody'a Analytics, guerra in Iran costata 2.150 dollari alle famiglie Usa",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/03/moodya-analytics-guerra-in-iran-costata-2.150-dollari-alle-famiglie-usa_24cf1519-6718-49da-82a1-eda3fb367dc2.html",
+      "published_at": "2026-11-03T17:39:51Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c698ac32a825b4b4b1",
+      "title": "Jerusalem Daily: Israel detains Al Jazeera journalist in Hebron raids",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
+      "published_at": "2026-11-03T17:26:02Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2461b59946c81712d8",
+      "title": "Russian strikes on Dnipro kill two, injure 20 others",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/russian-strikes-on-dnipro-kill-two-injure-20-others?traffic_source=rss",
+      "published_at": "2026-11-03T17:24:08Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1dd942bf36c1ebd5f0",
+      "title": "Consiglieri Trump seguiranno spoglio nella war room del super pac del presidente",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/03/consiglieri-trump-seguiranno-spoglio-nella-war-room-del-super-pac_5ddb4888-a67f-4964-b2e8-40e59566895e.html",
+      "published_at": "2026-11-03T17:21:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "228a68332d0b4ddc41",
+      "title": "Trump claims US will end military aid to Israel by end of this year",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
+      "published_at": "2026-11-03T17:17:11Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "630fb2ab27e558cfb2",
+      "title": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261103-ukraine-and-russia-are-taking-the-war-underground-as-drones-saturate-the-battlefield",
+      "published_at": "2026-11-03T16:52:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "acb7f87fc19092b964",
+      "title": "Israel political deadlock leaves Netanyahu’s future hanging in the balance",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/israel-political-deadlock-leaves-netanyahus-future-hanging-in-the-balance?traffic_source=rss",
+      "published_at": "2026-11-03T16:49:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ee63a6990a4e8e35b0",
+      "title": "Ukraine’s Zelenskyy hopes Abu Dhabi talks will open path to Putin meeting",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/zelenskyy-hopes-abu-dhabi-talks-will-open-way-to-meeting-with-putin?traffic_source=rss",
+      "published_at": "2026-11-03T16:22:15Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e2e5d49b1c3f28aa2d",
+      "title": "Trump cuts Israeli military aid: $3.8 billion in security assistance slashed",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-trump-cuts-israeli-military-aid-3-8-billion-in-security-assistance-slashed",
+      "published_at": "2026-11-03T16:01:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5cc35c939480e5c3c4",
+      "title": "How sporting events are being impacted by Middle East conflict",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T16:01:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "2b6393da3dadf80390",
+      "title": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+      "published_at": "2026-11-03T15:54:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "dda981a06834404f0f",
+      "title": "Syria says it foiled Hezbollah plot to target Homs oil refinery",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/syria-arrests-cell-it-links-to-isis-over-plot-against-oil-refinery?traffic_source=rss",
+      "published_at": "2026-11-03T15:47:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "da8d280fb381fb45b2",
+      "title": "Nordic nations refuse to face Russia in ice hockey World Championship",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/11/3/nordic-nations-refuse-to-face-russia-in-ice-hockey-world-championship?traffic_source=rss",
+      "published_at": "2026-11-03T15:18:13Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a86f8fb04c7d599745",
+      "title": "Israel’s opposition leaders back Eisenkot to oust Netanyahu",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu?traffic_source=rss",
+      "published_at": "2026-11-03T15:00:10Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "71d8d7925fe37638a0",
+      "title": "Germany’s Merz warns Europe needs seat at the table as Trump renews Ukraine talks",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/germany-friedrich-merz-europe-ukraine-peace-deal-donald-trump/",
+      "published_at": "2026-11-03T14:48:47Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "e4e90a10e2001f82f9",
+      "title": "Trump says US will halt $4 billion in aid to Israel at the end of the year",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261103-trump-says-us-will-halt-4-billion-in-aid-to-israel-after-end-of-this-year",
+      "published_at": "2026-11-03T14:35:19Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "aa941aac135f3a1f2c",
+      "title": "The 5 most brutal political moggings of 2026",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/the-5-most-brutal-political-moggings-of-2026/",
+      "published_at": "2026-11-03T14:34:49Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "953a7404a943a19b7a",
+      "title": "From Italy to Canada, how the UK’s Palestine Action group went global",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global?traffic_source=rss",
+      "published_at": "2026-11-03T14:30:24Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "ff90f3cbcf48f31d2a",
+      "title": "Israeli opposition leaders vow to remove Netanyahu quickly but path unclear",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/video/20261103-israeli-opposition-leaders-vow-to-remove-netanyahu-quickly-but-path-unclear",
+      "published_at": "2026-11-03T14:17:00Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "f5edd8aa70730266ab",
+      "title": "Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
+      "published_at": "2026-11-03T14:13:58Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "87787d7cb7897e391b",
+      "title": "Moscow in talks to arrange Trump, Xi and Putin meeting, Kremlin says",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/article/moscow-is-helping-arrange-us-russia-china-meeting-spokesperson-peskov-says/",
+      "published_at": "2026-11-03T14:01:03Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "5234852cb7f5992964",
+      "title": "Trump: a fine anno stop agli aiuti militari a Israele, accordo con Netanyahu",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/03/trump-a-fine-anno-stop-agli-aiuti-militari-a-israele-accordo-con_675d44f6-5c21-4bbd-b26f-ba7aee00c51a.html",
+      "published_at": "2026-11-03T14:00:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "8ee8bae6bb03eb32a0",
+      "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "published_at": "2026-11-03T13:52:34Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "7b6e2de45c49da48f2",
+      "title": "Californians vote on ballot initiative to impose one-time tax on billionaires",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/business/20261103-californians-vote-on-ballot-initiative-to-impose-one-time-tax-on-billionaires",
+      "published_at": "2026-11-03T13:51:40Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "1d0e5f39d521bace09",
+      "title": "Trump, a fine anno stop agli aiuti militari a Israele, accordo con Netanyahu",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/03/trump-a-fine-anno-stop-agli-aiuti-militari-a-israele-accordo-con_20c84f98-04e2-430b-a72b-e9a2e687a816.html",
+      "published_at": "2026-11-03T13:46:22Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "50249930cdbdbd257a",
+      "title": "Trump says US will stop giving Israel aid after year-end",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end?traffic_source=rss",
+      "published_at": "2026-11-03T13:42:05Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "b883daa4f9b06eb8f9",
+      "title": "Poland foils attempted 'provocation' on Russian border, PM Tusk says",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/en/europe/20261103-poland-prevented-attempted-provocation-russian-border-pm-tusk-says",
+      "published_at": "2026-11-03T13:39:14Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "fd0b692f8d6b9c3231",
+      "title": "Trump to remove Rwanda and South Africa from US trade deal",
+      "publisher": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T13:28:30Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "a3dc6c5175fc9daaa0",
+      "title": "Saudi Pro League postpones matches after Asian Cup rescheduling",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/11/3/saudi-pro-league-postpones-matches-after-asian-cup-rescheduling?traffic_source=rss",
+      "published_at": "2026-11-03T13:14:52Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "0d87b43f182ecd1764",
+      "title": "Trump’s troubles with Iran could open the door to China",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+      "published_at": "2026-11-03T13:13:50Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "c7d16f3b15907ac5b4",
+      "title": "Qatar remains hopeful the US and Iran can reach a deal",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/qatar-remains-hopeful-the-us-and-iran-can-reach-a-deal?traffic_source=rss",
+      "published_at": "2026-11-03T13:05:39Z",
+      "attribution": "Non verificato"
+    },
+    {
+      "id": "819949ff5eea7a01b3",
+      "title": "Melania Trump riunisce alla Casa Bianca funzionari russi e ucraini il 5/11",
+      "publisher": "ANSA · Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/03/melania-trump-riunisce-alla-casa-bianca-funzionari-russi-e-ucraini-il-511_bf020eb0-d838-4e4f-90c5-e8a00be5cb60.html",
+      "published_at": "2026-11-03T13:03:16Z",
+      "attribution": "Non verificato"
+    }
+  ],
+  "indicatori_python": {
+    "global_risk": {
+      "value": null,
+      "coverage": "incompleto"
+    },
+    "market_stress": {
+      "value": 33,
+      "coverage": "3/5",
+      "experimental": false,
+      "method": "PASSO 3: media delle componenti disponibili; soltanto se almeno 3 input verificati e non vecchi",
+      "missing": [
+        "Brent",
+        "DXY"
+      ]
+    },
+    "war_escalation": {
+      "value": null,
+      "coverage": 0,
+      "note": "Tensioni IA ammesse soltanto con due testate distinte; NON prova di indipendenza",
+      "front_scores": {}
+    },
+    "macro_risk": {
+      "value": null,
+      "note": "n.d. senza confronti macro ufficiali e verificati"
+    },
+    "conviction": {
+      "value": 29,
+      "note": "Misura di completezza, NON probabilità di verità",
+      "missing_quotes": 7
+    }
+  },
+  "source_exclusions": [],
+  "forecast_proposals_unpublished": [
+    {
+      "evento": "L'indice dei prezzi al consumo flash della Eurozona (Flash CPI) di novembre 2026 supererà il 2,0% su base annua.",
+      "conta": "Il dato ufficiale Eurostat pubblicato nel calendario.",
+      "non_conta": "stime preliminari non ufficiali o commenti di singoli analisti.",
+      "riferimento_valore": null,
+      "riferimento_strumento": "EUR/USD",
+      "riferimento_fonte": "Eurostat",
+      "riferimento_ora": "n.d.",
+      "scadenza": "2026-11-30",
+      "criterio": "Confronto con il dato ufficiale pubblicato da Eurostat nel calendario.",
+      "fonte_esito": "Eurostat",
+      "probabilita": 75,
+      "source_ids": [
+        "eurozone-flash-cpi-november-2026"
+      ]
+    },
+    {
+      "evento": "I Non-Farm Payrolls USA di novembre 2026 registreranno un saldo positivo superiore a 100.000 nuovi posti di lavoro.",
+      "conta": "Il rapporto ufficiale del Bureau of Labor Statistics.",
+      "non_conta": "stime ADP o indicatori privati non ufficiali.",
+      "riferimento_valore": null,
+      "riferimento_strumento": "S&P 500",
+      "riferimento_fonte": "Bureau of Labor Statistics",
+      "riferimento_ora": "15:30",
+      "scadenza": "2026-11-06",
+      "criterio": "Verifica del dato effettivo pubblicato dal BLS nella data indicata.",
+      "fonte_esito": "Bureau of Labor Statistics",
+      "probabilita": 70,
+      "source_ids": [
+        "us-employment-situation-non-farm-payrolls-november-2026"
+      ]
+    },
+    {
+      "evento": "La Federal Reserve manterrà invariati i tassi o pubblicherà verbali FOMC orientati alla cautela senza tagli imminenti nei verbali di novembre 2026.",
+      "conta": "Il testo ufficiale dei verbali FOMC.",
+      "non_conta": "indiscrezioni di stampa o dichiarazioni non verificate.",
+      "riferimento_valore": null,
+      "riferimento_strumento": "Treasury 10Y",
+      "riferimento_fonte": "Federal Reserve",
+      "riferimento_ora": "21:00",
+      "scadenza": "2026-11-18",
+      "criterio": "Analisi del documento ufficiale FOMC rilasciato dalla Federal Reserve.",
+      "fonte_esito": "Federal Reserve",
+      "probabilita": 80,
+      "source_ids": [
+        "fomc-minutes-november-2026"
+      ]
+    }
+  ],
+  "disclaimer": "Le fonti RSS non sono prova indipendente; indicatori e citazioni mancanti restano n.d. Nessun segnale di trading.",
+  "forecast_validation": {
+    "accepted_ids": [],
+    "rejected": [
+      {
+        "proposal": 1,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      },
+      {
+        "proposal": 2,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      },
+      {
+        "proposal": 3,
+        "reason": "Riferimento numerico o fonte non comprovati dagli input"
+      }
+    ]
+  }
+}

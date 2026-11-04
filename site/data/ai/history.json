@@ -1212,5 +1212,88 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T11:21:14.283880+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "Il wage tracker e la misurazione dei salari negoziati",
+        "area": "Macro",
+        "livello": "Base",
+        "spiegazione": "Il wage tracker è uno strumento utilizzato dalla Banca Centrale Europea per monitorare la crescita salariale negoziata nei contratti collettivi. Serve a valutare le pressioni inflazionistiche interne derivanti dai salari.",
+        "esempio_oggi": "La BCE ha pubblicato il wage tracker con una crescita salariale negoziata al 2,3% per il 2026 (fonte: 91ee38aac3a75ea187).",
+        "domanda": "Cosa smentirebbe l'interpretazione di una pressione salariale in linea con i dati BCE?",
+        "risposta": "Una revisione ufficiale della BCE che mostri salari negoziati stabili o in calo.",
+        "parole": [
+          {
+            "termine": "Wage tracker",
+            "spiegazione": "Strumento di monitoraggio della crescita salariale negoziata utilizzato dalle banche centrali per valutare le pressioni inflazionistiche interne."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "La fine del cessate il fuoco e i raid con droni in Ucraina vanno trattati come non verificati finché manca una seconda fonte indipendente (fonti: 2a79148d4af9abcdba, de7d6eb290808d97f5)."
+        },
+        {
+          "problema": "Presenza di valori numerici e percentuali non riscontrati o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "I valori spot dell'oro indicati come n.d. USD/oncia nel dossier non supportano alcuna certezza di prezzo (fonte: Gold API)."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se persistono le tensioni energetiche e geopolitiche, allora l'oro spot mantiene supporto, mentre l'S&P 500 reagisce ai dati macro."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
