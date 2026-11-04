@@ -1718,5 +1718,35 @@
     "date": "2026-11-03",
     "series": "sent:war",
     "value": 50
+  },
+  {
+    "date": "2026-11-04",
+    "series": "gauge:market_stress",
+    "value": 33
+  },
+  {
+    "date": "2026-11-04",
+    "series": "mkt:SP500",
+    "value": 7541.4
+  },
+  {
+    "date": "2026-11-04",
+    "series": "mkt:VIX",
+    "value": 21.15
+  },
+  {
+    "date": "2026-11-04",
+    "series": "mkt:EURUSD",
+    "value": 1.1179
+  },
+  {
+    "date": "2026-11-04",
+    "series": "mkt:US10Y",
+    "value": 4.91
+  },
+  {
+    "date": "2026-11-04",
+    "series": "mkt:US2Y",
+    "value": 4.59
   }
 ]
