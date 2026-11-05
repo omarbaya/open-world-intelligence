@@ -1295,5 +1295,106 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-11-05",
+    "generated_at": "2026-11-05T08:54:25.349352+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+        "Presenza di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+        "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio."
+      ],
+      "correzioni_proposte": [
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+        "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi."
+      ],
+      "lezione": {
+        "titolo": "L'Accordo di Cooperazione nella Difesa",
+        "area": "Strumenti",
+        "livello": "Base",
+        "spiegazione": "Un accordo di cooperazione nella difesa rappresenta un'intesa formale tra stati per coordinare strategie militari o finanziarie. Siria e Arabia Saudita hanno siglato un'intesa da 403 milioni di dollari [4c64b19ea7bea58350]. Questo meccanismo lega le politiche industriali ed energetiche alle dinamiche geopolitiche regionali.",
+        "esempio_oggi": "Siria e Arabia Saudita hanno firmato un accordo di cooperazione nella difesa per 403 milioni di dollari [4c64b19ea7bea58350].",
+        "domanda": "Cosa smentirebbe l'interpretazione che l'accordo militare incrementi i prestiti per le infrastrutture?",
+        "risposta": "Una smentita ufficiale con la cancellazione dei prestiti.",
+        "parole": [
+          {
+            "termine": "Accordo",
+            "spiegazione": "Intesa formale tra governi."
+          },
+          {
+            "termine": "Difesa",
+            "spiegazione": "Settore della sicurezza militare."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Utilizzo di notizie geopolitiche da singoli flussi RSS o dichiarazioni prive di corroborazione indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "Un attacco missilistico e con droni a Kamyshuvakha va trattato come notizia da verificare finché privo di riscontro istituzionale indipendente [de7d4bcb06d421b454]."
+        },
+        {
+          "problema": "Presenza di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Le variazioni percentuali non disponibili nel dossier vanno contrassegnate come n.d. o null [SP500]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "I prezzi dei future ES, GC e 6E indicati come n.d. richiedono la marcatura a null nei campi corrispondenti [mercati]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se persistono i timori geopolitici, allora l'oro (XAU/USD) e la volatilità potrebbero registrare flussi difensivi [brief_markdown]."
+        },
+        {
+          "problema": "Mappa delle forze non conforme alle regole di formattazione previste per i valori di studio.",
+          "regola_proposta": "Limitare rigorosamente i valori di studio della mappa delle forze a valori ammessi, escludendo stringhe discorsive non conformi.",
+          "esempio": "Uso di stringhe non conformi anziché i parametri standard richiesti dai controlli di validazione Python [inclinazione]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
