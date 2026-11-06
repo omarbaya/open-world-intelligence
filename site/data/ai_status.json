@@ -1,6 +1,6 @@
 {
-  "status": "ok",
-  "date": "2026-11-05",
+  "status": "partial",
+  "date": "2026-11-06",
   "model": "gemini-3.5-flash-lite",
   "agent_audit": [
     {
@@ -9,7 +9,8 @@
     },
     {
       "role": "macro",
-      "status": "ok"
+      "status": "error",
+      "message": "servizio temporaneamente indisponibile"
     },
     {
       "role": "difesa",
@@ -25,12 +26,14 @@
     },
     {
       "role": "apprendimento",
-      "status": "ok"
+      "status": "error",
+      "message": "servizio temporaneamente indisponibile"
     },
     {
       "role": "revisore_finale",
-      "status": "ok"
+      "status": "error",
+      "message": "servizio temporaneamente indisponibile"
     }
   ],
-  "message": "Briefing IA eseguito e controllato."
+  "message": "Briefing IA con sette ruoli generato."
 }

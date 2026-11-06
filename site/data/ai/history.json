@@ -1396,5 +1396,53 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-11-06",
+    "generated_at": "2026-11-06T12:58:31.052012+02:00",
+    "status": "partial",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "error",
+        "message": "servizio temporaneamente indisponibile"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "error",
+        "message": "servizio temporaneamente indisponibile"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "error",
+        "message": "servizio temporaneamente indisponibile"
+      }
+    ],
+    "learning": {
+      "osservazioni": [],
+      "correzioni_proposte": [],
+      "lezione": {},
+      "diario": [],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
