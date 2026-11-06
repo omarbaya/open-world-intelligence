@@ -1809,8 +1809,8 @@
   },
   "xaus": {
     "source": "XAUS",
-    "value": 4033.899902,
-    "as_of": "2026-11-06T14:38:13.818000Z",
+    "value": 4061.300049,
+    "as_of": "2026-11-06T18:00:55.994000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1865,47 +1865,48 @@
   },
   "fetched_at": {
     "gold_api": "2026-11-06T14:38:45.605601Z",
-    "xaus": "2026-11-06T14:38:45.605601Z",
+    "xaus": "2026-11-06T18:00:53.689746Z",
     "gold_levels": "2026-11-06T10:58:28.439349Z",
-    "ecb": "2026-11-06T10:58:28.439349Z",
+    "ecb": "2026-11-06T18:00:53.689746Z",
     "calendar": "2026-11-01T23:38:56.113210Z",
     "cot": "2026-11-06T10:58:28.439349Z"
   },
-  "last_refresh": "2026-11-06T14:38:45.605601Z",
+  "last_refresh": "2026-11-06T18:00:53.689746Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
       "status": "error",
-      "checked_at": "2026-11-06T14:38:45.605601Z",
+      "checked_at": "2026-11-06T18:00:53.689746Z",
       "reason": "http_401",
       "cached": true
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-11-06T14:38:45.605601Z",
-      "last_fetched": "2026-11-06T10:58:28.439349Z"
+      "status": "ok",
+      "checked_at": "2026-11-06T18:00:53.689746Z"
     },
     "gold_api": {
       "name": "gold_api",
-      "status": "ok",
-      "checked_at": "2026-11-06T14:38:45.605601Z"
+      "status": "error",
+      "checked_at": "2026-11-06T18:00:53.689746Z",
+      "reason": "URLError",
+      "cached": true
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-11-06T14:38:45.605601Z"
+      "checked_at": "2026-11-06T18:00:53.689746Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-11-06T14:38:45.605601Z",
+      "checked_at": "2026-11-06T18:00:53.689746Z",
       "last_fetched": "2026-11-06T10:58:28.439349Z"
     },
     "gold_levels": {
       "name": "gold_levels",
       "status": "cached",
-      "checked_at": "2026-11-06T14:38:45.605601Z",
+      "checked_at": "2026-11-06T18:00:53.689746Z",
       "last_fetched": "2026-11-06T10:58:28.439349Z"
     }
   },
@@ -1916,12 +1917,12 @@
     "type": "fx",
     "source": "BCE · EXR/D.USD.EUR.SP00.A",
     "instrument": "EUR/USD spot reference ECB",
-    "value": 1.1224,
-    "previous": 1.1267,
-    "change": -0.0043,
-    "change_pct": -0.3816,
-    "observation_date": "2026-11-05",
-    "previous_date": "2026-11-04",
+    "value": 1.1165,
+    "previous": 1.1224,
+    "change": -0.0059,
+    "change_pct": -0.5257,
+    "observation_date": "2026-11-06",
+    "previous_date": "2026-11-05",
     "stale": false,
     "delayed": true,
     "error": null,
