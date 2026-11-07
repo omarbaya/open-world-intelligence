@@ -1804,13 +1804,13 @@
   "gold_api": {
     "source": "Gold API",
     "value": 4072.100098,
-    "as_of": "2026-11-06T23:12:35Z",
+    "as_of": "2026-11-07T02:51:36Z",
     "url": "https://gold-api.com/"
   },
   "xaus": {
     "source": "XAUS",
     "value": 4072.100098,
-    "as_of": "2026-11-06T23:12:13.950000Z",
+    "as_of": "2026-11-07T02:50:54.942000Z",
     "url": "https://xaus.com/api/v1/spot"
   },
   "cot": {
@@ -1864,48 +1864,48 @@
     "session_rule": "Ultima sessione COMPLETATA; settimanale dall’inizio della settimana della sessione"
   },
   "fetched_at": {
-    "gold_api": "2026-11-06T23:13:03.019422Z",
-    "xaus": "2026-11-06T23:13:03.019422Z",
+    "gold_api": "2026-11-07T02:51:47.125355Z",
+    "xaus": "2026-11-07T02:51:47.125355Z",
     "gold_levels": "2026-11-06T23:13:03.019422Z",
-    "ecb": "2026-11-06T18:00:53.689746Z",
+    "ecb": "2026-11-07T02:51:47.125355Z",
     "calendar": "2026-11-01T23:38:56.113210Z",
     "cot": "2026-11-06T10:58:28.439349Z"
   },
-  "last_refresh": "2026-11-06T23:13:03.019422Z",
+  "last_refresh": "2026-11-07T02:51:47.125355Z",
   "provider_health": {
     "calendar": {
       "name": "calendar",
       "status": "error",
-      "checked_at": "2026-11-06T23:13:03.019422Z",
+      "checked_at": "2026-11-07T02:51:47.125355Z",
       "reason": "http_401",
       "cached": true
     },
     "ecb": {
       "name": "ecb",
-      "status": "cached",
-      "checked_at": "2026-11-06T23:13:03.019422Z",
-      "last_fetched": "2026-11-06T18:00:53.689746Z"
+      "status": "ok",
+      "checked_at": "2026-11-07T02:51:47.125355Z"
     },
     "gold_api": {
       "name": "gold_api",
       "status": "ok",
-      "checked_at": "2026-11-06T23:13:03.019422Z"
+      "checked_at": "2026-11-07T02:51:47.125355Z"
     },
     "xaus": {
       "name": "xaus",
       "status": "ok",
-      "checked_at": "2026-11-06T23:13:03.019422Z"
+      "checked_at": "2026-11-07T02:51:47.125355Z"
     },
     "cot": {
       "name": "cot",
       "status": "cached",
-      "checked_at": "2026-11-06T23:13:03.019422Z",
+      "checked_at": "2026-11-07T02:51:47.125355Z",
       "last_fetched": "2026-11-06T10:58:28.439349Z"
     },
     "gold_levels": {
       "name": "gold_levels",
-      "status": "ok",
-      "checked_at": "2026-11-06T23:13:03.019422Z"
+      "status": "cached",
+      "checked_at": "2026-11-07T02:51:47.125355Z",
+      "last_fetched": "2026-11-06T23:13:03.019422Z"
     }
   },
   "ecb": {
