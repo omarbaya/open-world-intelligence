@@ -1948,5 +1948,20 @@
     "date": "2026-11-07",
     "series": "mkt:WTI",
     "value": 99.64
+  },
+  {
+    "date": "2026-11-07",
+    "series": "gauge:war_escalation",
+    "value": 85
+  },
+  {
+    "date": "2026-11-07",
+    "series": "gauge:conviction",
+    "value": 40
+  },
+  {
+    "date": "2026-11-07",
+    "series": "sent:war",
+    "value": 70
   }
 ]

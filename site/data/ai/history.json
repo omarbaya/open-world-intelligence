@@ -1444,5 +1444,99 @@
         "brier": null
       }
     }
+  },
+  {
+    "date": "2026-11-07",
+    "generated_at": "2026-11-07T12:18:30.938972+02:00",
+    "status": "ok",
+    "agent_audit": [
+      {
+        "role": "geopolitica",
+        "status": "ok"
+      },
+      {
+        "role": "macro",
+        "status": "ok"
+      },
+      {
+        "role": "difesa",
+        "status": "ok"
+      },
+      {
+        "role": "capo_desk",
+        "status": "ok"
+      },
+      {
+        "role": "verificatore",
+        "status": "ok"
+      },
+      {
+        "role": "apprendimento",
+        "status": "ok"
+      },
+      {
+        "role": "revisore_finale",
+        "status": "ok"
+      }
+    ],
+    "learning": {
+      "osservazioni": [
+        "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+        "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+        "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+        "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari."
+      ],
+      "correzioni_proposte": [
+        "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+        "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+        "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+        "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'."
+      ],
+      "lezione": {
+        "titolo": "La funzione dei beni rifugio",
+        "area": "Mercati",
+        "livello": "Base",
+        "spiegazione": "I beni rifugio sono asset finanziari ritenuti stabili o in grado di proteggere il capitale durante fasi di crisi geopolitica o turbolenza di mercato.",
+        "esempio_oggi": "L'indice di volatilità VIX si attesta a 28.18 punti il 2026-11-05 (FRED · VIXCLS), riflettendo l'avversione al rischio sui mercati azionari.",
+        "domanda": "Cosa smentirebbe l'interpretazione che l'aumento del VIX spinga sempre e solo i flussi verso i beni rifugio?",
+        "risposta": "Un contemporaneo calo dei prezzi dell'oro e dei titoli di Stato in presenza di un VIX elevato smentirebbe la correlazione automatica.",
+        "parole": [
+          {
+            "termine": "VIX",
+            "spiegazione": "Indice di volatilità che misura le attese di oscillazione a 30 giorni dell'S&P 500."
+          },
+          {
+            "termine": "Beni rifugio",
+            "spiegazione": "Asset finanziari ritenuti stabili o in grado di proteggere il capitale durante fasi di crisi."
+          }
+        ]
+      },
+      "diario": [
+        {
+          "problema": "Inserimento di valori numerici e variazioni percentuali non presenti o non coerenti con i dati di input del dossier.",
+          "regola_proposta": "Vietare l'inserimento di qualsiasi valore numerico, prezzo o variazione percentuale non esplicitamente presente e tracciabile nel dossier fornito.",
+          "esempio": "Il controllo di validazione Python ha rilevato cifre come 4000 e 4072.10 non riscontrate nei campi ufficiali dei prezzi spot e convertite automaticamente in n.d. [verification]"
+        },
+        {
+          "problema": "Utilizzo di notizie geopolitiche da flussi RSS o dichiarazioni prive di doppia verifica indipendente formale.",
+          "regola_proposta": "Distinguere rigorosamente tra comunicati ufficiali primari e notizie di agenzia o RSS, applicando l'etichetta di non verificato quando manca il riscontro multiplo.",
+          "esempio": "Gli attacchi missilistici a Zaporizhzhia vanno trattati come fatti riportati finché manca una seconda fonte indipendente [b1eae1d9af56af1ed8]."
+        },
+        {
+          "problema": "Mancanza di dati di prezzo diretti per alcuni strumenti chiave (oro, futures) nel dossier di riferimento.",
+          "regola_proposta": "Impostare esplicitamente il valore a n.d. e marcare null nel JSON se la fonte collegata non è presente nel dossier.",
+          "esempio": "I prezzi di DXY, Future ES, Future GC, Future 6E ed TTF indicati come n.d. richiedono la marcatura a null nei campi corrispondenti [mercati]."
+        },
+        {
+          "problema": "Rischio di considerare correlazioni geopolitiche come causalità certe sui mercati azionari e valutari.",
+          "regola_proposta": "Separare sempre il fatto pubblicato, la lettura ipotetica e il possibile impatto condizionale usando la forma 'se..., allora...'.",
+          "esempio": "Se la volatilità VIX permane su livelli elevati e i conflitti energetici continuano, allora si mantengono pressioni rialziste sui beni rifugio [brief_markdown]."
+        }
+      ],
+      "metriche": {
+        "previsioni_valutate": 0,
+        "brier": null
+      }
+    }
   }
 ]
